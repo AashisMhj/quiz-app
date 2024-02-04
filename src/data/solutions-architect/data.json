@@ -201,7 +201,8 @@
             "Based on the number of objects stored in the bucket.",
             "Based on the geographical distance between the client and the S3 bucket."
         ],
-        "answer": 0
+        "answer": 1,
+        "tags": ["s3"]
     },
     {
         "question": "Which AWS service can be triggered by events in Amazon S3, such as object creation or deletion?",
@@ -211,7 +212,9 @@
             "Amazon CloudFront",
             "AWS Lambda"
         ],
-        "answer": 3
+        "answer": 4,
+        "tags": ["s3"]
+
     },
     {
         "question": "What is the main advantage of using Amazon S3 Select?",
@@ -221,7 +224,9 @@
             "It provides a way to automatically classify objects based on content.",
             "It offers a faster way to upload objects to S3."
         ],
-        "answer": 1
+        "answer": 2,
+        "tags": ["s3"]
+
     },
     {
         "question": "When using S3 Transfer Acceleration, what is the format of the endpoint URL?",
@@ -231,7 +236,9 @@
             "https://s3-transfer-acceleration.amazonaws.com/<bucket-name>",
             "https://<bucket-name>.s3-transfer-acceleration.amazonaws.com"
         ],
-        "answer": 3
+        "answer": 4,
+        "tags": ["s3"]
+
     },
     {
         "question": "Which storage class in Amazon S3 is designed to automatically move objects between two access tiers based on changing access patterns?",
@@ -241,7 +248,9 @@
             "One Zone-IA",
             "Glacier"
         ],
-        "answer": 1
+        "answer": 2,
+        "tags": ["s3"]
+
     },
     {
         "question": "What is a prerequisite for setting up S3 Cross-Region Replication (CRR)?",
@@ -251,7 +260,9 @@
             "The source and destination buckets must be in different AWS accounts.",
             "CRR is automatically enabled for all S3 buckets."
         ],
-        "answer": 2
+        "answer": 3,
+        "tags": ["s3"]
+
     },
     {
         "question": "What is the primary purpose of enabling compliance mode for S3 Object Lock?",
@@ -261,7 +272,9 @@
             "To classify objects based on content.",
             "To configure cross-region replication for objects."
         ],
-        "answer": 1
+        "answer": 2,
+        "tags": ["s3"]
+
     },
     {
         "question": "Which service allows you to perform large-scale batch operations on Amazon S3 objects, such as copying or tagging?",
@@ -271,7 +284,9 @@
             "AWS Snowball",
             "Amazon S3 Batch Operations"
         ],
-        "answer": 3
+        "answer": 4,
+        "tags": ["s3"]
+
     },
     {
         "question": "What is the purpose of enabling S3 access logs for a bucket?",
@@ -281,7 +296,9 @@
             "To record requests made against the bucket for auditing and analysis.",
             "To enforce strict access control policies on the bucket."
         ],
-        "answer": 2
+        "answer": 3,
+        "tags": ["s3"]
+
     },
     {
         "question": "When using Amazon S3 Select, what is used to filter and transform data within an object?",
@@ -291,7 +308,9 @@
             "XPath expressions",
             "JavaScript expressions"
         ],
-        "answer": 1
+        "answer": 2,
+        "tags": ["s3"]
+
     },
     {
         "question": "When using Amazon S3 Transfer Acceleration, how is data transferred between the client and the S3 bucket?",
@@ -301,7 +320,9 @@
             "FTP",
             "TCP"
         ],
-        "answer": 1
+        "answer": 2,
+        "tags": ["s3"]
+
     },
     {
         "question": "How does enabling versioning on an Amazon S3 bucket impact storage costs?",
@@ -311,7 +332,9 @@
             "It has no impact on storage costs.",
             "It automatically moves objects to the Glacier storage class."
         ],
-        "answer": 1
+        "answer": 2,
+        "tags": ["s3"]
+
     },
     {
         "question": "In Amazon S3 Cross-Region Replication (CRR), how are delete markers handled?",
@@ -321,7 +344,9 @@
             "Delete markers are automatically cleared in the destination bucket.",
             "Delete markers trigger an error in replication."
         ],
-        "answer": 0
+        "answer": 1,
+        "tags": ["s3"]
+
     },
     {
         "question": "What does enabling default encryption on an S3 bucket do?",
@@ -331,7 +356,9 @@
             "It enables versioning for objects in the bucket.",
             "It allows public access to all objects in the bucket."
         ],
-        "answer": 1
+        "answer": 2,
+        "tags": ["s3"]
+
     },
     {
         "question": "Which Amazon S3 storage class is designed for frequently accessed data with low latency requirements?",
@@ -341,7 +368,9 @@
             "One Zone-IA",
             "Glacier"
         ],
-        "answer": 0
+        "answer": 1,
+        "tags": ["s3"]
+
     },
     {
         "question": "What is the purpose of enabling a legal hold on an S3 object?",
@@ -351,7 +380,9 @@
             "To classify the object based on content.",
             "To enforce access control policies on the object."
         ],
-        "answer": 0
+        "answer": 1,
+        "tags": ["s3"]
+
     },
     {
         "question": "Which storage class in Amazon S3 is designed for archiving data at the lowest cost with a retrieval time of 12 hours?",
@@ -361,7 +392,9 @@
             "One Zone-IA",
             "Glacier Deep Archive"
         ],
-        "answer": 3
+        "answer": 4,
+        "tags": ["s3"]
+
     },
     {
         "question": "What type of events can trigger S3 bucket notifications for an AWS Lambda function?",
@@ -371,7 +404,9 @@
             "Object creation and deletion",
             "Bucket creation and deletion"
         ],
-        "answer": 2
+        "answer": 3,
+        "tags": ["s3"]
+
     },
     {
         "question": "What is the purpose of using Amazon S3 inventory reports?",
@@ -381,7 +416,9 @@
             "To automatically replicate objects between S3 and Glacier.",
             "To enable versioning for objects in the bucket."
         ],
-        "answer": 1
+        "answer": 2,
+        "tags": ["s3"]
+
     },
     {
         "question": "What is the purpose of enabling S3 Requester Pays on a bucket?",
@@ -391,7 +428,9 @@
             "To configure cross-region replication for objects.",
             "To enforce strict access control policies on the bucket."
         ],
-        "answer": 1
+        "answer": 2,
+        "tags": ["s3"]
+
     },
     {
         "question": "When configuring an Amazon S3 event notification, what type of destination can be used for event notifications?",
@@ -401,7 +440,9 @@
             "Amazon CloudFront",
             "Amazon DynamoDB"
         ],
-        "answer": 1
+        "answer": 2,
+        "tags": ["s3"]
+
     },
     {
         "question": "What is a limitation of using Amazon S3 Transfer Acceleration?",
@@ -411,7 +452,9 @@
             "It may have higher latency than direct uploads to S3 in some cases.",
             "It can only be used for small file transfers."
         ],
-        "answer": 2
+        "answer": 3,
+        "tags": ["s3"]
+
     },
     {
         "question": "Which language is commonly used to define access policies in an Amazon S3 bucket policy?",
@@ -421,7 +464,9 @@
             "YAML (YAML Ain't Markup Language)",
             "SQL (Structured Query Language)"
         ],
-        "answer": 0
+        "answer": 1,
+        "tags": ["s3"]
+
     },
     {
         "question": "How does Amazon S3 Intelligent-Tiering automatically optimize storage costs?",
@@ -431,7 +476,9 @@
             "It shifts data to Glacier for long-term archiving.",
             "It encrypts all objects with server-side encryption."
         ],
-        "answer": 0
+        "answer": 1,
+        "tags": ["s3"]
+
     },
     {
         "question": "What are the two retention modes available with Amazon S3 Object Lock?",
@@ -441,7 +488,9 @@
             "Short-Term and Long-Term",
             "Static and Dynamic"
         ],
-        "answer": 1
+        "answer": 2,
+        "tags": ["s3"]
+
     },
     {
         "question": "In addition to S3 Cross-Region Replication (CRR), what is another method for replicating objects between S3 buckets?",
@@ -451,7 +500,9 @@
             "S3 Transfer Acceleration",
             "S3 Batch Operations"
         ],
-        "answer": 1
+        "answer": 2,
+        "tags": ["s3"]
+
     },
     {
         "question": "When performing a multipart upload to Amazon S3, what determines the size of each part?",
@@ -461,7 +512,9 @@
             "The S3 region where the bucket is located.",
             "The user's AWS account type (Free Tier or Pay-as-you-go)."
         ],
-        "answer": 0
+        "answer": 1,
+        "tags": ["s3"]
+
     },
     {
         "question": "What is a key consideration when transitioning objects between storage classes in Amazon S3?",
@@ -471,7 +524,9 @@
             "Objects must be versioned before transitioning storage classes.",
             "Transitioning objects may involve additional data transfer costs."
         ],
-        "answer": 3
+        "answer": 4,
+        "tags": ["s3"]
+
     },
     {
         "question": "What information is logged when S3 server access logging is enabled for a bucket?",
@@ -481,7 +536,9 @@
             "Object content and metadata.",
             "AWS credentials used for the request."
         ],
-        "answer": 1
+        "answer": 2,
+        "tags": ["s3"]
+
     },
     {
         "question": "What is a key difference between Amazon S3 Batch Operations and AWS Lambda for processing objects in S3 buckets?",
@@ -491,7 +548,9 @@
             "AWS Lambda is designed for real-time processing, while S3 Batch Operations is for asynchronous batch processing.",
             "S3 Batch Operations is only available for objects stored in the Glacier storage class."
         ],
-        "answer": 2
+        "answer": 3,
+        "tags": ["s3"]
+
     },
     {
         "question": "When replicating objects between S3 buckets using S3 Same-Region Replication (SRR), what happens to the metadata of the replicated objects?",
@@ -501,7 +560,9 @@
             "Metadata is cleared in the destination bucket.",
             "Metadata is encrypted before replication."
         ],
-        "answer": 0
+        "answer": 1,
+        "tags": ["s3"]
+
     },
     {
         "question": "Can Amazon S3 event notifications be configured for objects transitioning to the Glacier storage class?",
@@ -511,7 +572,9 @@
             "Event notifications for Glacier are only available in specific AWS regions.",
             "Event notifications can only be triggered by objects stored in the Standard storage class."
         ],
-        "answer": 1
+        "answer": 2,
+        "tags": ["s3"]
+
     },
     {
         "question": "How can S3 object tagging be used in conjunction with S3 lifecycle policies?",
@@ -521,7 +584,9 @@
             "Tags can be used as criteria for defining lifecycle transitions in S3.",
             "Objects with tags cannot be transitioned between storage classes."
         ],
-        "answer": 2
+        "answer": 3,
+        "tags": ["s3"]
+
     },
     {
         "question": "What happens if an error occurs during the processing of objects using Amazon S3 Batch Operations?",
@@ -531,7 +596,9 @@
             "Errors are logged, and processing continues for other objects.",
             "The entire batch operation is terminated, and no objects are processed."
         ],
-        "answer": 2
+        "answer": 3,
+        "tags": ["s3"]
+
     },
     {
         "question": "Does Amazon S3 Transfer Acceleration use caching to improve performance?",
@@ -541,7 +608,9 @@
             "Caching is optional and must be configured separately for each object.",
             "Caching is only applicable for objects in the Glacier storage class."
         ],
-        "answer": 1
+        "answer": 2,
+        "tags": ["s3"]
+
     },
     {
         "question": "When an object is copied within the same S3 bucket, can an event notification be triggered?",
@@ -551,7 +620,9 @@
             "Event notifications are triggered only for cross-bucket copies.",
             "Event notifications can be triggered only for large objects (>1 GB)."
         ],
-        "answer": 0
+        "answer": 1,
+        "tags": ["s3"]
+
     },
     {
         "question": "Is versioning required on an S3 bucket to enable cross-region replication (CRR)?",
@@ -561,7 +632,9 @@
             "Versioning is required only for the source bucket.",
             "Versioning is required only for the destination bucket."
         ],
-        "answer": 0
+        "answer": 1,
+        "tags": ["s3"]
+
     },
     {
         "question": "Which file formats are supported by Amazon S3 Select for querying objects?",
@@ -571,7 +644,8 @@
             "Only CSV and XML formats are supported.",
             "S3 Select does not support querying objects; it is used for compression only."
         ],
-        "answer": 1
+        "answer": 2,
+        "tags": ["s3"]
     },
     {
         "question": "For large objects (> 100 MB), which Amazon S3 storage class is often recommended for cost optimization?",
@@ -581,7 +655,8 @@
             "One Zone-IA",
             "Glacier"
         ],
-        "answer": 2
+        "answer": 3,
+        "tags": ["s3"]
     },
     {
         "question": "What is the typical retrieval time for objects stored in the Amazon S3 Glacier storage class?",
@@ -591,7 +666,8 @@
             "3-5 hours",
             "12-48 hours"
         ],
-        "answer": 3
+        "answer": 4,
+        "tags": ["s3"]
     },
     {
         "question": "Can Amazon S3 event notifications be configured to trigger based on a specific object prefix in a bucket?",
@@ -601,7 +677,8 @@
             "Event notifications can only be triggered based on the root prefix.",
             "Object prefixes are only relevant for S3 lifecycle policies, not event notifications."
         ],
-        "answer": 0
+        "answer": 1,
+        "tags": ["s3"]
     },
     {
         "question": "What is a key difference between Amazon S3 Object Lock and S3 versioning?",
@@ -611,7 +688,8 @@
             "Object Lock does not support versioning.",
             "Versioning is only applicable to the Standard storage class."
         ],
-        "answer": 2
+        "answer": 3,
+        "tags": ["s3"]
     },
     {
         "question": "Is Amazon S3 Transfer Acceleration supported in all AWS regions?",
@@ -621,7 +699,8 @@
             "It is available in all regions except the AWS GovCloud (US) region.",
             "It is available only for regions with low-latency access."
         ],
-        "answer": 0
+        "answer": 1,
+        "tags": ["s3"]
     },
     {
         "question": "How does Amazon S3 Intelligent-Tiering automatically provide cost savings?",
@@ -631,7 +710,8 @@
             "It shifts data to Glacier for long-term archiving.",
             "It automatically applies object tags to reduce storage costs."
         ],
-        "answer": 0
+        "answer": 1,
+        "tags": ["s3"]
     },
     {
         "question": "Can custom endpoint URLs be used with Amazon S3 Transfer Acceleration?",
@@ -641,7 +721,8 @@
             "Custom endpoints are only supported for S3 Glacier.",
             "Custom endpoints are used for S3 Batch Operations, not Transfer Acceleration."
         ],
-        "answer": 1
+        "answer": 2,
+        "tags": ["s3"]
     },
     {
         "question": "When setting a retention period on an object using Amazon S3 Object Lock, can the retention period be shortened?",
@@ -651,7 +732,8 @@
             "It can be shortened only by contacting AWS Support.",
             "Shortening the retention period requires enabling versioning on the bucket."
         ],
-        "answer": 1
+        "answer": 2,
+        "tags": ["s3"]
     },
     {
         "question": "What is the purpose of enabling legal hold on an S3 object using Object Lock?",
@@ -661,7 +743,8 @@
             "To classify the object based on content.",
             "To preserve the object in its current state and prevent deletion."
         ],
-        "answer": 3
+        "answer": 4,
+        "tags": ["s3"]
     },
     {
         "question": "How does Amazon S3 Batch Operations handle errors during the processing of objects?",
@@ -671,6 +754,7 @@
             "Errors are logged, and processing continues for other objects.",
             "The entire batch operation is terminated, and no objects are processed."
         ],
-        "answer": 2
+        "answer": 3,
+        "tags": ["s3"]
     }
 ]
