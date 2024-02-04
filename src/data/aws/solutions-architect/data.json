@@ -1,0 +1,503 @@
+[
+    {
+        "question": "What is Amazon RDS?",
+        "options": [
+            "A scalable object storage service",
+            "A managed relational database service",
+            "A content delivery network service",
+            "A serverless compute service"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Which AWS service is designed to help users set up, operate, and scale a relational database in the cloud?",
+        "options": [
+            "Amazon S3",
+            "Amazon RDS",
+            "Amazon DynamoDB",
+            "Amazon Redshift"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is AWS Lambda used for?",
+        "options": [
+            "Running virtual machines in the cloud",
+            "Managing and storing objects in the cloud",
+            "Processing data in real-time with serverless functions",
+            "Deploying scalable web applications"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What is the purpose of Amazon S3?",
+        "options": [
+            "Running applications in containers",
+            "Storing and retrieving any amount of data from anywhere on the web",
+            "Hosting scalable and flexible databases",
+            "Managing virtual private clouds (VPCs)"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "In AWS, what is an Availability Zone (AZ)?",
+        "options": [
+            "A physical data center",
+            "A virtual private network",
+            "A type of database",
+            "A cloud-based file storage service"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "What is AWS Elastic Beanstalk used for?",
+        "options": [
+            "Running and scaling web applications",
+            "Analyzing large datasets with parallel processing",
+            "Hosting virtual private servers",
+            "Distributing content globally with low-latency"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "What does the term 'Auto Scaling' refer to in AWS?",
+        "options": [
+            "Automatically adjusting compute capacity based on demand",
+            "Automating software deployment",
+            "Scaling storage capacity on-demand",
+            "Configuring load balancers for high availability"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Which AWS service is designed for real-time streaming of big data?",
+        "options": [
+            "Amazon RDS",
+            "Amazon Kinesis",
+            "Amazon DynamoDB",
+            "Amazon Redshift"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is Amazon CloudFront?",
+        "options": [
+            "A managed cloud database service",
+            "A content delivery network (CDN) service",
+            "A serverless compute service",
+            "An email delivery service"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is the purpose of AWS Identity and Access Management (IAM)?",
+        "options": [
+            "Managing and securing user identities and access to AWS resources",
+            "Configuring network routing in the cloud",
+            "Monitoring performance metrics of AWS services",
+            "Automating infrastructure deployments"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "What is the key difference between Amazon S3 Standard and Amazon S3 Glacier storage classes?",
+        "options": [
+            "Standard is for frequently accessed data, while Glacier is for archival data with retrieval times in minutes to hours",
+            "Standard is for infrequently accessed data, while Glacier is for archival data with retrieval times in milliseconds",
+            "Standard is for real-time data processing, while Glacier is for batch processing",
+            "Standard is for small datasets, while Glacier is for large datasets"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "How does AWS Elastic Load Balancing (ELB) handle traffic across multiple Availability Zones?",
+        "options": [
+            "It routes traffic to the Availability Zone with the lowest latency",
+            "It evenly distributes traffic across all configured Availability Zones",
+            "It prioritizes traffic to the primary Availability Zone",
+            "It uses only the primary Availability Zone for load balancing"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is the purpose of AWS CloudFormation?",
+        "options": [
+            "Automating the deployment of virtual servers",
+            "Managing and provisioning infrastructure as code",
+            "Monitoring application performance in real-time",
+            "Analyzing large datasets with parallel processing"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is the significance of an Amazon VPC (Virtual Private Cloud) CIDR block?",
+        "options": [
+            "It determines the maximum number of EC2 instances that can be launched",
+            "It specifies the IP address range for the VPC and its subnets",
+            "It controls the network latency for data transfer",
+            "It sets the encryption key for data at rest in the VPC"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "How does AWS Direct Connect differ from a Virtual Private Network (VPN)?",
+        "options": [
+            "Direct Connect provides a dedicated network connection to AWS, while VPN uses the public internet",
+            "Direct Connect is used for interconnecting VPCs, while VPN is used for connecting to on-premises networks",
+            "Direct Connect is a managed DNS service, while VPN is a low-latency messaging service",
+            "Direct Connect provides encryption for data in transit, while VPN does not"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "What is the purpose of an AWS Lambda function alias?",
+        "options": [
+            "To provide a friendly name for the Lambda function",
+            "To define the maximum memory size for the function",
+            "To version the function code and configuration",
+            "To set environment variables for the Lambda function"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which AWS service can be used to deploy and manage containerized applications?",
+        "options": [
+            "Amazon EC2",
+            "Amazon RDS",
+            "Amazon ECS",
+            "Amazon EBS"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What is the purpose of Amazon CloudWatch Events?",
+        "options": [
+            "Monitoring and logging system performance metrics",
+            "Managing and provisioning infrastructure as code",
+            "Automating responses to AWS resource changes",
+            "Distributing content globally with low-latency"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What is the difference between Amazon Aurora and Amazon RDS for MySQL?",
+        "options": [
+            "Aurora is a serverless relational database, while RDS for MySQL requires manual scaling",
+            "Aurora is a managed NoSQL database, while RDS for MySQL is a traditional relational database",
+            "Aurora is a fully managed, MySQL-compatible relational database engine, while RDS for MySQL is a standard MySQL database",
+            "Aurora is a free open-source database, while RDS for MySQL is a paid service"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "In AWS Lambda, what is the purpose of the Dead Letter Queue (DLQ) for asynchronous invocations?",
+        "options": [
+            "To store logs and metrics for Lambda functions",
+            "To store failed events for later analysis",
+            "To manage the Lambda function's IAM roles",
+            "To handle synchronous invocations of Lambda functions"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "What is the purpose of Amazon CloudFront signed URLs and signed cookies?",
+        "options": [
+            "To secure content at rest in Amazon S3",
+            "To provide secure access to resources on a private network",
+            "To control access to content served through CloudFront distributions",
+            "To encrypt data in transit between EC2 instances"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "How does Amazon Elastic Container Service (ECS) differ from AWS Fargate?",
+        "options": [
+            "ECS provides fully managed containers, while Fargate allows you to manage the underlying infrastructure",
+            "ECS is for deploying serverless applications, while Fargate is for deploying traditional web applications",
+            "ECS is for deploying Docker containers on EC2 instances, while Fargate is a serverless compute engine for containers",
+            "ECS and Fargate are synonymous terms for the same service"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What is the purpose of Amazon Route 53 Latency-Based Routing?",
+        "options": [
+            "To optimize the performance of web applications by routing traffic based on the lowest latency",
+            "To redirect traffic to the closest AWS data center",
+            "To distribute traffic evenly across multiple regions",
+            "To manage domain name registration and resolution"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "What is the primary use case for Amazon Elastic File System (EFS)?",
+        "options": [
+            "High-performance relational database storage",
+            "Scalable and shared file storage for EC2 instances",
+            "Archiving and backup of data",
+            "Real-time analytics on streaming data"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "How does Amazon S3 Transfer Acceleration work?",
+        "options": [
+            "By optimizing data storage for faster retrieval",
+            "By using a content delivery network to cache and serve files",
+            "By encrypting data in transit between EC2 instances",
+            "By utilizing multiple edge locations to accelerate uploads and downloads to and from Amazon S3"
+        ],
+        "answer": 4
+    },
+    {
+        "question": "What is the purpose of AWS Organizations?",
+        "options": [
+            "To manage and govern multiple AWS accounts",
+            "To provide single sign-on (SSO) for AWS services",
+            "To create and configure AWS IAM roles",
+            "To monitor and analyze AWS resource utilization"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "What is the benefit of using Amazon Aurora Global Databases?",
+        "options": [
+            "To distribute read and write workloads across multiple regions for improved performance",
+            "To create a fully managed serverless database",
+            "To encrypt data at rest and in transit for enhanced security",
+            "To automatically scale compute and storage resources based on demand"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "What is the purpose of Amazon CloudWatch Synthetics?",
+        "options": [
+            "To monitor and manage network security",
+            "To create and deploy serverless applications",
+            "To simulate user interactions with web applications and APIs",
+            "To analyze real-time logs and metrics"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "How does AWS Key Management Service (KMS) enable customer-managed keys (CMKs)?",
+        "options": [
+            "By automatically rotating encryption keys for enhanced security",
+            "By providing a secure hardware appliance for key storage",
+            "By allowing customers to import their own encryption keys",
+            "By encrypting data at the application layer"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "What is the purpose of Amazon Elastic Container Registry (ECR)?",
+        "options": [
+            "To deploy and manage serverless applications",
+            "To store, manage, and deploy Docker container images",
+            "To analyze and visualize log data in real-time",
+            "To provision and manage virtual private servers"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Scenario: A company is planning to migrate its on-premises web application to AWS. The application requires high availability, and the traffic can vary significantly throughout the day. What AWS service or architecture would you recommend for hosting this web application?",
+        "options": [
+            "Amazon EC2 instances in a single Availability Zone",
+            "Amazon RDS for database hosting",
+            "Amazon S3 for static content and an Auto Scaling group of EC2 instances behind an Elastic Load Balancer",
+            "AWS Lambda for serverless application hosting"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Scenario: An e-commerce website experiences traffic spikes during sales events. The website's architecture needs to scale automatically to handle increased load and reduce costs during periods of low traffic. Which AWS service or feature would you use to achieve this?",
+        "options": [
+            "Amazon EC2 Auto Scaling groups",
+            "Amazon DynamoDB for database hosting",
+            "AWS Lambda for serverless compute",
+            "Amazon RDS for relational database hosting"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Scenario: A company has sensitive data stored in Amazon S3 buckets, and they need to ensure that the data is encrypted at rest and during transit. Additionally, they want to manage access to the buckets securely. What AWS services would you recommend for this scenario?",
+        "options": [
+            "Amazon S3 with server-side encryption and bucket policies",
+            "Amazon S3 with client-side encryption and IAM roles",
+            "Amazon S3 Transfer Acceleration and AWS KMS",
+            "Amazon S3 with CloudFront distribution and AWS WAF"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Scenario: An organization is planning to deploy a global application that requires low-latency access for users in different regions. The application's architecture should automatically route users to the nearest AWS region. What AWS service or feature would you use to achieve this?",
+        "options": [
+            "Amazon CloudFront",
+            "Amazon Route 53 Latency-Based Routing",
+            "Amazon Global Accelerator",
+            "Amazon VPC Peering"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Scenario: A company has multiple departments, each with its own AWS account. The organization wants to centralize billing and manage access control across all accounts. What AWS service or feature would you recommend for this scenario?",
+        "options": [
+            "AWS Organizations",
+            "AWS IAM roles",
+            "Amazon CloudWatch",
+            "AWS Config"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Scenario: An application requires real-time processing of streaming data with minimal latency. The data is generated continuously, and the application needs to scale dynamically based on demand. What AWS service or feature would you recommend for this scenario?",
+        "options": [
+            "Amazon RDS",
+            "Amazon Kinesis",
+            "Amazon DynamoDB",
+            "Amazon EC2 Auto Scaling"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Scenario: A company wants to ensure that EC2 instances running in a VPC cannot directly access the internet. However, these instances need to download software updates from the internet. What AWS service or feature would you use to accomplish this?",
+        "options": [
+            "Network ACLs",
+            "VPC Peering",
+            "NAT Gateway",
+            "Security Groups"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Scenario: An organization is developing a microservices-based architecture, and each microservice needs its own isolated environment. The organization wants to automate the deployment of these environments. What AWS service or feature would you recommend for this scenario?",
+        "options": [
+            "Amazon EC2 instances",
+            "Amazon ECS for container orchestration",
+            "AWS Elastic Beanstalk",
+            "AWS Lambda for serverless computing"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "Scenario: A company is running a critical production workload on Amazon EC2 instances in multiple Availability Zones. They want to ensure high availability and fault tolerance. What AWS service or feature would you recommend to achieve this?",
+        "options": [
+            "Amazon EC2 Auto Scaling",
+            "Amazon RDS",
+            "Amazon Elastic File System (EFS)",
+            "Amazon CloudFront"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "Scenario: An organization has multiple environments (dev, test, and prod) for their application. They want to manage and automate the provisioning of resources consistently across these environments. What AWS service or feature would you recommend for this scenario?",
+        "options": [
+            "AWS CloudFormation",
+            "AWS Lambda",
+            "Amazon EC2 Auto Scaling",
+            "AWS Elastic Beanstalk"
+        ],
+        "answer": 1
+    },
+    {
+      "question": "Scenario: A company is planning to deploy a highly available and fault-tolerant web application on AWS. The application consists of multiple components, including a web server, application server, and database. What AWS service or feature would you recommend to ensure high availability across different regions?",
+      "options": [
+        "Amazon EC2 Auto Scaling",
+        "Amazon Route 53",
+        "Amazon CloudFront",
+        "AWS Global Accelerator"
+      ],
+      "answer": 4
+    },
+    {
+      "question": "Scenario: An organization needs to securely connect its on-premises data center to the AWS cloud. The connection should provide dedicated and predictable network performance. What AWS service or feature would you recommend for this scenario?",
+      "options": [
+        "AWS VPN",
+        "Direct Connect",
+        "Amazon VPC Peering",
+        "AWS Transit Gateway"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Scenario: A company is developing a serverless application that processes image uploads. The application requires an event-driven architecture and the ability to scale automatically based on the number of incoming images. What AWS service or feature would you recommend for this scenario?",
+      "options": [
+        "Amazon S3",
+        "Amazon Lambda",
+        "Amazon RDS",
+        "Amazon DynamoDB"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Scenario: An organization wants to monitor and receive alerts on the performance and health of its AWS resources. They also need to analyze historical data to identify trends. What AWS service or feature would you recommend for this scenario?",
+      "options": [
+        "Amazon CloudFront",
+        "Amazon CloudWatch",
+        "Amazon SNS",
+        "AWS Config"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Scenario: A company is running a legacy application on-premises and wants to migrate it to the cloud without modifying the application code. The application relies on a relational database. What AWS service or feature would you recommend for this scenario?",
+      "options": [
+        "Amazon RDS",
+        "Amazon DynamoDB",
+        "Amazon Redshift",
+        "Amazon Aurora"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Scenario: An organization is dealing with large datasets and requires a scalable, serverless data warehouse for analytics. The data warehouse should provide high performance and support complex queries. What AWS service or feature would you recommend for this scenario?",
+      "options": [
+        "Amazon RDS",
+        "Amazon DynamoDB",
+        "Amazon Redshift",
+        "AWS Glue"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Scenario: A company is looking for a managed service to host its containerized applications. The company wants to offload the operational overhead of managing the underlying infrastructure. What AWS service or feature would you recommend for this scenario?",
+      "options": [
+        "Amazon EC2",
+        "Amazon ECS",
+        "Amazon EKS",
+        "AWS Lambda"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Scenario: An organization is planning to store large amounts of infrequently accessed data and wants to minimize storage costs. The data should be durable and secure. What AWS service or feature would you recommend for this scenario?",
+      "options": [
+        "Amazon S3",
+        "Amazon Glacier",
+        "Amazon EBS",
+        "Amazon EFS"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Scenario: A company wants to implement single sign-on (SSO) for its AWS environment. Users should be able to sign in once and access multiple AWS accounts without entering credentials again. What AWS service or feature would you recommend for this scenario?",
+      "options": [
+        "AWS Identity and Access Management (IAM)",
+        "AWS Single Sign-On (SSO)",
+        "Amazon Cognito",
+        "AWS Directory Service"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Scenario: An organization is looking for a cost-effective way to store and retrieve large amounts of data with low-latency access. The data will be served to users globally. What AWS service or feature would you recommend for this scenario?",
+      "options": [
+        "Amazon S3",
+        "Amazon Glacier",
+        "Amazon CloudFront",
+        "Amazon EBS"
+      ],
+      "answer": 3
+    }
+  ]
+  

@@ -1,0 +1,334 @@
+[
+    {
+        "question": "What is the maximum size of an Amazon EBS volume?",
+        "options": [
+            "1 TB",
+            "2 TB",
+            "16 TB",
+            "32 TB"
+        ],
+        "answer": 4,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "Which EBS volume type provides the lowest-latency performance?",
+        "options": [
+            "General Purpose (gp2)",
+            "Provisioned IOPS (io1)",
+            "Throughput Optimized HDD (st1)",
+            "Cold HDD (sc1)"
+        ],
+        "answer": 2,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "What is the maximum throughput for an EBS volume?",
+        "options": [
+            "250 MB/s",
+            "500 MB/s",
+            "1000 MB/s",
+            "2000 MB/s"
+        ],
+        "answer": 4,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "Which of the following is a valid use case for Amazon EBS Snapshots?",
+        "options": [
+            "Real-time data processing",
+            "Incremental backups",
+            "Live migration of instances",
+            "Static website hosting"
+        ],
+        "answer": 2,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "In which Availability Zone are Amazon EBS volumes replicated to ensure durability?",
+        "options": [
+            "Same Availability Zone",
+            "Cross-Availability Zone",
+            "Different AWS Region",
+            "Global replication"
+        ],
+        "answer": 2,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "Which EBS volume type is suitable for large, sequential workloads with high throughput?",
+        "options": [
+            "General Purpose (gp2)",
+            "Provisioned IOPS (io1)",
+            "Throughput Optimized HDD (st1)",
+            "Cold HDD (sc1)"
+        ],
+        "answer": 3,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "What is the minimum size of an Amazon EBS volume?",
+        "options": [
+            "1 GB",
+            "5 GB",
+            "10 GB",
+            "20 GB"
+        ],
+        "answer": 1,
+        "tag": "ebs-efs",
+        "revalidate": true
+    },
+    {
+        "question": "Which of the following is a feature of Amazon EBS Multi-Attach?",
+        "options": [
+            "Replication across AWS Regions",
+            "Simultaneous attachment to multiple EC2 instances",
+            "Automatic volume resizing",
+            "Encrypted data transfer"
+        ],
+        "answer": 2,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "What does the acronym 'IOPS' stand for in the context of EBS volumes?",
+        "options": [
+            "Instances Over Provisioned Storage",
+            "Input/Output Operations Per Second",
+            "Internet of Protected Systems",
+            "Internal Object Processing Service"
+        ],
+        "answer": 2,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "Which AWS service can be used to automatically scale the provisioned capacity of Amazon EBS volumes?",
+        "options": [
+            "Amazon CloudFront",
+            "Amazon CloudWatch",
+            "AWS Auto Scaling",
+            "Amazon Route 53"
+        ],
+        "answer": 2,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "What is the default encryption status of data at rest for Amazon EBS volumes?",
+        "options": [
+            "Unencrypted",
+            "AES-128",
+            "AES-256",
+            "RSA-2048"
+        ],
+        "answer": 1,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "What is the maximum number of Amazon EBS volumes that can be attached to a single EC2 instance?",
+        "options": [
+            "5GB",
+            "10GB",
+            "15GB",
+            "20GB"
+        ],
+        "answer": 3,
+        "tag": "ebs-efs",
+        "revalidate": true
+    },
+    {
+        "question": "Which Amazon EBS volume type is designed for infrequently accessed data that can be recreated if lost?",
+        "options": [
+            "General Purpose (gp2)",
+            "Provisioned IOPS (io1)",
+            "Throughput Optimized HDD (st1)",
+            "Cold HDD (sc1)"
+        ],
+        "answer": 4,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "In the context of Amazon EBS, what does the term 'snapshot' refer to?",
+        "options": [
+            "A point-in-time copy of an EBS volume",
+            "Real-time performance metrics",
+            "Data transfer speed",
+            "High availability configuration"
+        ],
+        "answer": 1,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "What is the maximum IOPS (Input/Output Operations Per Second) limit for the General Purpose (gp2) EBS volume type?",
+        "options": [
+            "3000 IOPS",
+            "5000 IOPS",
+            "10000 IOPS",
+            "20000 IOPS"
+        ],
+        "answer": 3,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "Which Amazon EBS volume type provides the lowest cost per gigabyte?",
+        "options": [
+            "General Purpose (gp2)",
+            "Provisioned IOPS (io1)",
+            "Throughput Optimized HDD (st1)",
+            "Cold HDD (sc1)"
+        ],
+        "answer": 4,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "What is the purpose of Amazon EBS Elastic Volumes?",
+        "options": [
+            "Automatic data encryption",
+            "Dynamic resizing of EBS volumes",
+            "Cross-Availability Zone replication",
+            "Global replication"
+        ],
+        "answer": 2,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "Which AWS CLI command is used to create a snapshot of an Amazon EBS volume?",
+        "options": [
+            "ec2 create-snapshot",
+            "ebs make-snapshot",
+            "snapshot create",
+            "ebs snapshot"
+        ],
+        "answer": 1,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "What is the purpose of the 'st1' volume type in Amazon EBS?",
+        "options": [
+            "Low-latency performance",
+            "High-throughput, low-cost storage",
+            "Cold storage for infrequently accessed data",
+            "Provisioned IOPS for critical workloads"
+        ],
+        "answer": 2,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "Which AWS service can be used to automatically take regular snapshots of Amazon EBS volumes?",
+        "options": [
+            "AWS Lambda",
+            "Amazon S3",
+            "Amazon CloudWatch",
+            "Amazon Data Lifecycle Manager"
+        ],
+        "answer": 4,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "What is the maximum number of snapshots that can be created for an Amazon EBS volume?",
+        "options": [
+            "10",
+            "20",
+            "50",
+            "100"
+        ],
+        "answer": 3,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "Which EBS volume type is recommended for small to medium-sized databases?",
+        "options": [
+            "General Purpose (gp2)",
+            "Provisioned IOPS (io1)",
+            "Throughput Optimized HDD (st1)",
+            "Cold HDD (sc1)"
+        ],
+        "answer": 1,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "In which situations should you use Amazon EBS Multi-Attach?",
+        "options": [
+            "Highly available databases",
+            "Elastic Load Balancer storage",
+            "Temporary storage for batch processing",
+            "Read-intensive workloads"
+        ],
+        "answer": 1,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "What is the primary purpose of the Amazon EBS Cold HDD (sc1) volume type?",
+        "options": [
+            "Low-latency performance",
+            "High-throughput, low-cost storage",
+            "Cold storage for infrequently accessed data",
+            "Provisioned IOPS for critical workloads"
+        ],
+        "answer": 3,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "Which AWS service allows you to automate the creation, retention, and deletion of EBS snapshots?",
+        "options": [
+            "AWS CloudTrail",
+            "Amazon Data Lifecycle Manager",
+            "AWS CloudFormation",
+            "Amazon Glacier"
+        ],
+        "answer": 2,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "What is the purpose of the 'gp3' EBS volume type?",
+        "options": [
+            "High-throughput, low-latency storage",
+            "Provisioned IOPS for critical workloads",
+            "Balanced performance for diverse workloads",
+            "Cold storage for infrequently accessed data"
+        ],
+        "answer": 3,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "Which AWS service can be used to monitor EBS volume metrics and set alarms based on thresholds?",
+        "options": [
+            "Amazon CloudWatch",
+            "Amazon S3",
+            "Amazon Inspector",
+            "AWS CloudTrail"
+        ],
+        "answer": 1,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "What is the purpose of the 'io2' EBS volume type?",
+        "options": [
+            "Low-latency performance",
+            "High-throughput, low-latency storage",
+            "Cold storage for infrequently accessed data",
+            "Provisioned IOPS for critical workloads"
+        ],
+        "answer": 4,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "Which EBS volume type is recommended for applications with frequent read and write operations on large datasets?",
+        "options": [
+            "General Purpose (gp2)",
+            "Provisioned IOPS (io1)",
+            "Throughput Optimized HDD (st1)",
+            "Cold HDD (sc1)"
+        ],
+        "answer": 2,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "What is the maximum throughput for an 'io2' EBS volume?",
+        "options": [
+            "1000 MB/s",
+            "2000 MB/s",
+            "4000 MB/s",
+            "8000 MB/s"
+        ],
+        "answer": 3,
+        "tag": "ebs-efs"
+    }
+]
