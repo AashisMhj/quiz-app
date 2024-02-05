@@ -1,10 +1,5 @@
-import db from "../../index";
+import prisma from "@/db";
 
-export const questionList = async() =>{
-    const snapshot = await db.ref('question').get();
-    if(snapshot.exists()){
-        return snapshot.val()
-    }else{
-        return null;
-    }
+export function getQuestion(){
+    
 }

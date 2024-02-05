@@ -1,16 +1,16 @@
-import { AceBase } from "acebase";
-
-declare global{
-    var database:AceBase | undefined
+import { PrismaClient } from "@prisma/client";
+declare global {
+    var database: PrismaClient
 }
-let db:AceBase;
+let prisma: PrismaClient;
+
 if(process.env.NODE_ENV === 'production'){
-    db = new AceBase(process.env.DB_NAME || 'my_db');
-}else{
+    prisma = new PrismaClient();
+}else {
     if(!global.database){
-        global.database = new AceBase(process.env.DB_NAME || 'my_db');
+        global.database = new PrismaClient();
     }
-    db = global.database
+    prisma = global.database;
 }
 
-export default db;
+export default prisma;

@@ -7,12 +7,13 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "seed": "ts-node ./db/seeder/index.ts"
+    "seed": ""
   },
   "dependencies": {
-    "acebase": "^1.29.5",
+    "@prisma/client": "^5.9.1",
     "clsx": "^2.1.0",
     "next": "14.1.0",
+    "prisma": "^5.9.1",
     "react": "^18",
     "react-dom": "^18"
   },
