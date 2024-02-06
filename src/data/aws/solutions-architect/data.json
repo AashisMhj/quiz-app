@@ -400,104 +400,1591 @@
         "answer": 1
     },
     {
-      "question": "Scenario: A company is planning to deploy a highly available and fault-tolerant web application on AWS. The application consists of multiple components, including a web server, application server, and database. What AWS service or feature would you recommend to ensure high availability across different regions?",
-      "options": [
-        "Amazon EC2 Auto Scaling",
-        "Amazon Route 53",
-        "Amazon CloudFront",
-        "AWS Global Accelerator"
-      ],
-      "answer": 4
+        "question": "Scenario: A company is planning to deploy a highly available and fault-tolerant web application on AWS. The application consists of multiple components, including a web server, application server, and database. What AWS service or feature would you recommend to ensure high availability across different regions?",
+        "options": [
+            "Amazon EC2 Auto Scaling",
+            "Amazon Route 53",
+            "Amazon CloudFront",
+            "AWS Global Accelerator"
+        ],
+        "answer": 4
     },
     {
-      "question": "Scenario: An organization needs to securely connect its on-premises data center to the AWS cloud. The connection should provide dedicated and predictable network performance. What AWS service or feature would you recommend for this scenario?",
-      "options": [
-        "AWS VPN",
-        "Direct Connect",
-        "Amazon VPC Peering",
-        "AWS Transit Gateway"
-      ],
-      "answer": 2
+        "question": "Scenario: An organization needs to securely connect its on-premises data center to the AWS cloud. The connection should provide dedicated and predictable network performance. What AWS service or feature would you recommend for this scenario?",
+        "options": [
+            "AWS VPN",
+            "Direct Connect",
+            "Amazon VPC Peering",
+            "AWS Transit Gateway"
+        ],
+        "answer": 2
     },
     {
-      "question": "Scenario: A company is developing a serverless application that processes image uploads. The application requires an event-driven architecture and the ability to scale automatically based on the number of incoming images. What AWS service or feature would you recommend for this scenario?",
-      "options": [
-        "Amazon S3",
-        "Amazon Lambda",
-        "Amazon RDS",
-        "Amazon DynamoDB"
-      ],
-      "answer": 2
+        "question": "Scenario: A company is developing a serverless application that processes image uploads. The application requires an event-driven architecture and the ability to scale automatically based on the number of incoming images. What AWS service or feature would you recommend for this scenario?",
+        "options": [
+            "Amazon S3",
+            "Amazon Lambda",
+            "Amazon RDS",
+            "Amazon DynamoDB"
+        ],
+        "answer": 2
     },
     {
-      "question": "Scenario: An organization wants to monitor and receive alerts on the performance and health of its AWS resources. They also need to analyze historical data to identify trends. What AWS service or feature would you recommend for this scenario?",
-      "options": [
-        "Amazon CloudFront",
-        "Amazon CloudWatch",
-        "Amazon SNS",
-        "AWS Config"
-      ],
-      "answer": 2
+        "question": "Scenario: An organization wants to monitor and receive alerts on the performance and health of its AWS resources. They also need to analyze historical data to identify trends. What AWS service or feature would you recommend for this scenario?",
+        "options": [
+            "Amazon CloudFront",
+            "Amazon CloudWatch",
+            "Amazon SNS",
+            "AWS Config"
+        ],
+        "answer": 2
     },
     {
-      "question": "Scenario: A company is running a legacy application on-premises and wants to migrate it to the cloud without modifying the application code. The application relies on a relational database. What AWS service or feature would you recommend for this scenario?",
-      "options": [
-        "Amazon RDS",
-        "Amazon DynamoDB",
-        "Amazon Redshift",
-        "Amazon Aurora"
-      ],
-      "answer": 1
+        "question": "Scenario: A company is running a legacy application on-premises and wants to migrate it to the cloud without modifying the application code. The application relies on a relational database. What AWS service or feature would you recommend for this scenario?",
+        "options": [
+            "Amazon RDS",
+            "Amazon DynamoDB",
+            "Amazon Redshift",
+            "Amazon Aurora"
+        ],
+        "answer": 1
     },
     {
-      "question": "Scenario: An organization is dealing with large datasets and requires a scalable, serverless data warehouse for analytics. The data warehouse should provide high performance and support complex queries. What AWS service or feature would you recommend for this scenario?",
-      "options": [
-        "Amazon RDS",
-        "Amazon DynamoDB",
-        "Amazon Redshift",
-        "AWS Glue"
-      ],
-      "answer": 3
+        "question": "Scenario: An organization is dealing with large datasets and requires a scalable, serverless data warehouse for analytics. The data warehouse should provide high performance and support complex queries. What AWS service or feature would you recommend for this scenario?",
+        "options": [
+            "Amazon RDS",
+            "Amazon DynamoDB",
+            "Amazon Redshift",
+            "AWS Glue"
+        ],
+        "answer": 3
     },
     {
-      "question": "Scenario: A company is looking for a managed service to host its containerized applications. The company wants to offload the operational overhead of managing the underlying infrastructure. What AWS service or feature would you recommend for this scenario?",
-      "options": [
-        "Amazon EC2",
-        "Amazon ECS",
-        "Amazon EKS",
-        "AWS Lambda"
-      ],
-      "answer": 3
+        "question": "Scenario: A company is looking for a managed service to host its containerized applications. The company wants to offload the operational overhead of managing the underlying infrastructure. What AWS service or feature would you recommend for this scenario?",
+        "options": [
+            "Amazon EC2",
+            "Amazon ECS",
+            "Amazon EKS",
+            "AWS Lambda"
+        ],
+        "answer": 3
     },
     {
-      "question": "Scenario: An organization is planning to store large amounts of infrequently accessed data and wants to minimize storage costs. The data should be durable and secure. What AWS service or feature would you recommend for this scenario?",
-      "options": [
-        "Amazon S3",
-        "Amazon Glacier",
-        "Amazon EBS",
-        "Amazon EFS"
-      ],
-      "answer": 2
+        "question": "Scenario: An organization is planning to store large amounts of infrequently accessed data and wants to minimize storage costs. The data should be durable and secure. What AWS service or feature would you recommend for this scenario?",
+        "options": [
+            "Amazon S3",
+            "Amazon Glacier",
+            "Amazon EBS",
+            "Amazon EFS"
+        ],
+        "answer": 2
     },
     {
-      "question": "Scenario: A company wants to implement single sign-on (SSO) for its AWS environment. Users should be able to sign in once and access multiple AWS accounts without entering credentials again. What AWS service or feature would you recommend for this scenario?",
-      "options": [
-        "AWS Identity and Access Management (IAM)",
-        "AWS Single Sign-On (SSO)",
-        "Amazon Cognito",
-        "AWS Directory Service"
-      ],
-      "answer": 2
+        "question": "Scenario: A company wants to implement single sign-on (SSO) for its AWS environment. Users should be able to sign in once and access multiple AWS accounts without entering credentials again. What AWS service or feature would you recommend for this scenario?",
+        "options": [
+            "AWS Identity and Access Management (IAM)",
+            "AWS Single Sign-On (SSO)",
+            "Amazon Cognito",
+            "AWS Directory Service"
+        ],
+        "answer": 2
     },
     {
-      "question": "Scenario: An organization is looking for a cost-effective way to store and retrieve large amounts of data with low-latency access. The data will be served to users globally. What AWS service or feature would you recommend for this scenario?",
-      "options": [
-        "Amazon S3",
-        "Amazon Glacier",
-        "Amazon CloudFront",
-        "Amazon EBS"
-      ],
-      "answer": 3
+        "question": "Scenario: An organization is looking for a cost-effective way to store and retrieve large amounts of data with low-latency access. The data will be served to users globally. What AWS service or feature would you recommend for this scenario?",
+        "options": [
+            "Amazon S3",
+            "Amazon Glacier",
+            "Amazon CloudFront",
+            "Amazon EBS"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "Which Amazon S3 storage class is designed for infrequently accessed data with long-term retention requirements, such as backups and archives?",
+        "options": [
+            "Standard",
+            "Intelligent-Tiering",
+            "Glacier",
+            "One Zone-IA"
+        ],
+        "answer": 3,
+        "tags": "s3"
+    },
+    {
+        "question": "In Amazon S3, what does enabling versioning on a bucket allow you to do?",
+        "options": [
+            "Store multiple copies of the same object with unique version IDs.",
+            "Enable automatic encryption for all objects in the bucket.",
+            "Set lifecycle policies on the bucket.",
+            "Enable access logging for the bucket."
+        ],
+        "answer": 1,
+        "tags": "s3"
+    },
+    {
+        "question": "What feature in Amazon S3 allows you to accelerate the transfer of files to and from your S3 bucket by using Amazon CloudFront's globally distributed edge locations?",
+        "options": [
+            "S3 Transfer Acceleration",
+            "S3 Transfer Boost",
+            "S3 Data Accelerator",
+            "S3 Turbo Transfer"
+        ],
+        "answer": 1,
+        "tags": "s3"
+    },
+    {
+        "question": "What is the primary purpose of Amazon S3 Cross-Region Replication (CRR)?",
+        "options": [
+            "To replicate objects across multiple buckets within the same region.",
+            "To replicate objects across multiple AWS accounts.",
+            "To replicate objects between S3 and Glacier.",
+            "To replicate objects between S3 buckets in different AWS regions."
+        ],
+        "answer": 4,
+        "tags": "s3"
+    },
+    {
+        "question": "In Amazon S3, what can you use to automatically trigger events, such as Lambda functions, when objects are created or deleted in a bucket?",
+        "options": [
+            "S3 Versioning",
+            "S3 Access Logs",
+            "S3 Event Notifications",
+            "S3 Object Lock"
+        ],
+        "answer": 3,
+        "tags": "s3"
+    },
+    {
+        "question": "When might you choose to use Amazon S3 Multipart Uploads?",
+        "options": [
+            "For small files with a single PUT request.",
+            "For large files where you want to upload parts in parallel for improved performance.",
+            "For static website hosting.",
+            "For archiving data in Amazon Glacier."
+        ],
+        "answer": 2,
+        "tags": "s3"
+    },
+    {
+        "question": "What is the purpose of Amazon S3 Object Lock?",
+        "options": [
+            "To encrypt objects stored in S3.",
+            "To prevent accidental deletion of objects for a specified retention period.",
+            "To enforce strict access control policies on S3 buckets.",
+            "To automatically archive objects to Amazon Glacier."
+        ],
+        "answer": 2,
+        "tags": "s3"
+    },
+    {
+        "question": "What is the main advantage of using Amazon S3 Select?",
+        "options": [
+            "It enables real-time streaming of data from S3 buckets.",
+            "It allows you to retrieve only the necessary data from objects, reducing data transfer costs.",
+            "It provides a way to automatically classify objects based on content.",
+            "It offers a faster way to upload objects to S3."
+        ],
+        "answer": 2,
+        "tags": "s3"
+    },
+    {
+        "question": "What is the purpose of an S3 bucket policy?",
+        "options": [
+            "To configure encryption settings for objects in the bucket.",
+            "To define access control rules for the bucket and its contents.",
+            "To enable versioning for objects in the bucket.",
+            "To automatically archive objects to Amazon Glacier."
+        ],
+        "answer": 2,
+        "tags": "s3"
+    },
+    {
+        "question": "How does Amazon S3 Transfer Acceleration work?",
+        "options": [
+            "It compresses data before transferring it to reduce latency.",
+            "It uses Amazon CloudFront's globally distributed edge locations to accelerate transfers.",
+            "It automatically partitions large files for parallel transfers.",
+            "It encrypts data using SSL/TLS during transfer."
+        ],
+        "answer": 2,
+        "tags": "s3"
+    },
+    {
+        "question": "What is the primary purpose of tagging objects in Amazon S3?",
+        "options": [
+            "To define access control policies for objects.",
+            "To classify and categorize objects for better organization.",
+            "To enable versioning for objects.",
+            "To configure cross-region replication for objects."
+        ],
+        "answer": 2,
+        "tags": "s3"
+    },
+    {
+        "question": "Which Amazon S3 storage class is the most cost-effective for frequently accessed data?",
+        "options": [
+            "Standard",
+            "Intelligent-Tiering",
+            "One Zone-IA",
+            "Glacier"
+        ],
+        "answer": 1,
+        "tags": "s3"
+    },
+    {
+        "question": "What is the recommended way to control access to your S3 buckets and objects?",
+        "options": [
+            "Using IP-based ACLs (Access Control Lists).",
+            "Using IAM (Identity and Access Management) policies.",
+            "Allowing public access to all buckets by default.",
+            "Using bucket policies without IAM."
+        ],
+        "answer": 2,
+        "tags": "s3"
+    },
+    {
+        "question": "How can you host a static website on Amazon S3?",
+        "options": [
+            "Enable versioning on the S3 bucket.",
+            "Configure an Application Load Balancer for the S3 bucket.",
+            "Enable S3 Transfer Acceleration.",
+            "Configure the S3 bucket for static website hosting and use the provided endpoint."
+        ],
+        "answer": 4,
+        "tags": "s3"
+    },
+    {
+        "question": "What is the purpose of an S3 lifecycle policy?",
+        "options": [
+            "To set the default encryption for objects in the bucket.",
+            "To define the rules for automatically transitioning objects between storage classes or deleting them.",
+            "To configure cross-region replication for objects.",
+            "To enable versioning for objects in the bucket."
+        ],
+        "answer": 2,
+        "tags": "s3"
+    },
+    {
+        "question": "When might you configure Cross-Origin Resource Sharing (CORS) on an S3 bucket?",
+        "options": [
+            "To enable versioning for objects.",
+            "To allow web pages from one domain to make requests for assets in another domain.",
+            "To encrypt objects stored in the bucket.",
+            "To configure access logging for the bucket."
+        ],
+        "answer": 2,
+        "tags": "s3"
+    },
+    {
+        "question": "What is the key difference between S3 Cross-Region Replication (CRR) and S3 Same-Region Replication (SRR)?",
+        "options": [
+            "CRR replicates objects between S3 and Glacier, while SRR replicates within the same S3 region.",
+            "CRR is for versioned objects, while SRR is for unversioned objects.",
+            "CRR replicates objects between S3 buckets in different AWS regions, while SRR replicates within the same S3 region.",
+            "There is no difference; the terms are used interchangeably."
+        ],
+        "answer": 3,
+        "tags": "s3"
+    },
+    {
+        "question": "How is Amazon S3 Transfer Acceleration pricing determined?",
+        "options": [
+            "Based on the total amount of data transferred.",
+            "Based on the number of requests made to the bucket.",
+            "Based on the number of objects stored in the bucket.",
+            "Based on the geographical distance between the client and the S3 bucket."
+        ],
+        "answer": 1,
+        "tags": "s3"
+    },
+    {
+        "question": "Which AWS service can be triggered by events in Amazon S3, such as object creation or deletion?",
+        "options": [
+            "Amazon RDS (Relational Database Service)",
+            "Amazon DynamoDB",
+            "Amazon CloudFront",
+            "AWS Lambda"
+        ],
+        "answer": 4,
+        "tags": "s3"
+    },
+    {
+        "question": "What is the main advantage of using Amazon S3 Select?",
+        "options": [
+            "It enables real-time streaming of data from S3 buckets.",
+            "It allows you to retrieve only the necessary data from objects, reducing data transfer costs.",
+            "It provides a way to automatically classify objects based on content.",
+            "It offers a faster way to upload objects to S3."
+        ],
+        "answer": 2,
+        "tags": "s3"
+    },
+    {
+        "question": "When using S3 Transfer Acceleration, what is the format of the endpoint URL?",
+        "options": [
+            "https://s3.amazonaws.com/<bucket-name>",
+            "https://<bucket-name>-s3-transfer-acceleration.amazonaws.com",
+            "https://s3-transfer-acceleration.amazonaws.com/<bucket-name>",
+            "https://<bucket-name>.s3-transfer-acceleration.amazonaws.com"
+        ],
+        "answer": 4,
+        "tags": "s3"
+    },
+    {
+        "question": "Which storage class in Amazon S3 is designed to automatically move objects between two access tiers based on changing access patterns?",
+        "options": [
+            "Standard",
+            "Intelligent-Tiering",
+            "One Zone-IA",
+            "Glacier"
+        ],
+        "answer": 2,
+        "tags": "s3"
+    },
+    {
+        "question": "What is a prerequisite for setting up S3 Cross-Region Replication (CRR)?",
+        "options": [
+            "Versioning must be disabled on the source bucket.",
+            "Objects in the source bucket must be encrypted with server-side encryption (SSE).",
+            "The source and destination buckets must be in different AWS accounts.",
+            "CRR is automatically enabled for all S3 buckets."
+        ],
+        "answer": 3,
+        "tags": "s3"
+    },
+    {
+        "question": "What is the primary purpose of enabling compliance mode for S3 Object Lock?",
+        "options": [
+            "To automatically archive objects to Amazon Glacier.",
+            "To prevent the deletion of objects for a specified retention period, in compliance with regulatory requirements.",
+            "To classify objects based on content.",
+            "To configure cross-region replication for objects."
+        ],
+        "answer": 2,
+        "tags": "s3"
+    },
+    {
+        "question": "Which service allows you to perform large-scale batch operations on Amazon S3 objects, such as copying or tagging?",
+        "options": [
+            "Amazon Elastic MapReduce (EMR)",
+            "AWS DataSync",
+            "AWS Snowball",
+            "Amazon S3 Batch Operations"
+        ],
+        "answer": 4,
+        "tags": "s3"
+    },
+    {
+        "question": "What is the purpose of enabling S3 access logs for a bucket?",
+        "options": [
+            "To enable versioning for objects in the bucket.",
+            "To automatically archive objects to Amazon Glacier.",
+            "To record requests made against the bucket for auditing and analysis.",
+            "To enforce strict access control policies on the bucket."
+        ],
+        "answer": 3,
+        "tags": "s3"
+    },
+    {
+        "question": "When using Amazon S3 Select, what is used to filter and transform data within an object?",
+        "options": [
+            "Regular expressions",
+            "SQL expressions",
+            "XPath expressions",
+            "JavaScript expressions"
+        ],
+        "answer": 2,
+        "tags": "s3"
+    },
+    {
+        "question": "When using Amazon S3 Transfer Acceleration, how is data transferred between the client and the S3 bucket?",
+        "options": [
+            "HTTP",
+            "HTTPS",
+            "FTP",
+            "TCP"
+        ],
+        "answer": 2,
+        "tags": "s3"
+    },
+    {
+        "question": "How does enabling versioning on an Amazon S3 bucket impact storage costs?",
+        "options": [
+            "It reduces storage costs by enabling compression for objects.",
+            "It increases storage costs by storing multiple versions of the same object.",
+            "It has no impact on storage costs.",
+            "It automatically moves objects to the Glacier storage class."
+        ],
+        "answer": 2,
+        "tags": "s3"
+    },
+    {
+        "question": "In Amazon S3 Cross-Region Replication (CRR), how are delete markers handled?",
+        "options": [
+            "Delete markers are not replicated.",
+            "Delete markers are replicated as separate objects.",
+            "Delete markers are automatically cleared in the destination bucket.",
+            "Delete markers trigger an error in replication."
+        ],
+        "answer": 1,
+        "tags": "s3"
+    },
+    {
+        "question": "What does enabling default encryption on an S3 bucket do?",
+        "options": [
+            "It encrypts all existing objects in the bucket.",
+            "It encrypts only new objects uploaded to the bucket.",
+            "It enables versioning for objects in the bucket.",
+            "It allows public access to all objects in the bucket."
+        ],
+        "answer": 2,
+        "tags": "s3"
+    },
+    {
+        "question": "Which Amazon S3 storage class is designed for frequently accessed data with low latency requirements?",
+        "options": [
+            "Standard",
+            "Intelligent-Tiering",
+            "One Zone-IA",
+            "Glacier"
+        ],
+        "answer": 1,
+        "tags": "s3"
+    },
+    {
+        "question": "What is the purpose of enabling a legal hold on an S3 object?",
+        "options": [
+            "To prevent the deletion of the object for a specified retention period.",
+            "To automatically archive the object to Amazon Glacier.",
+            "To classify the object based on content.",
+            "To enforce access control policies on the object."
+        ],
+        "answer": 1,
+        "tags": "s3"
+    },
+    {
+        "question": "Which storage class in Amazon S3 is designed for archiving data at the lowest cost with a retrieval time of 12 hours?",
+        "options": [
+            "Standard",
+            "Intelligent-Tiering",
+            "One Zone-IA",
+            "Glacier Deep Archive"
+        ],
+        "answer": 4,
+        "tags": "s3"
+    },
+    {
+        "question": "What type of events can trigger S3 bucket notifications for an AWS Lambda function?",
+        "options": [
+            "Object creation only",
+            "Object deletion only",
+            "Object creation and deletion",
+            "Bucket creation and deletion"
+        ],
+        "answer": 3,
+        "tags": "s3"
+    },
+    {
+        "question": "What is the purpose of using Amazon S3 inventory reports?",
+        "options": [
+            "To generate real-time access logs for S3 buckets.",
+            "To provide a detailed list of objects within an S3 bucket for auditing and compliance.",
+            "To automatically replicate objects between S3 and Glacier.",
+            "To enable versioning for objects in the bucket."
+        ],
+        "answer": 2,
+        "tags": "s3"
+    },
+    {
+        "question": "What is the purpose of enabling S3 Requester Pays on a bucket?",
+        "options": [
+            "To allow public access to all objects in the bucket.",
+            "To shift the cost of requests to the requester instead of the bucket owner.",
+            "To configure cross-region replication for objects.",
+            "To enforce strict access control policies on the bucket."
+        ],
+        "answer": 2,
+        "tags": "s3"
+    },
+    {
+        "question": "When configuring an Amazon S3 event notification, what type of destination can be used for event notifications?",
+        "options": [
+            "Amazon RDS (Relational Database Service)",
+            "Amazon SNS (Simple Notification Service)",
+            "Amazon CloudFront",
+            "Amazon DynamoDB"
+        ],
+        "answer": 2,
+        "tags": "s3"
+    },
+    {
+        "question": "What is a limitation of using Amazon S3 Transfer Acceleration?",
+        "options": [
+            "It cannot be used with Amazon S3 buckets in any region.",
+            "It does not support secure (HTTPS) transfers.",
+            "It may have higher latency than direct uploads to S3 in some cases.",
+            "It can only be used for small file transfers."
+        ],
+        "answer": 3,
+        "tags": "s3"
+    },
+    {
+        "question": "Which language is commonly used to define access policies in an Amazon S3 bucket policy?",
+        "options": [
+            "JSON (JavaScript Object Notation)",
+            "XML (eXtensible Markup Language)",
+            "YAML (YAML Ain't Markup Language)",
+            "SQL (Structured Query Language)"
+        ],
+        "answer": 1,
+        "tags": "s3"
+    },
+    {
+        "question": "How does Amazon S3 Intelligent-Tiering automatically optimize storage costs?",
+        "options": [
+            "It moves objects between access tiers based on changing access patterns.",
+            "It automatically compresses objects to reduce storage size.",
+            "It shifts data to Glacier for long-term archiving.",
+            "It encrypts all objects with server-side encryption."
+        ],
+        "answer": 1,
+        "tags": "s3"
+    },
+    {
+        "question": "What are the two retention modes available with Amazon S3 Object Lock?",
+        "options": [
+            "Read-Only and Write-Once",
+            "Immutable and Compliance",
+            "Short-Term and Long-Term",
+            "Static and Dynamic"
+        ],
+        "answer": 2,
+        "tags": "s3"
+    },
+    {
+        "question": "In addition to S3 Cross-Region Replication (CRR), what is another method for replicating objects between S3 buckets?",
+        "options": [
+            "S3 Intelligent-Tiering",
+            "S3 Same-Region Replication (SRR)",
+            "S3 Transfer Acceleration",
+            "S3 Batch Operations"
+        ],
+        "answer": 2,
+        "tags": "s3"
+    },
+    {
+        "question": "When performing a multipart upload to Amazon S3, what determines the size of each part?",
+        "options": [
+            "The total size of the object being uploaded.",
+            "The number of parts specified by the user.",
+            "The S3 region where the bucket is located.",
+            "The user's AWS account type (Free Tier or Pay-as-you-go)."
+        ],
+        "answer": 1,
+        "tags": "s3"
+    },
+    {
+        "question": "What is a key consideration when transitioning objects between storage classes in Amazon S3?",
+        "options": [
+            "Transitioning objects incurs no additional charges.",
+            "Objects must be moved to a different bucket before transitioning storage classes.",
+            "Objects must be versioned before transitioning storage classes.",
+            "Transitioning objects may involve additional data transfer costs."
+        ],
+        "answer": 4,
+        "tags": "s3"
+    },
+    {
+        "question": "What information is logged when S3 server access logging is enabled for a bucket?",
+        "options": [
+            "HTTP request headers only.",
+            "Requester's IP address and the requested object's version ID.",
+            "Object content and metadata.",
+            "AWS credentials used for the request."
+        ],
+        "answer": 2,
+        "tags": "s3"
+    },
+    {
+        "question": "What is a key difference between Amazon S3 Batch Operations and AWS Lambda for processing objects in S3 buckets?",
+        "options": [
+            "S3 Batch Operations can process objects in parallel, while AWS Lambda processes objects sequentially.",
+            "AWS Lambda provides a graphical user interface for batch processing, while S3 Batch Operations uses a command-line interface.",
+            "AWS Lambda is designed for real-time processing, while S3 Batch Operations is for asynchronous batch processing.",
+            "S3 Batch Operations is only available for objects stored in the Glacier storage class."
+        ],
+        "answer": 3,
+        "tags": "s3"
+    },
+    {
+        "question": "When replicating objects between S3 buckets using S3 Same-Region Replication (SRR), what happens to the metadata of the replicated objects?",
+        "options": [
+            "Metadata is not replicated; only object content is replicated.",
+            "Metadata is replicated along with object content.",
+            "Metadata is cleared in the destination bucket.",
+            "Metadata is encrypted before replication."
+        ],
+        "answer": 1,
+        "tags": "s3"
+    },
+    {
+        "question": "Can Amazon S3 event notifications be configured for objects transitioning to the Glacier storage class?",
+        "options": [
+            "Yes, event notifications can be configured for all storage class transitions.",
+            "No, event notifications are not supported for Glacier storage class transitions.",
+            "Event notifications for Glacier are only available in specific AWS regions.",
+            "Event notifications can only be triggered by objects stored in the Standard storage class."
+        ],
+        "answer": 2,
+        "tags": "s3"
+    },
+    {
+        "question": "How can S3 object tagging be used in conjunction with S3 lifecycle policies?",
+        "options": [
+            "Object tagging has no impact on S3 lifecycle policies.",
+            "Tags are automatically applied to objects during lifecycle transitions.",
+            "Tags can be used as criteria for defining lifecycle transitions in S3.",
+            "Objects with tags cannot be transitioned between storage classes."
+        ],
+        "answer": 3,
+        "tags": "s3"
+    },
+    {
+        "question": "What happens if an error occurs during the processing of objects using Amazon S3 Batch Operations?",
+        "options": [
+            "Errors are ignored, and processing continues for other objects.",
+            "All processed objects are rolled back, and the entire batch is retried.",
+            "Errors are logged, and processing continues for other objects.",
+            "The entire batch operation is terminated, and no objects are processed."
+        ],
+        "answer": 3,
+        "tags": "s3"
+    },
+    {
+        "question": "Does Amazon S3 Transfer Acceleration use caching to improve performance?",
+        "options": [
+            "Yes, caching is used for all objects in the bucket.",
+            "No, caching is not applicable to S3 Transfer Acceleration.",
+            "Caching is optional and must be configured separately for each object.",
+            "Caching is only applicable for objects in the Glacier storage class."
+        ],
+        "answer": 2,
+        "tags": "s3"
+    },
+    {
+        "question": "When an object is copied within the same S3 bucket, can an event notification be triggered?",
+        "options": [
+            "Yes, event notifications are triggered for all object copies.",
+            "No, event notifications are not supported for intra-bucket copies.",
+            "Event notifications are triggered only for cross-bucket copies.",
+            "Event notifications can be triggered only for large objects (>1 GB)."
+        ],
+        "answer": 1,
+        "tags": "s3"
+    },
+    {
+        "question": "Is versioning required on an S3 bucket to enable cross-region replication (CRR)?",
+        "options": [
+            "Yes, versioning must be enabled on both source and destination buckets.",
+            "No, versioning is not required for cross-region replication.",
+            "Versioning is required only for the source bucket.",
+            "Versioning is required only for the destination bucket."
+        ],
+        "answer": 1,
+        "tags": "s3"
+    },
+    {
+        "question": "Which file formats are supported by Amazon S3 Select for querying objects?",
+        "options": [
+            "Only JSON and XML formats are supported.",
+            "CSV, JSON, and Parquet formats are supported.",
+            "Only CSV and XML formats are supported.",
+            "S3 Select does not support querying objects; it is used for compression only."
+        ],
+        "answer": 2,
+        "tags": "s3"
+    },
+    {
+        "question": "For large objects (> 100 MB), which Amazon S3 storage class is often recommended for cost optimization?",
+        "options": [
+            "Standard",
+            "Intelligent-Tiering",
+            "One Zone-IA",
+            "Glacier"
+        ],
+        "answer": 3,
+        "tags": "s3"
+    },
+    {
+        "question": "What is the typical retrieval time for objects stored in the Amazon S3 Glacier storage class?",
+        "options": [
+            "Immediate retrieval",
+            "1-5 minutes",
+            "3-5 hours",
+            "12-48 hours"
+        ],
+        "answer": 4,
+        "tags": "s3"
+    },
+    {
+        "question": "Can Amazon S3 event notifications be configured to trigger based on a specific object prefix in a bucket?",
+        "options": [
+            "Yes, event notifications can be triggered based on any object prefix.",
+            "No, event notifications are not supported for object prefixes.",
+            "Event notifications can only be triggered based on the root prefix.",
+            "Object prefixes are only relevant for S3 lifecycle policies, not event notifications."
+        ],
+        "answer": 1,
+        "tags": "s3"
+    },
+    {
+        "question": "What is a key difference between Amazon S3 Object Lock and S3 versioning?",
+        "options": [
+            "Object Lock provides versioning automatically.",
+            "Versioning prevents the deletion of objects for a specified retention period.",
+            "Object Lock does not support versioning.",
+            "Versioning is only applicable to the Standard storage class."
+        ],
+        "answer": 3,
+        "tags": "s3"
+    },
+    {
+        "question": "Is Amazon S3 Transfer Acceleration supported in all AWS regions?",
+        "options": [
+            "Yes, it is available in all AWS regions.",
+            "No, it is only available in specific regions.",
+            "It is available in all regions except the AWS GovCloud (US) region.",
+            "It is available only for regions with low-latency access."
+        ],
+        "answer": 1,
+        "tags": "s3"
+    },
+    {
+        "question": "How does Amazon S3 Intelligent-Tiering automatically provide cost savings?",
+        "options": [
+            "It automatically moves objects between access tiers based on access frequency.",
+            "It reduces storage costs by compressing objects.",
+            "It shifts data to Glacier for long-term archiving.",
+            "It automatically applies object tags to reduce storage costs."
+        ],
+        "answer": 1,
+        "tags": "s3"
+    },
+    {
+        "question": "Can custom endpoint URLs be used with Amazon S3 Transfer Acceleration?",
+        "options": [
+            "Yes, any custom endpoint can be used.",
+            "No, only the standard endpoint format is supported.",
+            "Custom endpoints are only supported for S3 Glacier.",
+            "Custom endpoints are used for S3 Batch Operations, not Transfer Acceleration."
+        ],
+        "answer": 2,
+        "tags": "s3"
+    },
+    {
+        "question": "When setting a retention period on an object using Amazon S3 Object Lock, can the retention period be shortened?",
+        "options": [
+            "Yes, it can be shortened at any time.",
+            "No, once set, the retention period cannot be shortened.",
+            "It can be shortened only by contacting AWS Support.",
+            "Shortening the retention period requires enabling versioning on the bucket."
+        ],
+        "answer": 2,
+        "tags": "s3"
+    },
+    {
+        "question": "What is the purpose of enabling legal hold on an S3 object using Object Lock?",
+        "options": [
+            "To prevent access to the object for a specified period.",
+            "To automatically archive the object to Amazon Glacier.",
+            "To classify the object based on content.",
+            "To preserve the object in its current state and prevent deletion."
+        ],
+        "answer": 4,
+        "tags": "s3"
+    },
+    {
+        "question": "How does Amazon S3 Batch Operations handle errors during the processing of objects?",
+        "options": [
+            "Errors are ignored, and processing continues for other objects.",
+            "All processed objects are rolled back, and the entire batch is retried.",
+            "Errors are logged, and processing continues for other objects.",
+            "The entire batch operation is terminated, and no objects are processed."
+        ],
+        "answer": 3,
+        "tags": "s3"
+    },
+    {
+        "question": "What is the maximum size of an Amazon EBS volume?",
+        "options": [
+            "1 TB",
+            "2 TB",
+            "16 TB",
+            "32 TB"
+        ],
+        "answer": 4,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "Which EBS volume type provides the lowest-latency performance?",
+        "options": [
+            "General Purpose (gp2)",
+            "Provisioned IOPS (io1)",
+            "Throughput Optimized HDD (st1)",
+            "Cold HDD (sc1)"
+        ],
+        "answer": 2,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "What is the maximum throughput for an EBS volume?",
+        "options": [
+            "250 MB/s",
+            "500 MB/s",
+            "1000 MB/s",
+            "2000 MB/s"
+        ],
+        "answer": 4,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "Which of the following is a valid use case for Amazon EBS Snapshots?",
+        "options": [
+            "Real-time data processing",
+            "Incremental backups",
+            "Live migration of instances",
+            "Static website hosting"
+        ],
+        "answer": 2,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "In which Availability Zone are Amazon EBS volumes replicated to ensure durability?",
+        "options": [
+            "Same Availability Zone",
+            "Cross-Availability Zone",
+            "Different AWS Region",
+            "Global replication"
+        ],
+        "answer": 2,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "Which EBS volume type is suitable for large, sequential workloads with high throughput?",
+        "options": [
+            "General Purpose (gp2)",
+            "Provisioned IOPS (io1)",
+            "Throughput Optimized HDD (st1)",
+            "Cold HDD (sc1)"
+        ],
+        "answer": 3,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "What is the minimum size of an Amazon EBS volume?",
+        "options": [
+            "1 GB",
+            "5 GB",
+            "10 GB",
+            "20 GB"
+        ],
+        "answer": 1,
+        "tag": "ebs-efs",
+        "revalidate": true
+    },
+    {
+        "question": "Which of the following is a feature of Amazon EBS Multi-Attach?",
+        "options": [
+            "Replication across AWS Regions",
+            "Simultaneous attachment to multiple EC2 instances",
+            "Automatic volume resizing",
+            "Encrypted data transfer"
+        ],
+        "answer": 2,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "What does the acronym 'IOPS' stand for in the context of EBS volumes?",
+        "options": [
+            "Instances Over Provisioned Storage",
+            "Input/Output Operations Per Second",
+            "Internet of Protected Systems",
+            "Internal Object Processing Service"
+        ],
+        "answer": 2,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "Which AWS service can be used to automatically scale the provisioned capacity of Amazon EBS volumes?",
+        "options": [
+            "Amazon CloudFront",
+            "Amazon CloudWatch",
+            "AWS Auto Scaling",
+            "Amazon Route 53"
+        ],
+        "answer": 2,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "What is the default encryption status of data at rest for Amazon EBS volumes?",
+        "options": [
+            "Unencrypted",
+            "AES-128",
+            "AES-256",
+            "RSA-2048"
+        ],
+        "answer": 1,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "What is the maximum number of Amazon EBS volumes that can be attached to a single EC2 instance?",
+        "options": [
+            "5GB",
+            "10GB",
+            "15GB",
+            "20GB"
+        ],
+        "answer": 3,
+        "tag": "ebs-efs",
+        "revalidate": true
+    },
+    {
+        "question": "Which Amazon EBS volume type is designed for infrequently accessed data that can be recreated if lost?",
+        "options": [
+            "General Purpose (gp2)",
+            "Provisioned IOPS (io1)",
+            "Throughput Optimized HDD (st1)",
+            "Cold HDD (sc1)"
+        ],
+        "answer": 4,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "In the context of Amazon EBS, what does the term 'snapshot' refer to?",
+        "options": [
+            "A point-in-time copy of an EBS volume",
+            "Real-time performance metrics",
+            "Data transfer speed",
+            "High availability configuration"
+        ],
+        "answer": 1,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "What is the maximum IOPS (Input/Output Operations Per Second) limit for the General Purpose (gp2) EBS volume type?",
+        "options": [
+            "3000 IOPS",
+            "5000 IOPS",
+            "10000 IOPS",
+            "20000 IOPS"
+        ],
+        "answer": 3,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "Which Amazon EBS volume type provides the lowest cost per gigabyte?",
+        "options": [
+            "General Purpose (gp2)",
+            "Provisioned IOPS (io1)",
+            "Throughput Optimized HDD (st1)",
+            "Cold HDD (sc1)"
+        ],
+        "answer": 4,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "What is the purpose of Amazon EBS Elastic Volumes?",
+        "options": [
+            "Automatic data encryption",
+            "Dynamic resizing of EBS volumes",
+            "Cross-Availability Zone replication",
+            "Global replication"
+        ],
+        "answer": 2,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "Which AWS CLI command is used to create a snapshot of an Amazon EBS volume?",
+        "options": [
+            "ec2 create-snapshot",
+            "ebs make-snapshot",
+            "snapshot create",
+            "ebs snapshot"
+        ],
+        "answer": 1,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "What is the purpose of the 'st1' volume type in Amazon EBS?",
+        "options": [
+            "Low-latency performance",
+            "High-throughput, low-cost storage",
+            "Cold storage for infrequently accessed data",
+            "Provisioned IOPS for critical workloads"
+        ],
+        "answer": 2,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "Which AWS service can be used to automatically take regular snapshots of Amazon EBS volumes?",
+        "options": [
+            "AWS Lambda",
+            "Amazon S3",
+            "Amazon CloudWatch",
+            "Amazon Data Lifecycle Manager"
+        ],
+        "answer": 4,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "What is the maximum number of snapshots that can be created for an Amazon EBS volume?",
+        "options": [
+            "10",
+            "20",
+            "50",
+            "100"
+        ],
+        "answer": 3,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "Which EBS volume type is recommended for small to medium-sized databases?",
+        "options": [
+            "General Purpose (gp2)",
+            "Provisioned IOPS (io1)",
+            "Throughput Optimized HDD (st1)",
+            "Cold HDD (sc1)"
+        ],
+        "answer": 1,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "In which situations should you use Amazon EBS Multi-Attach?",
+        "options": [
+            "Highly available databases",
+            "Elastic Load Balancer storage",
+            "Temporary storage for batch processing",
+            "Read-intensive workloads"
+        ],
+        "answer": 1,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "What is the primary purpose of the Amazon EBS Cold HDD (sc1) volume type?",
+        "options": [
+            "Low-latency performance",
+            "High-throughput, low-cost storage",
+            "Cold storage for infrequently accessed data",
+            "Provisioned IOPS for critical workloads"
+        ],
+        "answer": 3,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "Which AWS service allows you to automate the creation, retention, and deletion of EBS snapshots?",
+        "options": [
+            "AWS CloudTrail",
+            "Amazon Data Lifecycle Manager",
+            "AWS CloudFormation",
+            "Amazon Glacier"
+        ],
+        "answer": 2,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "What is the purpose of the 'gp3' EBS volume type?",
+        "options": [
+            "High-throughput, low-latency storage",
+            "Provisioned IOPS for critical workloads",
+            "Balanced performance for diverse workloads",
+            "Cold storage for infrequently accessed data"
+        ],
+        "answer": 3,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "Which AWS service can be used to monitor EBS volume metrics and set alarms based on thresholds?",
+        "options": [
+            "Amazon CloudWatch",
+            "Amazon S3",
+            "Amazon Inspector",
+            "AWS CloudTrail"
+        ],
+        "answer": 1,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "What is the purpose of the 'io2' EBS volume type?",
+        "options": [
+            "Low-latency performance",
+            "High-throughput, low-latency storage",
+            "Cold storage for infrequently accessed data",
+            "Provisioned IOPS for critical workloads"
+        ],
+        "answer": 4,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "Which EBS volume type is recommended for applications with frequent read and write operations on large datasets?",
+        "options": [
+            "General Purpose (gp2)",
+            "Provisioned IOPS (io1)",
+            "Throughput Optimized HDD (st1)",
+            "Cold HDD (sc1)"
+        ],
+        "answer": 2,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "What is the maximum throughput for an 'io2' EBS volume?",
+        "options": [
+            "1000 MB/s",
+            "2000 MB/s",
+            "4000 MB/s",
+            "8000 MB/s"
+        ],
+        "answer": 3,
+        "tag": "ebs-efs"
+    },
+    {
+        "question": "Which AWS service is designed for orchestrating and sequencing AWS Lambda functions to build serverless workflows?",
+        "options": [
+            "Amazon SNS",
+            "Amazon SQS",
+            "AWS Step Functions",
+            "Amazon EventBridge"
+        ],
+        "answer": 3,
+        "tag": "serverless"
+    },
+    {
+        "question": "In a serverless architecture, what is the primary purpose of AWS X-Ray?",
+        "options": [
+            "To monitor and analyze application logs",
+            "To track and trace requests as they traverse microservices",
+            "To perform automated security scans",
+            "To manage access control for serverless functions"
+        ],
+        "answer": 2,
+        "tag": "serverless"
+    },
+    {
+        "question": "Which AWS service allows you to run code in response to HTTP requests using serverless functions?",
+        "options": [
+            "AWS Lambda",
+            "Amazon API Gateway",
+            "AWS Step Functions",
+            "Amazon Cognito"
+        ],
+        "answer": 2,
+        "tag": "serverless"
+    },
+    {
+        "question": "In a serverless architecture, what is the purpose of AWS SAM (Serverless Application Model)?",
+        "options": [
+            "To manage and deploy Docker containers",
+            "To create and manage serverless applications",
+            "To provision virtual machines",
+            "To configure network ACLs"
+        ],
+        "answer": 2,
+        "tag": "serverless"
+    },
+    {
+        "question": "Which AWS service allows you to build and deploy serverless applications using pre-built components and templates?",
+        "options": [
+            "AWS Elastic Beanstalk",
+            "AWS Amplify",
+            "Amazon S3",
+            "Amazon CloudFront"
+        ],
+        "answer": 2,
+        "tag": "serverless"
+    },
+    {
+        "question": "In a serverless architecture, what is the primary benefit of using Amazon DynamoDB as the database service?",
+        "options": [
+            "Automated backups and snapshots",
+            "Instant scaling of compute resources",
+            "Serverless function triggers for database changes",
+            "Managed and highly scalable NoSQL database"
+        ],
+        "answer": 4,
+        "tag": "serverless"
+    },
+    {
+        "question": "Which AWS service enables you to run containerized serverless applications without the need to manage the underlying infrastructure?",
+        "options": [
+            "Amazon EKS",
+            "AWS Fargate",
+            "AWS Lambda",
+            "Amazon ECS"
+        ],
+        "answer": 2,
+        "tag": "serverless"
+    },
+    {
+        "question": "What is the purpose of AWS Lambda Layers in a serverless architecture?",
+        "options": [
+            "To manage and deploy multiple Lambda functions together",
+            "To store and version code dependencies for Lambda functions",
+            "To provide a user interface for serverless application development",
+            "To configure and manage access control for Lambda functions"
+        ],
+        "answer": 2,
+        "tag": "serverless"
+    },
+    {
+        "question": "Which AWS service is designed for building serverless real-time applications using WebSockets?",
+        "options": [
+            "AWS Lambda",
+            "Amazon API Gateway",
+            "Amazon Kinesis",
+            "Amazon DynamoDB"
+        ],
+        "answer": 2,
+        "tag": "serverless",
+        "revalidate": true
+    },
+    {
+        "question": "In a serverless architecture, what is the purpose of AWS EventBridge?",
+        "options": [
+            "To manage and visualize serverless function logs",
+            "To automate serverless function deployments",
+            "To trigger serverless functions based on events from AWS services",
+            "To provide serverless function versioning and rollback"
+        ],
+        "answer": 3,
+        "tag": "serverless"
+    },
+    {
+        "question": "In a serverless architecture, what is the purpose of AWS App Runner?",
+        "options": [
+            "To orchestrate and manage AWS Lambda functions",
+            "To automatically deploy and scale containerized applications",
+            "To analyze and visualize real-time logs from serverless functions",
+            "To provide a fully managed relational database service"
+        ],
+        "answer": 2,
+        "tag": "serverless"
+    },
+    {
+        "question": "Which AWS service allows you to deploy and manage serverless applications as microservices using containers?",
+        "options": [
+            "Amazon ECS",
+            "AWS Fargate",
+            "AWS Lambda",
+            "Amazon ECR"
+        ],
+        "answer": 1,
+        "tag": "serverless"
+    },
+    {
+        "question": "In a serverless architecture, what is the purpose of AWS SAM CLI?",
+        "options": [
+            "To manage serverless application configurations",
+            "To locally test and debug serverless applications",
+            "To automate serverless function deployments",
+            "To create and manage serverless API Gateway endpoints"
+        ],
+        "answer": 2,
+        "tag": "serverless"
+    },
+    {
+        "question": "Which AWS service allows you to build, deploy, and scale serverless applications using a continuous delivery pipeline?",
+        "options": [
+            "AWS CodePipeline",
+            "AWS CodeCommit",
+            "AWS CodeBuild",
+            "AWS CodeDeploy"
+        ],
+        "answer": 1,
+        "tag": "serverless"
+    },
+    {
+        "question": "In a serverless architecture, what is the primary purpose of AWS CDK (Cloud Development Kit)?",
+        "options": [
+            "To automate serverless function deployments",
+            "To manage and deploy Docker containers",
+            "To define infrastructure as code for serverless applications",
+            "To monitor and analyze serverless function performance"
+        ],
+        "answer": 3,
+        "tag": "serverless"
+    },
+    {
+        "question": "Which AWS service allows you to create custom workflows and automate business processes in a serverless manner?",
+        "options": [
+            "Amazon Simple Workflow Service (SWF)",
+            "AWS Step Functions",
+            "Amazon EventBridge",
+            "Amazon SNS"
+        ],
+        "answer": 2,
+        "tag": "serverless"
+    },
+    {
+        "question": "In a serverless architecture, what is the purpose of AWS Lambda Destinations?",
+        "options": [
+            "To store and version code dependencies for Lambda functions",
+            "To automate the deployment of multiple Lambda functions together",
+            "To analyze real-time logs from Lambda functions",
+            "To define the destination for the results of asynchronous Lambda function invocations"
+        ],
+        "answer": 4,
+        "tag": "serverless"
+    },
+    {
+        "question": "Which AWS service allows you to securely manage secrets, such as API keys or database credentials, in a serverless environment?",
+        "options": [
+            "AWS Secrets Manager",
+            "AWS Key Management Service (KMS)",
+            "AWS Identity and Access Management (IAM)",
+            "Amazon Cognito"
+        ],
+        "answer": 1,
+        "tag": "serverless"
+    },
+    {
+        "question": "In a serverless architecture, what is the primary benefit of using AWS Aurora Serverless for database storage?",
+        "options": [
+            "Automated backups and snapshots",
+            "Instant scaling of compute resources",
+            "Managed and highly scalable NoSQL database",
+            "Serverless function triggers for database changes"
+        ],
+        "answer": 2,
+        "tag": "serverless"
+    },
+    {
+        "question": "Which AWS service allows you to build serverless applications with real-time bidirectional communication between clients and servers using WebSockets?",
+        "options": [
+            "Amazon SNS",
+            "Amazon SQS",
+            "AWS AppSync",
+            "Amazon API Gateway"
+        ],
+        "answer": 3,
+        "tag": "serverless"
+    },
+    {
+        "question": "In a serverless architecture, what is the purpose of AWS Lambda Provisioned Concurrency?",
+        "options": [
+            "To automatically scale Lambda functions based on demand",
+            "To reserve capacity to handle predictable traffic spikes",
+            "To manage the versioning and rollback of Lambda functions",
+            "To encrypt data at rest for Lambda function storage"
+        ],
+        "answer": 2,
+        "tag": "serverless"
+    },
+    {
+        "question": "Which AWS service provides a serverless data integration service for building ETL (Extract, Transform, Load) workflows?",
+        "options": [
+            "AWS Glue",
+            "Amazon Athena",
+            "AWS Data Pipeline",
+            "Amazon Redshift"
+        ],
+        "answer": 1,
+        "tag": "serverless"
+    },
+    {
+        "question": "In a serverless architecture, what is the purpose of AWS Lambda Extensions?",
+        "options": [
+            "To provide additional functionalities and monitoring capabilities for Lambda functions",
+            "To manage the deployment lifecycle of multiple Lambda functions",
+            "To automate serverless application deployments",
+            "To create and manage serverless API Gateway endpoints"
+        ],
+        "answer": 1,
+        "tag": "serverless"
+    },
+    {
+        "question": "Which AWS service allows you to define and manage serverless event-driven architectures using a visual interface?",
+        "options": [
+            "AWS CloudFormation",
+            "Amazon EventBridge",
+            "AWS SAM CLI",
+            "AWS CloudWatch"
+        ],
+        "answer": 2,
+        "tag": "serverless"
+    },
+    {
+        "question": "In a serverless architecture, what is the primary purpose of AWS Lambda Destinations?",
+        "options": [
+            "To store and version code dependencies for Lambda functions",
+            "To automate the deployment of multiple Lambda functions together",
+            "To analyze real-time logs from Lambda functions",
+            "To define the destination for the results of asynchronous Lambda function invocations"
+        ],
+        "answer": 4,
+        "tag": "serverless"
+    },
+    {
+        "question": "Which AWS service provides a fully managed GraphQL service for building serverless applications?",
+        "options": [
+            "AWS App Runner",
+            "Amazon DynamoDB",
+            "AWS AppSync",
+            "Amazon SNS"
+        ],
+        "answer": 3,
+        "tag": "serverless"
+    },
+    {
+        "question": "In a serverless architecture, what is the primary purpose of AWS Lambda Extensions?",
+        "options": [
+            "To provide additional functionalities and monitoring capabilities for Lambda functions",
+            "To manage the deployment lifecycle of multiple Lambda functions",
+            "To automate serverless application deployments",
+            "To create and manage serverless API Gateway endpoints"
+        ],
+        "answer": 1,
+        "tag": "serverless"
+    },
+    {
+        "question": "Which AWS service allows you to build serverless applications with real-time bidirectional communication between clients and servers using WebSockets?",
+        "options": [
+            "Amazon SNS",
+            "Amazon SQS",
+            "AWS AppSync",
+            "Amazon API Gateway"
+        ],
+        "answer": 3,
+        "tag": "serverless"
+    },
+    {
+        "question": "In a serverless architecture, what is the purpose of AWS CloudWatch Alarms?",
+        "options": [
+            "To analyze real-time logs from Lambda functions",
+            "To monitor and set thresholds for cloud resources and send notifications",
+            "To manage and deploy Docker containers",
+            "To store and version code dependencies for Lambda functions"
+        ],
+        "answer": 2,
+        "tag": "serverless"
+    },
+    {
+        "question": "Which AWS service enables you to create a serverless data lake to analyze and visualize large amounts of data?",
+        "options": [
+            "Amazon QuickSight",
+            "AWS Glue",
+            "Amazon Athena",
+            "Amazon Redshift"
+        ],
+        "answer": 2,
+        "tag": "serverless"
+    },
+    {
+        "question": "Scenario: A global e-commerce company is planning to build a new product recommendation engine for its website. The engine should dynamically update recommendations based on user behavior and preferences. What AWS services and features would you recommend for building this serverless recommendation engine?",
+        "options": [
+            "Amazon DynamoDB, AWS Lambda, and Amazon S3",
+            "Amazon RDS, AWS Fargate, and Amazon EFS",
+            "Amazon SQS, AWS App Runner, and AWS X-Ray",
+            "Amazon Kinesis, AWS Step Functions, and AWS Lambda"
+        ],
+        "answer": 4,
+        "tag": "serverless"
+    },
+    {
+        "question": "Scenario: A media streaming company wants to implement a serverless architecture for processing and analyzing viewer data in real-time. The system should scale automatically based on demand and support near real-time analytics. What AWS services and features would you recommend for this scenario?",
+        "options": [
+            "Amazon EC2, AWS Lambda, and Amazon S3",
+            "Amazon Kinesis, AWS Glue, and Amazon Redshift",
+            "AWS AppSync, Amazon RDS, and Amazon CloudFront",
+            "Amazon SQS, AWS Lambda, and AWS Step Functions"
+        ],
+        "answer": 2,
+        "tag": "serverless"
+    },
+    {
+        "question": "Scenario: A financial services company is building a serverless application for processing and analyzing financial transactions. The application must comply with strict regulatory requirements for data privacy and security. What AWS services and features would you recommend to ensure compliance in this serverless architecture?",
+        "options": [
+            "AWS Key Management Service (KMS), AWS Secrets Manager, and AWS CloudTrail",
+            "Amazon RDS, Amazon S3, and AWS Lambda",
+            "AWS Identity and Access Management (IAM), AWS WAF, and Amazon VPC",
+            "Amazon API Gateway, AWS AppSync, and Amazon CloudWatch"
+        ],
+        "answer": 1,
+        "tag": "serverless"
+    },
+    {
+        "question": "Scenario: A logistics company is developing a serverless application for tracking and optimizing the delivery routes of its fleet. The application should integrate with IoT devices on each vehicle to collect real-time location data. What AWS services and features would you recommend for building this serverless logistics application?",
+        "options": [
+            "Amazon DynamoDB, AWS Step Functions, and AWS Lambda",
+            "Amazon Kinesis, Amazon S3, and AWS Glue",
+            "Amazon SQS, AWS Lambda, and Amazon RDS",
+            "AWS IoT Core, AWS Lambda, and Amazon Location Service"
+        ],
+        "answer": 4,
+        "tag": "serverless"
+    },
+    {
+        "question": "Scenario: A healthcare organization is building a serverless telemedicine platform that requires secure and compliant storage of patient data. The platform should also support real-time video consultations between doctors and patients. What AWS services and features would you recommend for this serverless healthcare application?",
+        "options": [
+            "AWS Key Management Service (KMS), Amazon DynamoDB, and AWS Lambda",
+            "Amazon RDS, Amazon S3, and AWS Elastic Beanstalk",
+            "Amazon Connect, Amazon SNS, and Amazon Polly",
+            "Amazon Glacier, AWS Step Functions, and AWS AppSync"
+        ],
+        "answer": 1,
+        "tag": "serverless"
+    },
+    {
+        "question": "Scenario: An e-learning company wants to build a serverless platform for hosting and delivering video courses. The platform should provide on-demand access to course content, support user authentication, and scale automatically based on demand. What AWS services and features would you recommend for this serverless e-learning platform?",
+        "options": [
+            "Amazon S3, Amazon CloudFront, and AWS Lambda",
+            "Amazon RDS, Amazon EC2, and AWS App Runner",
+            "AWS Identity and Access Management (IAM), Amazon Kinesis, and AWS Glue",
+            "AWS Step Functions, Amazon SNS, and Amazon SES"
+        ],
+        "answer": 1,
+        "tag": "serverless"
+    },
+    {
+        "question": "Scenario: A social media company is developing a serverless application for processing and analyzing user-generated content, such as images and videos. The application should provide real-time insights and support content moderation. What AWS services and features would you recommend for building this serverless social media application?",
+        "options": [
+            "Amazon Rekognition, Amazon S3, and AWS Lambda",
+            "Amazon Elastic Transcoder, AWS Glue, and AWS Step Functions",
+            "Amazon EC2, Amazon RDS, and AWS App Runner",
+            "AWS Identity and Access Management (IAM), Amazon Kinesis, and Amazon DynamoDB"
+        ],
+        "answer": 1,
+        "tag": "serverless"
+    },
+    {
+        "question": "Scenario: A gaming company is developing a serverless multiplayer game that requires real-time communication between players. The game must scale to handle a large number of concurrent players and minimize latency. What AWS services and features would you recommend for building this serverless multiplayer game?",
+        "options": [
+            "Amazon S3, AWS Lambda, and Amazon RDS",
+            "Amazon Kinesis, Amazon DynamoDB, and AWS AppSync",
+            "AWS Lambda, Amazon API Gateway, and AWS Identity and Access Management (IAM)",
+            "Amazon CloudFront, Amazon SNS, and AWS Elastic Beanstalk"
+        ],
+        "answer": 2,
+        "tag": "serverless"
+    },
+    {
+        "question": "Scenario: An online retail company is building a serverless application for order processing and fulfillment. The application should handle spikes in traffic during sales events and ensure reliable order processing. What AWS services and features would you recommend for building this serverless e-commerce application?",
+        "options": [
+            "Amazon S3, AWS Lambda, and AWS Step Functions",
+            "Amazon RDS, Amazon EC2, and Amazon EBS",
+            "Amazon SQS, AWS Elastic Beanstalk, and AWS CloudFront",
+            "AWS App Runner, Amazon DynamoDB, and AWS Kinesis"
+        ],
+        "answer": 1,
+        "tag": "serverless"
+    },
+    {
+        "question": "Scenario: A travel booking platform is developing a serverless application for handling reservations and payments. The application should be highly available, scale dynamically, and integrate with external payment gateways. What AWS services and features would you recommend for building this serverless travel booking application?",
+        "options": [
+            "AWS Lambda, Amazon DynamoDB, and AWS AppSync",
+            "Amazon RDS, AWS Step Functions, and Amazon SNS",
+            "Amazon SQS, AWS Elastic Beanstalk, and AWS Kinesis",
+            "Amazon S3, Amazon CloudFront, and Amazon Rekognition"
+        ],
+        "answer": 1,
+        "tag": "serverless"
     }
-  ]
-  
+]

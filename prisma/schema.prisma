@@ -10,12 +10,21 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model Company{
+  id Int @id @default(autoincrement())
+  name String
+  questions Question[]
+}
+
 
 model Question {
   id Int @id @default(autoincrement())
   question String
   options String
   answer String
-  tag String
+  tag String?
   type String
+  revalidate Boolean
+  company_id Int?
+  company Company? @relation(fields: [company_id], references: [id])
 }

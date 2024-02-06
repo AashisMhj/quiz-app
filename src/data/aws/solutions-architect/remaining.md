@@ -1,0 +1,5 @@
+- IAM
+- AI/ML
+- EC2
+- Analytics
+- Database
