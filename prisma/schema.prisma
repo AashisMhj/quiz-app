@@ -13,6 +13,13 @@ datasource db {
 model Company{
   id Int @id @default(autoincrement())
   name String
+  image String
+  questions Question[]
+}
+
+model Tag{
+  id Int @id @default(autoincrement())
+  tag_name String
   questions Question[]
 }
 
@@ -22,9 +29,10 @@ model Question {
   question String
   options String
   answer String
-  tag String?
   type String
-  revalidate Boolean
+  revalidate Boolean @default(false)
+  tag_id Int?
+  tag Tag? @relation(fields: [tag_id], references: [id])
   company_id Int?
   company Company? @relation(fields: [company_id], references: [id])
 }
