@@ -8,6 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        "app-light-green": "var(--light-green)",
+        "app-green": "var(--green)",
+        "app-red": "var(--red)",
+        "app-blue": "var(--blue)",
+        "app-dark-blue": "var(--dark-blue)",
+        "app-light-blue": "var(--light-blue)"
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
