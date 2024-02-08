@@ -13,7 +13,6 @@ export async function GET(request:NextRequest){
             questions
         })
     } catch (error) {
-        console.log(error);
         return NextResponse.json({
             msg: 'Server Error'
         }, {status: 500})

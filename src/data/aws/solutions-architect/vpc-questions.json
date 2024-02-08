@@ -1,0 +1,201 @@
+[
+    {
+        "question": "What is the primary purpose of Amazon VPC?",
+        "options": [
+            "A. To manage server instances",
+            "B. To create virtual machines",
+            "C. To provide a logically isolated section of the AWS Cloud",
+            "D. To deploy containerized applications"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "Which component allows instances in a VPC to communicate directly with the internet?",
+        "options": [
+            "A. NAT Gateway",
+            "B. Subnet",
+            "C. Internet Gateway",
+            "D. Security Group"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "What is the purpose of a Security Group in Amazon VPC?",
+        "options": [
+            "A. To manage DNS settings",
+            "B. To control inbound and outbound traffic to instances",
+            "C. To create VPN connections",
+            "D. To allocate IP addresses"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Which service simplifies network connectivity between multiple VPCs and on-premises networks?",
+        "options": [
+            "A. VPC Peering",
+            "B. Elastic Load Balancing",
+            "C. Transit Gateway",
+            "D. Direct Connect"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "What does a Network Access Control List (NACL) control in Amazon VPC?",
+        "options": [
+            "A. Outbound traffic only",
+            "B. Inbound traffic only",
+            "C. Both inbound and outbound traffic",
+            "D. DNS resolution"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "Which AWS service allows you to capture information about IP traffic in your VPC?",
+        "options": [
+            "A. CloudTrail",
+            "B. CloudWatch",
+            "C. VPC Flow Logs",
+            "D. Elastic Load Balancing"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "What is the primary purpose of Elastic Load Balancing (ELB) in Amazon VPC?",
+        "options": [
+            "A. To manage security groups",
+            "B. To control network access",
+            "C. To distribute incoming application traffic across multiple targets",
+            "D. To allocate IP addresses"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "Which AWS service allows private connectivity between VPCs and supported AWS services without traversing the internet?",
+        "options": [
+            "A. VPN Connection",
+            "B. VPC Peering",
+            "C. Direct Connect",
+            "D. VPC Endpoints"
+        ],
+        "answer": "D"
+    },
+    {
+        "question": "What is the purpose of Elastic IP addresses (EIP) in Amazon VPC?",
+        "options": [
+            "A. To allocate public IP addresses to instances",
+            "B. To provide internal IP addresses to instances",
+            "C. To manage DNS settings",
+            "D. To create VPN connections"
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "Which option helps in enabling instances in private subnets to initiate outbound traffic to the internet in Amazon VPC?",
+        "options": [
+            "A. Security Group",
+            "B. Internet Gateway",
+            "C. NAT Gateway or NAT Instance",
+            "D. VPC Peering"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "What is the primary role of AWS Transit Gateway in a network architecture?",
+        "options": [
+            "A. Manage server instances",
+            "B. Centralize network connectivity for VPCs and on-premises networks",
+            "C. Distribute incoming application traffic across multiple targets",
+            "D. Control inbound and outbound traffic to instances"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Which architecture does AWS Transit Gateway follow?",
+        "options": [
+            "A. Point-to-Point",
+            "B. Hub-and-Spoke",
+            "C. Star Topology",
+            "D. Mesh"
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "What is the purpose of a Transit Gateway route table?",
+        "options": [
+            "A. Manage DNS settings",
+            "B. Control security group rules",
+            "C. Determine how network traffic is directed between attached networks",
+            "D. Allocate Elastic IP addresses"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "How does Transit Gateway support inter-region connectivity?",
+        "options": [
+            "A. Through VPC peering",
+            "B. Using AWS Direct Connect",
+            "C. With VPN connections",
+            "D. Via inter-region peering"
+        ],
+        "answer": "D"
+    },
+    {
+        "question": "What integration does AWS Transit Gateway have with AWS Global Accelerator?",
+        "options": [
+            "A. Dynamic routing",
+            "B. Resource Sharing",
+            "C. Load balancing",
+            "D. Anycast IP address"
+        ]
+    },
+    {
+        "question": "Scenario: A company is planning to migrate its on-premises data center to AWS. The architecture involves multiple VPCs for different business units, and there is a requirement for secure communication between VPCs. Which AWS service should be used to achieve this requirement?",
+        "options": [
+            "A. AWS Direct Connect",
+            "B. AWS VPN Connection",
+            "C. VPC Peering",
+            "D. AWS Transit Gateway"
+        ],
+        "answer": "D"
+    },
+    {
+        "question": "Scenario: An application in a VPC requires access to a public S3 bucket. However, the VPC has a strict outbound security policy, and internet access for instances is restricted. How can you provide the necessary access to the S3 bucket while maintaining security best practices?",
+        "options": [
+            "A. Use an Internet Gateway and configure a route in the route table.",
+            "B. Configure a VPC Endpoint for S3 in the route table.",
+            "C. Attach an Elastic IP address to the instances.",
+            "D. Create a VPC Peering connection with the S3 VPC."
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Scenario: A Solutions Architect is designing a highly available and fault-tolerant architecture in AWS. The requirement is to ensure that instances in a VPC can automatically recover in case of an Availability Zone failure. What design considerations should the architect keep in mind?",
+        "options": [
+            "A. Use multiple Internet Gateways for redundancy.",
+            "B. Distribute instances across multiple subnets in different Availability Zones.",
+            "C. Implement VPC Peering connections for failover.",
+            "D. Configure multiple NAT Gateways for high availability."
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "Scenario: A company has multiple business-critical applications running in different VPCs. The Security team wants to enforce consistent security policies across all VPCs. What AWS service or feature should be utilized to achieve centralized security management?",
+        "options": [
+            "A. Security Groups",
+            "B. Network ACLs",
+            "C. AWS Organizations",
+            "D. AWS Config"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "Scenario: An e-commerce application has a public-facing web server in a VPC. The web server needs to securely access a database server located in a different VPC. What is the recommended approach to establish secure communication between the web server and the database server?",
+        "options": [
+            "A. Use VPC Peering connections.",
+            "B. Configure a VPN Connection.",
+            "C. Utilize Direct Connect.",
+            "D. Implement Security Groups and Network ACLs."
+        ],
+        "answer": "A"
+    }
+]

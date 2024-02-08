@@ -21,7 +21,6 @@ export async function POST(request:NextRequest, {params}:{params:{question_id:st
             }, {status: 404})
         }
         // TODO check answer and increment value in session
-        console.log(answer.answer);
         return NextResponse.json({
             answer: JSON.parse(answer.answer)
         });

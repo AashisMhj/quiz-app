@@ -6,8 +6,8 @@ export type QuestionType = {
 }
 
 export type CardDataType = {
-    label: string,
-    link: string,
+    name: string,
+    id: number,
     image: string,
-    color?: string
+    color?: string | null
 }

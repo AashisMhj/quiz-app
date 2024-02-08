@@ -1,0 +1,630 @@
+[
+    {
+        "question": "You are designing a new application for a social media gaming company and they want to be able to use people's facebook account to login and to sign up to the new app. They'v asked that you use Cognito to achieve this. However, management wants to know the steps involved for user authentication. Which of the steps below is the correct order to authenticate with Cognito?",
+        "options": [
+            "Step 1 - Access AWS services using credentials. Step 2 - Exchange tokens and get AWS credentials. Step 3 Authenticate and get tokens.",
+            "Step 1 - Authenticate and get tokens. Step 2 - Exchange tokens and get AWS credentials. Step 3 - Access AWS services using credentials.",
+            "Step 1 - Exchange tokens and get AWS credentials. Step 2 - Authenticate and get tokens. Step 3 - Access AWS services using credentials.",
+            "Step 1 - Exchange tokens and get AWS credentials. Step 2 - Access AWS services using credentials. Step 3 - Authenticate and get tokens"
+        ],
+        "answer": 2,
+        "tags": ["cognito"]
+    },
+    {
+        "question": "An Application Load Balancer is fronting an Auto Scaling Group of EC2 instance, and the instances are backed by an RDS database. The Auto Scaling Group has been configured to use the Default Termination Policy. You are testing the Auto Scaling Group and have triggered a scale-in. Which instance will be terminated first?",
+        "options": [
+            "The instance for which the load balancer stops sending traffic.",
+            "The Auto Scaling Group will randomly select an instance to terminate.",
+            "The longest running instance",
+            "The instance launched from the oldest launch configuration."
+        ],
+        "answer": 3,
+        "tags": ["high-availability-scaling"]
+    },
+    {
+        "question": "You are evaluating the security setting withing the main company VPC. The are several NACLs and security groups to evaluate and possibly edit. What is true regarding NACLs and security groups?",
+        "options": [
+            "Network ACLs and security groups are both stateful.",
+            "Network ACLs and security groups are both stateless.",
+            "Network ACLs are stateful, and security groups are stateless.",
+            "Network ACLs are stateless, and security groups are stateful."
+        ],
+        "answer": 4,
+        "tags": ["vpc"]
+    },
+    {
+        "question": "The AWS is a large company is spending much of their time monitoring EC2 instances for health check failures. When a health check failure occurs, they manually reboot the EC2 instance to return it to service. There is a company initiative to reduce manual tasks. You have been asked to see if there is a way in AWS for this to be automated. How can you most efficiently automate this monitoring and repair process? ",
+        "options": [
+            "Create a Lambda function that can be triggered by a failed instance health check. Have the Lambda function deploy a CloudFormation template which can perform the creation of a new instance.",
+            "Create a Lambda function that can be triggered by a failed instance health check. Have the Lambda function destroy the instance and spin up a new instance.",
+            "Create an Amazon CloudWatch alarm that monitors an Amazon EC2 instance and automatically reboots the instance if a health check fails.",
+            "Create a cron job that monitors the instances periodically and start a new instances if a health check has failed"
+        ],
+        "answer": 20,
+        "tags": ["automation"]
+    },
+    {
+        "question": "A company needs to deploy EC2 instances to handle overnight batch processing. This includes media transcoding and some voice to text transcription. This is not high priority work, and it is OK if these batch runs get interrupted. What is the best EC2 instance purchasing option for this work?",
+        "options": [
+            "Spot",
+            "Reserved",
+            "Dedicated Hosts",
+            "On-Demand"
+        ],
+        "answer": 1,
+        "tags": ["ec2"]
+    },
+    {
+        "question": "You work for a Defense contracting company. The company develops software applications which perform intensive calculations in the area of Mechanical Engineering related to metals for ship building. You have a 3 year contract and decide to purchase reserved EC2 instances for a 3-year duration. You are informed that the particular program has been cancelled abruptly and negotiations have brought the contract to an amicable conclusion one year early. What can you do to stop incurring charges and save money on the EC2 instances?",
+        "options": [
+            "Change the instance states from running to stopped",
+            "Convert the instance to Spot Instances and alow them to go through attrition.",
+            "Sell the reserved instances on the Reserved Instance Marketplace.",
+            "Write to AWS and ask to terminate the contract."
+        ],
+        "answer": 30,
+        "tags": ["ec2"]
+    },
+    {
+        "question": "You are managing data store for your company, and there are many EBS volumes. Your management team has given you some requirements. Certain metrics on the EBS volumes need to be monitored, and the database team needs to be notified by email when certain metric thresholds are exceeded. Which AWS services can be configured to meet these requirements?",
+        "options": [
+            "SQS",
+            "SWF",
+            "SNS",
+            "SES",
+            "CloudWatch"
+        ],
+        "answer": [5, 3],
+        "tags": ["automation"]
+    },
+    {
+        "question": "A gaming company is designing several new games which focus heavily on player-game interaction. The player makes a certain move and the game has to react very quickly to change the environment based on that move and to present the next decision for the player in real-timer. A tool is needed to continuously collect data about player-game interactions and feed the data into the gaming platform in real-time. Which service can best meet this need?",
+        "options": [
+            "Kinesis Data Streams",
+            "Kinesis Data Analytics",
+            "AWS Lambda",
+            "AWS IoT"
+        ],
+        "answer": 1,
+        "tags": ["big-data"]
+    },
+    {
+        "question": "After an IT Steering Committee meeting, you have been put in charge of configuring a hybrid environment for the company's compute resources. You weight the pros and cons of various technologies based on the requirements you are given. The decision you make is to go with Direct Connect. Which option best describes the features Direct Connect provides?",
+        "options": [
+            "A connection between on-premises and VPC, using secure and private connection with IPsec and TLS",
+            "A private, dedicated network connection between your facilities and AWS",
+            "Connect remote branch offices in a hub-and-spoke model for primary or backup connectivity",
+            "A network connection between to VPCs that can route traffic using IPv4 or IPv6"
+        ],
+        "answer": 2,
+        "tags": ["vpc"]
+    },
+    {
+        "question": "After being assigned to oversee the data storage within your organization, you begin looking at the monthly billing for S3. You notice that large amounts of data are sitting in S3, and after discussions with team members you find that a large amount of data is historical data that needs to be kept for audit purposes. You detail the cost saving and get approval to move this data to Amazon Glacier for long-term storage. For what types of data is Glacier best suited?",
+        "options": [
+            "Infrequently accessed data",
+            "Cached data",
+            "Archived data",
+            "Relational table data"
+        ],
+        "answer": [2,3],
+        "tags": ["s3"]
+    },
+    {
+        "question": "Due to strict compliance requirements, cannot leverage AWS cloud for hosting their Kubernetes clusters, nor for managing the clusters. However, they do want to try to follow the established best practices and processes that the Amazon EKS service has implemented. How can your company achieve this while running entirely on-premises?",
+        "options": [
+            "Run Amazon EKS",
+            "Run the clusters on-premises using Amazon EKS Distro",
+            "This cannot be done",
+            "Run Amazon ECS anywhere"
+        ],
+        "answer": [2],
+        "tags": ["serverless-architecture"]
+    },
+    {
+        "question": "A financial tech company has decided to begin migrating their applications to the AWS cloud. Currently, they host their entire application using several self-managed Kubernetes clusters. One of their major concerns during this migration is monitoring and collecting system metrics due to the very large-scale deployments that are in place. Your Chief Technology Officer has requested the use of open-source technologies for this implementation but has also stipulated that, with the current workload of the team, the ability to manage the monitoring environment needs to be low-maintenance. Which combination of the following AWS services would best fit the company requirements while minimizing operational overhead?",
+        "options": [
+            "Prometheus on Auto Scaling EC2 Instances",
+            "Grafana on Auto Scaling EC2 Instances",
+            "AWS Config",
+            "AWS Managed Grafana",
+            "AWS Manged Service for Prometheus"
+        ],
+        "answer": [4,5],
+        "tags": ["serverless-architecture"]
+    },
+    {
+        "question": "You have recently migrated your small company to AWS and are looking for some general best practice guidance within the platform. Which AWS service can help you optimize your AWS environment by giving recommendations to reduce cost, increase performance, and improve security?",
+        "options": [
+            "AWS Organizations",
+            "AWS Optimizations",
+            "AWS Inspector",
+            "AWS Trusted Advisor"
+        ],
+        "answer": 4,
+        "tags": []
+    },
+    {
+        "question": "You have been evaluating the NACLs in your company. Currently, you are looking at the default network ACL. Which statement is true about NACLs?",
+        "options": [
+            "The default configuration of the default NACL is Deny, and the default configuration of a custom NACL is Allow.",
+            "The default configuration of the default NACL is Deny, and the default configuration of a custom NACL is Deny.",
+            "The default configuration of the default NACL is Allow, and the default configuration of a custom NACL is Deny.",
+            "The default configuration of the default NACL is Allow the default configuration of a custom NACL is Allow."
+        ],
+        "answer": 4,
+        "tags": ["vpc"]
+    },
+    {
+        "question": "A software company has developed a social gaming application that leverage EC2 web servers with Amazon DynamoDB to store player data, session history, and leader boards for a huge number fo concurrent users. The DynamoDB table has pre-configured read and write capacity units. Users have been reporting slowdown issues, and an analysis has revealed that the application requires response times in microseconds for optimal performance. What step can you take to enable this application to handle read-heavy or bursty workloads, while delivering the fastest possible response time for eventually consistent read operations?",
+        "options": [
+            "Configure Amazon SQS to queue requests that could be lost and improve the application response time.",
+            "Add a load balancer in front of the EC2 web servers to decouple your application requests synchronously, improving performance for read-heavy and bursty workloads.",
+            "Deploy Amazon CLoudFront to your architecture, so you can cache common Amazon DynamoDB and reduce response time to microseconds.",
+            "Implement in-memory acceleration with DynamoDB Accelerator (DAX)"
+        ],
+        "answer": 4,
+        "tags": ["database"]
+    },
+    {
+        "question": "You have been evaluating the NACLs in your company. Most of the NACLs are configured the same: \n 100 All Traffic Allow \n 200 All Traffic Deny \n * All Traffic Deny \n ",
+        "options": [
+            "The request will be allowed.",
+            "The default will be deny traffic.",
+            "The highest numbered rule will be used, a deny.",
+            "All rules will be evaluated and the end result will be Deny."
+        ],
+        "answer": 1,
+        "tags": ["vpc"]
+    },
+    {
+        "question": "An application team has decided to leverage AWS for their application infrastructure. The application performs proprietary, internal processes that other business applications utilize for their daily workloads. It is built with Apache Kafka to handle real-time streaming, which virtual machines running the application in the docker containers consume the data from. The team wants to leverage services that provide less overhead but also cause the least amount of disruption to coding and deployments. Which combination of AWS services would best meet the requirements?",
+        "options": [
+            "Amazon MSK",
+            "AWS Lambda",
+            "Amazon MQ",
+            "Amazon SNS",
+            "Amazon ECS Fargate",
+            "Amazon Kinesis Data Streams"
+        ],
+        "answer": [1, 5],
+        "tags": ["serverless-architecture"]
+    },
+    {
+        "question": "A solutions architect has been assigned the task of helping the company developers optimize the performance of their web application. End users have been complaining about slow response times. The solutions architect has determined that improvements can be realized by adding ElastiCache to the solution. What can ElastiCache do to improve performance?",
+        "options": [
+            "Queue up request and allow the processor time to catch-up",
+            "Cache frequently accessed data in-memory",
+            "Deliver up to 10x performance improvement from milliseconds to microseconds or event at millions of requests per second.",
+            "Offload some of the write traffic to the database."
+        ],
+        "answer": 2,
+        "tags":["database"]
+    },
+    {
+        "question": "After an IT Steering Committee meeting you have been put in charge of configuring a hybrid environment for the company's compute resources. You weight the pros and cons of various technologies based on the requirements you are given. Your primary requirements is the necessity for a private, dedicated connection, which bypasses the internet and can provide throughput of 10 Gbps. Which option will you select?",
+        "options": [
+            "AWS VPN",
+            "AWS Direct Gateway",
+            "VPC Peering",
+            "AWS Direct Connect"
+        ],
+        "answer": 4,
+        "tags": ["vpc"]
+    },
+    {
+        "question": "You are managing S3 buckets in your organization. This management of S3 extends to Amazon Glacier. For auditing purpose, we would like to be informed if an object is restored to S3 from Glacier. What is the most efficient way you can do this?",
+        "options": [
+            "Create a Lambda function that is triggered by restoration of object from Glacier to S3.",
+            "Create an EventBridge Event for uploads to S3",
+            "Configure S3 event notifications for restore operations from Glacier.",
+            "Create an SNS notification for any upload S3"
+        ],
+        "answer": 3,
+        "tags":["automation"]
+    },
+    {
+        "question": "You are working for a large financial institution and preparing for disaster recovery and upcoming DR drills. A key component in the DR plan will be the database instances and their data. An aggressive Recovery Time Objective (RTO) dictates that the database needs to be synchronously replicated. Which configuration can meet this requirement?",
+        "options": [
+            "AWS Lambda triggers a CloudFormation template launch in another Region.",
+            "RDS rad replicas",
+            "RDS multi-AZ",
+            "RDS Multi-Region"
+        ],
+        "answer": 3,
+        "tags": ["database"]
+    },
+    {
+        "question": "You have joined a newly formed software company as a Solutions Architect. It is a small company, and you are the only employee with AWS experience. The owner has asked for your recommendations to ensure that the AWS resource are deployed to proactively remain within budget. Which AWS service can you use to help ensure you don't have cost overruns for your AWS resources?",
+        "options": [
+            "Inspector",
+            "AWS Budgets",
+            "Billing and Cost Management",
+            "Cost Explorer"
+        ],
+        "answer": 2,
+        "tags": ["governance"]
+    },
+    {
+        "question": "You have just started working at a company that is migrating from a physical data center into AWS. Currently, you have 25TB of data that needs to be moved to an S3 bucket. Your company has just finished setting up a 1 GB Direct Connect drop, but you will not have a VPN up and running for 30 days. This data needs to be encrypted during transit and at rest and must be uploaded to the S3 bucket within 21 days. What is the best way to meet these requirements?",
+        "options": [
+            "Upload the data to S3 using your public internet connection.",
+            "Order a Snowcone device to transmit the data",
+            "Upload the data using Direct Connect.",
+            "Use a Snowball device to transmit the data."
+        ],
+        "answer": 4,
+        "tags": ["migration"]
+    },
+    {
+        "question": "A company is going to use several EC2 instances to host various reference applications. The applications are expected to receive steady and relatively low traffic. These applications are expected to run for 3 years, at which time the applications will be evaluated for upgrade. What type of EC2 will meet this requirement considering cost as an additional factor?",
+        "options": [
+            "Spot",
+            "Reserved",
+            "On-Demand",
+            "Dedicated Hosts"
+        ],
+        "answer": 2,
+        "tags":["ec2"]
+    },
+    {
+        "question": "What services make up the Alexa service.",
+        "options": [
+            "Amazon Transcribe",
+            "Amazon Polly",
+            "Amazon Comprehend",
+            "Amazon Lex"
+        ],
+        "answer": [2,4],
+        "tags":["ML"]
+    },
+    {
+        "question": "You work for a consulting company, which is currently undergoing both financial and technical audit. You have been asked by the auditors to produce regular reports in regards to your PCI compliance. You need to produce this as fast and as efficiently as possible. Which AWS service should you consider using?",
+        "options": [
+            "Amazon Detective",
+            "AWS Audit Manager",
+            "Amazon Audit Automation",
+            "AWS Security Hub"
+        ],
+        "answer": 4,
+        "tags":["governance"]
+    },
+    {
+        "question": "A new startup is considering the advantages of using Amazon DynamoDB versus a traditional relational database in AWS RDS. The NoSQL nature of DynamoDB presents a small learning curve to the team members who all have experience with traditional databases. The company will have multiple databases, and the decision will be made on a case-by-case basis. Which of the following use case would favor Amazon DynamoDB?",
+        "options": [
+            "Managing web session data",
+            "Strong referential integrity between tables",
+            "Storing binary large object (BLOB) data",
+            "Online analytical processing (OLAP)/data warehouse implementations",
+            "Storing metadata for S3 objects",
+            "High-performance reads and writes for online transaction processing (OLTP) workloads"
+        ],
+        "answer": 10,
+        "tags":["database"]
+    },
+    {
+        "question": "You are working in a large healthcare facility that uses EBS volumes on most of the EC2 instances. The CFO has approved you about some cost savings, and it has been decided that some of the EC2 instances and EBS volumes would be deleted. What step can be taken to preserve the data on the EBS volumes and ensure that data can be restored to a new EBS volume within minutes?",
+        "options": [
+            "Use S3 Glacier using the Standard retrieval tier.",
+            "Store the data in CloudFormation user data.",
+            "Move the data to Amazon S3.",
+            "Take point-in-time snapshots of your Amazon EBS volumes."
+        ],
+        "answer": 4,
+        "tags":["storage"]
+    },
+    {
+        "question": "A financial institution has an application that produces huge amounts of actuary data, which is ultimately expected to be in the terabyte range. There is a need to run complex analytic queries against terabytes of structured data, using sophisticated query optimization, columnar storage on high-performance storage, and massively parallel query execution. Which service will best meet this requirement?",
+        "options": [
+            "DynamoDB",
+            "Elasticache",
+            "Redshift",
+            "RDS"
+        ],
+        "answer": 3,
+        "tags": ["database", "big-data", "analytics"]
+    },
+    {
+        "question": "You have been put in charge of S3 buckets for your company. The buckets are separated based on the type of data they are holding and the level of security required for that data. You have several buckets that have data you want to safeguard from accidental deletion. Which configuration will meet this requirement?",
+        "options": [
+            "Signed URLs to all users to access the bucket.",
+            "Configured cross-account access with an IAM Role prohibiting object deletion in the bucket.",
+            "Archive sensitive data to Amazon Glacier",
+            "Enable versioning on the bucket and multi-factor authentication delete as well."
+        ],
+        "answer": 4,
+        "tags":["s3"]
+    },
+    {
+        "question": "Your company has performed a Disaster Recovery drill which failed to meet the Recovery Time Objective (RTO) desired by executive management. The failure was due in large part to the amount of time taken to restore proper functioning on the database side. You have given management a recommendation of implementing synchronous data replication for the RDS database to help meet RTO. Which of these options can perform synchronous data replication in RDS?",
+        "options": [
+            "DAX",
+            "RDS multi-AZ",
+            "AWS Database Migration Service",
+            "Read replicas"
+        ],
+        "answer": 2,
+        "tags":["database", "high-availability-scaling"]
+    },
+    {
+        "question": "A company is in the process of creating a multi-region disaster recovery solution for your database, and you have tasked to implement it. The required RTO is 1 hour, and the RPO is 15 min. What steps can you take to ensure these thresholds are met?",
+        "options": [
+            "Take EBS snapshots of the required EC2 instances nightly. In the event of a disaster, restore the snapshots to another region.",
+            "Use RDS to host your database. Enable the Multi-AZ option for your database. In the event of failure, cut over to the second database.",
+            "Use Redshift to host your database. Enable 'multi-region' failover with Redshift. In the event of failure, do nothing, as Redshift will handle if for you",
+            "Use RDS to host your database. Create a cross region read replica of your database. In the event of failure, promote the read replica to be standalone database. Send new reads and writes to this database."
+        ],
+        "answer":4,
+        "tags": ["high-availability-scaling"]
+    },
+    {
+        "question": "A consultant is hired by a small company to configure an AWS environment. The consultant begins working with the VPC and launching EC2 instances within the VPC. The initial instances will be placed in a public subnet. The consultant begins to create security groups. The consultant has launched several instances, created security groups, and has associated security with instances. The consultant want to change the security groups that are associated with the instance. Which statement is true?",
+        "options": [
+            "You can change the security groups for an instance when the instance is in running or stopped state.",
+            "You can't change security groups. Create a new instance and attach the desired security groups.",
+            "You can change the security groups for an instance when the instance is in the pending or stopped state.",
+            "You can't change the security groups for an instance when the instance is in the running or stopped state."
+        ]
+    },
+    {
+        "question": "You have been hired as a Solutions Architect for a company that pairs photos with related story narratives in PDF format. The company need to be able to store files in several different formats, such as PDF, JPG, PNG, WORD, and several others. This needs to be highly durable. WHich storage type will be best meet this requirement?",
+        "options": [
+            "EC2 instance store",
+            "DynamoDB",
+            "Amazon RDS",
+            "S3"
+        ]
+    },
+    {
+        "question": "You have been given an assignment to configure Network ACLs in your VPC. Before configuring the NACLs, you need to understand how the NACLs are evaluated. How are NACL rules evaluated?",
+        "options": [
+            "NACL rules are evaluated by rule number from lowest to highest and executed immediately when a matching rule is found.",
+            "NACL rules are evaluated by rule number from highest to lowest, and executed immediately when a matching rule is found.",
+            "All NACL rules that you configure are evaluated before traffic is passed through.",
+            "NACL rules are evaluated by rule number from highest to lowest, and all are evaluated before traffic is passed through."
+        ]
+    },
+    {
+        "question": "Your company needs to deploy an application in the company AWS account. The application will reside on EC2 instances in an Auto Scaling Group frontend by an Application Load Balancer. The company has been using Elastic BeanStalk to deploy the application due to limited AWS experience within the organization. The application now needs upgrades and a small team of subcontractors have been hired to perform these upgrades. Which web service can be used to provide users that you authenticate with short-term security credentials that can control access to your AWS resources?",
+        "options": [
+            "IAM user accounts",
+            "IAM Group",
+            "AWS SSO",
+            " AWS Security Token Service"
+        ]
+    },
+    {
+        "question": "A testing team is using a group of EC2 instances to run batch, automated tests on an application. The tests run overnight but don't take all night. The instances sit idle for long periods of time and accrue unnecessary charges. What can you do to stop these instances when they are idle for long periods?",
+        "options": [
+            "You can create a CloudWatch alarm that is triggered when the average CPU utilization percentage has been lower than 10 percents for one hour and stops the instance.",
+            "Write a python script that queries the instance status. Write a Lambda function that can be triggered upon a certain status and stop the instance.",
+            "Write a cron job that queries the instance status. If a certain status is met, have the cron job kick off CloudFormation to terminate the existing instance, and create a new instance from a template.",
+            "Write a cron job that queries the instance status. Write a Lambda function that can be triggered upon a certain and stop the instance."
+        ]
+    },
+    {
+        "question": "You have taken over management of several instances in the company AWS environment. You want to quickly review scripts used to bootstrap the instance at runtime. A URL command can be used to do this. What can you append to the URL http://169.254.169.254/latest/ to retrive this latest data?",
+        "options": [
+            "instance-data/",
+            "instance-demographic-data/",
+            "meta-data/",
+            "user-data/"
+        ]
+    },
+    {
+        "question": "Several S3 Buckets have been deleted and a few EC2 instances have been terminated. Which AWS service can you use to determine who took these actions?",
+        "options": [
+            "AWS CloudTrail",
+            "AWS Inspector",
+            "AWS Trusted Advisor",
+            "AWS CloudWatch"
+        ]
+    },
+    {
+        "question": "An online retailer currently runs their application within AWS. Currently, everything is running on Amazon EC2 instances, including all application software. The application is well written and completes order processes following a specific workflow logic order. The online retailer has begun to explore shifting their entire code base to AWS Lambda for each compute-based portion of the workflow, but they are not sure how best to interconnect the functions. There are three major requirements that need to be met. The first is that they need to implement a 20-minute wait period between certain functions in the application code and process. The second is they want to be able to conditionally handle a few different known scenarios that may occur during the order processing. The last requirement is to have an auditable workflow history. Which AWS service is the best fit for their workflow orchestration needs that has the least operational overhead and is the most cost-efficient?",
+        "options": [
+            "AWS Lambda with S3",
+            "Lambda with SNS",
+            "EKS with RDS",
+            "Step Function with Lambda"
+        ]
+    },
+    {
+        "question": "An organization of about 100 employee has performed the initial setup of users in IAM. All users except administrators have the same basic privileges. But now it has been determined that 50 employees will have extra restrictions on EC2. They will be unable to launch new instances or alter the state of existing instances. What will be the quickest way to implement these restrictions?",
+        "options": [
+            "Create the appropriate policy. Place the restricted users in the new policy.",
+            "Create an IAM Role for the restrictions. Attach it to the EC2 instances.",
+            "Create the appropriate policy. With only 20 users attach the policy to each user.",
+            "Create the appropriate policy. Create a new group for the restricted users. Place the restricted users in the new group and attach the policy to the group."
+        ]
+    },
+    {
+        "question": "You are designing an architecture that wil house an Auto Scaling group of EC2 instances. The application hosted on the instances is expected to be extremely popular. Forecasts for traffic to this site predict very high traffic, and you will need a load balancer to handle tens of millions of requests per second while maintaining high throughput at ultra low latency. You need to select the correct type of load balancer to front your Auto Scaling group to meet this high traffic requirement. Which load balancer should you select?",
+        "options": [
+            "You will need a Network Load Balancer to meet this requirement.",
+            "You will need a Classic Load Balancer to meet this requirement.",
+            "All the AWS load balancer meet the requirement and perform the same",
+            "You will need an Application Load Balancer to meet this requirement."
+        ]
+    },
+    {
+        "question": "Your are working for a startup company with a same number of employees. The company expects rapid growth and you have been assigned to configure existing users and onboard new users with IAM privileges and logins. You intend to create IAM groups for the company departments and add new users to the appropriate group when you onboard them. You begin creating policies to assign permissions and attach them to the appropriate group. What is the best practice when giving users permissions in IAM policies?",
+        "options": [
+            "Grant all permissions to each AWS service the user will work with.",
+            "Create a policy for each department head granting root access.",
+            "Use the principle of least privilege",
+            "Use the principle of top-down privilege."
+        ]
+    },
+    {
+        "question": "You work for an advertising company that has real-time bidding application. You are also using CloudFront on the front end to accommodate a worldwide user base. Your users begin complaining about response times and pauses in real-time bidding. What is the best service that can be used to reduce DynamoDB response times by an order of magnitude (milliseconds to microseconds)",
+        "options": [
+            "DynamoDB Auto Scaling",
+            "CloudFront Edge Caches",
+            "DAX",
+            "Elastic Cache"
+        ]
+    },
+    {
+        "question": "An insurance company is creating an application that will perform analytics in near real-time on huge datasets in the terabyte range, and potentially even petabyte. The company is evaluating an AWS data storage option. Which AWS service will allow storage of petabyte-scale data and also fast complex queries over large number of rows? ",
+        "options": [
+            "DynamoDB",
+            "RDS",
+            "Redshift",
+            "ElasticCache"
+        ]
+    },
+    {
+        "question": "After an IT Steering Committee meeting, you have been put in charge of configuring a hybrid environment for the company's resources. You weight the pros and cons of various technologies, such as VPN and Direct Connect. Based on the requirements, you have decided to configure a VPN connection. What features and advantages can VPN connection provide?",
+        "options": [
+            "Data transfer costs across an AWS VPN are completely free.",
+            "It provides a cost-effective, private network connection that bypasses the internet.",
+            "It provides a connection between an on-premises network and a VPC, using a secure and private connection with IPsec and TLS.",
+            "It provides a private, dedicated network connection between an on-premises network and the VPC."
+        ]
+    },
+    {
+        "question": "Currently, you are employed solutions architect for a large international shipping company. The company is undergoing an IT transformation and they want to create an immutable database, where they can track packages as they are sent around the world. They will need to track what boxes they go in, wha trucks they are sent in, and what aircraft or sea containers they are shipped in. The database needs to immutable and cryptographically verifiable, and they would like to leverage the AWS cloud to achieve this. What database technology would best suit this requirement?",
+        "options": [
+            "Neptune",
+            "Aurora",
+            "Amazon Quantum Ledger Database",
+            "RDS"
+        ]
+    },
+    {
+        "question": "You work for an online retailer where any downtime at all can cause a significant loss of revenue. You hae architected your application to be deployed on an Auto Scaling Group of EC2 instances behind a load balancer. You have configured and deployed these resources using a CloudFormation template. The Auto Scaling Group is configured with default settings and  simple CPU utilization scaling policy. You have also set up multiple Availability ZOnes for high availability. The load balancer does health checks against an HTML file generated by script. When you begin performing load testing on your application and notice in CloudWatch that the load balancer is not sending traffic to one of your EC2 instances. What could be the problem?",
+        "options": [
+            "The EC2 instance has failed the load balancer health check.",
+            "The instance has not been registered with CloudWatch",
+            "Your are load testing at a moderate traffic level and not all instances are needed.",
+            "The EC2 instance has failed EC2 status checks."
+        ]
+    },
+    {
+        "question": "Your company has decided to migrate a SQL Server database to a newly created AWS account. WHich service can be used to migrate the database?",
+        "options": [
+            "Elasticache",
+            "AWS RDS",
+            "Database Migration Service",
+            "DynamoDB"
+        ]
+    },
+    {
+        "question": "Your company has a multi-account AWS environment with over 100 accounts. Each account belongs to a specific team within the company, and they all fail within the same consolidated billing family. The company has just received funding for the next two years, but they are unsure about anything beyond that. With this in mind, they plan on aggressively deploying applications to AWS during the two years. \n Recently, there was a massive spike in unplanned Amazon EC2 and AWS lambda costs, causing significant financial stress. \n What can an organization administrator do to maximize saving for the entire organization for this first year?",
+        "options": [
+            "Purchase a three-year All Upfront Compute Savings Plan",
+            "Purchase a one-year All Upfront Compute Savings Plan.",
+            "Purchase a three-year All Upfront EC2 Instance Saving Plan",
+            "Purchase a one-year All Upfront EC2 Instance Saving Plan"
+        ]
+    },
+    {
+        "question": "You work for a large online education company that teaches IT using pre-recorded videos. You have converted their online videos into text to be accessible for the hearing impaired. They now want to convert the transcribed text into other languages using AI and ML. Which AWS service should they use?",
+        "options": [
+            "AWS Translate",
+            "AWS Transcribe",
+            "AWS Comprehend",
+            "AWS Rekognition"
+        ]
+    },
+    {
+        "question": "A new startup company is decides to use AWS to host their web application. They configure a VPC as well as two subnets within the VPC. They also attach an internet gateway to the VPC. In the first subnet, they create the EC2 instance which will host their application. They finish the configuration by making the application accessible from the internet. The second subnets hosts their database and they don't want the database accessible from the Internet. Which statement best describes this scenario?",
+        "options": [
+            "The web server is in a private subnet, and the database server is in a public subnet. The public subnet has a route to the internet gateway in the route table.",
+            "The web server is in a private subnet, and the database server is in private subnet. A third subnet has a route to the Internet Gateway, which allows internet access.",
+            "The web server is in a public subnet, and the database server is in a public subnet. The public subnet has a route to the internet gateway in the route table."
+        ]
+    },
+    {
+        "question": "A small company has begun using AWS for all its ITinfrastructure. The company has one AWS solutions architect and the demands for their time are overwhelming. The software team has been given permission to deploy their Python and PHP applications on their own. They would like to deploy these applications without having to worry about the underlying infrastructure. Which AWS service would they use for deployments?",
+        "options": [
+            "Elastic Beanstalk",
+            "CloudDeploy",
+            "CloudFront",
+            "CloudFormation"
+        ]
+    },
+    {
+        "question": "Your company needs to shift an application to the cloud. You are looking for a solutions to collect. process, gain immediate insight, and then transfer the application data to AWS. Part of this effort aso includes moving a large data warehouse into AWS. The warehouse is 50TB, and it would take over a month to migrate the data using the current bandwidth available. What is the best option to perform this one time migration considering both cost and performance aspects?",
+        "options": [
+            "VPN",
+            "Snowball Edge",
+            "SnowMobile",
+            "Direct Connect"
+        ]
+    },
+    {
+        "question": "A well known streaming company has just launched a new application for users to upload videos of their own to the platform. During product testing, they experienced no issues with the application when they uploaded a video of 150 BG in size. However, since launch users are reporting problems with uploading files exceeding the size previously testes. What is the most likely cause of this problem, ans what changes should be undertaken to resolve this?",
+        "options": [
+            "Use AWS Snowball.",
+            "The application code is trying to upload files to S3 as a single object. Changes in code are required to be able to upload files using S3 multipart upload.",
+            "The application should use AWS Transfer. Have the application code configured to send the file to an EFS file share, which is then copied to S3 using SFTP.",
+            "Register you application with S3. By registering the application with S3, we are able to upload larger files programmatically."
+        ]
+    },
+    {
+        "question": "You work for an Australian company that is undergoing an audit and requires compliance reports for its AWS hosted applications. Specifically, you need to obtain an Australian HOsting Certification Framework - Strategic Certification promptly. What steps should you take to accomplish this quickly?",
+        "options": [
+            "Use AWS Artifact to download the certificate.",
+            "Use AWS Trusted Advisor to generate the report",
+            "Use AWS Certificate Manager to generate the certificate.",
+            "Use Amazon Detective to generate the report."
+        ]
+    },
+    {
+        "question": "Your team owns three separate AWS accounts: one for production, one for staging, and one for development. Recently, there has bee a push from the CEO to begin breaking down costs to the most comprehensive, detailed level. In addition to this level of detail, the team needs to store daily comma-separated value (CSV) reports of these costs in Amazon S3 for ingestion into the company's internal analytics tooling. What would be the most efficient solution for this scenario?",
+        "options": [
+            "Use AWS Budgets to alert and generate reports on current spend, and use AWS Fargate to pull data, generate CSV reports, and then push them to S3",
+            "Use AWS Budget to alert and generate reports, and use Lambda to pull data, generate CSV reports, and then push them to S3",
+            "Use AWS Cost and Usage Reports to generate reports with the required amount of detail. Set up Amazon EventBridge (Amazon CloudWatch Events) to trigger a rule to create and then export CSV daily to a centralized S3 bucket.",
+            "Use AWS Cost and Usage Reports to generate reports and have it export CSV reports daily to a centralized S3 bucket."
+        ]
+    },
+    {
+        "question": "Your company has received results back from an audit. One of the mandates from the audit is that your application, which is hosted on EC2 must encrypt the data before writing this data to storage. It has been directed internally that you must store you encryption keys. Which service could you use to meet this requirement?",
+        "options": [
+            "EBS encryption",
+            "KMS",
+            "Security Token Service",
+            "CloudHSM"
+        ]
+    },
+    {
+        "question": "A application leverages several third-party SaaS vendors to complete their workflows within the application. Currently, the team uses numerous Lambda functions for each SaaS vendor that run daily to connect to the configured vendor. The functions initiate a transfer of data files, ranging from one megabyte up to 80 gibibytes in size. These data files are stored in an S3 bucket and then referenced by the application itself. The data transfer routinely fails due to execution timeout limits in the Lambda functions, and the team wants to find a simple and less error-prone way fo transfer the required data. Which solution or AWS service could be the best fit for their solution?",
+        "options": [
+            "EKS with Auto Scaling",
+            "AppFlow",
+            "Increase Lambda function timeouts to one hour",
+            "EC2 Auto Scaling Groups"
+        ]
+    },
+    {
+        "question": "A company has created a mobile application that is hugely popular. The initial plan was to give each user login credentials to the application. But due to the volume of users, this idea has become impractial. What service can you use to allow outside users to login through third party such as Facebook, Amazon, Google or Apple?",
+        "options": [
+            "Cognito",
+            "cross account access",
+            "IAM",
+            "Google Authenticator"
+        ]
+    },
+    {
+        "question": "Your team has provisioned Auto Scaling groups in a single Region. The auto scaling groups, at max capacity, would total 40 EC2 On-demand Instances between them. However, you notice that the Auto Scaling groups will only scale out to a portion of that number of instances at any one time. What could be the problem?",
+        "options": [
+            "The associated load balancer can serve only 20 instance at one time.",
+            "You can have only 20 instances per Region. This is a hard limit.",
+            "There is a vCPU based on-demand instance limit per region.",
+            "You can have only 20 instances per availability zone."
+        ]
+    },
+    {
+        "question": "You have been brought in as a consultant for a large scale enterprise that requires assistance with a move to AWS. The application team that is part of the migration currently runs a messaging application run on virtual machines via Java runtimes, and they poll the RabbitMQ queues and process messages as they are found. The team wants to avoid any major coding changes on the initial move to the cloud. \n Which AWS services would you recommend them to use initially?",
+        "options": [
+            "Configure the producers and consumers to leverage Amazon SQS for messaging",
+            "Configure the producers and consumers to leverage Amazon DynamoDB for storing messages.",
+            "Install the Java application on Amazon EC2 instances.",
+            "Set up Amazon MQ to easily integrate RabbitMQ into AWS.",
+            "Break the application functions into individual AWS Lambda functions"
+        ]
+    }
+]

@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         "app-light-green": "var(--light-green)",
+        "app-dark-green": "var(--dark-green)",
         "app-green": "var(--green)",
         "app-red": "var(--red)",
         "app-blue": "var(--blue)",

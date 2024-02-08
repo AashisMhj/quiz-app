@@ -10,10 +10,12 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Company{
+model Topic{
   id Int @id @default(autoincrement())
   name String
   image String
+  slug String
+  color String?
   questions Question[]
 }
 
@@ -33,6 +35,6 @@ model Question {
   revalidate Boolean @default(false)
   tag_id Int?
   tag Tag? @relation(fields: [tag_id], references: [id])
-  company_id Int?
-  company Company? @relation(fields: [company_id], references: [id])
+  topic_id Int?
+  topic Topic? @relation(fields: [topic_id], references: [id])
 }
