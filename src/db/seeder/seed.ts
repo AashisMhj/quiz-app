@@ -28,7 +28,7 @@ const getTopics = async () => {
             data: data.map(el => ({
                 question: el.question,
                 options: JSON.stringify(el.options),
-                answer: JSON.stringify(el.answer),
+                answer: JSON.stringify(el.answer || 0),
                 tag: el.tag,
                 type: 'aws-solutions-architect',
                 revalidate: !!el.revalidate,
@@ -78,16 +78,27 @@ const insertData = async (topics: {
             color: topics.color
         },
     });
+    // install default tag 
+    const default_tag = await prisma.tag.create({
+        data: {
+            tag_name: 'other',
+            topic_id: topic_data.id
+        }
+    });
     // Create Many is not supported in sqlite
-    topics.data.forEach(async (el) => {
-        let tag_id: number | null = null;
-        if (el.tag && tags[el.tag]) {
-            tag_id = tags[el.tag].id;
-        } else {
-            if (el.tag && !tag_titles.includes(el.tag)) {
+    for(let i=0; i < topics.data.length; i++){
+        let el = topics.data[i];
+        let tag_id: number = default_tag.id;
+        // in case of new tag
+        // case when the tag is already inserted
+        if (el.tag) {
+            if (tag_titles.includes(el.tag) && tags[el.tag]) {
+                tag_id = tags[el.tag].id
+            } else {
                 const tag_data = await prisma.tag.create({
                     data: {
                         tag_name: el.tag,
+                        topic_id: topic_data.id
                     }
                 });
                 tags[el.tag] = tag_data;
@@ -99,10 +110,11 @@ const insertData = async (topics: {
             data: {
                 ...el,
                 tag_id: tag_id,
+                topic_id: topic_data.id,
                 tag: undefined
             }
         })
-    })
+    }
 }
 
 (async () => {

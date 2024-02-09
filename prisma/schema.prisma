@@ -17,11 +17,14 @@ model Topic{
   slug String
   color String?
   questions Question[]
+  tag Tag[]
 }
 
 model Tag{
   id Int @id @default(autoincrement())
   tag_name String
+  topic_id Int? 
+  topic Topic? @relation(fields: [topic_id], references: [id])
   questions Question[]
 }
 
@@ -33,8 +36,8 @@ model Question {
   answer String
   type String
   revalidate Boolean @default(false)
-  tag_id Int?
-  tag Tag? @relation(fields: [tag_id], references: [id])
+  tag_id Int
+  tag Tag @relation(fields: [tag_id], references: [id])
   topic_id Int?
   topic Topic? @relation(fields: [topic_id], references: [id])
 }
