@@ -1,5 +1,5 @@
 import db from "@/db";
-import Link from "next/link";
+import TagSelectForm from "./(component)/TagSelectForm";
 interface Props{
     params: {
         tags: string
@@ -15,13 +15,10 @@ const TagPage = async ({params}:Props)=>{
             topic_id
         }
     });
-    console.log(tags);
     return (
         <div className="max-w-7xl mx-auto pt-6">
-            Please Select the Tag
-            <div>
-                <Link href={`/exam`} >Start Test</Link>
-            </div>
+            <h1 className="text-center text-2xl">Select the Fields</h1>
+            <TagSelectForm tags={tags} topic_id={topic_id} />
         </div>
     )
 }

@@ -1,10 +1,20 @@
 "use client"
 import { ChangeEvent, useEffect, useState } from "react";
-import { shuffle } from "@/helper/array.helper";
-import { QuestionType } from "@/types";
 import clsx from "clsx";
+import { useSearchParams } from "next/navigation";
 
-const ExamPage = () => {
+interface Props{
+    params: {
+        exam: string;
+    }
+}
+
+const ExamPage = ({params}:Props) => {
+    const exam_id = parseInt(params.exam);
+    const searchParams = useSearchParams();
+    if(!exam_id){
+        // TODO navigate to 404
+    }
     const [question_ids, setQuestionsIds] = useState<number[]>([]);
     const [current_question_index, setCurrentQuestionIndex] = useState(0);
     const [current_question, setCurrentQuestion] = useState<{ question: string, options: string[], revalidate: boolean } | null>(null);
@@ -31,7 +41,6 @@ const ExamPage = () => {
         setCurrentQuestionAnswer(null);
         setUserAnswer([]);
     }
-
 
     function isAnswer(option_index: number): boolean {
         if (!current_question_answers) return false
@@ -81,10 +90,14 @@ const ExamPage = () => {
                 }
             })
     }, [current_question_index])
-
-
     useEffect(() => {
-        fetch('/api/exam')
+        if(!exam_id) return;
+        const tags = searchParams.get('tags') || null;
+        let url = `/api/exam/${exam_id}?`;
+        if(tags){
+            url += `tags=${tags}`;
+        }
+        fetch(url)
             .then(data => data.json())
             .then(data => {
                 if (data.questions) {
