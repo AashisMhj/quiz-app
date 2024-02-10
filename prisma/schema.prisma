@@ -36,6 +36,7 @@ model Question {
   answer String
   type String
   revalidate Boolean @default(false)
+  revise Boolean @default(false)
   tag_id Int
   tag Tag @relation(fields: [tag_id], references: [id])
   topic_id Int?

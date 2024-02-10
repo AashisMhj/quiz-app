@@ -17,7 +17,7 @@ export async function getQuestion(id:number){
     const question = await prisma.question.findFirst({
         where: {id},
         select: {
-            question:true, options:true, tag: true, answer: true, revalidate: true
+            question:true, options:true, tag: true, answer: true, revalidate: true, revise: true
         }
     });
     return question;
@@ -37,6 +37,13 @@ export async function enableRevalidate(question_id:number){
         where: {id: question_id},
         data: {revalidate: true}
     })
+}
+
+export async function enableRevise(question_id:number){
+    await prisma.question.update({
+        where: {id: question_id},
+        data: {revise: true}
+    });
 }
 
 const Question = {

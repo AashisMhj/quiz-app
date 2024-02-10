@@ -2,6 +2,7 @@
 import { ChangeEvent, useEffect, useState } from "react";
 import clsx from "clsx";
 import { useSearchParams } from "next/navigation";
+import { shuffle } from "@/helper/array.helper";
 
 interface Props{
     params: {
@@ -17,7 +18,7 @@ const ExamPage = ({params}:Props) => {
     }
     const [question_ids, setQuestionsIds] = useState<number[]>([]);
     const [current_question_index, setCurrentQuestionIndex] = useState(0);
-    const [current_question, setCurrentQuestion] = useState<{ question: string, options: string[], revalidate: boolean } | null>(null);
+    const [current_question, setCurrentQuestion] = useState<{ question: string, options: {option: string, original_index:number}[], revalidate: boolean, revise: boolean } | null>(null);
     const [user_answer, setUserAnswer] = useState<Array<number>>([]);
     const [current_question_answers, setCurrentQuestionAnswer] = useState<number[] | number | null>(null);
     const [no_answers, setNoAnswers] = useState(1);
@@ -63,20 +64,38 @@ const ExamPage = ({params}:Props) => {
             .catch(console.trace)
     }
 
+    function enableRevise(){
+        fetch(`/api/question/revise/${question_ids[current_question_index]}`, {
+            method: 'PATCH'
+        }).then(data => {
+            setCurrentQuestion((prevData) => {
+                if(prevData){
+                    return {
+                        options: prevData.options,
+                        question: prevData.question,
+                        revise: true,
+                        revalidate: prevData.revise
+                    }
+                }else return null;
+            });
+        }).catch(console.trace);
+    }
+
     function requestRevalidate(){
         fetch(`/api/request-revalidate/${question_ids[current_question_index]}`)
             .then(data => {
                 setCurrentQuestion((prevData) => {
                     if(prevData){
                         return {
-                            options: prevData?.options,
-                            question: prevData?.question,
+                            options: prevData.options,
+                            question: prevData.question,
+                            revise: prevData.revise,
                             revalidate: true
                         }
                     }else return null;
                 });
             })
-            .catch(console.trace)
+            .catch(console.trace);
     }
 
     useEffect(() => {
@@ -85,8 +104,14 @@ const ExamPage = ({params}:Props) => {
             .then(data => data.json())
             .then(data => {
                 if (data.data) {
-                    const question_data = data.data as { question: string, options: string[], revalidate: boolean };
-                    setCurrentQuestion(question_data)
+                    const question_data = data.data as { question: string, options: string[], revalidate: boolean, revise:boolean };
+                    setCurrentQuestion({
+                        ...question_data,
+                        options: shuffle(question_data.options.map((el, index) => ({
+                            option: el,
+                            original_index: index
+                        })))
+                    })
                 }
             })
     }, [current_question_index, question_ids])
@@ -111,6 +136,7 @@ const ExamPage = ({params}:Props) => {
     return <div className="text-black max-w-7xl mx-auto pt-4">
         <div className="text-2xl text-center mb-3">Solutions Architect </div>
         <div className="mb-3">No of Question: {current_question_index + 1}/{question_ids.length}</div>
+        <div className="mb-3">Revise: {current_question?.revise ? "YES": "NO"} Revalidate: {current_question?.revalidate ? "YES": "NO"}</div>
         <div className="p-2 border-2 border-black bg-app-light-green bg-opacity-30 rounded-lg py-4 px-6">
             {
                 current_question ? (
@@ -122,9 +148,9 @@ const ExamPage = ({params}:Props) => {
                             <span className="mb-4">Please Select {no_answers}</span>
                             <div className="mb-3">
                                 {
-                                    current_question.options.map((option, index) => <div key={option} className={clsx("text-2xl mb-2 flex gap-2 items-start", { 'bg-green-500': isCheckingAnswer && isAnswer(index + 1) })}>
-                                        <input type="checkbox" className="cursor-pointer mt-2" onChange={checkBoxChangeHandler} value={index + 1} checked={user_answer?.includes(index + 1)} />
-                                        {option}
+                                    current_question.options.map((option, index) => <div key={option.original_index} className={clsx("text-2xl mb-2 flex gap-2 items-start", { 'bg-green-500': isCheckingAnswer && isAnswer(option.original_index + 1) })}>
+                                        <input type="checkbox" className="cursor-pointer mt-2" onChange={checkBoxChangeHandler} value={option.original_index + 1} checked={user_answer?.includes(option.original_index + 1)} />
+                                        {option.option}
                                     </div>)
 
                                 }
@@ -133,6 +159,7 @@ const ExamPage = ({params}:Props) => {
                                 {
                                     isCheckingAnswer ? (
                                         <>
+                                            <button className="py-2 px-4 border-2 border-black disabled:text-slate-400 disabled:border-slate-400" onClick={enableRevise} disabled={current_question.revise}>Revise</button>
                                             <button className="py-2 px-4 border-2 border-black disabled:text-slate-400 disabled:border-slate-400" onClick={requestRevalidate} disabled={current_question.revalidate}>Request Correction</button>
                                             <button className="py-2 px-4 border-2 border-black" onClick={nextQuestion}>Next</button>
                                         </>
