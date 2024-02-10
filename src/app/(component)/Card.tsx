@@ -1,4 +1,5 @@
 import { CardDataType } from "@/types";
+import Image from "next/image";
 import Link from "next/link";
 
 interface Props {
@@ -8,7 +9,7 @@ const Card = ({ data }: Props) => {
     return (
         <Link key={data.id} href={`/${data.id}`} className=" py-6 px-2 font-medium rounded-lg shadow-lg" style={{ backgroundColor: data.color || '#0FF7E0' }}>
             <div className="flex justify-center items-center flex-col">
-                <img className="h-24 aspect-square" src="/images/question.png" />
+                <Image className="h-24 aspect-square" height={96} width={96} alt="question" src="/images/question.png" />
                 <h1 className="text-2xl text-center text-black">
                     {data.name}
                 </h1>

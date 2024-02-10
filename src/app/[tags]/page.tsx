@@ -5,6 +5,17 @@ interface Props{
         tags: string
     }
 }
+export async function generateStaticParams(){
+    const topic_ids = await db.topic.findMany({
+        select: {
+            id: true
+        }
+    });
+
+    return topic_ids.map((topic) => ({
+        tags: topic.id+''
+    }));
+}
 const TagPage = async ({params}:Props)=>{
     const topic_id = parseInt(params.tags);
     if(!topic_id){

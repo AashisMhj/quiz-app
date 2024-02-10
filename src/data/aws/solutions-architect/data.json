@@ -5245,6 +5245,600 @@
         ],
         "answer": 3,
         "tag": "analytics"
+    },
+    {
+        "question": "What is Amazon MSK?",
+        "options": [
+            "A fully managed service for running Apache Kafka clusters on AWS",
+            "A data warehousing service for processing large-scale datasets",
+            "A managed service for deploying and scaling Apache Cassandra clusters",
+            "A serverless computing service for running event-driven applications"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "What are some key features of Amazon MSK?",
+        "options": [
+            "Automatic scaling, multi-zone redundancy, and built-in monitoring",
+            "SQL-based querying, schema validation, and data cataloging",
+            "Real-time stream processing, machine learning, and predictive analytics",
+            "Multi-model database support, global replication, and transactional consistency"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "How does Amazon MSK handle cluster provisioning and management?",
+        "options": [
+            "By automatically provisioning and configuring Kafka brokers based on workload demands",
+            "By providing a self-service console for users to manually deploy and manage clusters",
+            "By integrating with third-party orchestration tools like Kubernetes and Docker Swarm",
+            "By offering pre-configured Kafka templates for rapid cluster deployment"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "What is the purpose of Apache Kafka in real-time data processing?",
+        "options": [
+            "To serve as a distributed messaging system for collecting, storing, and processing streaming data",
+            "To perform batch processing and ETL (Extract, Transform, Load) operations on historical datasets",
+            "To provide an in-memory caching layer for accelerating data retrieval and query performance",
+            "To facilitate interactive querying and ad-hoc analysis of structured and unstructured data"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "How does Amazon MSK ensure data durability and fault tolerance?",
+        "options": [
+            "By replicating data across multiple Kafka brokers within a cluster",
+            "By encrypting data at rest and in transit to prevent unauthorized access",
+            "By integrating with AWS Key Management Service (KMS) for encryption key management",
+            "By providing cross-region replication and disaster recovery capabilities"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "What is the role of Kafka topics in Amazon MSK?",
+        "options": [
+            "To organize and categorize streams of data based on predefined criteria",
+            "To define access control policies and permissions for users and applications",
+            "To monitor cluster health and performance metrics in real-time",
+            "To automate routine maintenance tasks and performance tuning"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "How does Amazon MSK integrate with other AWS services?",
+        "options": [
+            "Through seamless integration with Amazon Kinesis for real-time stream processing",
+            "Through AWS Lambda functions for event-driven data processing and analysis",
+            "Through Amazon RDS for storing and indexing large volumes of log data",
+            "Through Amazon S3 for archiving and backup of Kafka topics"
+        ],
+        "answer": 2,
+        "tags": "analytics"
+    },
+    {
+        "question": "What authentication mechanisms are supported by Amazon MSK?",
+        "options": [
+            "Integration with AWS Identity and Access Management (IAM) roles and policies",
+            "OAuth 2.0 authentication with external identity providers",
+            "LDAP (Lightweight Directory Access Protocol) integration for user authentication",
+            "Multi-factor authentication (MFA) for secure access control"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "What is the pricing model for Amazon MSK?",
+        "options": [
+            "Pay-as-you-go pricing based on the size and number of clusters provisioned",
+            "Subscription-based pricing with fixed monthly fees and data transfer costs",
+            "Free tier with limited functionality and paid tiers with additional features",
+            "Usage-based pricing with charges for storage, data transfer, and API requests"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "What is the primary use case for Amazon MSK?",
+        "options": [
+            "Real-time stream processing and analytics",
+            "Relational database management",
+            "Content delivery and edge caching",
+            "Batch processing and ETL (Extract, Transform, Load)"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "What is the primary advantage of using Amazon MSK over self-managed Kafka clusters?",
+        "options": [
+            "Automatic scaling and managed upgrades",
+            "Lower cost and higher performance",
+            "More control and customization options",
+            "Greater flexibility and compatibility"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "How does Amazon MSK handle Kafka broker failures?",
+        "options": [
+            "By automatically replacing failed brokers with healthy ones",
+            "By redirecting traffic to standby brokers in other availability zones",
+            "By triggering alarms and sending notifications to administrators",
+            "By requiring manual intervention to recover from failures"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "What is the purpose of replication factor in Kafka?",
+        "options": [
+            "To ensure data consistency and durability by replicating messages across multiple brokers",
+            "To optimize query performance by partitioning data and distributing it across cluster nodes",
+            "To define access control policies and permissions for users and applications",
+            "To automate routine maintenance tasks and performance tuning"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "What is the recommended approach for data ingestion into Amazon MSK?",
+        "options": [
+            "Using Kafka Connect for seamless integration with external data sources",
+            "Using AWS Lambda functions for event-driven data processing",
+            "Using Amazon S3 for archiving and backup of Kafka topics",
+            "Using Amazon Kinesis for real-time stream processing"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "How does Amazon MSK ensure data security?",
+        "options": [
+            "By encrypting data at rest and in transit using TLS/SSL encryption",
+            "By providing fine-grained access control and permissions management",
+            "By integrating with AWS Key Management Service (KMS) for encryption key management",
+            "All of the above"
+        ],
+        "answer": 4,
+        "tags": "analytics"
+    },
+    {
+        "question": "What is the recommended practice for monitoring Amazon MSK clusters?",
+        "options": [
+            "Using Amazon CloudWatch for real-time monitoring of cluster metrics and logs",
+            "Using third-party monitoring tools for custom dashboards and analytics",
+            "Using AWS Lambda functions for automated remediation of performance issues",
+            "Using Amazon RDS for storing and indexing large volumes of log data"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "What is the maximum retention period for data stored in Kafka topics?",
+        "options": [
+            "7 days",
+            "30 days",
+            "90 days",
+            "365 days"
+        ],
+        "answer": 2,
+        "tags": "analytics"
+    },
+    {
+        "question": "How does Amazon MSK support cross-region replication?",
+        "options": [
+            "By using Kafka MirrorMaker for asynchronous replication between clusters",
+            "By replicating data across multiple availability zones within a region",
+            "By providing a managed replication service with automatic failover",
+            "By integrating with AWS Direct Connect for low-latency data transfer"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "What is the purpose of Kafka consumer groups?",
+        "options": [
+            "To distribute messages across multiple partitions for parallel processing",
+            "To provide fault tolerance and high availability by maintaining offset commits",
+            "To ensure data consistency and durability by replicating messages across brokers",
+            "To automate routine maintenance tasks and performance tuning"
+        ],
+        "answer": 2,
+        "tags": "analytics"
+    },
+    {
+        "question": "How does Amazon MSK handle data encryption?",
+        "options": [
+            "By encrypting data at rest using server-side encryption (SSE)",
+            "By encrypting data in transit using TLS/SSL encryption",
+            "By integrating with AWS Key Management Service (KMS) for encryption key management",
+            "All of the above"
+        ],
+        "answer": 4,
+        "tags": "analytics"
+    },
+    {
+        "question": "How does Amazon MSK handle security?",
+        "options": [
+            "By supporting encryption in transit and at rest using TLS/SSL and AWS KMS",
+            "By providing IAM integration for fine-grained access control",
+            "By enabling VPC security groups to restrict network access to MSK clusters",
+            "All of the above"
+        ],
+        "answer": 4,
+        "tags": "analytics"
+    },
+    {
+        "question": "What is the role of Kafka Connect in Amazon MSK?",
+        "options": [
+            "To provide a framework for building scalable and fault-tolerant stream processing applications",
+            "To enable integration with external data sources and sinks using connectors",
+            "To facilitate cross-cluster replication and disaster recovery",
+            "To automate scaling and provisioning of Kafka brokers based on workload demands"
+        ],
+        "answer": 2,
+        "tags": "analytics"
+    },
+    {
+        "question": "What is the role of ZooKeeper in Apache Kafka?",
+        "options": [
+            "To manage and coordinate Kafka brokers and maintain metadata",
+            "To authenticate and authorize clients accessing Kafka topics",
+            "To provide fault tolerance and high availability for Kafka clusters",
+            "To optimize query performance and index data for fast retrieval"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "How does Amazon MSK handle scaling of Kafka clusters?",
+        "options": [
+            "By automatically adding or removing brokers based on traffic patterns",
+            "By providing tools for users to manually adjust cluster size and instance types",
+            "By dynamically partitioning topics across multiple brokers to distribute workload",
+            "By leveraging Kubernetes for containerized deployment and orchestration"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "What is the recommended approach for data retention in Amazon MSK?",
+        "options": [
+            "By configuring Kafka brokers to retain data for a fixed period of time",
+            "By periodically archiving Kafka topics to Amazon S3 for long-term storage",
+            "By using Kafka Connect to replicate data to external data lakes or databases",
+            "By integrating with AWS Glue for schema discovery and metadata management"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "How does Amazon MSK handle security patching and maintenance?",
+        "options": [
+            "By automatically applying patches and updates to Kafka brokers",
+            "By providing tools for users to manually initiate patching and maintenance tasks",
+            "By integrating with AWS Systems Manager for automated patch management",
+            "By leveraging third-party security tools for vulnerability scanning and remediation"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "What is the purpose of Apache ZooKeeper in Apache Kafka?",
+        "options": [
+            "To store metadata about Kafka topics, brokers, and partitions",
+            "To process and execute consumer requests for reading and writing data",
+            "To maintain an in-memory cache of frequently accessed data for fast retrieval",
+            "To optimize query performance and index data for fast retrieval"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "What is the purpose of Kafka Connect in Amazon MSK?",
+        "options": [
+            "To provide a framework for building scalable and fault-tolerant stream processing applications",
+            "To enable integration with external data sources and sinks using connectors",
+            "To facilitate cross-cluster replication and disaster recovery",
+            "To automate scaling and provisioning of Kafka brokers based on workload demands"
+        ],
+        "answer": 2,
+        "tags": "analytics"
+    },
+    {
+        "question": "How does Amazon MSK handle client authentication and authorization?",
+        "options": [
+            "By integrating with IAM for identity-based access control",
+            "By using SSL/TLS client authentication for secure communication",
+            "By supporting custom authentication plugins and mechanisms",
+            "All of the above"
+        ],
+        "answer": 4,
+        "tags": "analytics"
+    },
+    {
+        "question": "What is the purpose of Kafka ACLs (Access Control Lists)?",
+        "options": [
+            "To restrict access to Kafka topics based on user roles and permissions",
+            "To optimize query performance by pre-fetching data into memory",
+            "To manage data replication and failover across Kafka brokers",
+            "To automate scaling and provisioning of Kafka clusters based on workload demands"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "What is the primary advantage of using Amazon MSK over self-managed Kafka clusters?",
+        "options": [
+            "Automatic scaling and managed upgrades",
+            "Lower cost and higher performance",
+            "More control and customization options",
+            "Greater flexibility and compatibility"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "How does Amazon MSK handle Kafka broker failures?",
+        "options": [
+            "By automatically replacing failed brokers with healthy ones",
+            "By redirecting traffic to standby brokers in other availability zones",
+            "By triggering alarms and sending notifications to administrators",
+            "By requiring manual intervention to recover from failures"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "What is the purpose of replication factor in Kafka?",
+        "options": [
+            "To ensure data consistency and durability by replicating messages across multiple brokers",
+            "To optimize query performance by partitioning data and distributing it across cluster nodes",
+            "To define access control policies and permissions for users and applications",
+            "To automate routine maintenance tasks and performance tuning"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "What is the recommended approach for data ingestion into Amazon MSK?",
+        "options": [
+            "Using Kafka Connect for seamless integration with external data sources",
+            "Using AWS Lambda functions for event-driven data processing",
+            "Using Amazon S3 for archiving and backup of Kafka topics",
+            "Using Amazon Kinesis for real-time stream processing"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "How does Amazon MSK ensure data security?",
+        "options": [
+            "By encrypting data at rest and in transit using TLS/SSL encryption",
+            "By providing fine-grained access control and permissions management",
+            "By integrating with AWS Key Management Service (KMS) for encryption key management",
+            "All of the above"
+        ],
+        "answer": 4,
+        "tags": "analytics"
+    },
+    {
+        "question": "What is the recommended practice for monitoring Amazon MSK clusters?",
+        "options": [
+            "Using Amazon CloudWatch for real-time monitoring of cluster metrics and logs",
+            "Using third-party monitoring tools for custom dashboards and analytics",
+            "Using AWS Lambda functions for automated remediation of performance issues",
+            "Using Amazon RDS for storing and indexing large volumes of log data"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "What is the maximum retention period for data stored in Kafka topics?",
+        "options": [
+            "7 days",
+            "30 days",
+            "90 days",
+            "365 days"
+        ],
+        "answer": 2,
+        "tags": "analytics"
+    },
+    {
+        "question": "How does Amazon MSK support cross-region replication?",
+        "options": [
+            "By using Kafka MirrorMaker for asynchronous replication between clusters",
+            "By replicating data across multiple availability zones within a region",
+            "By providing a managed replication service with automatic failover",
+            "By integrating with AWS Direct Connect for low-latency data transfer"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "What is the purpose of Kafka consumer groups?",
+        "options": [
+            "To distribute messages across multiple partitions for parallel processing",
+            "To provide fault tolerance and high availability by maintaining offset commits",
+            "To ensure data consistency and durability by replicating messages across brokers",
+            "To automate routine maintenance tasks and performance tuning"
+        ],
+        "answer": 2,
+        "tags": "analytics"
+    },
+    {
+        "question": "How does Amazon MSK handle data encryption?",
+        "options": [
+            "By encrypting data at rest using server-side encryption (SSE)",
+            "By encrypting data in transit using TLS/SSL encryption",
+            "By integrating with AWS Key Management Service (KMS) for encryption key management",
+            "All of the above"
+        ],
+        "answer": 4,
+        "tags": "analytics"
+    },
+    {
+        "question": "What is the purpose of Kafka Connect in Amazon MSK?",
+        "options": [
+            "To provide a framework for building scalable and fault-tolerant stream processing applications",
+            "To enable integration with external data sources and sinks using connectors",
+            "To facilitate cross-cluster replication and disaster recovery",
+            "To automate scaling and provisioning of Kafka brokers based on workload demands"
+        ],
+        "answer": 2,
+        "tags": "analytics"
+    },
+    {
+        "question": "What is the role of ZooKeeper in Apache Kafka?",
+        "options": [
+            "To manage and coordinate Kafka brokers and maintain metadata",
+            "To authenticate and authorize clients accessing Kafka topics",
+            "To provide fault tolerance and high availability for Kafka clusters",
+            "To optimize query performance and index data for fast retrieval"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "How does Amazon MSK handle scaling of Kafka clusters?",
+        "options": [
+            "By automatically adding or removing brokers based on traffic patterns",
+            "By providing tools for users to manually adjust cluster size and instance types",
+            "By dynamically partitioning topics across multiple brokers to distribute workload",
+            "By leveraging Kubernetes for containerized deployment and orchestration"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "What is the recommended approach for data retention in Amazon MSK?",
+        "options": [
+            "By configuring Kafka brokers to retain data for a fixed period of time",
+            "By periodically archiving Kafka topics to Amazon S3 for long-term storage",
+            "By using Kafka Connect to replicate data to external data lakes or databases",
+            "By integrating with AWS Glue for schema discovery and metadata management"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "What are some common use cases for Amazon MSK?",
+        "options": [
+            "Real-time analytics, log aggregation, and monitoring",
+            "Video transcoding, content delivery, and edge caching",
+            "Data warehousing, query processing, and ETL (Extract, Transform, Load)",
+            "Static website hosting, content management, and collaboration"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "How does Amazon MSK support real-time analytics?",
+        "options": [
+            "By providing low-latency, high-throughput message processing with Apache Kafka",
+            "By integrating with Amazon Athena for interactive querying and analysis",
+            "By offering built-in connectors for seamless integration with data lakes and warehouses",
+            "By leveraging AWS Glue for schema discovery and metadata management"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "What is the role of Amazon MSK in log aggregation and monitoring?",
+        "options": [
+            "To collect and centralize logs from distributed applications and services",
+            "To process and analyze streaming data in real-time for actionable insights",
+            "To optimize query performance and index data for fast retrieval",
+            "To provide fault tolerance and high availability for Kafka clusters"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "How does Amazon MSK facilitate event-driven architecture?",
+        "options": [
+            "By enabling seamless integration with AWS Lambda for serverless event processing",
+            "By providing a scalable and fault-tolerant messaging system for event ingestion",
+            "By supporting real-time stream processing with Apache Flink and Apache Spark",
+            "By integrating with AWS Step Functions for orchestrating complex workflows"
+        ],
+        "answer": 2,
+        "tags": "analytics"
+    },
+    {
+        "question": "What role does Amazon MSK play in IoT (Internet of Things) applications?",
+        "options": [
+            "To process and analyze telemetry data from connected devices in real-time",
+            "To store and archive historical sensor data for trend analysis and predictive maintenance",
+            "To facilitate secure communication and data exchange between IoT devices and cloud services",
+            "All of the above"
+        ],
+        "answer": 4,
+        "tags": "analytics"
+    },
+    {
+        "question": "How does Amazon MSK support microservices architecture?",
+        "options": [
+            "By providing a scalable and decoupled messaging layer for inter-service communication",
+            "By integrating with AWS App Mesh for service discovery and traffic routing",
+            "By offering built-in connectors for seamless integration with container orchestration platforms",
+            "All of the above"
+        ],
+        "answer": 4,
+        "tags": "analytics"
+    },
+    {
+        "question": "What is the role of Amazon MSK in data replication and synchronization?",
+        "options": [
+            "To replicate data between on-premises data centers and cloud-based data lakes",
+            "To synchronize data between distributed Kafka clusters in different regions or environments",
+            "To facilitate data migration and hybrid cloud deployment strategies",
+            "To optimize query performance and index data for fast retrieval"
+        ],
+        "answer": 2,
+        "tags": "analytics"
+    },
+    {
+        "question": "How does Amazon MSK support high-throughput data ingestion?",
+        "options": [
+            "By providing elastic scaling and automatic provisioning of Kafka brokers",
+            "By leveraging AWS Direct Connect for dedicated network connectivity",
+            "By optimizing disk I/O and network bandwidth for maximum throughput",
+            "All of the above"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "What role does Amazon MSK play in gaming applications?",
+        "options": [
+            "To handle real-time player interactions, event processing, and leaderboards",
+            "To manage user authentication and authorization for secure gameplay",
+            "To optimize query performance and index data for fast retrieval",
+            "To provide low-latency data storage and caching for game assets"
+        ],
+        "answer": 1,
+        "tags": "analytics"
+    },
+    {
+        "question": "How does Amazon MSK support fault tolerance and disaster recovery?",
+        "options": [
+            "By replicating data across multiple Kafka brokers within a cluster",
+            "By providing cross-region replication and automatic failover",
+            "By integrating with AWS Backup for automated data backup and restore",
+            "All of the above"
+        ],
+        "answer": 4,
+        "tags": "analytics"
     }
 ]
 

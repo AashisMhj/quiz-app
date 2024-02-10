@@ -89,7 +89,7 @@ const ExamPage = ({params}:Props) => {
                     setCurrentQuestion(question_data)
                 }
             })
-    }, [current_question_index])
+    }, [current_question_index, question_ids])
     useEffect(() => {
         if(!exam_id) return;
         const tags = searchParams.get('tags') || null;
@@ -106,7 +106,7 @@ const ExamPage = ({params}:Props) => {
                 }
             })
             .catch(console.trace)
-    }, []);
+    }, [exam_id, searchParams]);
 
     return <div className="text-black max-w-7xl mx-auto pt-4">
         <div className="text-2xl text-center mb-3">Solutions Architect </div>

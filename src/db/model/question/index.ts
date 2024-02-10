@@ -39,8 +39,10 @@ export async function enableRevalidate(question_id:number){
     })
 }
 
-export default {
+const Question = {
     getQuestionsList,
     getQuestion,
     getAnswer
-}
+};
+
+export default Question;
