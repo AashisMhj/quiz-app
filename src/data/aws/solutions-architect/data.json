@@ -5255,7 +5255,7 @@
             "A serverless computing service for running event-driven applications"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What are some key features of Amazon MSK?",
@@ -5266,7 +5266,7 @@
             "Multi-model database support, global replication, and transactional consistency"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "How does Amazon MSK handle cluster provisioning and management?",
@@ -5277,7 +5277,7 @@
             "By offering pre-configured Kafka templates for rapid cluster deployment"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What is the purpose of Apache Kafka in real-time data processing?",
@@ -5288,7 +5288,7 @@
             "To facilitate interactive querying and ad-hoc analysis of structured and unstructured data"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "How does Amazon MSK ensure data durability and fault tolerance?",
@@ -5299,7 +5299,7 @@
             "By providing cross-region replication and disaster recovery capabilities"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What is the role of Kafka topics in Amazon MSK?",
@@ -5310,7 +5310,7 @@
             "To automate routine maintenance tasks and performance tuning"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "How does Amazon MSK integrate with other AWS services?",
@@ -5321,7 +5321,7 @@
             "Through Amazon S3 for archiving and backup of Kafka topics"
         ],
         "answer": 2,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What authentication mechanisms are supported by Amazon MSK?",
@@ -5332,7 +5332,7 @@
             "Multi-factor authentication (MFA) for secure access control"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What is the pricing model for Amazon MSK?",
@@ -5343,7 +5343,7 @@
             "Usage-based pricing with charges for storage, data transfer, and API requests"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What is the primary use case for Amazon MSK?",
@@ -5354,7 +5354,7 @@
             "Batch processing and ETL (Extract, Transform, Load)"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What is the primary advantage of using Amazon MSK over self-managed Kafka clusters?",
@@ -5365,7 +5365,7 @@
             "Greater flexibility and compatibility"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "How does Amazon MSK handle Kafka broker failures?",
@@ -5376,7 +5376,7 @@
             "By requiring manual intervention to recover from failures"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What is the purpose of replication factor in Kafka?",
@@ -5387,7 +5387,7 @@
             "To automate routine maintenance tasks and performance tuning"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What is the recommended approach for data ingestion into Amazon MSK?",
@@ -5398,7 +5398,7 @@
             "Using Amazon Kinesis for real-time stream processing"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "How does Amazon MSK ensure data security?",
@@ -5409,7 +5409,7 @@
             "All of the above"
         ],
         "answer": 4,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What is the recommended practice for monitoring Amazon MSK clusters?",
@@ -5420,7 +5420,7 @@
             "Using Amazon RDS for storing and indexing large volumes of log data"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What is the maximum retention period for data stored in Kafka topics?",
@@ -5431,7 +5431,7 @@
             "365 days"
         ],
         "answer": 2,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "How does Amazon MSK support cross-region replication?",
@@ -5442,7 +5442,7 @@
             "By integrating with AWS Direct Connect for low-latency data transfer"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What is the purpose of Kafka consumer groups?",
@@ -5453,7 +5453,7 @@
             "To automate routine maintenance tasks and performance tuning"
         ],
         "answer": 2,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "How does Amazon MSK handle data encryption?",
@@ -5464,7 +5464,7 @@
             "All of the above"
         ],
         "answer": 4,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "How does Amazon MSK handle security?",
@@ -5475,7 +5475,7 @@
             "All of the above"
         ],
         "answer": 4,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What is the role of Kafka Connect in Amazon MSK?",
@@ -5486,7 +5486,7 @@
             "To automate scaling and provisioning of Kafka brokers based on workload demands"
         ],
         "answer": 2,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What is the role of ZooKeeper in Apache Kafka?",
@@ -5497,7 +5497,7 @@
             "To optimize query performance and index data for fast retrieval"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "How does Amazon MSK handle scaling of Kafka clusters?",
@@ -5508,7 +5508,7 @@
             "By leveraging Kubernetes for containerized deployment and orchestration"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What is the recommended approach for data retention in Amazon MSK?",
@@ -5519,7 +5519,7 @@
             "By integrating with AWS Glue for schema discovery and metadata management"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "How does Amazon MSK handle security patching and maintenance?",
@@ -5530,7 +5530,7 @@
             "By leveraging third-party security tools for vulnerability scanning and remediation"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What is the purpose of Apache ZooKeeper in Apache Kafka?",
@@ -5541,7 +5541,7 @@
             "To optimize query performance and index data for fast retrieval"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What is the purpose of Kafka Connect in Amazon MSK?",
@@ -5552,7 +5552,7 @@
             "To automate scaling and provisioning of Kafka brokers based on workload demands"
         ],
         "answer": 2,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "How does Amazon MSK handle client authentication and authorization?",
@@ -5563,7 +5563,7 @@
             "All of the above"
         ],
         "answer": 4,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What is the purpose of Kafka ACLs (Access Control Lists)?",
@@ -5574,7 +5574,7 @@
             "To automate scaling and provisioning of Kafka clusters based on workload demands"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What is the primary advantage of using Amazon MSK over self-managed Kafka clusters?",
@@ -5585,7 +5585,7 @@
             "Greater flexibility and compatibility"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "How does Amazon MSK handle Kafka broker failures?",
@@ -5596,7 +5596,7 @@
             "By requiring manual intervention to recover from failures"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What is the purpose of replication factor in Kafka?",
@@ -5607,7 +5607,7 @@
             "To automate routine maintenance tasks and performance tuning"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What is the recommended approach for data ingestion into Amazon MSK?",
@@ -5618,7 +5618,7 @@
             "Using Amazon Kinesis for real-time stream processing"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "How does Amazon MSK ensure data security?",
@@ -5629,7 +5629,7 @@
             "All of the above"
         ],
         "answer": 4,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What is the recommended practice for monitoring Amazon MSK clusters?",
@@ -5640,7 +5640,7 @@
             "Using Amazon RDS for storing and indexing large volumes of log data"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What is the maximum retention period for data stored in Kafka topics?",
@@ -5651,7 +5651,7 @@
             "365 days"
         ],
         "answer": 2,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "How does Amazon MSK support cross-region replication?",
@@ -5662,7 +5662,7 @@
             "By integrating with AWS Direct Connect for low-latency data transfer"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What is the purpose of Kafka consumer groups?",
@@ -5673,7 +5673,7 @@
             "To automate routine maintenance tasks and performance tuning"
         ],
         "answer": 2,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "How does Amazon MSK handle data encryption?",
@@ -5684,7 +5684,7 @@
             "All of the above"
         ],
         "answer": 4,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What is the purpose of Kafka Connect in Amazon MSK?",
@@ -5695,7 +5695,7 @@
             "To automate scaling and provisioning of Kafka brokers based on workload demands"
         ],
         "answer": 2,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What is the role of ZooKeeper in Apache Kafka?",
@@ -5706,7 +5706,7 @@
             "To optimize query performance and index data for fast retrieval"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "How does Amazon MSK handle scaling of Kafka clusters?",
@@ -5717,7 +5717,7 @@
             "By leveraging Kubernetes for containerized deployment and orchestration"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What is the recommended approach for data retention in Amazon MSK?",
@@ -5728,7 +5728,7 @@
             "By integrating with AWS Glue for schema discovery and metadata management"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What are some common use cases for Amazon MSK?",
@@ -5739,7 +5739,7 @@
             "Static website hosting, content management, and collaboration"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "How does Amazon MSK support real-time analytics?",
@@ -5750,7 +5750,7 @@
             "By leveraging AWS Glue for schema discovery and metadata management"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What is the role of Amazon MSK in log aggregation and monitoring?",
@@ -5761,7 +5761,7 @@
             "To provide fault tolerance and high availability for Kafka clusters"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "How does Amazon MSK facilitate event-driven architecture?",
@@ -5772,7 +5772,7 @@
             "By integrating with AWS Step Functions for orchestrating complex workflows"
         ],
         "answer": 2,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What role does Amazon MSK play in IoT (Internet of Things) applications?",
@@ -5783,7 +5783,7 @@
             "All of the above"
         ],
         "answer": 4,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "How does Amazon MSK support microservices architecture?",
@@ -5794,7 +5794,7 @@
             "All of the above"
         ],
         "answer": 4,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What is the role of Amazon MSK in data replication and synchronization?",
@@ -5805,7 +5805,7 @@
             "To optimize query performance and index data for fast retrieval"
         ],
         "answer": 2,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "How does Amazon MSK support high-throughput data ingestion?",
@@ -5816,7 +5816,7 @@
             "All of the above"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "What role does Amazon MSK play in gaming applications?",
@@ -5827,7 +5827,7 @@
             "To provide low-latency data storage and caching for game assets"
         ],
         "answer": 1,
-        "tags": "analytics"
+        "tag": "analytics"
     },
     {
         "question": "How does Amazon MSK support fault tolerance and disaster recovery?",
@@ -5838,7 +5838,4082 @@
             "All of the above"
         ],
         "answer": 4,
-        "tags": "analytics"
+        "tag": "analytics"
+    },
+    {
+        "question": "Which AWS service provides pre-trained AI services for vision, speech, language, and recommendation?",
+        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "answer": 3,
+        "tag": "ai-ml"
+    },
+    {
+        "question": "For natural language processing tasks such as sentiment analysis, entity recognition, and language detection, which AWS service should be used?",
+        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "answer": 2,
+        "tag": "ai-ml"
+    },
+    {
+        "question": "Which AWS service offers a fully managed machine learning service for building, training, and deploying machine learning models?",
+        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "answer": 1,
+        "tag": "ai-ml"
+    },
+    {
+        "question": "For analyzing text and extracting insights such as key phrases, topics, and language, which AWS service is recommended?",
+        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "answer": 2,
+        "tag": "ai-ml"
+    },
+    {
+        "question": "Which AWS service provides deep learning-based image and video analysis for object detection, facial recognition, and content moderation?",
+        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "answer": 3,
+        "tag": "ai-ml"
+    },
+    {
+        "question": "For generating lifelike speech from text, which AWS service should be used?",
+        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "answer": 4,
+        "tag": "ai-ml"
+    },
+    {
+        "question": "Which AWS service offers a managed service for building, training, and deploying custom machine learning models at scale?",
+        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "answer": 1,
+        "tag": "ai-ml"
+    },
+    {
+        "question": "For building conversational interfaces with voice and text, which AWS service should be used?",
+        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "answer": 4,
+        "tag": "ai-ml"
+    },
+    {
+        "question": "Which AWS service enables developers to build applications that can understand natural language and respond intelligently?",
+        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "answer": 2,
+        "tag": "ai-ml"
+    },
+    {
+        "question": "For automatic text-to-speech conversion with a wide range of lifelike voices, which AWS service is recommended?",
+        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "answer": 4,
+        "tag": "ai-ml"
+    },
+    {
+        "question": "For applications requiring automatic translation of text into lifelike speech in multiple languages, which AWS service should be used?",
+        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "answer": 4,
+        "tag": "ai-ml"
+    },
+    {
+        "question": "Which AWS service is suitable for applications requiring real-time analysis of streaming data to detect anomalies, patterns, and trends?",
+        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "answer": 2,
+        "tag": "ai-ml"
+    },
+    {
+        "question": "For sentiment analysis of customer reviews, social media posts, and other text data, which AWS service should be used?",
+        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "answer": 2,
+        "tag": "ai-ml"
+    },
+    {
+        "question": "Which AWS service provides computer vision capabilities for analyzing images and videos to extract insights and metadata?",
+        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "answer": 3,
+        "tag": "ai-ml"
+    },
+    {
+        "question": "For identifying objects, scenes, and activities within images and videos, which AWS service is recommended?",
+        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "answer": 3,
+        "tag": "ai-ml"
+    },
+    {
+        "question": "Which AWS service is suitable for creating custom machine learning models to predict customer churn based on historical data?",
+        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "answer": 1,
+        "tag": "ai-ml"
+    },
+    {
+        "question": "For building recommendation systems that personalize content and product recommendations for users, which AWS service should be used?",
+        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "answer": 1,
+        "tag": "ai-ml"
+    },
+    {
+        "question": "Which AWS service provides automated speech recognition (ASR) capabilities for converting speech to text?",
+        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "answer": 4,
+        "tag": "ai-ml"
+    },
+    {
+        "question": "For analyzing unstructured text data to extract entities, relationships, and sentiment, which AWS service is recommended?",
+        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "answer": 2,
+        "tag": "ai-ml"
+    },
+    {
+        "question": "Which AWS service enables developers to build custom machine learning models without requiring expertise in machine learning algorithms?",
+        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "answer": 1,
+        "tag": "ai-ml"
+    },
+    {
+        "question": "What is Amazon RDS?",
+        "options": [
+            "A managed relational database service provided by AWS",
+            "A distributed NoSQL database service for flexible, scalable, and high-performance applications",
+            "A serverless database service for running analytics workloads at scale",
+            "A data warehousing service for processing large-scale datasets"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "What are some key features of Amazon RDS?",
+        "options": [
+            "Automated backups, automatic failover, and multi-AZ deployment",
+            "Real-time stream processing, machine learning, and predictive analytics",
+            "Schema validation, data cataloging, and SQL-based querying",
+            "Global replication, transactional consistency, and multi-model database support"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "Which database engines are supported by Amazon RDS?",
+        "options": [
+            "MySQL, PostgreSQL, Oracle, SQL Server, and MariaDB",
+            "DynamoDB, Cassandra, MongoDB, Elasticsearch, and Redshift",
+            "Kinesis, Athena, Glue, EMR, and Neptune",
+            "Lambda, S3, EC2, CloudFront, and Route 53"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "How does Amazon RDS handle database administration tasks?",
+        "options": [
+            "By automating routine tasks such as hardware provisioning, patching, and backups",
+            "By providing a self-service console for users to manually manage databases",
+            "By integrating with third-party database management tools for customization",
+            "By offering pre-configured database templates for rapid deployment"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "What is the purpose of Multi-AZ deployment in Amazon RDS?",
+        "options": [
+            "To provide high availability and fault tolerance by replicating data across multiple Availability Zones",
+            "To optimize query performance and reduce latency by distributing read replicas globally",
+            "To enforce data consistency and isolation levels for transaction processing",
+            "To automate scaling and provisioning of database resources based on workload demands"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "What is the primary benefit of using Amazon RDS compared to self-managed databases?",
+        "options": [
+            "Reduced administrative overhead and management complexity",
+            "Lower cost and higher performance",
+            "Greater control and customization options",
+            "Enhanced security and compliance features"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "How does Amazon RDS handle database backups and recovery?",
+        "options": [
+            "By automatically taking snapshots and maintaining backups for point-in-time recovery",
+            "By storing backups in an S3 bucket for long-term retention",
+            "By integrating with AWS Backup for centralized management of backup policies",
+            "All of the above"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "What is the purpose of Read Replicas in Amazon RDS?",
+        "options": [
+            "To offload read traffic from the primary database instance and improve scalability",
+            "To provide fault tolerance and high availability by maintaining synchronized copies of data",
+            "To optimize query performance by pre-fetching data into memory",
+            "To facilitate cross-region replication and disaster recovery"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "How does Amazon RDS ensure data security?",
+        "options": [
+            "By encrypting data at rest and in transit using industry-standard encryption algorithms",
+            "By providing fine-grained access control and IAM integration",
+            "By supporting network isolation and VPC security groups",
+            "All of the above"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "What is the pricing model for Amazon RDS?",
+        "options": [
+            "Pay-as-you-go pricing based on the type and size of the database instance deployed",
+            "Subscription-based pricing with fixed monthly fees and data transfer costs",
+            "Free tier with limited functionality and paid tiers with additional features",
+            "Usage-based pricing with charges for storage, I/O operations, and backups"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "What is the maximum storage size allowed for an Amazon RDS database instance?",
+        "options": [
+            "64 TB",
+            "32 TB",
+            "16 TB",
+            "8 TB"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "Which of the following is NOT a valid database engine supported by Amazon RDS?",
+        "options": [
+            "MySQL",
+            "MongoDB",
+            "PostgreSQL",
+            "Oracle"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "What is the purpose of Amazon RDS read replicas?",
+        "options": [
+            "To improve read scalability by allowing read-heavy workloads to be offloaded from the primary instance",
+            "To increase write throughput by replicating write operations to multiple replicas",
+            "To ensure data consistency and durability by maintaining synchronous copies of data",
+            "To facilitate cross-region replication and disaster recovery"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "How does Amazon RDS handle database patching and upgrades?",
+        "options": [
+            "By automatically applying patches and upgrades during scheduled maintenance windows",
+            "By providing tools for users to manually initiate patching and upgrade tasks",
+            "By integrating with third-party patch management solutions for customization",
+            "By offering pre-configured database templates with the latest patches and updates"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS service can be used to automate the scaling of Amazon RDS read replicas?",
+        "options": [
+            "Amazon CloudWatch",
+            "Amazon S3",
+            "AWS Auto Scaling",
+            "AWS Lambda"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "What is the purpose of Amazon RDS parameter groups?",
+        "options": [
+            "To manage database configuration settings and parameters",
+            "To provision additional storage volumes for database instances",
+            "To monitor database performance metrics and log files",
+            "To automate database backups and snapshots"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "How does Amazon RDS support database encryption?",
+        "options": [
+            "By encrypting data at rest using AWS KMS encryption keys",
+            "By encrypting data in transit using SSL/TLS encryption",
+            "By integrating with AWS IAM for fine-grained access control",
+            "All of the above"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "What is the purpose of the Multi-AZ deployment option in Amazon RDS?",
+        "options": [
+            "To provide high availability and fault tolerance by replicating data synchronously across multiple Availability Zones",
+            "To improve read scalability by distributing read traffic across multiple read replicas",
+            "To optimize query performance by pre-fetching data into memory",
+            "To automate scaling and provisioning of database resources based on workload demands"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "What is the minimum storage size for an Amazon RDS database instance?",
+        "options": [
+            "5 GB",
+            "10 GB",
+            "20 GB",
+            "50 GB"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "What is the primary benefit of using Amazon RDS over self-managed databases?",
+        "options": [
+            "Reduced administrative overhead and management complexity",
+            "Lower cost and higher performance",
+            "Greater control and customization options",
+            "Enhanced security and compliance features"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "What is the default port for MySQL database instances running on Amazon RDS?",
+        "options": [
+            "3306",
+            "5432",
+            "1521",
+            "27017"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "Which of the following is NOT a valid backup option for Amazon RDS?",
+        "options": [
+            "Automated backups",
+            "Manual snapshots",
+            "Continuous backups",
+            "DB snapshots"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "What is the purpose of Amazon RDS event notifications?",
+        "options": [
+            "To notify users about scheduled maintenance events and changes to database instances",
+            "To monitor database performance metrics and log files in real-time",
+            "To automate scaling and provisioning of database resources based on workload demands",
+            "To provide fine-grained access control and IAM integration for database users"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "Which Amazon RDS feature allows you to control access to your database instances?",
+        "options": [
+            "DB Subnet Groups",
+            "IAM Policies",
+            "Security Groups",
+            "Access Control Lists"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "What is the purpose of Amazon RDS Option Groups?",
+        "options": [
+            "To manage database configuration settings and parameters",
+            "To provision additional storage volumes for database instances",
+            "To monitor database performance metrics and log files",
+            "To enable or disable database features and functionality"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS service can be used to schedule automatic database backups for Amazon RDS?",
+        "options": [
+            "Amazon CloudWatch",
+            "AWS Lambda",
+            "Amazon S3",
+            "AWS Backup"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "What is the purpose of Amazon RDS Performance Insights?",
+        "options": [
+            "To monitor and analyze database performance metrics in real-time",
+            "To optimize query performance and index data for fast retrieval",
+            "To automate scaling and provisioning of database resources based on workload demands",
+            "To provide encryption at rest and in transit for database instances"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "Which Amazon RDS feature allows you to create a copy of your database instance?",
+        "options": [
+            "Read Replicas",
+            "DB Snapshots",
+            "Option Groups",
+            "Event Notifications"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "What is the purpose of Amazon RDS IAM database authentication?",
+        "options": [
+            "To enable users to authenticate to database instances using IAM credentials",
+            "To encrypt data at rest and in transit using AWS KMS encryption keys",
+            "To optimize query performance and index data for fast retrieval",
+            "To automate scaling and provisioning of database resources based on workload demands"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "Which Amazon RDS feature allows you to view and modify database configuration settings?",
+        "options": [
+            "DB Parameter Groups",
+            "Option Groups",
+            "Event Notifications",
+            "Performance Insights"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "What is the maximum number of Read Replicas that can be created for an Amazon RDS database instance?",
+        "options": [
+            "5",
+            "10",
+            "15",
+            "20"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "Which Amazon RDS feature allows you to scale storage capacity without any downtime?",
+        "options": [
+            "Vertical scaling",
+            "Horizontal scaling",
+            "Elastic Block Store (EBS) volumes",
+            "Storage Auto Scaling"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "What is the purpose of Amazon RDS Performance Insights?",
+        "options": [
+            "To monitor and analyze database performance metrics in real-time",
+            "To automate backups and restore operations for database instances",
+            "To provide encryption at rest and in transit for database instances",
+            "To enable users to authenticate to database instances using IAM credentials"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "Which Amazon RDS database engine is optimized for analytical workloads?",
+        "options": [
+            "MySQL",
+            "PostgreSQL",
+            "SQL Server",
+            "Amazon Aurora"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "What is the purpose of Amazon RDS Cross-Region Read Replicas?",
+        "options": [
+            "To optimize read scalability within the same region",
+            "To provide disaster recovery capabilities across different regions",
+            "To facilitate data replication between on-premises and cloud environments",
+            "To enable cross-region data synchronization for global applications"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "Which Amazon RDS feature allows you to enforce SSL/TLS encryption for database connections?",
+        "options": [
+            "DB Snapshots",
+            "Parameter Groups",
+            "Option Groups",
+            "Security Groups"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "What is the purpose of Amazon RDS Custom Endpoints?",
+        "options": [
+            "To provide secure access to database instances from on-premises networks",
+            "To enable users to authenticate to database instances using IAM credentials",
+            "To automate scaling and provisioning of database resources based on workload demands",
+            "To optimize query performance and index data for fast retrieval"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "Which Amazon RDS database engine is NOT open-source?",
+        "options": [
+            "MySQL",
+            "PostgreSQL",
+            "MariaDB",
+            "SQL Server"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "What is the purpose of Amazon RDS Enhanced Monitoring?",
+        "options": [
+            "To optimize query performance and index data for fast retrieval",
+            "To provide real-time visibility into database resource utilization and performance metrics",
+            "To enable automated failover and high availability for database instances",
+            "To facilitate cross-region data replication and disaster recovery"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "Which Amazon RDS feature allows you to export database logs and events to Amazon CloudWatch?",
+        "options": [
+            "DB Snapshots",
+            "Event Notifications",
+            "Performance Insights",
+            "Enhanced Monitoring"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "Which Amazon RDS feature is most suitable for an application that requires real-time analytics?",
+        "options": [
+            "Read Replicas",
+            "Cross-Region Replication",
+            "Performance Insights",
+            "Enhanced Monitoring"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "Which Amazon RDS database engine is recommended for a high-performance OLTP (Online Transaction Processing) application?",
+        "options": [
+            "MySQL",
+            "PostgreSQL",
+            "SQL Server",
+            "Amazon Aurora"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For a global application with users distributed across multiple regions, which Amazon RDS feature can help achieve low-latency reads?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Performance Insights"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "Which Amazon RDS feature is best suited for maintaining a standby database for disaster recovery purposes?",
+        "options": [
+            "DB Snapshots",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where data privacy and compliance are critical, which Amazon RDS feature should be enabled for data encryption?",
+        "options": [
+            "DB Snapshots",
+            "Enhanced Monitoring",
+            "Parameter Groups",
+            "Encryption at Rest"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "Which Amazon RDS feature allows you to scale compute and memory resources for database instances without any downtime?",
+        "options": [
+            "Vertical Scaling",
+            "Horizontal Scaling",
+            "Storage Scaling",
+            "Auto Scaling"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "In an environment with unpredictable traffic patterns, which Amazon RDS feature can automatically adjust database resources based on workload demands?",
+        "options": [
+            "Multi-AZ Deployment",
+            "Performance Insights",
+            "Option Groups",
+            "Auto Scaling"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires low-latency reads from a read-only replica, which Amazon RDS feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Enhanced Monitoring"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "Which Amazon RDS feature is recommended for offloading read-heavy workloads from the primary database instance?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Performance Insights"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where database performance is critical and real-time monitoring is required, which Amazon RDS feature should be utilized?",
+        "options": [
+            "DB Snapshots",
+            "Performance Insights",
+            "Parameter Groups",
+            "Enhanced Monitoring"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where high availability is crucial, which Amazon RDS feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "For a workload that requires minimal downtime during database upgrades, which Amazon RDS feature should be used?",
+        "options": [
+            "DB Snapshots",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where database performance needs to be optimized, which Amazon RDS feature can provide recommendations for performance improvements?",
+        "options": [
+            "DB Snapshots",
+            "Performance Insights",
+            "Parameter Groups",
+            "Enhanced Monitoring"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "For an application with a rapidly growing dataset, which Amazon RDS feature can automatically adjust storage capacity?",
+        "options": [
+            "Vertical Scaling",
+            "Horizontal Scaling",
+            "Storage Scaling",
+            "Auto Scaling"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where database performance metrics need to be monitored in real-time, which Amazon RDS feature should be used?",
+        "options": [
+            "DB Snapshots",
+            "Performance Insights",
+            "Parameter Groups",
+            "Enhanced Monitoring"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires read scalability, which Amazon RDS feature can be used to offload read traffic from the primary database instance?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to enforce security policies for database access, which Amazon RDS feature should be used?",
+        "options": [
+            "DB Snapshots",
+            "Option Groups",
+            "IAM Database Authentication",
+            "Enhanced Monitoring"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires data isolation between different environments (e.g., production and development), which Amazon RDS feature should be used?",
+        "options": [
+            "DB Snapshots",
+            "Cross-Region Replication",
+            "Option Groups",
+            "DB Parameter Groups"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to reduce costs by scaling resources based on demand, which Amazon RDS feature should be used?",
+        "options": [
+            "Multi-AZ Deployment",
+            "Performance Insights",
+            "Auto Scaling",
+            "Read Replicas"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires cross-region disaster recovery, which Amazon RDS feature should be used?",
+        "options": [
+            "DB Snapshots",
+            "Cross-Region Replication",
+            "Option Groups",
+            "DB Parameter Groups"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to replicate data between two AWS regions for disaster recovery purposes, which Amazon RDS feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires separating database access permissions based on user roles, which Amazon RDS feature should be used?",
+        "options": [
+            "DB Snapshots",
+            "Option Groups",
+            "IAM Database Authentication",
+            "Enhanced Monitoring"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to monitor and analyze database performance metrics to identify bottlenecks, which Amazon RDS feature should be used?",
+        "options": [
+            "DB Snapshots",
+            "Performance Insights",
+            "Parameter Groups",
+            "Enhanced Monitoring"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires horizontal scaling to handle fluctuating workloads, which Amazon RDS feature should be utilized?",
+        "options": [
+            "Vertical Scaling",
+            "Horizontal Scaling",
+            "Storage Scaling",
+            "Auto Scaling"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to automatically adjust database resources based on workload demands, which Amazon RDS feature should be used?",
+        "options": [
+            "Multi-AZ Deployment",
+            "Performance Insights",
+            "Auto Scaling",
+            "Read Replicas"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires read scalability across multiple regions, which Amazon RDS feature should be used?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where database storage needs to be dynamically adjusted based on usage, which Amazon RDS feature should be utilized?",
+        "options": [
+            "Vertical Scaling",
+            "Horizontal Scaling",
+            "Storage Scaling",
+            "Auto Scaling"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires real-time access to database logs and events, which Amazon RDS feature should be used?",
+        "options": [
+            "DB Snapshots",
+            "Performance Insights",
+            "Enhanced Monitoring",
+            "Event Notifications"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where database performance needs to be optimized for specific query patterns, which Amazon RDS feature should be used?",
+        "options": [
+            "DB Snapshots",
+            "Performance Insights",
+            "Parameter Groups",
+            "Enhanced Monitoring"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires instant failover to a standby database in case of a primary instance failure, which Amazon RDS feature should be used?",
+        "options": [
+            "DB Snapshots",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "For a scenario where you need to offload read-intensive queries from the primary database to reduce load, which Amazon RDS feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to scale database storage automatically based on the volume of data, which Amazon RDS feature should be used?",
+        "options": [
+            "Vertical Scaling",
+            "Horizontal Scaling",
+            "Storage Scaling",
+            "Auto Scaling"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires consistent performance regardless of the underlying hardware, which Amazon RDS feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Amazon Aurora"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to schedule automatic backups for database instances, which Amazon RDS feature should be used?",
+        "options": [
+            "DB Snapshots",
+            "Performance Insights",
+            "Auto Scaling",
+            "Event Notifications"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires maintaining separate database instances for development, testing, and production environments, which Amazon RDS feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to encrypt data at rest to comply with regulatory requirements, which Amazon RDS feature should be used?",
+        "options": [
+            "DB Snapshots",
+            "Enhanced Monitoring",
+            "Parameter Groups",
+            "Encryption at Rest"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires maintaining multiple copies of the database for disaster recovery purposes, which Amazon RDS feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to capture and analyze database query patterns to optimize performance, which Amazon RDS feature should be used?",
+        "options": [
+            "DB Snapshots",
+            "Performance Insights",
+            "Parameter Groups",
+            "Enhanced Monitoring"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires maintaining separate database instances with different configurations, which Amazon RDS feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to automatically scale compute resources based on workload demands, which Amazon RDS feature should be used?",
+        "options": [
+            "Vertical Scaling",
+            "Horizontal Scaling",
+            "Storage Scaling",
+            "Auto Scaling"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires high availability and automatic failover, which Amazon Aurora feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to scale read operations without impacting write performance, which Amazon Aurora feature should be used?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires fast query execution and real-time analytics, which Amazon Aurora feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Performance Insights",
+            "Enhanced Monitoring"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to reduce costs by scaling compute resources based on demand, which Amazon Aurora feature should be used?",
+        "options": [
+            "Cross-Region Replication",
+            "Performance Insights",
+            "Auto Scaling",
+            "Read Replicas"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires automatic backups with point-in-time recovery, which Amazon Aurora feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Continuous Backups"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to ensure data durability and high availability, which Amazon Aurora feature should be used?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires real-time monitoring of database performance, which Amazon Aurora feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Performance Insights",
+            "Enhanced Monitoring"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to isolate database access based on user roles, which Amazon Aurora feature should be used?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "IAM Database Authentication",
+            "Read Replicas"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires read scalability across multiple regions, which Amazon Aurora feature should be used?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to replicate data between two AWS regions for disaster recovery purposes, which Amazon Aurora feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires real-time replication of data across multiple AWS regions for disaster recovery and read scalability, which Amazon Aurora feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to automatically scale compute resources based on workload demands without downtime, which Amazon Aurora feature should be used?",
+        "options": [
+            "Cross-Region Replication",
+            "Performance Insights",
+            "Auto Scaling",
+            "Read Replicas"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires low-latency reads and writes with high availability, which Amazon Aurora feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to isolate database access to specific IAM users or roles, which Amazon Aurora feature should be used?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "IAM Database Authentication",
+            "Read Replicas"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires continuous backups with point-in-time recovery capability, which Amazon Aurora feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Continuous Backups"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to monitor and analyze database performance metrics in real-time, which Amazon Aurora feature should be used?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Performance Insights",
+            "Enhanced Monitoring"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires read scalability for analytical workloads, which Amazon Aurora feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to reduce costs by offloading read operations from the primary database, which Amazon Aurora feature should be used?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires fast failover to a standby database in case of a primary instance failure, which Amazon Aurora feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to replicate data between on-premises and AWS cloud environments for hybrid deployments, which Amazon Aurora feature should be used?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "For an application with frequent, complex queries and high concurrency, which Amazon Aurora feature should be utilized to improve performance?",
+        "options": [
+            "Cross-Region Replication",
+            "Performance Insights",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to distribute read traffic across multiple read replicas, which Amazon Aurora feature should be used?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "For an application with unpredictable workloads that require scaling both read and write operations independently, which Amazon Aurora feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to ensure data durability and protection against regional failures, which Amazon Aurora feature should be used?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires the ability to roll back database changes to a specific point in time, which Amazon Aurora feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Point-in-Time Recovery"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to optimize cost by offloading read-only workloads to separate database instances, which Amazon Aurora feature should be used?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "For an application with strict compliance requirements that necessitate encryption at rest, which Amazon Aurora feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Encryption at Rest"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to improve the fault tolerance of your database by creating replicas in different regions, which Amazon Aurora feature should be used?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires real-time insights into database performance and query execution, which Amazon Aurora feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Performance Insights",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to automatically scale compute resources based on workload demands without manual intervention, which Amazon Aurora feature should be used?",
+        "options": [
+            "Cross-Region Replication",
+            "Performance Insights",
+            "Auto Scaling",
+            "Read Replicas"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires low-latency read access to data, which Amazon Aurora feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to minimize downtime during database maintenance tasks, which Amazon Aurora feature should be used?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Online Schema Changes"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires automatic failover in case of a database instance failure, which Amazon Aurora feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Automatic Failover"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to replicate data across multiple AWS regions for disaster recovery purposes, which Amazon Aurora feature should be used?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires separating read and write workloads to improve performance, which Amazon Aurora feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Split-Write Workloads"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to scale read capacity independently of the primary database, which Amazon Aurora feature should be used?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Reader Endpoints"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires transparent encryption of data at rest, which Amazon Aurora feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Encryption at Rest"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to replicate data from an Amazon Aurora cluster to an external database, which Amazon Aurora feature should be used?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Data Export"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires automatic database patching and updates, which Amazon Aurora feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Automated Patching"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to analyze historical database performance data to optimize resource usage, which Amazon Aurora feature should be used?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Performance Insights"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires real-time analytics on a large dataset, which Amazon Aurora feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Aurora Serverless"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to scale database resources dynamically based on workload demand, which Amazon Aurora feature should be used?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Aurora Auto Scaling"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires data isolation between different environments, which Amazon Aurora feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Option Groups"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to offload read-heavy workloads to separate database instances, which Amazon Aurora feature should be used?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Aurora Replica Scaling",
+            "Read Replicas"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires automatic failover and high availability, which Amazon Aurora feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Aurora Global Database"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to create read replicas in different AWS regions for disaster recovery, which Amazon Aurora feature should be used?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Aurora Global Database",
+            "Read Replicas"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires fine-grained control over database configurations, which Amazon Aurora feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Parameter Groups"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to automate database patching and updates, which Amazon Aurora feature should be used?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Aurora Auto Patching"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires on-demand database scaling without downtime, which Amazon Aurora feature should be utilized?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Aurora Serverless",
+            "Read Replicas"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to enforce data-at-rest encryption for regulatory compliance, which Amazon Aurora feature should be used?",
+        "options": [
+            "Cross-Region Replication",
+            "Multi-AZ Deployment",
+            "Read Replicas",
+            "Aurora Encryption"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires fast and predictable single-digit millisecond response times at any scale, which Amazon DynamoDB feature should be utilized?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "DynamoDB Global Tables",
+            "DynamoDB Auto Scaling"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to support multi-region replication for global applications, which Amazon DynamoDB feature should be used?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "DynamoDB Global Tables",
+            "DynamoDB Auto Scaling"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires capturing and reacting to database changes in real-time, which Amazon DynamoDB feature should be utilized?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "DynamoDB Global Tables",
+            "DynamoDB Auto Scaling"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to ensure automatic scaling of read and write capacity based on traffic patterns, which Amazon DynamoDB feature should be used?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "DynamoDB Global Tables",
+            "DynamoDB Auto Scaling"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires low-latency read access to data in a specific region, which Amazon DynamoDB feature should be utilized?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "DynamoDB Global Tables",
+            "DynamoDB Auto Scaling"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to distribute read traffic across multiple replica tables in different regions, which Amazon DynamoDB feature should be used?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "DynamoDB Global Tables",
+            "DynamoDB Auto Scaling"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires automatically managed and replicated multi-region tables for disaster recovery, which Amazon DynamoDB feature should be utilized?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "DynamoDB Global Tables",
+            "DynamoDB Auto Scaling"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to store and query semi-structured data with flexible schema, which Amazon DynamoDB feature should be used?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "DynamoDB Global Tables",
+            "DynamoDB Document Client"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires fine-grained access control to individual items in a database table, which Amazon DynamoDB feature should be utilized?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "DynamoDB Global Tables",
+            "Amazon DynamoDB Fine-Grained Access Control (FGAC)"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to analyze historical changes to data within a DynamoDB table, which Amazon DynamoDB feature should be used?",
+        "options": [
+            "DynamoDB Streams",
+            "Amazon DynamoDB Time to Live (TTL)",
+            "DynamoDB Global Tables",
+            "DynamoDB Auto Scaling"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires consistent, single-digit millisecond latency for read operations, which Amazon DynamoDB feature should be utilized?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "DynamoDB Global Tables",
+            "DynamoDB On-Demand Capacity Mode"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to distribute data across multiple geographically distant regions with automatic data replication, which Amazon DynamoDB feature should be used?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "DynamoDB Global Tables",
+            "DynamoDB Point-in-Time Recovery"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires real-time data processing and analytics on database changes, which Amazon DynamoDB feature should be utilized?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "Amazon DynamoDB Backup and Restore",
+            "DynamoDB Global Tables"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to automate the provisioning and scaling of read and write capacity, which Amazon DynamoDB feature should be used?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "Amazon DynamoDB On-Demand Capacity Mode",
+            "DynamoDB Auto Scaling"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires storing and querying semi-structured data with variable attributes, which Amazon DynamoDB feature should be utilized?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "DynamoDB Global Tables",
+            "DynamoDB Document Client"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to synchronize data between multiple DynamoDB tables in different regions, which Amazon DynamoDB feature should be used?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Global Tables",
+            "DynamoDB Accelerator (DAX)",
+            "Amazon DynamoDB Backup and Restore"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires automated backups and point-in-time recovery, which Amazon DynamoDB feature should be utilized?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "DynamoDB Global Tables",
+            "Amazon DynamoDB Backup and Restore"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to enforce data encryption at rest for compliance requirements, which Amazon DynamoDB feature should be used?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "DynamoDB Global Tables",
+            "Amazon DynamoDB Encryption at Rest"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires monitoring and analyzing database performance metrics in real-time, which Amazon DynamoDB feature should be utilized?",
+        "options": [
+            "DynamoDB Streams",
+            "Amazon DynamoDB Backup and Restore",
+            "DynamoDB Accelerator (DAX)",
+            "DynamoDB Streams Enhanced Monitoring"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to set a time limit for the retention of items in a DynamoDB table, which Amazon DynamoDB feature should be used?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "DynamoDB Global Tables",
+            "Amazon DynamoDB Time to Live (TTL)"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires storing frequently accessed data with high availability and fault tolerance, which Amazon DynamoDB feature should be utilized?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "DynamoDB Global Tables",
+            "DynamoDB Auto Scaling"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to track changes to items in a DynamoDB table over time, which Amazon DynamoDB feature should be used?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Time to Live (TTL)",
+            "DynamoDB Global Tables",
+            "DynamoDB Point-in-Time Recovery"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires real-time analytics on streaming data, which Amazon DynamoDB feature should be utilized?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "DynamoDB Global Tables",
+            "Amazon Kinesis Data Streams"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to ensure data durability and availability in case of accidental deletion or corruption, which Amazon DynamoDB feature should be used?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Time to Live (TTL)",
+            "DynamoDB Global Tables",
+            "DynamoDB Point-in-Time Recovery"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires offloading read-heavy workloads to reduce primary database load, which Amazon DynamoDB feature should be utilized?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "DynamoDB Global Tables",
+            "DynamoDB Read Replicas"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to minimize the cost of database operations for infrequently accessed data, which Amazon DynamoDB feature should be used?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "DynamoDB On-Demand Capacity Mode",
+            "DynamoDB Time to Live (TTL)"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires fine-grained access control to individual attributes within items, which Amazon DynamoDB feature should be utilized?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "Amazon DynamoDB Fine-Grained Access Control (FGAC)",
+            "DynamoDB Global Tables"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to distribute read traffic across multiple replica tables for improved read performance, which Amazon DynamoDB feature should be used?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "DynamoDB Global Tables",
+            "DynamoDB Read Replicas"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires automated scaling of read capacity to handle fluctuating workloads, which Amazon DynamoDB feature should be utilized?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "DynamoDB Global Tables",
+            "DynamoDB Auto Scaling"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to ensure data consistency across multiple regions with automatic conflict resolution, which Amazon DynamoDB feature should be used?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "DynamoDB Global Tables",
+            "DynamoDB Last Write Wins"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires fine-grained access control to specific attributes within items, which Amazon DynamoDB feature should be utilized?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "Amazon DynamoDB Fine-Grained Access Control (FGAC)",
+            "DynamoDB Global Tables"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to ensure data consistency across multiple replicas in different AWS regions, which Amazon DynamoDB feature should be used?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "DynamoDB Global Tables",
+            "DynamoDB Last Write Wins"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires fast read access to frequently accessed items, which Amazon DynamoDB feature should be utilized?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "DynamoDB Global Tables",
+            "DynamoDB Read Replicas"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to track changes to items in a DynamoDB table over time, which Amazon DynamoDB feature should be used?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Time to Live (TTL)",
+            "DynamoDB Global Tables",
+            "DynamoDB Point-in-Time Recovery"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires distributing read traffic across multiple replica tables to improve read performance, which Amazon DynamoDB feature should be utilized?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "DynamoDB Global Tables",
+            "DynamoDB Read Replicas"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to automate the provisioning of read and write capacity based on traffic patterns, which Amazon DynamoDB feature should be used?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "DynamoDB Global Tables",
+            "DynamoDB Auto Scaling"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires ensuring data durability and availability, which Amazon DynamoDB feature should be utilized?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Time to Live (TTL)",
+            "DynamoDB Global Tables",
+            "DynamoDB Point-in-Time Recovery"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to minimize the cost of database operations for infrequently accessed data, which Amazon DynamoDB feature should be used?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "DynamoDB On-Demand Capacity Mode",
+            "DynamoDB Time to Live (TTL)"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires real-time data processing and analytics on streaming data, which Amazon DynamoDB feature should be utilized?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Accelerator (DAX)",
+            "DynamoDB Global Tables",
+            "Amazon Kinesis Data Streams"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "In a scenario where you need to synchronize data between multiple DynamoDB tables in different regions, which Amazon DynamoDB feature should be used?",
+        "options": [
+            "DynamoDB Streams",
+            "DynamoDB Global Tables",
+            "DynamoDB Accelerator (DAX)",
+            "Amazon DynamoDB Backup and Restore"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "For an application requiring compatibility with MongoDB and a fully managed service, which AWS database service should be chosen?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service offers compatibility with Apache Cassandra?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is designed for graph databases?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is suitable for applications requiring an immutable and verifiable transaction log?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For an IoT application that needs to store and analyze time-series data at scale, which AWS database service is recommended?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "TimeStream"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service provides compatibility with the MongoDB API and supports document data models?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is fully managed and compatible with Apache Cassandra Query Language (CQL)?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is suitable for applications requiring highly connected data sets, such as social networks or recommendation engines?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service provides a centralized, immutable, and cryptographically verifiable transaction log?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires storing and analyzing time-series data with high precision timestamps, which AWS database service is recommended?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "TimeStream"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service offers features such as ACID transactions and automatic scaling of storage and compute?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is fully compatible with existing Apache Cassandra applications and tools?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service supports both property graph and RDF graph models?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is suitable for building applications requiring a centralized, immutable, and cryptographically verifiable transaction log?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is optimized for time-series data ingestion and querying at scale?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "TimeStream"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is purpose-built for time-series data and is optimized for IoT and telemetry applications?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "TimeStream"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is suitable for applications requiring a highly scalable, fully managed graph database?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service offers compatibility with MongoDB workloads and supports document data models?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "TimeStream"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is fully managed and compatible with Apache Cassandra Query Language (CQL)?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is suitable for applications requiring real-time analytics and visualization of graph data?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service offers a centralized, immutable, and cryptographically verifiable transaction log?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service provides compatibility with Apache Cassandra and is suitable for applications requiring low-latency reads and writes?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is designed for applications requiring fast and scalable graph queries?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is suitable for building applications requiring an append-only log of immutable data records?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is optimized for storing and analyzing time-series data with high precision timestamps?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "TimeStream"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service provides compatibility with MongoDB and supports document data models?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "TimeStream"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is fully managed and compatible with Apache Cassandra Query Language (CQL)?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is designed for storing and querying highly connected data sets, such as social networks or recommendation engines?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service provides a fully managed, purpose-built graph database?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is optimized for time-series data ingestion and querying?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "TimeStream"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service offers compatibility with Apache Cassandra workloads and is fully managed by AWS?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is suitable for applications requiring a centralized, immutable, and cryptographically verifiable transaction log?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is designed for building applications requiring real-time analytics on graph data?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is optimized for storing and querying JSON-like document data?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is purpose-built for handling time-series data generated by IoT devices?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "TimeStream"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that requires real-time analytics and visualization of highly connected data sets, which AWS database service should be used?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is best suited for building applications that require storing and querying JSON-like document data with high availability and scalability?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "TimeStream"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "For a financial application that requires an immutable and verifiable transaction log, which AWS database service should be chosen?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is suitable for storing and analyzing time-series data generated by IoT devices?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "TimeStream"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For a social networking application that needs to model and query complex relationships between entities, which AWS database service should be used?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is ideal for building applications requiring compatibility with existing Apache Cassandra workloads and tools?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that needs to store and query data with highly connected entities, such as recommendation engines, which AWS database service should be used?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is best suited for applications requiring real-time analytics on time-series data, such as monitoring and anomaly detection?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "TimeStream"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that needs to scale storage and compute resources automatically based on demand, which AWS database service should be used?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is suitable for applications requiring a fully managed, purpose-built graph database with high availability and durability?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "For a gaming application that requires storing and querying highly connected data sets, such as player relationships and game interactions, which AWS database service should be used?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is suitable for building applications requiring a centralized, immutable, and cryptographically verifiable transaction log for auditing purposes?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For a logistics application that needs to track real-time movement and delivery updates of packages, which AWS database service should be used?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "TimeStream"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is best suited for building applications requiring compatibility with Apache Cassandra workloads and tools?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "For a financial application that requires storing and querying complex hierarchical data, such as customer accounts and transactions, which AWS database service should be used?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is ideal for building applications requiring real-time analytics and visualization of graph data, such as fraud detection systems?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "For a media streaming platform that needs to analyze user behavior and preferences in real-time, which AWS database service should be used?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "TimeStream"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is suitable for applications requiring compatibility with MongoDB and the ability to scale storage and compute resources automatically?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "TimeStream"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "For an application that needs to track and analyze time-series data from sensors in industrial equipment, which AWS database service should be used?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "TimeStream"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is optimized for storing and querying highly connected data sets, such as social networks and recommendation systems, with high performance and scalability?",
+        "options": [
+            "DocumentDB",
+            "Keyspaces",
+            "Neptune",
+            "Ledger Database"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is suitable for OLTP workloads requiring high availability, durability, and scalability?",
+        "options": ["RDS", "DynamoDB", "Redshift", "ElastiCache"],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "For applications requiring compatibility with MySQL, PostgreSQL, MariaDB, or Oracle databases, which AWS service should be chosen?",
+        "options": ["RDS", "DynamoDB", "Redshift", "DocumentDB"],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is designed for fast, scalable, and fully managed NoSQL databases?",
+        "options": ["RDS", "DynamoDB", "Redshift", "ElastiCache"],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "For analytical workloads requiring petabyte-scale data warehousing, which AWS service should be used?",
+        "options": ["RDS", "DynamoDB", "Redshift", "DocumentDB"],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service provides in-memory caching for low-latency access to frequently accessed data?",
+        "options": ["RDS", "DynamoDB", "Redshift", "ElastiCache"],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For graph database applications requiring highly connected data sets, which AWS service should be used?",
+        "options": ["RDS", "DynamoDB", "Redshift", "Neptune"],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is suitable for document database workloads compatible with MongoDB?",
+        "options": ["RDS", "DynamoDB", "Redshift", "DocumentDB"],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is designed for time-series data and is ideal for IoT applications?",
+        "options": ["RDS", "DynamoDB", "Redshift", "TimeStream"],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For caching frequently accessed data from databases or web applications, which AWS service should be used?",
+        "options": ["RDS", "DynamoDB", "Redshift", "ElastiCache"],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service supports ACID transactions, automatic backups, and automated failover?",
+        "options": ["RDS", "DynamoDB", "Redshift", "DocumentDB"],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "For applications requiring high availability, read scalability, and fully managed relational databases, which AWS service should be chosen?",
+        "options": ["RDS", "DynamoDB", "Redshift", "DocumentDB"],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is designed for fast, scalable, and flexible NoSQL databases with low latency performance?",
+        "options": ["RDS", "DynamoDB", "Redshift", "ElastiCache"],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "For data warehousing applications requiring petabyte-scale analysis, which AWS service should be used?",
+        "options": ["RDS", "DynamoDB", "Redshift", "Neptune"],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service offers in-memory caching to improve the performance of web applications and databases?",
+        "options": ["RDS", "DynamoDB", "Redshift", "ElastiCache"],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For storing and querying highly connected data sets, such as social networks, which AWS service is recommended?",
+        "options": ["RDS", "DynamoDB", "Redshift", "Neptune"],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is fully compatible with MongoDB workloads and provides document data models?",
+        "options": ["RDS", "DynamoDB", "Redshift", "DocumentDB"],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For applications requiring centralized, immutable, and cryptographically verifiable transaction logs, which AWS service should be chosen?",
+        "options": ["RDS", "DynamoDB", "Redshift", "Ledger Database"],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is optimized for time-series data storage and is suitable for IoT and telemetry applications?",
+        "options": ["RDS", "DynamoDB", "Redshift", "TimeStream"],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "For caching frequently accessed data from databases and web applications, which AWS service should be used?",
+        "options": ["RDS", "DynamoDB", "Redshift", "ElastiCache"],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS database service is suitable for graph database applications requiring highly connected data sets?",
+        "options": ["RDS", "DynamoDB", "Redshift", "Neptune"],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "Can we attach an EBS volume to more than one EC2 instance at the same time?",
+        "options": [
+            "Only EC2-optimized EBS volumes.",
+            "NO",
+            "Yes",
+            "On;y in read mode"
+        ],
+        "answer": 2,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "Which DNS name can only be resolved with Amazon EC2?",
+        "options": [
+            "Private DNS name",
+            "External DNS name",
+            "Internal DNS name",
+            "Global DNS name"
+        ],
+        "answer": 3,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "How can an instance be copied to another region?",
+        "options": [
+            "By creating an AMI and copy it to another region",
+            "There is no way to copy an instance to another region",
+            "detached volume can be attached to new instance as root device",
+            "By stopping instance and using copy option"
+        ],
+        "answer": 1,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "You have an VPC with a public subnet. Three EC2 instances currently running inside the subnet can successfully communicate with other host on the internet. You launch a fourth instance in the same subnet, using the same AMI and security group configuration you used for the others, but find that this instance cannot be accessed from the Internet. What should you do to enable internet access?",
+        "options": [
+            "MX",
+            "TXT",
+            "Alias",
+            "AAAA"
+        ],
+        "answer": 3,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "What does the 'Server Side Encryption' option an S3 provide?",
+        "options": [
+            "It provides an encrypted virtual disk in the cloud.",
+            "It encrypts the files that you send to S3 on the server side",
+            "It allows to upload files using an SSL endpoint for secure transfer.",
+            "It doesn't exist for S3 but only for EC2"
+        ],
+        "answer": 2,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "What does Amazon CloudFormation provide?",
+        "options": [
+            "A template to map network for Amazon Web Services",
+            "A template resource creation for AWS",
+            "The ability to setup Auto Scaling for EC2 instances",
+            "None of these"
+        ],
+        "answer": 2,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "A VPC public subnet is one that:",
+        "options": [
+            "Includes a route in its associated routing table via a NAT instance.",
+            "Has at least one route in its associated table that uses an Internet Gateway.",
+            "Has a Network Access Control List (NACL) permitting outbound traffic to 0.0.0.0/0",
+            "Has the Public Subnet option selected in its configuration"
+        ],
+        "answer": 2,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "You are deploying an application an EC2 that must call AWS APIs. What method of securely passing credentials to the application should you use?",
+        "options": [
+            "Embed the API credentials into your JAR files.",
+            "Use AWS Identity and Access Management roles for EC2 instances.",
+            "Store API credentials are an object in Amazon Simple Storage Service",
+            "Pass API credentials to the instance using instance userdata."
+        ],
+        "answer": 2,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "You receive a Spot Instance at a bid of $0.05/hr. After 30 minutes, the Spot Price increase to $0.06/hr and your Spot instance is terminated by AWS. What was the total EC2 compute cost of running your Spot Instance?",
+        "options": [
+            "$0.06",
+            "$0.025",
+            "$0.00",
+            "$0.02",
+            "$0.05"
+        ],
+        "answer": 3,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "Will my standby RDS instance be the same AZ as my Primary?",
+        "options": [
+            "Yes",
+            "On;y if configured at launch",
+            "No",
+            "Only for Oracle RDS types"
+        ],
+        "answer": 3,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "Does Route 53 support MX Records?",
+        "options": [
+            "Only Primary MX records, Secondary MX records are not supported.",
+            "Yes",
+            "No",
+            "It supports CNAME records, but not MX records"
+        ],
+        "answer": 2,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "You have an EC2 security group with several running EC2 instances. You change the security group rules to allow inbound traffic on a new port and protocol, and launch several new instances in the same security group. The new rules apply:",
+        "options": [
+            "To all instances, but it may take several minutes for ond instances to see the changes",
+            "Immediately to the new instances, but ond instances. must be stopped and restarted before the new rules apply.",
+            "Immediately to the new instances only.",
+            "Immediately to all instances in the security group"
+        ],
+        "answer": 4,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "When you run a DB Instance as a Multi-AZ deployment, the ___ serves database writes and reads",
+        "options": [
+            "Stand by",
+            "Secondary",
+            "Backup",
+            "Primary"
+        ],
+        "answer": 4,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "You are developing a highly available web application using stateless web servers. Which services are suitable for storing session state data? Choose 3 answers",
+        "options": [
+            "Amazon DynamoDB",
+            "Amazon ElasticCache",
+            "Elastic Load Balancing",
+            "AWS Storage Gateway",
+            "Amazon CloudWatch",
+            "Amazon Relational Database Service(RDS)"
+        ],
+        "answer": [1,2,6],
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "You are setting up a VPC and you need to set up a public subnet within the VPC. What following requirements must be met for this subnet to be considered a public subnet?",
+        "options": [
+            "Subnet's traffic is routed to an Internet gateway",
+            "Subnet's traffic is not routed to an Internet gateway.",
+            "None of these answers can be considered a public subnet",
+            "Subnet's traffic is not routed to an Internet gateway but has its traffic routed to a virtual private gateway"
+        ],
+        "answer": 1,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "The user started an instance at 3 PM. Between 3 PM to 5 PM, he stopped and started the instance twice. During the same period, he has run the linux reboot command by ssh once and triggered reboot from AWS console once. For how many instance hours will AWS charge this user",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "answer": 3,
+        "tag": "knowledge-hunt"
+    },{
+        "question": "If any change is made to a security group rule, when are these changes effective?",
+        "options": [
+            "Changes will be effective after 5 minutes",
+            "Changes are automatically applied after a short period",
+            "Security group rules can not be changed. You have to create a new security group and assign it to instances",
+            "Changes will be effective after rebooting the instances in that security group"
+        ],
+        "answer": 2,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "What combination of the following options will protect S3 objects from both accidental deletion and accidental overwriting",
+        "options": [
+            "Disable S3 delete using an IAM bucket policy",
+            "Enable multi-factor authentication (MFA) protected access.",
+            "Access S3 data using only signer URLs.",
+            "Enable S3 versioning on the bucket.",
+            "Enable S3 Reduced Redundancy Storage."
+        ],
+        "answer": 1,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "About the charge of Elastic IP Address, which of the following is true?",
+        "options": [
+            "Elastic IP addresses can always be used with no charge.",
+            "You can have 5 Elastic IP address per region with no charge.",
+            "You are charged for each Elastic IP addressed.",
+            "You can have one Elastic IP (EIP) address associated with a running instance at no charge."
+        ],
+        "answer": 4,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "Select the correct set of options. These are the initial settings for the default security group",
+        "options": [
+            "Allow all inbound traffic, Allow all outbound and Does NOT allow instances associated with this security group to talk to each other.",
+            "Allow all inbound traffic, Allow no outbound and Allow instances associated with this security group to talk to each other.",
+            "Allow no inbound traffic, Allow all outbound and Allow instances associated with this security group to talk to each other.",
+            "Allow no inbound traffic, Allow all outbound and Does NOT allow instances associated with this security group to talk to each other."
+        ],
+        "answer": 3,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "Is it possible to change an instance type after it has been created?",
+        "options": [
+            "Instance type can not be changed",
+            "Type can be changed if it has an EBS store volume root device",
+            "Type can be changed if it has an instance store volume root device"
+        ],
+        "answer": 3,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "What is the Reduced Redundancy option in S3?",
+        "options": [
+            "It doesn't exist at all",
+            "Reproducible data at Less redundancy for a lower cost",
+            "It allows us to destroy any copy of your files outside"
+        ],
+        "answer": 2,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "What happens to data on ephemeral volume of an EBS-backed instance if instance is stopped and started?",
+        "options": [
+            "Data is automatically copied to another volume",
+            "Data is unavailable until the instance is restarted",
+            "Data will be deleted and will not longer be accessible.",
+            "Data is automatically saved as an EBS snapshot"
+        ],
+        "answer": 3,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "Which protocol is not supported when using with Route 53 health check?",
+        "options": [
+            "UDP",
+            "HTTP",
+            "TCP",
+            "HTTPS"
+        ],
+        "answer": 1,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "An instance is launched in private VPC subnet. All security, NACL and routing definition configured as expected. A custom NAT instance is launched. Which of the following answer is right for configuring custom NAT instance?",
+        "options": [
+            "NAT instance should be launched in public subnet",
+            "Source/Destination check should be disabled on NAT instance",
+            "NAT instance should have public ip address configured",
+            "NAT instance should have elastic ip address configured"
+        ],
+        "answer": 2,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "Which route must be added to your routing table in order to allow connections to the internet from your subnet?",
+        "options": [
+            "Destination: 192.168.1.257/0 -> Target: your internet gateway",
+            "Destination: 0.0.0.0/0 -> Target: your internet gateway",
+            "Destination: 0.0.0.0/32 -> Target: your virtual private gateway",
+            "Destination: 0.0.0.0/0 -> Target: 0.0.0.0/32",
+            "Destination: 10.0.0.0/32 -> Target: your virtual private gateway"
+        ],
+        "answer": 2,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "How can we attach our instance store volume to another instance?",
+        "options": [
+            "We can detach or attach instance store volume",
+            "We can stop the instance. Detach the volume. And attach to other instance",
+            "We can use 'force detach' and then attach to another instance",
+            "We can use 'detach volume' and then attach to another instance."
+        ],
+        "answer": 2,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "You are configuring a new VPC for noe of your client for a cloud migration project migration. Only a public VPN will be in place. After you created your VPC, you created a new subnet, a new internet gateway and attached with your VPC. As you created your first instance in to your VPC, you realized that you can not connect the instance even it is configured with elastic IP. What should be done to access the instance?",
+        "options": [
+            "A NACL should be created and allow all outbound traffic",
+            "A NAT instance should be created and all traffic should be forwarded to NAT instance",
+            "Attach another ENI to instance and connect via new ENI",
+            "A route should be created as 0.0.0.0/0 and your internet gateway as target"
+        ],
+        "answer": 2,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "You have assigned on Elastic IP to your EC2 instance. Now we need to restart the VM without EIP changed. Which of below you should not do?",
+        "options": [
+            "When the instance is in VPC private subnet, stop/start works",
+            "Reboot the instance",
+            "When the instance is in VPC public subnet, stop/start works.",
+            "Reboot and stop/start both works"
+        ],
+        "answer": 4,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "You have an application running in us-west-2 that requires six EC2 instances running at all times. With three AZs available in that region (us-west-2a, us-west-2b, and us-west-2c) which of the following deployments provides 100 percent fault tolerance if any single AZ in us-west-2 becomes unavailable?",
+        "options": [
+            "6 EC2 instances in us-west-2a, 6 EC2 instances in us-west-2b, and no EC2 Instances in us-west-2c",
+            "US-west-2a with three EC2 instances, us-west-2b with three EC2 instances, and us-west-2c with no EC2 instances",
+            "US-west-2a with three EC2 instances, us-west-2b with three EC2 instances, and us-west-2c with three EC2 instances",
+            "US-west-2a with two EC2 instances, us-west-2b with two EC2 instances, and us-west-2c with two EC2 instances",
+            "US-west-2a with four EC2 instances, us-west-2b with two EC2 instances, and us-west-2c with tow EC2 instances"
+        ],
+        "answer": [1,3],
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "In reviewing the Auto Scaling events for your application you notice that your application is scaling up and down multiple times in the same hour. What design choice could you make to optimize for cost while preserving elasticity?",
+        "options": [
+            "Modify the Auto Scaling group cool-down timers",
+            "Modify the CloudWatch alarm period that triggers your Auto Scaling scale down policy",
+            "Modify the Auto Scaling group termination policy to terminate the oldest instance first",
+            "Modify the Auto Scaling group termination policy to terminate the newest instance first",
+            "Modify the Auto Scaling policy to use scheduled scaling actions."
+        ],
+        "answer": [1,2],
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "You have been tasked with creating a VPC network topology for your company. The VPC network must support both Internet-facing applications and internally facing applications accessed only over VPN. Both Internet facing and internally facing applications must be able to leverage at least three AZs for high availability. At a minimum, how many subnets must you create within your VPC to accommodate these requirements?",
+        "options": [
+            "4",
+            "2",
+            "3",
+            "6"
+        ],
+        "answer": 4,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "How can you change the instance type used in Auto Scaling Group?",
+        "options": [
+            "Instance should be stopped and then type can be changed",
+            "As group should be deleted and recreated",
+            "It is not possible to change the instance type",
+            "A new launch configuration with a new instance type should be created and attached to AS group"
+        ],
+        "answer": [2,4],
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "What about is EC2 Role is true?",
+        "options": [
+            "Launch an instance with an AWS and IAM tole to restrict AWS API access fot the instance.",
+            "Setup an IAM user for the instance to restrict access to AWS API and assign it at launch",
+            "Pass access AWS credentials in the User Data field when the instance is launched."
+        ],
+        "answer": 1,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "What about below is false for AWS SLA?",
+        "options": [
+            "S3 availability is guarantee to 99.5%",
+            "RDS multi-AZ is guarantee to 99.95%",
+            "EC2 availability is guarantee to 99.95%",
+            "EBS availability is guarantee to 99.95%"
+        ],
+        "answer": 1,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "After creating a new AWS account, you use the API to request 40 on-demand EC2 instances in a single AZ. After 20 successful requests, subsequent requests failed. What could be a reason for this issue, and how would you resolve it?",
+        "options": [
+            "You encountered an API throttling situation and should try the failed requests using an exponential decay retry algorithm",
+            "You need to use VPC in order to provision more than 20 instances in a single AZ. Simply terminate the resource already provisioned and re-launch them all in a VPC.",
+            "AWS allows you to provision no more than 20 instances per AZ. Select a different AZ and retry the failed request.",
+            "You encountered a soft limit of 20 instances per region. Submit the limit increase form and retry the failed requests once approved."
+        ],
+        "answer": 4,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "An IAM user is trying to perform an action on an object belonging to some other root root account's bucket. Which of the below mentioned options will AWS S3 not verify?",
+        "options": [
+            "The object owner has provided access to the IAM user",
+            "Permission provided by the parent of the IAM user",
+            "Permission provided by the parent of the IAM user on the bucket",
+            "Permission provided by the bucket owner to the IAM user"
+        ],
+        "answer": 3,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "Which of the below mentioned steps will not be performed while creating the AMI instance stored-backed?",
+        "options": [
+            "Upload the bundled volume",
+            "Define the AMI launch permissions",
+            "Bundle the volume",
+            "Register the AMI"
+        ],
+        "answer": 2,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "You have a business-critical two-tier web app currently deployed in two AZ in a single region, using ELB and Auto Scaling. The app depends on synchronous replication (very low latency connectivity) at the database layer. The application needs to remain fully available even if the one application AZ goes off-line, and Auto Scaling cannot launch new instances in the remaining AZ. How can the current architecture be enhanced to ensure this?",
+        "options": [
+            "Deploy in three AZ, with Auto Scaling minimum set to handle 33 percent peak load per zone",
+            "Deploy in three Availability Zone, with Auto Scaling minimum set to handle 50 percent peak load per zone.",
+            "Deploy in two regions using Weighted Round Robin, with Auto Scaling minimums set for 50 percent peak load per Region.",
+            "Deploy in two regions using Weighted Round Robin (WRR), with Auto Scaling minimums set for 100 percent peak load per region."
+        ],
+        "answer": 2,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "How can software determine the public and private IP addresses of the Amazon Elastic Cloud Compute instance that it is running on?",
+        "options": [
+            "Query the local instance userdata",
+            "Query the appropriate Amazon CloudWatch metric",
+            "Use an ipconfig or ifconfig command",
+            "Query the local instance metadata"
+        ],
+        "answer": 4,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "How can we protect accidental termination of our instances?",
+        "options": [
+            "By using security group and disabling remote access to instances.",
+            "By using 'Enable termination protection' option",
+            "We can not prevent accidental termination",
+            "By using 'change shutdown behavior' option"
+        ],
+        "answer": 2,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "An Organization is planning to build an online chat application for their enterprise level collaboration for their employees across the world. They are looking for a single digit latency fully managed database to store and retrieve conversions. What would AWS Database service you recommend?",
+        "options": [
+            "AWS DynamoDB",
+            "RDS",
+            "Redshift",
+            "Aurora"
+        ],
+        "answer": 1,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "Placement Groups: enables applications to participate in a low-latency, 10 Gbps network. Which of below statement is false.",
+        "options": [
+            "A placement group can't span multiple Availability Zones.",
+            "Not all of the instance types that can be launched into a placement group",
+            "You can move an existing instance into a placement group by specify parameter of placement group."
+        ],
+        "answer": 4,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "You can use ___ and ___ to help secure the instances in your VPC.",
+        "options": [
+            "Security and multi-factor authentication",
+            "Security groups and network ACLs",
+            "Security groups and biometric authentication",
+            "Security groups and 2-factor authentication"
+        ],
+        "answer": 2,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "Can you crate IAM security for existing users?",
+        "options": [
+            "Yes, existing users can have security credentials associated with their account",
+            "No, security credentials are created within GROUPS, and then users are associated to GROUPS at a later time",
+            "Yes, but only IAM credentials, only ordinary security credentials",
+            "No, IAM requires that all users who have credentials set up are not existing users"
+        ],
+        "answer": 1,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "We run a database on a m1.small instance and customers have performance issue. After investigation, database administrators asks you to improve iops performance. Which options can be used to improve iops?",
+        "options": [
+            "Using GPU instance",
+            "Configuring Elastic load balancing and adding additional database servers",
+            "Using a EBS optimized instance",
+            "Using Provisioned IOPS"
+        ],
+        "answer": [3,4],
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "Which service alias record is not free when using with Route 53?",
+        "options": [
+            "S3",
+            "CloudFront",
+            "ELB",
+            "AS"
+        ],
+        "answer": 1,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "What action is required to establish and VPC VPN connection between an on-premise data center and an AMAZON VPC virtual private gateway?",
+        "options": [
+            "Assign a static internet routable IP address to an Amazon VPC customer gateway",
+            "Use a dedicated network address translation instance in the public subnet",
+            "Establish a dedicated network connection using AWS Direct Connect.",
+            "Modify the main route table to allow traffic to a network address translation instance."
+        ],
+        "answer": 3,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "An instance running a webserver is launched in a VPC subnet. A security group and a NACL are configured to allow inbound port 80. What should be done to make web server accessible by everyone?",
+        "options": [
+            "Outbound port 80 rule should be enabled on security group",
+            "Outbound Ports 49152-65535 should be enabled on NACL",
+            "Outbound Port rule should be enabled on both security group and NACL",
+            "All ports both inbound and outbound should be enabled on security group and NACL"
+        ],
+        "answer": 2,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "In 'Detailed' monitoring data available for your EBS volumes. Provisioned IOPS volumes automatically send ___ minute metrics to Amazon CloudWatch",
+        "options": [
+            "3",
+            "1",
+            "4",
+            "2"
+        ],
+        "answer": 2,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "You want to implement a HPC (High performance computing ) system with low-latency network performance. In order to establish this, which AWS feature can be used?",
+        "options": [
+            "EC2 and DynamoDB",
+            "Placement groups",
+            "ElasticMapReduce",
+            "ELB and Auto scaling"
+        ],
+        "answer": 2,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "You host a static website in an S3 bucket and there are global clients form multiple regions. You want to use an AWS service to store cache for frequently accessed content so that the latency is reduced and teh data transfer rate is increased. Which of the following options would you choose?",
+        "options": [
+            "Use AWS SDK to horizontally scale parallel requests to the S3 endpoints",
+            "Create multiple S3 buckets and put EC2 and S3 in the same Region.",
+            "Enable Cross Region Replication to several Regions to serve customers from different locations.",
+            "Configure CloudFront to deliver the content in the S3 bucket"
+        ],
+        "answer": 4,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "Which type of volume is suited for use as boot volume?",
+        "options": [
+            "Ephemeral instance store volume",
+            "None of them",
+            "Standard volume",
+            "Provisioned IOPS volume"
+        ],
+        "answer": 3,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "Which of the following requires a custom CloudWatch metric to monitor?",
+        "options": [
+            "CPU utilization",
+            "Disk read operations",
+            "Memory use",
+            "Network in",
+            "Estimated charges"
+        ],
+        "answer": 3,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "Which of the following is a durable key-value store",
+        "options": [
+            "Simple Storage Service",
+            "Simple Queue Service",
+            "Workflow Service",
+            "Notification Service"
+        ],
+        "answer": 1,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "A new instance is launched in public VPC subnet. There is an internet gateway and a route entry as 0.0.0.0/0 but instance can not reach internet. Other instances in this subnet have no issue. How can this problem be solved?",
+        "options": [
+            "A new security group should be created and allow outbound for any. Then should be attached to this security group",
+            "instance should be terminated and relaunched again",
+            "Instance should have either public IP or elastic IP",
+            "NACL should be configured for outbound rule allowing for any protocol and ports"
+        ],
+        "answer": 3,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "A customer's nightly EMR job processes a singly 2TB data file stored on S3. The EMR job runs on two on-demand core nodes and three on-demand task nodes. Which of the following may help reduce EMR jbo completion time? Choose 2 answer",
+        "options": [
+            "Use a bootstrap action the preset the S3 bucket as a local filesystem",
+            "Change the input file size in the MapReduce job configuration",
+            "Enable termination protection for the job flow",
+            "Launch the core nodes and task nodes within an Virtual Cloud",
+            "Use three Spot instances rather than three on-demand instances for the task nodes.",
+            "Adjust the number fo simultaneous mapper tasks"
+        ],
+        "answer": [2, 6],
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "Is it possible to create an AMI while an instance is running?",
+        "options": [
+            "Yes, AMI can be created without any change",
+            "No, instance should be stopped and rebooted",
+            "Yes, only if it is Linux instance",
+            "Yes, if only 'no reboot' option is checked"
+        ],
+        "answer": 4,
+        "tag": "knowledge-hunt"
+    },
+    {
+        "question": "You are designing a new application for a social media gaming company and they want to be able to use people's facebook account to login and to sign up to the new app. They'v asked that you use Cognito to achieve this. However, management wants to know the steps involved for user authentication. Which of the steps below is the correct order to authenticate with Cognito?",
+        "options": [
+            "Step 1 - Access AWS services using credentials. Step 2 - Exchange tokens and get AWS credentials. Step 3 Authenticate and get tokens.",
+            "Step 1 - Authenticate and get tokens. Step 2 - Exchange tokens and get AWS credentials. Step 3 - Access AWS services using credentials.",
+            "Step 1 - Exchange tokens and get AWS credentials. Step 2 - Authenticate and get tokens. Step 3 - Access AWS services using credentials.",
+            "Step 1 - Exchange tokens and get AWS credentials. Step 2 - Access AWS services using credentials. Step 3 - Authenticate and get tokens"
+        ],
+        "answer": 2,
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "An Application Load Balancer is fronting an Auto Scaling Group of EC2 instance, and the instances are backed by an RDS database. The Auto Scaling Group has been configured to use the Default Termination Policy. You are testing the Auto Scaling Group and have triggered a scale-in. Which instance will be terminated first?",
+        "options": [
+            "The instance for which the load balancer stops sending traffic.",
+            "The Auto Scaling Group will randomly select an instance to terminate.",
+            "The longest running instance",
+            "The instance launched from the oldest launch configuration."
+        ],
+        "answer": 3,
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "You are evaluating the security setting withing the main company VPC. The are several NACLs and security groups to evaluate and possibly edit. What is true regarding NACLs and security groups?",
+        "options": [
+            "Network ACLs and security groups are both stateful.",
+            "Network ACLs and security groups are both stateless.",
+            "Network ACLs are stateful, and security groups are stateless.",
+            "Network ACLs are stateless, and security groups are stateful."
+        ],
+        "answer": 4,
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "The AWS is a large company is spending much of their time monitoring EC2 instances for health check failures. When a health check failure occurs, they manually reboot the EC2 instance to return it to service. There is a company initiative to reduce manual tasks. You have been asked to see if there is a way in AWS for this to be automated. How can you most efficiently automate this monitoring and repair process? ",
+        "options": [
+            "Create a Lambda function that can be triggered by a failed instance health check. Have the Lambda function deploy a CloudFormation template which can perform the creation of a new instance.",
+            "Create a Lambda function that can be triggered by a failed instance health check. Have the Lambda function destroy the instance and spin up a new instance.",
+            "Create an Amazon CloudWatch alarm that monitors an Amazon EC2 instance and automatically reboots the instance if a health check fails.",
+            "Create a cron job that monitors the instances periodically and start a new instances if a health check has failed"
+        ],
+        "answer": 20,
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "A company needs to deploy EC2 instances to handle overnight batch processing. This includes media transcoding and some voice to text transcription. This is not high priority work, and it is OK if these batch runs get interrupted. What is the best EC2 instance purchasing option for this work?",
+        "options": [
+            "Spot",
+            "Reserved",
+            "Dedicated Hosts",
+            "On-Demand"
+        ],
+        "answer": 1,
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "You work for a Defense contracting company. The company develops software applications which perform intensive calculations in the area of Mechanical Engineering related to metals for ship building. You have a 3 year contract and decide to purchase reserved EC2 instances for a 3-year duration. You are informed that the particular program has been cancelled abruptly and negotiations have brought the contract to an amicable conclusion one year early. What can you do to stop incurring charges and save money on the EC2 instances?",
+        "options": [
+            "Change the instance states from running to stopped",
+            "Convert the instance to Spot Instances and alow them to go through attrition.",
+            "Sell the reserved instances on the Reserved Instance Marketplace.",
+            "Write to AWS and ask to terminate the contract."
+        ],
+        "answer": 30,
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "You are managing data store for your company, and there are many EBS volumes. Your management team has given you some requirements. Certain metrics on the EBS volumes need to be monitored, and the database team needs to be notified by email when certain metric thresholds are exceeded. Which AWS services can be configured to meet these requirements?",
+        "options": [
+            "SQS",
+            "SWF",
+            "SNS",
+            "SES",
+            "CloudWatch"
+        ],
+        "answer": [5, 3],
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "A gaming company is designing several new games which focus heavily on player-game interaction. The player makes a certain move and the game has to react very quickly to change the environment based on that move and to present the next decision for the player in real-timer. A tool is needed to continuously collect data about player-game interactions and feed the data into the gaming platform in real-time. Which service can best meet this need?",
+        "options": [
+            "Kinesis Data Streams",
+            "Kinesis Data Analytics",
+            "AWS Lambda",
+            "AWS IoT"
+        ],
+        "answer": 1,
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "After an IT Steering Committee meeting, you have been put in charge of configuring a hybrid environment for the company's compute resources. You weight the pros and cons of various technologies based on the requirements you are given. The decision you make is to go with Direct Connect. Which option best describes the features Direct Connect provides?",
+        "options": [
+            "A connection between on-premises and VPC, using secure and private connection with IPsec and TLS",
+            "A private, dedicated network connection between your facilities and AWS",
+            "Connect remote branch offices in a hub-and-spoke model for primary or backup connectivity",
+            "A network connection between to VPCs that can route traffic using IPv4 or IPv6"
+        ],
+        "answer": 2,
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "After being assigned to oversee the data storage within your organization, you begin looking at the monthly billing for S3. You notice that large amounts of data are sitting in S3, and after discussions with team members you find that a large amount of data is historical data that needs to be kept for audit purposes. You detail the cost saving and get approval to move this data to Amazon Glacier for long-term storage. For what types of data is Glacier best suited?",
+        "options": [
+            "Infrequently accessed data",
+            "Cached data",
+            "Archived data",
+            "Relational table data"
+        ],
+        "answer": [2,3],
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "Due to strict compliance requirements, cannot leverage AWS cloud for hosting their Kubernetes clusters, nor for managing the clusters. However, they do want to try to follow the established best practices and processes that the Amazon EKS service has implemented. How can your company achieve this while running entirely on-premises?",
+        "options": [
+            "Run Amazon EKS",
+            "Run the clusters on-premises using Amazon EKS Distro",
+            "This cannot be done",
+            "Run Amazon ECS anywhere"
+        ],
+        "answer": [2],
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "A financial tech company has decided to begin migrating their applications to the AWS cloud. Currently, they host their entire application using several self-managed Kubernetes clusters. One of their major concerns during this migration is monitoring and collecting system metrics due to the very large-scale deployments that are in place. Your Chief Technology Officer has requested the use of open-source technologies for this implementation but has also stipulated that, with the current workload of the team, the ability to manage the monitoring environment needs to be low-maintenance. Which combination of the following AWS services would best fit the company requirements while minimizing operational overhead?",
+        "options": [
+            "Prometheus on Auto Scaling EC2 Instances",
+            "Grafana on Auto Scaling EC2 Instances",
+            "AWS Config",
+            "AWS Managed Grafana",
+            "AWS Manged Service for Prometheus"
+        ],
+        "answer": [4,5],
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "You have recently migrated your small company to AWS and are looking for some general best practice guidance within the platform. Which AWS service can help you optimize your AWS environment by giving recommendations to reduce cost, increase performance, and improve security?",
+        "options": [
+            "AWS Organizations",
+            "AWS Optimizations",
+            "AWS Inspector",
+            "AWS Trusted Advisor"
+        ],
+        "answer": 4,
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "You have been evaluating the NACLs in your company. Currently, you are looking at the default network ACL. Which statement is true about NACLs?",
+        "options": [
+            "The default configuration of the default NACL is Deny, and the default configuration of a custom NACL is Allow.",
+            "The default configuration of the default NACL is Deny, and the default configuration of a custom NACL is Deny.",
+            "The default configuration of the default NACL is Allow, and the default configuration of a custom NACL is Deny.",
+            "The default configuration of the default NACL is Allow the default configuration of a custom NACL is Allow."
+        ],
+        "answer": 4,
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "A software company has developed a social gaming application that leverage EC2 web servers with Amazon DynamoDB to store player data, session history, and leader boards for a huge number fo concurrent users. The DynamoDB table has pre-configured read and write capacity units. Users have been reporting slowdown issues, and an analysis has revealed that the application requires response times in microseconds for optimal performance. What step can you take to enable this application to handle read-heavy or bursty workloads, while delivering the fastest possible response time for eventually consistent read operations?",
+        "options": [
+            "Configure Amazon SQS to queue requests that could be lost and improve the application response time.",
+            "Add a load balancer in front of the EC2 web servers to decouple your application requests synchronously, improving performance for read-heavy and bursty workloads.",
+            "Deploy Amazon CLoudFront to your architecture, so you can cache common Amazon DynamoDB and reduce response time to microseconds.",
+            "Implement in-memory acceleration with DynamoDB Accelerator (DAX)"
+        ],
+        "answer": 4,
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "You have been evaluating the NACLs in your company. Most of the NACLs are configured the same: \n 100 All Traffic Allow \n 200 All Traffic Deny \n * All Traffic Deny \n ",
+        "options": [
+            "The request will be allowed.",
+            "The default will be deny traffic.",
+            "The highest numbered rule will be used, a deny.",
+            "All rules will be evaluated and the end result will be Deny."
+        ],
+        "answer": 1,
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "An application team has decided to leverage AWS for their application infrastructure. The application performs proprietary, internal processes that other business applications utilize for their daily workloads. It is built with Apache Kafka to handle real-time streaming, which virtual machines running the application in the docker containers consume the data from. The team wants to leverage services that provide less overhead but also cause the least amount of disruption to coding and deployments. Which combination of AWS services would best meet the requirements?",
+        "options": [
+            "Amazon MSK",
+            "AWS Lambda",
+            "Amazon MQ",
+            "Amazon SNS",
+            "Amazon ECS Fargate",
+            "Amazon Kinesis Data Streams"
+        ],
+        "answer": [1, 5],
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "A solutions architect has been assigned the task of helping the company developers optimize the performance of their web application. End users have been complaining about slow response times. The solutions architect has determined that improvements can be realized by adding ElastiCache to the solution. What can ElastiCache do to improve performance?",
+        "options": [
+            "Queue up request and allow the processor time to catch-up",
+            "Cache frequently accessed data in-memory",
+            "Deliver up to 10x performance improvement from milliseconds to microseconds or event at millions of requests per second.",
+            "Offload some of the write traffic to the database."
+        ],
+        "answer": 2,
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "After an IT Steering Committee meeting you have been put in charge of configuring a hybrid environment for the company's compute resources. You weight the pros and cons of various technologies based on the requirements you are given. Your primary requirements is the necessity for a private, dedicated connection, which bypasses the internet and can provide throughput of 10 Gbps. Which option will you select?",
+        "options": [
+            "AWS VPN",
+            "AWS Direct Gateway",
+            "VPC Peering",
+            "AWS Direct Connect"
+        ],
+        "answer": 4,
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "You are managing S3 buckets in your organization. This management of S3 extends to Amazon Glacier. For auditing purpose, we would like to be informed if an object is restored to S3 from Glacier. What is the most efficient way you can do this?",
+        "options": [
+            "Create a Lambda function that is triggered by restoration of object from Glacier to S3.",
+            "Create an EventBridge Event for uploads to S3",
+            "Configure S3 event notifications for restore operations from Glacier.",
+            "Create an SNS notification for any upload S3"
+        ],
+        "answer": 3,
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "You are working for a large financial institution and preparing for disaster recovery and upcoming DR drills. A key component in the DR plan will be the database instances and their data. An aggressive Recovery Time Objective (RTO) dictates that the database needs to be synchronously replicated. Which configuration can meet this requirement?",
+        "options": [
+            "AWS Lambda triggers a CloudFormation template launch in another Region.",
+            "RDS rad replicas",
+            "RDS multi-AZ",
+            "RDS Multi-Region"
+        ],
+        "answer": 3,
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "You have joined a newly formed software company as a Solutions Architect. It is a small company, and you are the only employee with AWS experience. The owner has asked for your recommendations to ensure that the AWS resource are deployed to proactively remain within budget. Which AWS service can you use to help ensure you don't have cost overruns for your AWS resources?",
+        "options": [
+            "Inspector",
+            "AWS Budgets",
+            "Billing and Cost Management",
+            "Cost Explorer"
+        ],
+        "answer": 2,
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "You have just started working at a company that is migrating from a physical data center into AWS. Currently, you have 25TB of data that needs to be moved to an S3 bucket. Your company has just finished setting up a 1 GB Direct Connect drop, but you will not have a VPN up and running for 30 days. This data needs to be encrypted during transit and at rest and must be uploaded to the S3 bucket within 21 days. What is the best way to meet these requirements?",
+        "options": [
+            "Upload the data to S3 using your public internet connection.",
+            "Order a Snowcone device to transmit the data",
+            "Upload the data using Direct Connect.",
+            "Use a Snowball device to transmit the data."
+        ],
+        "answer": 4,
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "A company is going to use several EC2 instances to host various reference applications. The applications are expected to receive steady and relatively low traffic. These applications are expected to run for 3 years, at which time the applications will be evaluated for upgrade. What type of EC2 will meet this requirement considering cost as an additional factor?",
+        "options": [
+            "Spot",
+            "Reserved",
+            "On-Demand",
+            "Dedicated Hosts"
+        ],
+        "answer": 2,
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "What services make up the Alexa service.",
+        "options": [
+            "Amazon Transcribe",
+            "Amazon Polly",
+            "Amazon Comprehend",
+            "Amazon Lex"
+        ],
+        "answer": [2,4],
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "You work for a consulting company, which is currently undergoing both financial and technical audit. You have been asked by the auditors to produce regular reports in regards to your PCI compliance. You need to produce this as fast and as efficiently as possible. Which AWS service should you consider using?",
+        "options": [
+            "Amazon Detective",
+            "AWS Audit Manager",
+            "Amazon Audit Automation",
+            "AWS Security Hub"
+        ],
+        "answer": 4,
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "A new startup is considering the advantages of using Amazon DynamoDB versus a traditional relational database in AWS RDS. The NoSQL nature of DynamoDB presents a small learning curve to the team members who all have experience with traditional databases. The company will have multiple databases, and the decision will be made on a case-by-case basis. Which of the following use case would favor Amazon DynamoDB?",
+        "options": [
+            "Managing web session data",
+            "Strong referential integrity between tables",
+            "Storing binary large object (BLOB) data",
+            "Online analytical processing (OLAP)/data warehouse implementations",
+            "Storing metadata for S3 objects",
+            "High-performance reads and writes for online transaction processing (OLTP) workloads"
+        ],
+        "answer": 10,
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "You are working in a large healthcare facility that uses EBS volumes on most of the EC2 instances. The CFO has approved you about some cost savings, and it has been decided that some of the EC2 instances and EBS volumes would be deleted. What step can be taken to preserve the data on the EBS volumes and ensure that data can be restored to a new EBS volume within minutes?",
+        "options": [
+            "Use S3 Glacier using the Standard retrieval tier.",
+            "Store the data in CloudFormation user data.",
+            "Move the data to Amazon S3.",
+            "Take point-in-time snapshots of your Amazon EBS volumes."
+        ],
+        "answer": 4,
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "A financial institution has an application that produces huge amounts of actuary data, which is ultimately expected to be in the terabyte range. There is a need to run complex analytic queries against terabytes of structured data, using sophisticated query optimization, columnar storage on high-performance storage, and massively parallel query execution. Which service will best meet this requirement?",
+        "options": [
+            "DynamoDB",
+            "Elasticache",
+            "Redshift",
+            "RDS"
+        ],
+        "answer": 3,
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "You have been put in charge of S3 buckets for your company. The buckets are separated based on the type of data they are holding and the level of security required for that data. You have several buckets that have data you want to safeguard from accidental deletion. Which configuration will meet this requirement?",
+        "options": [
+            "Signed URLs to all users to access the bucket.",
+            "Configured cross-account access with an IAM Role prohibiting object deletion in the bucket.",
+            "Archive sensitive data to Amazon Glacier",
+            "Enable versioning on the bucket and multi-factor authentication delete as well."
+        ],
+        "answer": 4,
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "Your company has performed a Disaster Recovery drill which failed to meet the Recovery Time Objective (RTO) desired by executive management. The failure was due in large part to the amount of time taken to restore proper functioning on the database side. You have given management a recommendation of implementing synchronous data replication for the RDS database to help meet RTO. Which of these options can perform synchronous data replication in RDS?",
+        "options": [
+            "DAX",
+            "RDS multi-AZ",
+            "AWS Database Migration Service",
+            "Read replicas"
+        ],
+        "answer": 2,
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "A company is in the process of creating a multi-region disaster recovery solution for your database, and you have tasked to implement it. The required RTO is 1 hour, and the RPO is 15 min. What steps can you take to ensure these thresholds are met?",
+        "options": [
+            "Take EBS snapshots of the required EC2 instances nightly. In the event of a disaster, restore the snapshots to another region.",
+            "Use RDS to host your database. Enable the Multi-AZ option for your database. In the event of failure, cut over to the second database.",
+            "Use Redshift to host your database. Enable 'multi-region' failover with Redshift. In the event of failure, do nothing, as Redshift will handle if for you",
+            "Use RDS to host your database. Create a cross region read replica of your database. In the event of failure, promote the read replica to be standalone database. Send new reads and writes to this database."
+        ],
+        "answer":4,
+        "tag": "cloud-guru"
+        
+    },
+    {
+        "question": "A consultant is hired by a small company to configure an AWS environment. The consultant begins working with the VPC and launching EC2 instances within the VPC. The initial instances will be placed in a public subnet. The consultant begins to create security groups. The consultant has launched several instances, created security groups, and has associated security with instances. The consultant want to change the security groups that are associated with the instance. Which statement is true?",
+        "options": [
+            "You can change the security groups for an instance when the instance is in running or stopped state.",
+            "You can't change security groups. Create a new instance and attach the desired security groups.",
+            "You can change the security groups for an instance when the instance is in the pending or stopped state.",
+            "You can't change the security groups for an instance when the instance is in the running or stopped state."
+        ]
+    },
+    {
+        "question": "You have been hired as a Solutions Architect for a company that pairs photos with related story narratives in PDF format. The company need to be able to store files in several different formats, such as PDF, JPG, PNG, WORD, and several others. This needs to be highly durable. WHich storage type will be best meet this requirement?",
+        "options": [
+            "EC2 instance store",
+            "DynamoDB",
+            "Amazon RDS",
+            "S3"
+        ],
+        "answer": 4,
+        "tag": "cloud-guru"
+    },
+    {
+        "question": "You have been given an assignment to configure Network ACLs in your VPC. Before configuring the NACLs, you need to understand how the NACLs are evaluated. How are NACL rules evaluated?",
+        "options": [
+            "NACL rules are evaluated by rule number from lowest to highest and executed immediately when a matching rule is found.",
+            "NACL rules are evaluated by rule number from highest to lowest, and executed immediately when a matching rule is found.",
+            "All NACL rules that you configure are evaluated before traffic is passed through.",
+            "NACL rules are evaluated by rule number from highest to lowest, and all are evaluated before traffic is passed through."
+        ],
+        "answer": 1,
+        "tag": "cloud-guru"
+    },
+    {
+        "question": "Your company needs to deploy an application in the company AWS account. The application will reside on EC2 instances in an Auto Scaling Group frontend by an Application Load Balancer. The company has been using Elastic BeanStalk to deploy the application due to limited AWS experience within the organization. The application now needs upgrades and a small team of subcontractors have been hired to perform these upgrades. Which web service can be used to provide users that you authenticate with short-term security credentials that can control access to your AWS resources?",
+        "options": [
+            "IAM user accounts",
+            "IAM Group",
+            "AWS SSO",
+            "AWS Security Token Service"
+        ],
+        "answer": 4,
+        "tag": "cloud-guru"
+    },
+    {
+        "question": "A testing team is using a group of EC2 instances to run batch, automated tests on an application. The tests run overnight but don't take all night. The instances sit idle for long periods of time and accrue unnecessary charges. What can you do to stop these instances when they are idle for long periods?",
+        "options": [
+            "You can create a CloudWatch alarm that is triggered when the average CPU utilization percentage has been lower than 10 percents for one hour and stops the instance.",
+            "Write a python script that queries the instance status. Write a Lambda function that can be triggered upon a certain status and stop the instance.",
+            "Write a cron job that queries the instance status. If a certain status is met, have the cron job kick off CloudFormation to terminate the existing instance, and create a new instance from a template.",
+            "Write a cron job that queries the instance status. Write a Lambda function that can be triggered upon a certain and stop the instance."
+        ],
+        "answer": 1,
+        "tag": "cloud-guru"
+    },
+    {
+        "question": "You have taken over management of several instances in the company AWS environment. You want to quickly review scripts used to bootstrap the instance at runtime. A URL command can be used to do this. What can you append to the URL http://169.254.169.254/latest/ to retrive this latest data?",
+        "options": [
+            "instance-data/",
+            "instance-demographic-data/",
+            "meta-data/",
+            "user-data/"
+        ],
+        "answer": 4,
+        "tag": "cloud-guru"
+    },
+    {
+        "question": "Several S3 Buckets have been deleted and a few EC2 instances have been terminated. Which AWS service can you use to determine who took these actions?",
+        "options": [
+            "AWS CloudTrail",
+            "AWS Inspector",
+            "AWS Trusted Advisor",
+            "AWS CloudWatch"
+        ],
+        "answer": 1,
+        "tag": "cloud-guru"
+    },
+    {
+        "question": "An online retailer currently runs their application within AWS. Currently, everything is running on Amazon EC2 instances, including all application software. The application is well written and completes order processes following a specific workflow logic order. The online retailer has begun to explore shifting their entire code base to AWS Lambda for each compute-based portion of the workflow, but they are not sure how best to interconnect the functions. There are three major requirements that need to be met. The first is that they need to implement a 20-minute wait period between certain functions in the application code and process. The second is they want to be able to conditionally handle a few different known scenarios that may occur during the order processing. The last requirement is to have an auditable workflow history. Which AWS service is the best fit for their workflow orchestration needs that has the least operational overhead and is the most cost-efficient?",
+        "options": [
+            "AWS Lambda with S3",
+            "Lambda with SNS",
+            "EKS with RDS",
+            "Step Function with Lambda"
+        ],
+        "answer": 4,
+        "tag": "cloud-guru"
+    },
+    {
+        "question": "An organization of about 100 employee has performed the initial setup of users in IAM. All users except administrators have the same basic privileges. But now it has been determined that 50 employees will have extra restrictions on EC2. They will be unable to launch new instances or alter the state of existing instances. What will be the quickest way to implement these restrictions?",
+        "options": [
+            "Create the appropriate policy. Place the restricted users in the new policy.",
+            "Create an IAM Role for the restrictions. Attach it to the EC2 instances.",
+            "Create the appropriate policy. With only 20 users attach the policy to each user.",
+            "Create the appropriate policy. Create a new group for the restricted users. Place the restricted users in the new group and attach the policy to the group."
+        ],
+        "answer": 4,
+        "tag": "cloud-guru"
+    },
+    {
+        "question": "You are designing an architecture that wil house an Auto Scaling group of EC2 instances. The application hosted on the instances is expected to be extremely popular. Forecasts for traffic to this site predict very high traffic, and you will need a load balancer to handle tens of millions of requests per second while maintaining high throughput at ultra low latency. You need to select the correct type of load balancer to front your Auto Scaling group to meet this high traffic requirement. Which load balancer should you select?",
+        "options": [
+            "You will need a Network Load Balancer to meet this requirement.",
+            "You will need a Classic Load Balancer to meet this requirement.",
+            "All the AWS load balancer meet the requirement and perform the same",
+            "You will need an Application Load Balancer to meet this requirement."
+        ],
+        "answer": 1,
+        "tag": "cloud-guru"
+    },
+    {
+        "question": "Your are working for a startup company with a same number of employees. The company expects rapid growth and you have been assigned to configure existing users and onboard new users with IAM privileges and logins. You intend to create IAM groups for the company departments and add new users to the appropriate group when you onboard them. You begin creating policies to assign permissions and attach them to the appropriate group. What is the best practice when giving users permissions in IAM policies?",
+        "options": [
+            "Grant all permissions to each AWS service the user will work with.",
+            "Create a policy for each department head granting root access.",
+            "Use the principle of least privilege",
+            "Use the principle of top-down privilege."
+        ],
+        "answer": 3,
+        "tag": "cloud-guru"
+    },
+    {
+        "question": "You work for an advertising company that has real-time bidding application. You are also using CloudFront on the front end to accommodate a worldwide user base. Your users begin complaining about response times and pauses in real-time bidding. What is the best service that can be used to reduce DynamoDB response times by an order of magnitude (milliseconds to microseconds)",
+        "options": [
+            "DynamoDB Auto Scaling",
+            "CloudFront Edge Caches",
+            "DAX",
+            "Elastic Cache"
+        ],
+        "answer": 3,
+        "tag": "cloud-guru"
+    },
+    {
+        "question": "An insurance company is creating an application that will perform analytics in near real-time on huge datasets in the terabyte range, and potentially even petabyte. The company is evaluating an AWS data storage option. Which AWS service will allow storage of petabyte-scale data and also fast complex queries over large number of rows? ",
+        "options": [
+            "DynamoDB",
+            "RDS",
+            "Redshift",
+            "ElasticCache"
+        ],
+        "answer": 3,
+        "tag": "cloud-guru"
+    },
+    {
+        "question": "After an IT Steering Committee meeting, you have been put in charge of configuring a hybrid environment for the company's resources. You weight the pros and cons of various technologies, such as VPN and Direct Connect. Based on the requirements, you have decided to configure a VPN connection. What features and advantages can VPN connection provide?",
+        "options": [
+            "Data transfer costs across an AWS VPN are completely free.",
+            "It provides a cost-effective, private network connection that bypasses the internet.",
+            "It provides a connection between an on-premises network and a VPC, using a secure and private connection with IPsec and TLS.",
+            "It provides a private, dedicated network connection between an on-premises network and the VPC."
+        ],
+        "answer": 2,
+        "tag": "cloud-guru"
+    },
+    {
+        "question": "Currently, you are employed solutions architect for a large international shipping company. The company is undergoing an IT transformation and they want to create an immutable database, where they can track packages as they are sent around the world. They will need to track what boxes they go in, wha trucks they are sent in, and what aircraft or sea containers they are shipped in. The database needs to immutable and cryptographically verifiable, and they would like to leverage the AWS cloud to achieve this. What database technology would best suit this requirement?",
+        "options": [
+            "Neptune",
+            "Aurora",
+            "Amazon Quantum Ledger Database",
+            "RDS"
+        ],
+        "answer": 3,
+        "tag": "cloud-guru"
+    },
+    {
+        "question": "You work for an online retailer where any downtime at all can cause a significant loss of revenue. You hae architected your application to be deployed on an Auto Scaling Group of EC2 instances behind a load balancer. You have configured and deployed these resources using a CloudFormation template. The Auto Scaling Group is configured with default settings and  simple CPU utilization scaling policy. You have also set up multiple Availability ZOnes for high availability. The load balancer does health checks against an HTML file generated by script. When you begin performing load testing on your application and notice in CloudWatch that the load balancer is not sending traffic to one of your EC2 instances. What could be the problem?",
+        "options": [
+            "The EC2 instance has failed the load balancer health check.",
+            "The instance has not been registered with CloudWatch",
+            "Your are load testing at a moderate traffic level and not all instances are needed.",
+            "The EC2 instance has failed EC2 status checks."
+        ],
+        "answer": 1,
+        "tag": "cloud-guru"
+    },
+    {
+        "question": "Your company has decided to migrate a SQL Server database to a newly created AWS account. WHich service can be used to migrate the database?",
+        "options": [
+            "Elasticache",
+            "AWS RDS",
+            "Database Migration Service",
+            "DynamoDB"
+        ],
+        "answer": 3,
+        "tag": "cloud-guru"
+    },
+    {
+        "question": "Your company has a multi-account AWS environment with over 100 accounts. Each account belongs to a specific team within the company, and they all fail within the same consolidated billing family. The company has just received funding for the next two years, but they are unsure about anything beyond that. With this in mind, they plan on aggressively deploying applications to AWS during the two years. \n Recently, there was a massive spike in unplanned Amazon EC2 and AWS lambda costs, causing significant financial stress. \n What can an organization administrator do to maximize saving for the entire organization for this first year?",
+        "options": [
+            "Purchase a three-year All Upfront Compute Savings Plan",
+            "Purchase a one-year All Upfront Compute Savings Plan.",
+            "Purchase a three-year All Upfront EC2 Instance Saving Plan",
+            "Purchase a one-year All Upfront EC2 Instance Saving Plan"
+        ],
+        "answer": 4,
+        "tag": "cloud-guru"
+    },
+    {
+        "question": "You work for a large online education company that teaches IT using pre-recorded videos. You have converted their online videos into text to be accessible for the hearing impaired. They now want to convert the transcribed text into other languages using AI and ML. Which AWS service should they use?",
+        "options": [
+            "AWS Translate",
+            "AWS Transcribe",
+            "AWS Comprehend",
+            "AWS Rekognition"
+        ],
+        "answer": 1,
+        "tag": "cloud-guru"
+    },
+    {
+        "question": "A new startup company is decides to use AWS to host their web application. They configure a VPC as well as two subnets within the VPC. They also attach an internet gateway to the VPC. In the first subnet, they create the EC2 instance which will host their application. They finish the configuration by making the application accessible from the internet. The second subnets hosts their database and they don't want the database accessible from the Internet. Which statement best describes this scenario?",
+        "options": [
+            "The web server is in a private subnet, and the database server is in a public subnet. The public subnet has a route to the internet gateway in the route table.",
+            "The web server is in a private subnet, and the database server is in private subnet. A third subnet has a route to the Internet Gateway, which allows internet access.",
+            "The web server is in a public subnet, and the database server is in a public subnet. The public subnet has a route to the internet gateway in the route table."
+        ],
+        "answer": 3,
+        "tag": "cloud-guru"
+    },
+    {
+        "question": "A small company has begun using AWS for all its ITinfrastructure. The company has one AWS solutions architect and the demands for their time are overwhelming. The software team has been given permission to deploy their Python and PHP applications on their own. They would like to deploy these applications without having to worry about the underlying infrastructure. Which AWS service would they use for deployments?",
+        "options": [
+            "Elastic Beanstalk",
+            "CloudDeploy",
+            "CloudFront",
+            "CloudFormation"
+        ],
+        "answer": 1,
+        "tag": "cloud-guru"
+    },
+    {
+        "question": "Your company needs to shift an application to the cloud. You are looking for a solutions to collect. process, gain immediate insight, and then transfer the application data to AWS. Part of this effort aso includes moving a large data warehouse into AWS. The warehouse is 50TB, and it would take over a month to migrate the data using the current bandwidth available. What is the best option to perform this one time migration considering both cost and performance aspects?",
+        "options": [
+            "VPN",
+            "Snowball Edge",
+            "SnowMobile",
+            "Direct Connect"
+        ],
+        "answer": 2,
+        "tag": "cloud-guru"
+    },
+    {
+        "question": "A well known streaming company has just launched a new application for users to upload videos of their own to the platform. During product testing, they experienced no issues with the application when they uploaded a video of 150 BG in size. However, since launch users are reporting problems with uploading files exceeding the size previously testes. What is the most likely cause of this problem, ans what changes should be undertaken to resolve this?",
+        "options": [
+            "Use AWS Snowball.",
+            "The application code is trying to upload files to S3 as a single object. Changes in code are required to be able to upload files using S3 multipart upload.",
+            "The application should use AWS Transfer. Have the application code configured to send the file to an EFS file share, which is then copied to S3 using SFTP.",
+            "Register you application with S3. By registering the application with S3, we are able to upload larger files programmatically."
+        ],
+        "answer": 2,
+        "tag": "cloud-guru"
+    },
+    {
+        "question": "You work for an Australian company that is undergoing an audit and requires compliance reports for its AWS hosted applications. Specifically, you need to obtain an Australian HOsting Certification Framework - Strategic Certification promptly. What steps should you take to accomplish this quickly?",
+        "options": [
+            "Use AWS Artifact to download the certificate.",
+            "Use AWS Trusted Advisor to generate the report",
+            "Use AWS Certificate Manager to generate the certificate.",
+            "Use Amazon Detective to generate the report."
+        ],
+        "answer": 1,
+        "tag": "cloud-guru"
+    },
+    {
+        "question": "Your team owns three separate AWS accounts: one for production, one for staging, and one for development. Recently, there has bee a push from the CEO to begin breaking down costs to the most comprehensive, detailed level. In addition to this level of detail, the team needs to store daily comma-separated value (CSV) reports of these costs in Amazon S3 for ingestion into the company's internal analytics tooling. What would be the most efficient solution for this scenario?",
+        "options": [
+            "Use AWS Budgets to alert and generate reports on current spend, and use AWS Fargate to pull data, generate CSV reports, and then push them to S3",
+            "Use AWS Budget to alert and generate reports, and use Lambda to pull data, generate CSV reports, and then push them to S3",
+            "Use AWS Cost and Usage Reports to generate reports with the required amount of detail. Set up Amazon EventBridge (Amazon CloudWatch Events) to trigger a rule to create and then export CSV daily to a centralized S3 bucket.",
+            "Use AWS Cost and Usage Reports to generate reports and have it export CSV reports daily to a centralized S3 bucket."
+        ],
+        "answer": 3,
+        "tag": "cloud-guru"
+    },
+    {
+        "question": "Your company has received results back from an audit. One of the mandates from the audit is that your application, which is hosted on EC2 must encrypt the data before writing this data to storage. It has been directed internally that you must store you encryption keys. Which service could you use to meet this requirement?",
+        "options": [
+            "EBS encryption",
+            "KMS",
+            "Security Token Service",
+            "CloudHSM"
+        ],
+        "answer": 2,
+        "tag": "cloud-guru"
+    },
+    {
+        "question": "A application leverages several third-party SaaS vendors to complete their workflows within the application. Currently, the team uses numerous Lambda functions for each SaaS vendor that run daily to connect to the configured vendor. The functions initiate a transfer of data files, ranging from one megabyte up to 80 gibibytes in size. These data files are stored in an S3 bucket and then referenced by the application itself. The data transfer routinely fails due to execution timeout limits in the Lambda functions, and the team wants to find a simple and less error-prone way fo transfer the required data. Which solution or AWS service could be the best fit for their solution?",
+        "options": [
+            "EKS with Auto Scaling",
+            "AppFlow",
+            "Increase Lambda function timeouts to one hour",
+            "EC2 Auto Scaling Groups"
+        ],
+        "answer": 2,
+        "tag": "cloud-guru"
+    },
+    {
+        "question": "A company has created a mobile application that is hugely popular. The initial plan was to give each user login credentials to the application. But due to the volume of users, this idea has become impractial. What service can you use to allow outside users to login through third party such as Facebook, Amazon, Google or Apple?",
+        "options": [
+            "Cognito",
+            "cross account access",
+            "IAM",
+            "Google Authenticator"
+        ],
+        "answer": 1,
+        "tag": "cloud-guru"
+    },
+    {
+        "question": "Your team has provisioned Auto Scaling groups in a single Region. The auto scaling groups, at max capacity, would total 40 EC2 On-demand Instances between them. However, you notice that the Auto Scaling groups will only scale out to a portion of that number of instances at any one time. What could be the problem?",
+        "options": [
+            "The associated load balancer can serve only 20 instance at one time.",
+            "You can have only 20 instances per Region. This is a hard limit.",
+            "There is a vCPU based on-demand instance limit per region.",
+            "You can have only 20 instances per availability zone."
+        ],
+        "answer": 1,
+        "tag": "cloud-guru"
+    },
+    {
+        "question": "You have been brought in as a consultant for a large scale enterprise that requires assistance with a move to AWS. The application team that is part of the migration currently runs a messaging application run on virtual machines via Java runtimes, and they poll the RabbitMQ queues and process messages as they are found. The team wants to avoid any major coding changes on the initial move to the cloud. \n Which AWS services would you recommend them to use initially?",
+        "options": [
+            "Configure the producers and consumers to leverage Amazon SQS for messaging",
+            "Configure the producers and consumers to leverage Amazon DynamoDB for storing messages.",
+            "Install the Java application on Amazon EC2 instances.",
+            "Set up Amazon MQ to easily integrate RabbitMQ into AWS.",
+            "Break the application functions into individual AWS Lambda functions"
+        ],
+        "answer": 4,
+        "tag": "cloud-guru"
     }
 ]
-

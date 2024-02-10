@@ -1,5 +1,11 @@
+**Generate question from GPT**
 - IAM
-- AI/ML
+- AI/ML (done)
+- VPC
 - EC2
 - Analytics (done)
-- Database
+- Database (done)
+- Migration
+- Automation
+- Serverless
+- Security and Governance
