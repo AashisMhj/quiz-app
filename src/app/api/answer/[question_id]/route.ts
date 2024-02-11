@@ -6,7 +6,8 @@ export const dynamic = 'force-dynamic';
 export async function POST(request:NextRequest, {params}:{params:{question_id:string}}){
     try {
         // TODO check session
-        const data =  await request.json();
+        const data =  await request.json() as {answer: number[]};
+        let is_correct = false;
         let question_id = parseInt(params.question_id);
         if(!question_id){
             return NextResponse.json({
@@ -20,9 +21,21 @@ export async function POST(request:NextRequest, {params}:{params:{question_id:st
                 msg: "Can't find the question"
             }, {status: 404})
         }
-        // TODO check answer and increment value in session
+        // TODO increment score in session
+        // TODO refactor
+        const parsed_answer = JSON.parse(answer.answer);
+        if(Array.isArray(parsed_answer)){
+            if(parsed_answer.sort().join('') === data.answer.join('')){
+                is_correct = true
+            }
+        }else if(typeof parsed_answer === "number"){
+            if([parsed_answer].join('') === data.answer.join('')){
+                is_correct = true
+            }
+        }
         return NextResponse.json({
-            answer: JSON.parse(answer.answer)
+            answer: parsed_answer,
+            is_correct
         });
     } catch (error) {
         console.trace(error);

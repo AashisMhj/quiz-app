@@ -21,6 +21,7 @@ const TagPage = async ({params}:Props)=>{
     if(!topic_id){
         return <div>Not Found</div>
     }
+    // TODO check if the session exists
     const tags = await db.tag.findMany({
         where: {
             topic_id
