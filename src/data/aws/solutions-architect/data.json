@@ -5842,121 +5842,221 @@
     },
     {
         "question": "Which AWS service provides pre-trained AI services for vision, speech, language, and recommendation?",
-        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "options": [
+            "Amazon SageMaker",
+            "Amazon Comprehend",
+            "Amazon Rekognition",
+            "Amazon Polly"
+        ],
         "answer": 3,
         "tag": "ai-ml"
     },
     {
         "question": "For natural language processing tasks such as sentiment analysis, entity recognition, and language detection, which AWS service should be used?",
-        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "options": [
+            "Amazon SageMaker",
+            "Amazon Comprehend",
+            "Amazon Rekognition",
+            "Amazon Polly"
+        ],
         "answer": 2,
         "tag": "ai-ml"
     },
     {
         "question": "Which AWS service offers a fully managed machine learning service for building, training, and deploying machine learning models?",
-        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "options": [
+            "Amazon SageMaker",
+            "Amazon Comprehend",
+            "Amazon Rekognition",
+            "Amazon Polly"
+        ],
         "answer": 1,
         "tag": "ai-ml"
     },
     {
         "question": "For analyzing text and extracting insights such as key phrases, topics, and language, which AWS service is recommended?",
-        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "options": [
+            "Amazon SageMaker",
+            "Amazon Comprehend",
+            "Amazon Rekognition",
+            "Amazon Polly"
+        ],
         "answer": 2,
         "tag": "ai-ml"
     },
     {
         "question": "Which AWS service provides deep learning-based image and video analysis for object detection, facial recognition, and content moderation?",
-        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "options": [
+            "Amazon SageMaker",
+            "Amazon Comprehend",
+            "Amazon Rekognition",
+            "Amazon Polly"
+        ],
         "answer": 3,
         "tag": "ai-ml"
     },
     {
         "question": "For generating lifelike speech from text, which AWS service should be used?",
-        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "options": [
+            "Amazon SageMaker",
+            "Amazon Comprehend",
+            "Amazon Rekognition",
+            "Amazon Polly"
+        ],
         "answer": 4,
         "tag": "ai-ml"
     },
     {
         "question": "Which AWS service offers a managed service for building, training, and deploying custom machine learning models at scale?",
-        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "options": [
+            "Amazon SageMaker",
+            "Amazon Comprehend",
+            "Amazon Rekognition",
+            "Amazon Polly"
+        ],
         "answer": 1,
         "tag": "ai-ml"
     },
     {
         "question": "For building conversational interfaces with voice and text, which AWS service should be used?",
-        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "options": [
+            "Amazon SageMaker",
+            "Amazon Comprehend",
+            "Amazon Rekognition",
+            "Amazon Polly"
+        ],
         "answer": 4,
         "tag": "ai-ml"
     },
     {
         "question": "Which AWS service enables developers to build applications that can understand natural language and respond intelligently?",
-        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "options": [
+            "Amazon SageMaker",
+            "Amazon Comprehend",
+            "Amazon Rekognition",
+            "Amazon Polly"
+        ],
         "answer": 2,
         "tag": "ai-ml"
     },
     {
         "question": "For automatic text-to-speech conversion with a wide range of lifelike voices, which AWS service is recommended?",
-        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "options": [
+            "Amazon SageMaker",
+            "Amazon Comprehend",
+            "Amazon Rekognition",
+            "Amazon Polly"
+        ],
         "answer": 4,
         "tag": "ai-ml"
     },
     {
         "question": "For applications requiring automatic translation of text into lifelike speech in multiple languages, which AWS service should be used?",
-        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "options": [
+            "Amazon SageMaker",
+            "Amazon Comprehend",
+            "Amazon Rekognition",
+            "Amazon Polly"
+        ],
         "answer": 4,
         "tag": "ai-ml"
     },
     {
         "question": "Which AWS service is suitable for applications requiring real-time analysis of streaming data to detect anomalies, patterns, and trends?",
-        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "options": [
+            "Amazon SageMaker",
+            "Amazon Comprehend",
+            "Amazon Rekognition",
+            "Amazon Polly"
+        ],
         "answer": 2,
         "tag": "ai-ml"
     },
     {
         "question": "For sentiment analysis of customer reviews, social media posts, and other text data, which AWS service should be used?",
-        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "options": [
+            "Amazon SageMaker",
+            "Amazon Comprehend",
+            "Amazon Rekognition",
+            "Amazon Polly"
+        ],
         "answer": 2,
         "tag": "ai-ml"
     },
     {
         "question": "Which AWS service provides computer vision capabilities for analyzing images and videos to extract insights and metadata?",
-        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "options": [
+            "Amazon SageMaker",
+            "Amazon Comprehend",
+            "Amazon Rekognition",
+            "Amazon Polly"
+        ],
         "answer": 3,
         "tag": "ai-ml"
     },
     {
         "question": "For identifying objects, scenes, and activities within images and videos, which AWS service is recommended?",
-        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "options": [
+            "Amazon SageMaker",
+            "Amazon Comprehend",
+            "Amazon Rekognition",
+            "Amazon Polly"
+        ],
         "answer": 3,
         "tag": "ai-ml"
     },
     {
         "question": "Which AWS service is suitable for creating custom machine learning models to predict customer churn based on historical data?",
-        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "options": [
+            "Amazon SageMaker",
+            "Amazon Comprehend",
+            "Amazon Rekognition",
+            "Amazon Polly"
+        ],
         "answer": 1,
         "tag": "ai-ml"
     },
     {
         "question": "For building recommendation systems that personalize content and product recommendations for users, which AWS service should be used?",
-        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "options": [
+            "Amazon SageMaker",
+            "Amazon Comprehend",
+            "Amazon Rekognition",
+            "Amazon Polly"
+        ],
         "answer": 1,
         "tag": "ai-ml"
     },
     {
         "question": "Which AWS service provides automated speech recognition (ASR) capabilities for converting speech to text?",
-        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "options": [
+            "Amazon SageMaker",
+            "Amazon Comprehend",
+            "Amazon Rekognition",
+            "Amazon Polly"
+        ],
         "answer": 4,
         "tag": "ai-ml"
     },
     {
         "question": "For analyzing unstructured text data to extract entities, relationships, and sentiment, which AWS service is recommended?",
-        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "options": [
+            "Amazon SageMaker",
+            "Amazon Comprehend",
+            "Amazon Rekognition",
+            "Amazon Polly"
+        ],
         "answer": 2,
         "tag": "ai-ml"
     },
     {
         "question": "Which AWS service enables developers to build custom machine learning models without requiring expertise in machine learning algorithms?",
-        "options": ["Amazon SageMaker", "Amazon Comprehend", "Amazon Rekognition", "Amazon Polly"],
+        "options": [
+            "Amazon SageMaker",
+            "Amazon Comprehend",
+            "Amazon Rekognition",
+            "Amazon Polly"
+        ],
         "answer": 1,
         "tag": "ai-ml"
     },
@@ -8437,121 +8537,221 @@
     },
     {
         "question": "Which AWS database service is suitable for OLTP workloads requiring high availability, durability, and scalability?",
-        "options": ["RDS", "DynamoDB", "Redshift", "ElastiCache"],
+        "options": [
+            "RDS",
+            "DynamoDB",
+            "Redshift",
+            "ElastiCache"
+        ],
         "answer": 1,
         "tag": "database"
     },
     {
         "question": "For applications requiring compatibility with MySQL, PostgreSQL, MariaDB, or Oracle databases, which AWS service should be chosen?",
-        "options": ["RDS", "DynamoDB", "Redshift", "DocumentDB"],
+        "options": [
+            "RDS",
+            "DynamoDB",
+            "Redshift",
+            "DocumentDB"
+        ],
         "answer": 1,
         "tag": "database"
     },
     {
         "question": "Which AWS database service is designed for fast, scalable, and fully managed NoSQL databases?",
-        "options": ["RDS", "DynamoDB", "Redshift", "ElastiCache"],
+        "options": [
+            "RDS",
+            "DynamoDB",
+            "Redshift",
+            "ElastiCache"
+        ],
         "answer": 2,
         "tag": "database"
     },
     {
         "question": "For analytical workloads requiring petabyte-scale data warehousing, which AWS service should be used?",
-        "options": ["RDS", "DynamoDB", "Redshift", "DocumentDB"],
+        "options": [
+            "RDS",
+            "DynamoDB",
+            "Redshift",
+            "DocumentDB"
+        ],
         "answer": 3,
         "tag": "database"
     },
     {
         "question": "Which AWS database service provides in-memory caching for low-latency access to frequently accessed data?",
-        "options": ["RDS", "DynamoDB", "Redshift", "ElastiCache"],
+        "options": [
+            "RDS",
+            "DynamoDB",
+            "Redshift",
+            "ElastiCache"
+        ],
         "answer": 4,
         "tag": "database"
     },
     {
         "question": "For graph database applications requiring highly connected data sets, which AWS service should be used?",
-        "options": ["RDS", "DynamoDB", "Redshift", "Neptune"],
+        "options": [
+            "RDS",
+            "DynamoDB",
+            "Redshift",
+            "Neptune"
+        ],
         "answer": 4,
         "tag": "database"
     },
     {
         "question": "Which AWS database service is suitable for document database workloads compatible with MongoDB?",
-        "options": ["RDS", "DynamoDB", "Redshift", "DocumentDB"],
+        "options": [
+            "RDS",
+            "DynamoDB",
+            "Redshift",
+            "DocumentDB"
+        ],
         "answer": 4,
         "tag": "database"
     },
     {
         "question": "Which AWS database service is designed for time-series data and is ideal for IoT applications?",
-        "options": ["RDS", "DynamoDB", "Redshift", "TimeStream"],
+        "options": [
+            "RDS",
+            "DynamoDB",
+            "Redshift",
+            "TimeStream"
+        ],
         "answer": 4,
         "tag": "database"
     },
     {
         "question": "For caching frequently accessed data from databases or web applications, which AWS service should be used?",
-        "options": ["RDS", "DynamoDB", "Redshift", "ElastiCache"],
+        "options": [
+            "RDS",
+            "DynamoDB",
+            "Redshift",
+            "ElastiCache"
+        ],
         "answer": 4,
         "tag": "database"
     },
     {
         "question": "Which AWS database service supports ACID transactions, automatic backups, and automated failover?",
-        "options": ["RDS", "DynamoDB", "Redshift", "DocumentDB"],
+        "options": [
+            "RDS",
+            "DynamoDB",
+            "Redshift",
+            "DocumentDB"
+        ],
         "answer": 1,
         "tag": "database"
     },
     {
         "question": "For applications requiring high availability, read scalability, and fully managed relational databases, which AWS service should be chosen?",
-        "options": ["RDS", "DynamoDB", "Redshift", "DocumentDB"],
+        "options": [
+            "RDS",
+            "DynamoDB",
+            "Redshift",
+            "DocumentDB"
+        ],
         "answer": 1,
         "tag": "database"
     },
     {
         "question": "Which AWS database service is designed for fast, scalable, and flexible NoSQL databases with low latency performance?",
-        "options": ["RDS", "DynamoDB", "Redshift", "ElastiCache"],
+        "options": [
+            "RDS",
+            "DynamoDB",
+            "Redshift",
+            "ElastiCache"
+        ],
         "answer": 2,
         "tag": "database"
     },
     {
         "question": "For data warehousing applications requiring petabyte-scale analysis, which AWS service should be used?",
-        "options": ["RDS", "DynamoDB", "Redshift", "Neptune"],
+        "options": [
+            "RDS",
+            "DynamoDB",
+            "Redshift",
+            "Neptune"
+        ],
         "answer": 3,
         "tag": "database"
     },
     {
         "question": "Which AWS database service offers in-memory caching to improve the performance of web applications and databases?",
-        "options": ["RDS", "DynamoDB", "Redshift", "ElastiCache"],
+        "options": [
+            "RDS",
+            "DynamoDB",
+            "Redshift",
+            "ElastiCache"
+        ],
         "answer": 4,
         "tag": "database"
     },
     {
         "question": "For storing and querying highly connected data sets, such as social networks, which AWS service is recommended?",
-        "options": ["RDS", "DynamoDB", "Redshift", "Neptune"],
+        "options": [
+            "RDS",
+            "DynamoDB",
+            "Redshift",
+            "Neptune"
+        ],
         "answer": 4,
         "tag": "database"
     },
     {
         "question": "Which AWS database service is fully compatible with MongoDB workloads and provides document data models?",
-        "options": ["RDS", "DynamoDB", "Redshift", "DocumentDB"],
+        "options": [
+            "RDS",
+            "DynamoDB",
+            "Redshift",
+            "DocumentDB"
+        ],
         "answer": 4,
         "tag": "database"
     },
     {
         "question": "For applications requiring centralized, immutable, and cryptographically verifiable transaction logs, which AWS service should be chosen?",
-        "options": ["RDS", "DynamoDB", "Redshift", "Ledger Database"],
+        "options": [
+            "RDS",
+            "DynamoDB",
+            "Redshift",
+            "Ledger Database"
+        ],
         "answer": 4,
         "tag": "database"
     },
     {
         "question": "Which AWS database service is optimized for time-series data storage and is suitable for IoT and telemetry applications?",
-        "options": ["RDS", "DynamoDB", "Redshift", "TimeStream"],
+        "options": [
+            "RDS",
+            "DynamoDB",
+            "Redshift",
+            "TimeStream"
+        ],
         "answer": 4,
         "tag": "database"
     },
     {
         "question": "For caching frequently accessed data from databases and web applications, which AWS service should be used?",
-        "options": ["RDS", "DynamoDB", "Redshift", "ElastiCache"],
+        "options": [
+            "RDS",
+            "DynamoDB",
+            "Redshift",
+            "ElastiCache"
+        ],
         "answer": 4,
         "tag": "database"
     },
     {
         "question": "Which AWS database service is suitable for graph database applications requiring highly connected data sets?",
-        "options": ["RDS", "DynamoDB", "Redshift", "Neptune"],
+        "options": [
+            "RDS",
+            "DynamoDB",
+            "Redshift",
+            "Neptune"
+        ],
         "answer": 4,
         "tag": "database"
     },
@@ -8709,7 +8909,11 @@
             "Amazon CloudWatch",
             "Amazon Relational Database Service(RDS)"
         ],
-        "answer": [1,2,6],
+        "answer": [
+            1,
+            2,
+            6
+        ],
         "tag": "knowledge-hunt"
     },
     {
@@ -8733,7 +8937,8 @@
         ],
         "answer": 3,
         "tag": "knowledge-hunt"
-    },{
+    },
+    {
         "question": "If any change is made to a security group rule, when are these changes effective?",
         "options": [
             "Changes will be effective after 5 minutes",
@@ -8885,7 +9090,10 @@
             "US-west-2a with two EC2 instances, us-west-2b with two EC2 instances, and us-west-2c with two EC2 instances",
             "US-west-2a with four EC2 instances, us-west-2b with two EC2 instances, and us-west-2c with tow EC2 instances"
         ],
-        "answer": [1,3],
+        "answer": [
+            1,
+            3
+        ],
         "tag": "knowledge-hunt"
     },
     {
@@ -8897,7 +9105,10 @@
             "Modify the Auto Scaling group termination policy to terminate the newest instance first",
             "Modify the Auto Scaling policy to use scheduled scaling actions."
         ],
-        "answer": [1,2],
+        "answer": [
+            1,
+            2
+        ],
         "tag": "knowledge-hunt"
     },
     {
@@ -8919,7 +9130,10 @@
             "It is not possible to change the instance type",
             "A new launch configuration with a new instance type should be created and attached to AS group"
         ],
-        "answer": [2,4],
+        "answer": [
+            2,
+            4
+        ],
         "tag": "knowledge-hunt"
     },
     {
@@ -9060,7 +9274,10 @@
             "Using a EBS optimized instance",
             "Using Provisioned IOPS"
         ],
-        "answer": [3,4],
+        "answer": [
+            3,
+            4
+        ],
         "tag": "knowledge-hunt"
     },
     {
@@ -9184,7 +9401,10 @@
             "Use three Spot instances rather than three on-demand instances for the task nodes.",
             "Adjust the number fo simultaneous mapper tasks"
         ],
-        "answer": [2, 6],
+        "answer": [
+            2,
+            6
+        ],
         "tag": "knowledge-hunt"
     },
     {
@@ -9208,7 +9428,6 @@
         ],
         "answer": 2,
         "tag": "cloud-guru"
-        
     },
     {
         "question": "An Application Load Balancer is fronting an Auto Scaling Group of EC2 instance, and the instances are backed by an RDS database. The Auto Scaling Group has been configured to use the Default Termination Policy. You are testing the Auto Scaling Group and have triggered a scale-in. Which instance will be terminated first?",
@@ -9220,7 +9439,6 @@
         ],
         "answer": 3,
         "tag": "cloud-guru"
-        
     },
     {
         "question": "You are evaluating the security setting withing the main company VPC. The are several NACLs and security groups to evaluate and possibly edit. What is true regarding NACLs and security groups?",
@@ -9232,7 +9450,6 @@
         ],
         "answer": 4,
         "tag": "cloud-guru"
-        
     },
     {
         "question": "The AWS is a large company is spending much of their time monitoring EC2 instances for health check failures. When a health check failure occurs, they manually reboot the EC2 instance to return it to service. There is a company initiative to reduce manual tasks. You have been asked to see if there is a way in AWS for this to be automated. How can you most efficiently automate this monitoring and repair process? ",
@@ -9244,7 +9461,6 @@
         ],
         "answer": 20,
         "tag": "cloud-guru"
-        
     },
     {
         "question": "A company needs to deploy EC2 instances to handle overnight batch processing. This includes media transcoding and some voice to text transcription. This is not high priority work, and it is OK if these batch runs get interrupted. What is the best EC2 instance purchasing option for this work?",
@@ -9256,7 +9472,6 @@
         ],
         "answer": 1,
         "tag": "cloud-guru"
-        
     },
     {
         "question": "You work for a Defense contracting company. The company develops software applications which perform intensive calculations in the area of Mechanical Engineering related to metals for ship building. You have a 3 year contract and decide to purchase reserved EC2 instances for a 3-year duration. You are informed that the particular program has been cancelled abruptly and negotiations have brought the contract to an amicable conclusion one year early. What can you do to stop incurring charges and save money on the EC2 instances?",
@@ -9268,7 +9483,6 @@
         ],
         "answer": 30,
         "tag": "cloud-guru"
-        
     },
     {
         "question": "You are managing data store for your company, and there are many EBS volumes. Your management team has given you some requirements. Certain metrics on the EBS volumes need to be monitored, and the database team needs to be notified by email when certain metric thresholds are exceeded. Which AWS services can be configured to meet these requirements?",
@@ -9279,9 +9493,11 @@
             "SES",
             "CloudWatch"
         ],
-        "answer": [5, 3],
+        "answer": [
+            5,
+            3
+        ],
         "tag": "cloud-guru"
-        
     },
     {
         "question": "A gaming company is designing several new games which focus heavily on player-game interaction. The player makes a certain move and the game has to react very quickly to change the environment based on that move and to present the next decision for the player in real-timer. A tool is needed to continuously collect data about player-game interactions and feed the data into the gaming platform in real-time. Which service can best meet this need?",
@@ -9293,7 +9509,6 @@
         ],
         "answer": 1,
         "tag": "cloud-guru"
-        
     },
     {
         "question": "After an IT Steering Committee meeting, you have been put in charge of configuring a hybrid environment for the company's compute resources. You weight the pros and cons of various technologies based on the requirements you are given. The decision you make is to go with Direct Connect. Which option best describes the features Direct Connect provides?",
@@ -9305,7 +9520,6 @@
         ],
         "answer": 2,
         "tag": "cloud-guru"
-        
     },
     {
         "question": "After being assigned to oversee the data storage within your organization, you begin looking at the monthly billing for S3. You notice that large amounts of data are sitting in S3, and after discussions with team members you find that a large amount of data is historical data that needs to be kept for audit purposes. You detail the cost saving and get approval to move this data to Amazon Glacier for long-term storage. For what types of data is Glacier best suited?",
@@ -9315,9 +9529,11 @@
             "Archived data",
             "Relational table data"
         ],
-        "answer": [2,3],
+        "answer": [
+            2,
+            3
+        ],
         "tag": "cloud-guru"
-        
     },
     {
         "question": "Due to strict compliance requirements, cannot leverage AWS cloud for hosting their Kubernetes clusters, nor for managing the clusters. However, they do want to try to follow the established best practices and processes that the Amazon EKS service has implemented. How can your company achieve this while running entirely on-premises?",
@@ -9327,9 +9543,10 @@
             "This cannot be done",
             "Run Amazon ECS anywhere"
         ],
-        "answer": [2],
+        "answer": [
+            2
+        ],
         "tag": "cloud-guru"
-        
     },
     {
         "question": "A financial tech company has decided to begin migrating their applications to the AWS cloud. Currently, they host their entire application using several self-managed Kubernetes clusters. One of their major concerns during this migration is monitoring and collecting system metrics due to the very large-scale deployments that are in place. Your Chief Technology Officer has requested the use of open-source technologies for this implementation but has also stipulated that, with the current workload of the team, the ability to manage the monitoring environment needs to be low-maintenance. Which combination of the following AWS services would best fit the company requirements while minimizing operational overhead?",
@@ -9340,9 +9557,11 @@
             "AWS Managed Grafana",
             "AWS Manged Service for Prometheus"
         ],
-        "answer": [4,5],
+        "answer": [
+            4,
+            5
+        ],
         "tag": "cloud-guru"
-        
     },
     {
         "question": "You have recently migrated your small company to AWS and are looking for some general best practice guidance within the platform. Which AWS service can help you optimize your AWS environment by giving recommendations to reduce cost, increase performance, and improve security?",
@@ -9354,7 +9573,6 @@
         ],
         "answer": 4,
         "tag": "cloud-guru"
-        
     },
     {
         "question": "You have been evaluating the NACLs in your company. Currently, you are looking at the default network ACL. Which statement is true about NACLs?",
@@ -9366,7 +9584,6 @@
         ],
         "answer": 4,
         "tag": "cloud-guru"
-        
     },
     {
         "question": "A software company has developed a social gaming application that leverage EC2 web servers with Amazon DynamoDB to store player data, session history, and leader boards for a huge number fo concurrent users. The DynamoDB table has pre-configured read and write capacity units. Users have been reporting slowdown issues, and an analysis has revealed that the application requires response times in microseconds for optimal performance. What step can you take to enable this application to handle read-heavy or bursty workloads, while delivering the fastest possible response time for eventually consistent read operations?",
@@ -9378,7 +9595,6 @@
         ],
         "answer": 4,
         "tag": "cloud-guru"
-        
     },
     {
         "question": "You have been evaluating the NACLs in your company. Most of the NACLs are configured the same: \n 100 All Traffic Allow \n 200 All Traffic Deny \n * All Traffic Deny \n ",
@@ -9390,7 +9606,6 @@
         ],
         "answer": 1,
         "tag": "cloud-guru"
-        
     },
     {
         "question": "An application team has decided to leverage AWS for their application infrastructure. The application performs proprietary, internal processes that other business applications utilize for their daily workloads. It is built with Apache Kafka to handle real-time streaming, which virtual machines running the application in the docker containers consume the data from. The team wants to leverage services that provide less overhead but also cause the least amount of disruption to coding and deployments. Which combination of AWS services would best meet the requirements?",
@@ -9402,9 +9617,11 @@
             "Amazon ECS Fargate",
             "Amazon Kinesis Data Streams"
         ],
-        "answer": [1, 5],
+        "answer": [
+            1,
+            5
+        ],
         "tag": "cloud-guru"
-        
     },
     {
         "question": "A solutions architect has been assigned the task of helping the company developers optimize the performance of their web application. End users have been complaining about slow response times. The solutions architect has determined that improvements can be realized by adding ElastiCache to the solution. What can ElastiCache do to improve performance?",
@@ -9416,7 +9633,6 @@
         ],
         "answer": 2,
         "tag": "cloud-guru"
-        
     },
     {
         "question": "After an IT Steering Committee meeting you have been put in charge of configuring a hybrid environment for the company's compute resources. You weight the pros and cons of various technologies based on the requirements you are given. Your primary requirements is the necessity for a private, dedicated connection, which bypasses the internet and can provide throughput of 10 Gbps. Which option will you select?",
@@ -9428,7 +9644,6 @@
         ],
         "answer": 4,
         "tag": "cloud-guru"
-        
     },
     {
         "question": "You are managing S3 buckets in your organization. This management of S3 extends to Amazon Glacier. For auditing purpose, we would like to be informed if an object is restored to S3 from Glacier. What is the most efficient way you can do this?",
@@ -9440,7 +9655,6 @@
         ],
         "answer": 3,
         "tag": "cloud-guru"
-        
     },
     {
         "question": "You are working for a large financial institution and preparing for disaster recovery and upcoming DR drills. A key component in the DR plan will be the database instances and their data. An aggressive Recovery Time Objective (RTO) dictates that the database needs to be synchronously replicated. Which configuration can meet this requirement?",
@@ -9452,7 +9666,6 @@
         ],
         "answer": 3,
         "tag": "cloud-guru"
-        
     },
     {
         "question": "You have joined a newly formed software company as a Solutions Architect. It is a small company, and you are the only employee with AWS experience. The owner has asked for your recommendations to ensure that the AWS resource are deployed to proactively remain within budget. Which AWS service can you use to help ensure you don't have cost overruns for your AWS resources?",
@@ -9464,7 +9677,6 @@
         ],
         "answer": 2,
         "tag": "cloud-guru"
-        
     },
     {
         "question": "You have just started working at a company that is migrating from a physical data center into AWS. Currently, you have 25TB of data that needs to be moved to an S3 bucket. Your company has just finished setting up a 1 GB Direct Connect drop, but you will not have a VPN up and running for 30 days. This data needs to be encrypted during transit and at rest and must be uploaded to the S3 bucket within 21 days. What is the best way to meet these requirements?",
@@ -9476,7 +9688,6 @@
         ],
         "answer": 4,
         "tag": "cloud-guru"
-        
     },
     {
         "question": "A company is going to use several EC2 instances to host various reference applications. The applications are expected to receive steady and relatively low traffic. These applications are expected to run for 3 years, at which time the applications will be evaluated for upgrade. What type of EC2 will meet this requirement considering cost as an additional factor?",
@@ -9488,7 +9699,6 @@
         ],
         "answer": 2,
         "tag": "cloud-guru"
-        
     },
     {
         "question": "What services make up the Alexa service.",
@@ -9498,9 +9708,11 @@
             "Amazon Comprehend",
             "Amazon Lex"
         ],
-        "answer": [2,4],
+        "answer": [
+            2,
+            4
+        ],
         "tag": "cloud-guru"
-        
     },
     {
         "question": "You work for a consulting company, which is currently undergoing both financial and technical audit. You have been asked by the auditors to produce regular reports in regards to your PCI compliance. You need to produce this as fast and as efficiently as possible. Which AWS service should you consider using?",
@@ -9512,7 +9724,6 @@
         ],
         "answer": 4,
         "tag": "cloud-guru"
-        
     },
     {
         "question": "A new startup is considering the advantages of using Amazon DynamoDB versus a traditional relational database in AWS RDS. The NoSQL nature of DynamoDB presents a small learning curve to the team members who all have experience with traditional databases. The company will have multiple databases, and the decision will be made on a case-by-case basis. Which of the following use case would favor Amazon DynamoDB?",
@@ -9526,7 +9737,6 @@
         ],
         "answer": 10,
         "tag": "cloud-guru"
-        
     },
     {
         "question": "You are working in a large healthcare facility that uses EBS volumes on most of the EC2 instances. The CFO has approved you about some cost savings, and it has been decided that some of the EC2 instances and EBS volumes would be deleted. What step can be taken to preserve the data on the EBS volumes and ensure that data can be restored to a new EBS volume within minutes?",
@@ -9538,7 +9748,6 @@
         ],
         "answer": 4,
         "tag": "cloud-guru"
-        
     },
     {
         "question": "A financial institution has an application that produces huge amounts of actuary data, which is ultimately expected to be in the terabyte range. There is a need to run complex analytic queries against terabytes of structured data, using sophisticated query optimization, columnar storage on high-performance storage, and massively parallel query execution. Which service will best meet this requirement?",
@@ -9550,7 +9759,6 @@
         ],
         "answer": 3,
         "tag": "cloud-guru"
-        
     },
     {
         "question": "You have been put in charge of S3 buckets for your company. The buckets are separated based on the type of data they are holding and the level of security required for that data. You have several buckets that have data you want to safeguard from accidental deletion. Which configuration will meet this requirement?",
@@ -9562,7 +9770,6 @@
         ],
         "answer": 4,
         "tag": "cloud-guru"
-        
     },
     {
         "question": "Your company has performed a Disaster Recovery drill which failed to meet the Recovery Time Objective (RTO) desired by executive management. The failure was due in large part to the amount of time taken to restore proper functioning on the database side. You have given management a recommendation of implementing synchronous data replication for the RDS database to help meet RTO. Which of these options can perform synchronous data replication in RDS?",
@@ -9574,7 +9781,6 @@
         ],
         "answer": 2,
         "tag": "cloud-guru"
-        
     },
     {
         "question": "A company is in the process of creating a multi-region disaster recovery solution for your database, and you have tasked to implement it. The required RTO is 1 hour, and the RPO is 15 min. What steps can you take to ensure these thresholds are met?",
@@ -9584,9 +9790,8 @@
             "Use Redshift to host your database. Enable 'multi-region' failover with Redshift. In the event of failure, do nothing, as Redshift will handle if for you",
             "Use RDS to host your database. Create a cross region read replica of your database. In the event of failure, promote the read replica to be standalone database. Send new reads and writes to this database."
         ],
-        "answer":4,
+        "answer": 4,
         "tag": "cloud-guru"
-        
     },
     {
         "question": "A consultant is hired by a small company to configure an AWS environment. The consultant begins working with the VPC and launching EC2 instances within the VPC. The initial instances will be placed in a public subnet. The consultant begins to create security groups. The consultant has launched several instances, created security groups, and has associated security with instances. The consultant want to change the security groups that are associated with the instance. Which statement is true?",
@@ -9915,5 +10120,1325 @@
         ],
         "answer": 4,
         "tag": "cloud-guru"
+    },
+    {
+        "question": "What is the primary purpose of Amazon ElastiCache?",
+        "options": [
+            "To store and retrieve objects in the cloud",
+            "To host static websites",
+            "To provide in-memory caching for applications",
+            "To manage relational databases"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "Which ElastiCache engine supports data persistence and advanced data structures such as sorted sets and hashes?",
+        "options": [
+            "Memcached",
+            "Redis",
+            "Elasticsearch",
+            "DynamoDB"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "A company wants to improve the performance of its database-driven web application. Which ElastiCache engine should they use for caching?",
+        "options": [
+            "Memcached",
+            "Redis",
+            "Elasticsearch",
+            "DynamoDB"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "What is a key benefit of using Amazon ElastiCache?",
+        "options": [
+            "High durability of cached data",
+            "Low-latency access to cached data",
+            "Real-time analytics of cached data",
+            "Integration with Amazon RDS"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "A company wants to implement caching for its real-time analytics platform. Which ElastiCache engine should they use?",
+        "options": [
+            "Memcached",
+            "Redis",
+            "Elasticsearch",
+            "DynamoDB"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "Which ElastiCache feature provides automatic failover in case of node failure?",
+        "options": [
+            "Cross-region replication",
+            "Automatic backups",
+            "Multi-AZ replication",
+            "Encryption at rest"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "A company wants to ensure that their cached data remains available even if a node fails. Which ElastiCache feature should they use?",
+        "options": [
+            "Cross-region replication",
+            "Automatic backups",
+            "Multi-AZ replication",
+            "Encryption at rest"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "Which ElastiCache engine is best suited for use cases that require simplicity and ease of use?",
+        "options": [
+            "Memcached",
+            "Redis",
+            "Elasticsearch",
+            "DynamoDB"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "What is the purpose of ElastiCache's replication groups?",
+        "options": [
+            "To distribute cached data across multiple regions",
+            "To provide automatic scaling of cache nodes",
+            "To ensure high availability of cached data",
+            "To encrypt data at rest"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS service can ElastiCache integrate with to automate scaling based on application demand?",
+        "options": [
+            "Amazon RDS",
+            "Amazon EC2",
+            "Amazon Auto Scaling",
+            "Amazon Redshift"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "A company wants to reduce the load on its backend database by caching frequently accessed data. Which ElastiCache engine should they use?",
+        "options": [
+            "Memcached",
+            "Redis",
+            "Elasticsearch",
+            "DynamoDB"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "What is the primary benefit of using Amazon ElastiCache for caching?",
+        "options": [
+            "Increased durability of cached data",
+            "Low-latency access to cached data",
+            "Real-time analytics of cached data",
+            "Integration with Amazon RDS"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "Which ElastiCache engine is preferred for use cases that require persistence and complex data structures?",
+        "options": [
+            "Memcached",
+            "Redis",
+            "Elasticsearch",
+            "DynamoDB"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "A company wants to implement caching for its session management system. Which ElastiCache feature should they use to ensure high availability?",
+        "options": [
+            "Multi-AZ replication",
+            "Cross-region replication",
+            "Data encryption",
+            "Automated backups"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "Which ElastiCache engine supports data partitioning and sharding?",
+        "options": [
+            "Memcached",
+            "Redis",
+            "Elasticsearch",
+            "DynamoDB"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "A company wants to implement caching for its real-time analytics dashboard. Which ElastiCache engine should they use?",
+        "options": [
+            "Memcached",
+            "Redis",
+            "Elasticsearch",
+            "DynamoDB"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "What is the primary use case for Amazon ElastiCache?",
+        "options": [
+            "Real-time log analysis",
+            "In-memory caching",
+            "Data warehousing",
+            "Object storage"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "Which ElastiCache feature allows for data encryption in transit and at rest?",
+        "options": [
+            "Multi-AZ replication",
+            "Cross-region replication",
+            "Data encryption",
+            "Automated backups"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "A company wants to implement caching for its search engine to improve performance. Which ElastiCache engine should they use?",
+        "options": [
+            "Memcached",
+            "Redis",
+            "Elasticsearch",
+            "DynamoDB"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "Which ElastiCache feature provides the ability to automatically add or remove cache nodes based on demand?",
+        "options": [
+            "Multi-AZ replication",
+            "Cross-region replication",
+            "Auto Scaling",
+            "Automated backups"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "A company is experiencing high latency in accessing data from its relational database, impacting the performance of its web application. Which ElastiCache engine should they use to cache frequently accessed database queries?",
+        "options": [
+            "Memcached",
+            "Redis",
+            "Elasticsearch",
+            "DynamoDB"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "An e-commerce platform needs to ensure that its product catalog remains highly available and responsive to customer requests. Which ElastiCache feature should they use to automatically redirect traffic to healthy cache nodes in case of failure?",
+        "options": [
+            "Multi-AZ replication",
+            "Cross-region replication",
+            "Auto Scaling",
+            "Automated backups"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "A social media platform wants to implement caching for its user profiles to improve performance and reduce load on its database. Which ElastiCache engine should they use to support data persistence and complex data structures?",
+        "options": [
+            "Memcached",
+            "Redis",
+            "Elasticsearch",
+            "DynamoDB"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "A gaming company is developing a multiplayer game that requires real-time communication between players. Which ElastiCache feature should they use to ensure low-latency data access and synchronization?",
+        "options": [
+            "Multi-AZ replication",
+            "Cross-region replication",
+            "Data encryption",
+            "Pub/Sub messaging"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "A financial institution wants to implement caching for its market data feeds to improve the performance of its trading platform. Which ElastiCache feature should they use to ensure data integrity and consistency?",
+        "options": [
+            "Multi-AZ replication",
+            "Cross-region replication",
+            "Data encryption",
+            "Automatic backups"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "A company operates a fleet of mobile gaming apps and wants to ensure fast response times for user actions, such as leaderboard updates and in-game purchases. Which ElastiCache engine should they use to support data partitioning and sharding?",
+        "options": [
+            "Memcached",
+            "Redis",
+            "Elasticsearch",
+            "DynamoDB"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "A media streaming platform needs to reduce the load on its backend servers when serving popular content to users. Which ElastiCache engine should they use to cache media metadata and session information?",
+        "options": [
+            "Memcached",
+            "Redis",
+            "Elasticsearch",
+            "DynamoDB"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "An online advertising platform wants to improve the performance of its ad targeting algorithms by caching user behavior data. Which ElastiCache feature should they use to ensure high availability and durability of cached data?",
+        "options": [
+            "Multi-AZ replication",
+            "Cross-region replication",
+            "Data encryption",
+            "Automatic backups"
+        ],
+        "answer": 1,
+        "tag": "database"
+    },
+    {
+        "question": "A travel booking website needs to handle sudden spikes in traffic during peak booking hours without affecting performance. Which ElastiCache feature should they use to automatically scale their cache cluster based on demand?",
+        "options": [
+            "Multi-AZ replication",
+            "Cross-region replication",
+            "Auto Scaling",
+            "Automated backups"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "A content management system wants to accelerate content delivery to users worldwide by caching frequently accessed files. Which ElastiCache engine should they use to support distributed caching and content replication?",
+        "options": [
+            "Memcached",
+            "Redis",
+            "Elasticsearch",
+            "DynamoDB"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "A gaming company operates a multiplayer online game with millions of users worldwide. The company wants to ensure low-latency access to player profiles stored in DynamoDB. Which service should they use to achieve this requirement?",
+        "options": [
+            "Amazon RDS",
+            "Amazon ElastiCache",
+            "Amazon Redshift",
+            "Amazon DAX"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "A social media platform experiences high read traffic on its user profiles stored in DynamoDB. The platform wants to reduce the read latency for these profiles without modifying application code. Which service should they use?",
+        "options": [
+            "Amazon RDS",
+            "Amazon ElastiCache",
+            "Amazon Redshift",
+            "Amazon DAX"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "An e-commerce website wants to provide real-time product recommendations to users based on their browsing history stored in DynamoDB. Which service should they use to improve the performance of the recommendation engine?",
+        "options": [
+            "Amazon RDS",
+            "Amazon ElastiCache",
+            "Amazon Redshift",
+            "Amazon DAX"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "A financial institution needs to process large volumes of real-time transaction data stored in DynamoDB. The institution wants to reduce the query latency for analytical queries without impacting transactional workloads. Which service should they use?",
+        "options": [
+            "Amazon RDS",
+            "Amazon ElastiCache",
+            "Amazon Redshift",
+            "Amazon DAX"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "A media streaming platform wants to improve the performance of its recommendation engine by caching frequently accessed content metadata stored in DynamoDB. Which service should they use to achieve this?",
+        "options": [
+            "Amazon RDS",
+            "Amazon ElastiCache",
+            "Amazon Redshift",
+            "Amazon DAX"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "A travel booking website needs to handle sudden spikes in traffic during peak booking hours without affecting the performance of its DynamoDB backend. Which service should they use to ensure low-latency access to booking data?",
+        "options": [
+            "Amazon RDS",
+            "Amazon ElastiCache",
+            "Amazon Redshift",
+            "Amazon DAX"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "An online gaming platform wants to provide personalized leaderboards to players based on their performance data stored in DynamoDB. Which service should they use to ensure fast leaderboard updates?",
+        "options": [
+            "Amazon RDS",
+            "Amazon ElastiCache",
+            "Amazon Redshift",
+            "Amazon DAX"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "A content management system wants to accelerate content delivery by caching frequently accessed files stored in DynamoDB. Which service should they use to achieve this?",
+        "options": [
+            "Amazon RDS",
+            "Amazon ElastiCache",
+            "Amazon Redshift",
+            "Amazon DAX"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "A mobile gaming app wants to provide real-time updates to player scores stored in DynamoDB. Which service should they use to ensure low-latency access to score data?",
+        "options": [
+            "Amazon RDS",
+            "Amazon ElastiCache",
+            "Amazon Redshift",
+            "Amazon DAX"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "A ride-sharing company wants to improve the performance of its ride matching algorithm by caching user preferences stored in DynamoDB. Which service should they use to achieve this?",
+        "options": [
+            "Amazon RDS",
+            "Amazon ElastiCache",
+            "Amazon Redshift",
+            "Amazon DAX"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "Which AWS service provides an in-memory caching layer for DynamoDB, improving read performance?",
+        "options": [
+            "Amazon RDS",
+            "Amazon ElastiCache",
+            "Amazon Redshift",
+            "Amazon DAX"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "What is the primary advantage of using Amazon DAX for DynamoDB read operations?",
+        "options": [
+            "Lower storage costs",
+            "Reduced network latency",
+            "Increased data durability",
+            "Improved write throughput"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "A company wants to reduce the latency of read operations on its DynamoDB tables. Which feature of Amazon DAX can help achieve this?",
+        "options": [
+            "Global Tables",
+            "DAX Clusters",
+            "DAX Endpoints",
+            "DAX Streams"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "Which of the following workloads is suitable for Amazon DAX?",
+        "options": [
+            "Batch processing",
+            "Transactional processing",
+            "Real-time analytics",
+            "Data archiving"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "What is the purpose of DAX Clusters in Amazon DynamoDB Accelerator (DAX)?",
+        "options": [
+            "To manage DynamoDB tables and indexes",
+            "To provide encryption for data stored in DynamoDB",
+            "To improve the performance of DynamoDB read operations",
+            "To automate backups for DynamoDB tables"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "Which DynamoDB operation does Amazon DAX primarily optimize?",
+        "options": [
+            "PutItem",
+            "UpdateItem",
+            "Query",
+            "Scan"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "A gaming company needs to ensure low-latency access to player data stored in DynamoDB. Which service should they use to achieve this requirement?",
+        "options": [
+            "Amazon RDS",
+            "Amazon ElastiCache",
+            "Amazon Redshift",
+            "Amazon DAX"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "What is the primary benefit of using Amazon DAX for DynamoDB caching?",
+        "options": [
+            "Reduced data transfer costs",
+            "Improved write throughput",
+            "Lower operational overhead",
+            "Increased data durability"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "A company wants to scale its DynamoDB application without impacting read performance. Which service should they use to achieve this?",
+        "options": [
+            "Amazon RDS",
+            "Amazon ElastiCache",
+            "Amazon Redshift",
+            "Amazon DAX"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "Which Amazon DAX feature allows for automatic failover in case of node failure?",
+        "options": [
+            "DAX Clusters",
+            "DAX Endpoints",
+            "DAX Streams",
+            "Global Tables"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "What is the primary purpose of Amazon DynamoDB Accelerator (DAX)?",
+        "options": [
+            "To provide encryption for data stored in DynamoDB",
+            "To improve the performance of DynamoDB read operations",
+            "To manage DynamoDB tables and indexes",
+            "To automate backups for DynamoDB tables"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "Which of the following is a valid use case for Amazon DAX?",
+        "options": [
+            "Storing and retrieving large binary objects",
+            "Real-time analytics on DynamoDB data",
+            "Archiving data to long-term storage",
+            "Hosting static websites"
+        ],
+        "answer": 2,
+        "tag": "database"
+    },
+    {
+        "question": "A company wants to reduce read latency for its DynamoDB tables without modifying application code. Which service should they use?",
+        "options": [
+            "Amazon RDS",
+            "Amazon ElastiCache",
+            "Amazon Redshift",
+            "Amazon DAX"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "What is a key benefit of using Amazon DAX?",
+        "options": [
+            "Improved data durability",
+            "Lower DynamoDB costs",
+            "Reduced read latency",
+            "Increased storage capacity"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "A gaming company needs to perform complex analytical queries on its DynamoDB data in real-time. Which service should they use to achieve this?",
+        "options": [
+            "Amazon RDS",
+            "Amazon ElastiCache",
+            "Amazon Redshift",
+            "Amazon DAX"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "Which DynamoDB feature does Amazon DAX integrate with to accelerate read performance?",
+        "options": [
+            "Streams",
+            "Global Tables",
+            "DynamoDB Accelerator",
+            "DynamoDB Transactions"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "A social media platform wants to improve the performance of its timeline feed by caching frequently accessed user data. Which service should they use for this purpose?",
+        "options": [
+            "Amazon RDS",
+            "Amazon ElastiCache",
+            "Amazon Redshift",
+            "Amazon DAX"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "What is the primary benefit of using Amazon DAX over traditional caching solutions?",
+        "options": [
+            "Lower cost",
+            "Higher durability",
+            "Automatic data replication",
+            "Zero code changes required"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "A company wants to ensure that its DynamoDB queries remain performant as the dataset grows. Which service should they use to achieve this?",
+        "options": [
+            "Amazon RDS",
+            "Amazon ElastiCache",
+            "Amazon Redshift",
+            "Amazon DAX"
+        ],
+        "answer": 4,
+        "tag": "database"
+    },
+    {
+        "question": "Which DynamoDB operation does Amazon DAX optimize?",
+        "options": [
+            "PutItem",
+            "UpdateItem",
+            "Query",
+            "Scan"
+        ],
+        "answer": 3,
+        "tag": "database"
+    },
+    {
+        "question": "A company wants to deliver its website content, including images, videos, and static files, to users worldwide with low latency. Which AWS service should they use?",
+        "options": [
+            "Amazon S3",
+            "Amazon EC2",
+            "Amazon CloudFront",
+            "Amazon Route 53"
+        ],
+        "answer": 3,
+        "tag": "network"
+    },
+    {
+        "question": "What is the primary benefit of using Amazon CloudFront?",
+        "options": [
+            "Improved security",
+            "Reduced storage costs",
+            "Reduced latency",
+            "Increased network bandwidth"
+        ],
+        "answer": 3,
+        "tag": "network"
+    },
+    {
+        "question": "Which of the following is NOT a valid use case for Amazon CloudFront?",
+        "options": [
+            "Static website hosting",
+            "Streaming media delivery",
+            "Distributed denial-of-service (DDoS) protection",
+            "Load balancing across multiple AWS regions"
+        ],
+        "answer": 4,
+        "tag": "network"
+    },
+    {
+        "question": "A company wants to deliver live video streams to a global audience with minimal delay. Which AWS service should they use in conjunction with Amazon CloudFront?",
+        "options": [
+            "Amazon S3",
+            "Amazon EC2",
+            "AWS Lambda",
+            "Amazon CloudFront"
+        ],
+        "answer": 4,
+        "tag": "network"
+    },
+    {
+        "question": "Which AWS service can CloudFront use as its origin server?",
+        "options": [
+            "Amazon S3",
+            "Amazon EC2",
+            "Amazon RDS",
+            "Amazon DynamoDB"
+        ],
+        "answer": 1,
+        "tag": "network"
+    },
+    {
+        "question": "A company wants to serve different versions of its website to users based on their geographic location. Which feature of CloudFront should they use?",
+        "options": [
+            "Geo-restriction",
+            "Custom error pages",
+            "Origin access identity",
+            "Lambda@Edge"
+        ],
+        "answer": 4,
+        "tag": "network"
+    },
+    {
+        "question": "Which CloudFront feature allows you to restrict access to content based on the geographic location of the viewer?",
+        "options": [
+            "Geo-restriction",
+            "Origin access identity",
+            "Custom error pages",
+            "Lambda@Edge"
+        ],
+        "answer": 1,
+        "tag": "network"
+    },
+    {
+        "question": "What type of content does CloudFront NOT cache by default?",
+        "options": [
+            "HTML files",
+            "JavaScript files",
+            "Images",
+            "API responses"
+        ],
+        "answer": 4,
+        "tag": "network"
+    },
+    {
+        "question": "A company wants to distribute a software package to users worldwide with minimal latency. Which CloudFront feature should they use?",
+        "options": [
+            "Geo-restriction",
+            "Custom error pages",
+            "Origin access identity",
+            "Lambda@Edge"
+        ],
+        "answer": 4,
+        "tag": "network"
+    },
+    {
+        "question": "What is the purpose of CloudFront origin access identity?",
+        "options": [
+            "To authenticate users before accessing content",
+            "To encrypt content during transit",
+            "To restrict access to the origin server",
+            "To enable serverless compute at the edge"
+        ],
+        "answer": 3,
+        "tag": "network"
+    },
+    {
+        "question": "Which AWS service can be used to customize and execute code at AWS edge locations, such as modifying HTTP headers and caching responses?",
+        "options": [
+            "Amazon API Gateway",
+            "Amazon CloudFront",
+            "Amazon Lambda",
+            "Amazon S3"
+        ],
+        "answer": 3,
+        "tag": "network"
+    },
+    {
+        "question": "A company wants to deliver its API responses to users worldwide with low latency. Which AWS service should they use in conjunction with Amazon CloudFront?",
+        "options": [
+            "Amazon S3",
+            "Amazon EC2",
+            "Amazon API Gateway",
+            "Amazon CloudFront"
+        ],
+        "answer": 3,
+        "tag": "network"
+    },
+    {
+        "question": "What is the main advantage of using CloudFront's edge locations for content delivery?",
+        "options": [
+            "Reduced origin server load",
+            "Improved security",
+            "Lower latency",
+            "Increased durability"
+        ],
+        "answer": 3,
+        "tag": "network"
+    },
+    {
+        "question": "A company wants to restrict access to certain files stored in an S3 bucket, ensuring that only authorized users can access them. Which CloudFront feature should they use?",
+        "options": [
+            "Geo-restriction",
+            "Custom error pages",
+            "Signed URLs",
+            "Lambda@Edge"
+        ],
+        "answer": 3,
+        "tag": "network"
+    },
+    {
+        "question": "Which CloudFront feature can be used to serve different versions of content based on viewer device characteristics, such as mobile or desktop?",
+        "options": [
+            "Geo-restriction",
+            "Origin access identity",
+            "Custom error pages",
+            "Device detection"
+        ],
+        "answer": 4,
+        "tag": "network"
+    },
+    {
+        "question": "What is the purpose of CloudFront access logs?",
+        "options": [
+            "To monitor server uptime",
+            "To analyze viewer access patterns",
+            "To restrict access to content",
+            "To automate resource scaling"
+        ],
+        "answer": 2,
+        "tag": "network"
+    },
+    {
+        "question": "A company wants to ensure that their CloudFront distribution can handle sudden traffic spikes without affecting performance. Which CloudFront feature should they use?",
+        "options": [
+            "Origin failover",
+            "Cache invalidation",
+            "Dedicated IP addresses",
+            "Auto scaling"
+        ],
+        "answer": 4,
+        "tag": "network"
+    },
+    {
+        "question": "Which AWS service can be integrated with CloudFront to provide real-time analytics and monitoring of CDN usage?",
+        "options": [
+            "Amazon CloudWatch",
+            "Amazon Elasticsearch Service",
+            "Amazon Kinesis",
+            "Amazon Redshift"
+        ],
+        "answer": 1,
+        "tag": "network"
+    },
+    {
+        "question": "What is the primary purpose of CloudFront's cache behavior settings?",
+        "options": [
+            "To specify the TTL (time to live) for cached objects",
+            "To encrypt data in transit between CloudFront and viewers",
+            "To control access to content based on geographic location",
+            "To manage CloudFront distributions"
+        ],
+        "answer": 1,
+        "tag": "network"
+    },
+    {
+        "question": "A company wants to provide fast and secure access to their private content stored in an S3 bucket. Which CloudFront feature should they use?",
+        "options": [
+            "Signed URLs",
+            "Geo-restriction",
+            "Lambda@Edge",
+            "Custom error pages"
+        ],
+        "answer": 1,
+        "tag": "network"
+    },
+    {
+        "question": "A global e-commerce company wants to deliver its product images to customers worldwide with low latency. They also want to ensure that the images are cached closer to their customers to reduce the load on their origin servers. Which AWS service should they use?",
+        "options": [
+            "Amazon S3",
+            "Amazon CloudFront",
+            "Amazon EC2",
+            "Amazon Route 53"
+        ],
+        "answer": 2,
+        "tag": "network"
+    },
+    {
+        "question": "A media streaming company wants to distribute its video content to users across different regions. They need a service that can handle sudden spikes in traffic and provide fast, reliable delivery. Which AWS service should they use?",
+        "options": [
+            "Amazon RDS",
+            "Amazon DynamoDB",
+            "Amazon CloudFront",
+            "Amazon SQS"
+        ],
+        "answer": 3,
+        "tag": "network"
+    },
+    {
+        "question": "A software company hosts its web application on Amazon EC2 instances in multiple regions. They want to ensure that users are directed to the nearest server to minimize latency. Which AWS service can help achieve this?",
+        "options": [
+            "Amazon Route 53",
+            "Amazon CloudFront",
+            "Amazon S3",
+            "AWS Global Accelerator"
+        ],
+        "answer": 4,
+        "tag": "network"
+    },
+    {
+        "question": "A gaming company wants to accelerate the delivery of game updates to players worldwide. They also need a service that can handle large file sizes efficiently. Which AWS service should they use?",
+        "options": [
+            "Amazon S3",
+            "Amazon EC2",
+            "Amazon CloudFront",
+            "Amazon RDS"
+        ],
+        "answer": 1,
+        "tag": "network"
+    },
+    {
+        "question": "A news website wants to ensure that its articles are accessible to readers worldwide with minimal delay. They also want to prevent unauthorized access to their content. Which AWS service should they use?",
+        "options": [
+            "Amazon Route 53",
+            "Amazon S3",
+            "Amazon CloudFront",
+            "AWS IAM"
+        ],
+        "answer": 3,
+        "tag": "network"
+    },
+    {
+        "question": "A company hosts its video conferencing platform on Amazon EC2 instances. They want to ensure that users experience low-latency video streaming regardless of their location. Which AWS service can help achieve this?",
+        "options": [
+            "Amazon Route 53",
+            "Amazon CloudFront",
+            "Amazon S3",
+            "Amazon Kinesis"
+        ],
+        "answer": 2,
+        "tag": "network"
+    },
+    {
+        "question": "A financial institution hosts its trading platform on Amazon EC2 instances. They want to ensure that trades are executed quickly and securely for users worldwide. Which AWS service should they use?",
+        "options": [
+            "Amazon S3",
+            "Amazon CloudFront",
+            "Amazon Route 53",
+            "Amazon VPC"
+        ],
+        "answer": 4,
+        "tag": "network"
+    },
+    {
+        "question": "A healthcare provider wants to deliver medical records securely to patients worldwide. They also need to comply with strict regulatory requirements for data protection. Which AWS service should they use?",
+        "options": [
+            "Amazon S3",
+            "Amazon CloudFront",
+            "Amazon KMS",
+            "Amazon Glacier"
+        ],
+        "answer": 3,
+        "tag": "network"
+    },
+    {
+        "question": "A social media platform wants to deliver user-generated content, including images and videos, to users worldwide. They need a service that can handle high traffic volumes and provide fast content delivery. Which AWS service should they use?",
+        "options": [
+            "Amazon CloudFront",
+            "Amazon S3",
+            "Amazon EC2",
+            "Amazon DynamoDB"
+        ],
+        "answer": 1,
+        "tag": "network"
+    },
+    {
+        "question": "A mobile application company wants to distribute its app updates to users across different regions. They need a service that can cache updates closer to users and ensure fast, reliable delivery. Which AWS service should they use?",
+        "options": [
+            "Amazon S3",
+            "Amazon EC2",
+            "Amazon CloudFront",
+            "Amazon RDS"
+        ],
+        "answer": 3,
+        "tag": "network"
+    },
+    {
+        "question": "What is AWS Global Accelerator?",
+        "options": [
+            "A content delivery network (CDN) service",
+            "A managed DNS service",
+            "A networking service that improves global application availability and performance",
+            "A load balancing service for AWS EC2 instances"
+        ],
+        "answer": 3,
+        "tag": "network"
+    },
+    {
+        "question": "Which AWS Global Accelerator feature directs user traffic to the closest healthy application endpoint?",
+        "options": [
+            "Anycast IP addresses",
+            "Elastic Load Balancing",
+            "Traffic flow management",
+            "Global routing table"
+        ],
+        "answer": 1,
+        "tag": "network"
+    },
+    {
+        "question": "What is the primary benefit of using AWS Global Accelerator?",
+        "options": [
+            "Reduced latency and improved performance for global applications",
+            "Lower cost compared to traditional load balancing solutions",
+            "Integration with Amazon CloudFront for caching static content",
+            "Enhanced security features for application endpoints"
+        ],
+        "answer": 1,
+        "tag": "network"
+    },
+    {
+        "question": "Which AWS Global Accelerator feature automatically reroutes traffic from unhealthy endpoints to healthy endpoints in less than a minute?",
+        "options": [
+            "Anycast IP addresses",
+            "Health checks",
+            "Global routing table",
+            "Traffic flow management"
+        ],
+        "answer": 2,
+        "tag": "network"
+    },
+    {
+        "question": "A company wants to improve the availability and performance of its web application for users across multiple geographic regions. Which AWS service should they use?",
+        "options": [
+            "Amazon Route 53",
+            "Amazon CloudFront",
+            "AWS Global Accelerator",
+            "AWS Direct Connect"
+        ],
+        "answer": 3,
+        "tag": "network"
+    },
+    {
+        "question": "Which type of IP address does AWS Global Accelerator use to route traffic to the nearest application endpoint?",
+        "options": [
+            "Unicast",
+            "Multicast",
+            "Anycast",
+            "Broadcast"
+        ],
+        "answer": 3,
+        "tag": "network"
+    },
+    {
+        "question": "A company wants to implement global load balancing for its application hosted on multiple AWS Regions. Which AWS service should they use?",
+        "options": [
+            "Amazon Route 53",
+            "Amazon CloudFront",
+            "AWS Global Accelerator",
+            "Amazon API Gateway"
+        ],
+        "answer": 3,
+        "tag": "network"
+    },
+    {
+        "question": "Which AWS Global Accelerator feature allows customers to define routing policies to manage traffic flows?",
+        "options": [
+            "Anycast IP addresses",
+            "Health checks",
+            "Traffic flow management",
+            "Global routing table"
+        ],
+        "answer": 3,
+        "tag": "network"
+    },
+    {
+        "question": "A company wants to minimize latency and improve performance for its real-time video streaming service. Which AWS service should they use?",
+        "options": [
+            "Amazon Route 53",
+            "Amazon CloudFront",
+            "AWS Global Accelerator",
+            "Amazon VPC"
+        ],
+        "answer": 3,
+        "tag": "network"
+    },
+    {
+        "question": "Which AWS Global Accelerator feature allows customers to monitor the health of their application endpoints?",
+        "options": [
+            "Anycast IP addresses",
+            "Health checks",
+            "Traffic flow management",
+            "Global routing table"
+        ],
+        "answer": 2,
+        "tag": "network"
+    },
+    {
+        "question": "What is the main advantage of using AWS Global Accelerator over traditional DNS-based routing?",
+        "options": [
+            "Lower latency",
+            "Improved DNS resolution",
+            "Health check monitoring",
+            "Global load balancing"
+        ],
+        "answer": 1,
+        "tag": "network"
+    },
+    {
+        "question": "Which AWS Global Accelerator feature allows customers to easily add or remove application endpoints?",
+        "options": [
+            "Anycast IP addresses",
+            "Health checks",
+            "Traffic flow management",
+            "Global routing table"
+        ],
+        "answer": 3,
+        "tag": "network"
+    },
+    {
+        "question": "A company operates a web application that experiences frequent traffic spikes and needs to ensure high availability and low latency globally. Which AWS service should they use?",
+        "options": [
+            "Amazon Route 53",
+            "Amazon CloudFront",
+            "AWS Global Accelerator",
+            "Amazon S3 Transfer Acceleration"
+        ],
+        "answer": 3,
+        "tag": "network"
+    },
+    {
+        "question": "Which AWS Global Accelerator feature allows customers to specify weights for traffic distribution across application endpoints?",
+        "options": [
+            "Anycast IP addresses",
+            "Health checks",
+            "Traffic flow management",
+            "Global routing table"
+        ],
+        "answer": 3,
+        "tag": "network"
+    },
+    {
+        "question": "A company wants to distribute traffic across multiple AWS Regions to improve the performance of its global application. Which AWS service should they use?",
+        "options": [
+            "Amazon Route 53",
+            "Amazon CloudFront",
+            "AWS Global Accelerator",
+            "Amazon S3 Transfer Acceleration"
+        ],
+        "answer": 3,
+        "tag": "network"
+    },
+    {
+        "question": "Which AWS Global Accelerator feature provides traffic distribution based on geographic locations?",
+        "options": [
+            "Anycast IP addresses",
+            "Health checks",
+            "Traffic flow management",
+            "Global routing table"
+        ],
+        "answer": 4,
+        "tag": "network"
+    },
+    {
+        "question": "A company wants to implement failover routing for its application endpoints in different AWS Regions. Which AWS service should they use?",
+        "options": [
+            "Amazon Route 53",
+            "Amazon CloudFront",
+            "AWS Global Accelerator",
+            "Amazon S3 Transfer Acceleration"
+        ],
+        "answer": 3,
+        "tag": "network"
+    },
+    {
+        "question": "Which AWS Global Accelerator feature allows customers to monitor the health of their application endpoints?",
+        "options": [
+            "Anycast IP addresses",
+            "Health checks",
+            "Traffic flow management",
+            "Global routing table"
+        ],
+        "answer": 2,
+        "tag": "network"
+    },
+    {
+        "question": "A company wants to distribute traffic to application endpoints based on their availability and health. Which AWS service should they use?",
+        "options": [
+            "Amazon Route 53",
+            "Amazon CloudFront",
+            "AWS Global Accelerator",
+            "Amazon S3 Transfer Acceleration"
+        ],
+        "answer": 3,
+        "tag": "network"
+    },
+    {
+        "question": "Which AWS Global Accelerator feature provides redundancy and high availability for application endpoints?",
+        "options": [
+            "Anycast IP addresses",
+            "Health checks",
+            "Traffic flow management",
+            "Global routing table"
+        ],
+        "answer": 1,
+        "tag": "network"
+    },
+    {
+        "question": "Scenario: A multinational e-commerce company operates multiple web servers in different AWS Regions to serve customers worldwide. The company wants to improve the availability and performance of its website by directing user traffic to the closest healthy server. Which AWS service should they use?",
+        "options": [
+            "Amazon Route 53",
+            "Amazon CloudFront",
+            "AWS Global Accelerator",
+            "Amazon S3 Transfer Acceleration"
+        ],
+        "answer": 3,
+        "tag": "network"
+    },
+    {
+        "question": "Scenario: A video streaming platform delivers content to users across various geographic locations. The platform wants to minimize latency and ensure smooth video playback by routing traffic through optimized network paths. Which AWS service should they use?",
+        "options": [
+            "Amazon Route 53",
+            "Amazon CloudFront",
+            "AWS Global Accelerator",
+            "Amazon S3 Transfer Acceleration"
+        ],
+        "answer": 3,
+        "tag": "network"
+    },
+    {
+        "question": "Scenario: A financial institution operates critical applications in multiple AWS Regions to serve customers globally. The institution needs to ensure high availability and fast response times for its applications by intelligently directing traffic to healthy endpoints. Which AWS service should they use?",
+        "options": [
+            "Amazon Route 53",
+            "Amazon CloudFront",
+            "AWS Global Accelerator",
+            "Amazon S3 Transfer Acceleration"
+        ],
+        "answer": 3,
+        "tag": "network"
+    },
+    {
+        "question": "Scenario: A gaming company hosts multiplayer game servers in different AWS Regions to accommodate players worldwide. The company wants to reduce lag and improve gameplay experience by automatically routing players to the nearest available server. Which AWS service should they use?",
+        "options": [
+            "Amazon Route 53",
+            "Amazon CloudFront",
+            "AWS Global Accelerator",
+            "Amazon S3 Transfer Acceleration"
+        ],
+        "answer": 3,
+        "tag": "network"
+    },
+    {
+        "question": "Scenario: A media streaming platform delivers live broadcasts to viewers across multiple continents. The platform aims to minimize buffering and latency issues by intelligently directing traffic through optimized network paths. Which AWS service should they use?",
+        "options": [
+            "Amazon Route 53",
+            "Amazon CloudFront",
+            "AWS Global Accelerator",
+            "Amazon S3 Transfer Acceleration"
+        ],
+        "answer": 3,
+        "tag": "network"
+    },
+    {
+        "question": "Scenario: A software as a service (SaaS) company hosts its application servers in multiple AWS Regions to serve global customers. The company wants to ensure high availability and low latency for its application by dynamically routing traffic based on endpoint health. Which AWS service should they use?",
+        "options": [
+            "Amazon Route 53",
+            "Amazon CloudFront",
+            "AWS Global Accelerator",
+            "Amazon S3 Transfer Acceleration"
+        ],
+        "answer": 3,
+        "tag": "network"
+    },
+    {
+        "question": "Scenario: A content delivery platform serves static assets such as images, videos, and documents to users worldwide. The platform aims to minimize latency and accelerate content delivery by directing traffic through a global network of edge locations. Which AWS service should they use?",
+        "options": [
+            "Amazon Route 53",
+            "Amazon CloudFront",
+            "AWS Global Accelerator",
+            "Amazon S3 Transfer Acceleration"
+        ],
+        "answer": 2,
+        "tag": "network"
+    },
+    {
+        "question": "Scenario: A video conferencing application hosts its servers in multiple AWS Regions to provide seamless communication for users globally. The company wants to optimize network routes and minimize jitter by intelligently directing traffic to the nearest server. Which AWS service should they use?",
+        "options": [
+            "Amazon Route 53",
+            "Amazon CloudFront",
+            "AWS Global Accelerator",
+            "Amazon S3 Transfer Acceleration"
+        ],
+        "answer": 3,
+        "tag": "network"
+    },
+    {
+        "question": "Scenario: A global news website delivers real-time updates and multimedia content to users worldwide. The website aims to reduce load times and improve user experience by directing traffic through a distributed network of edge locations. Which AWS service should they use?",
+        "options": [
+            "Amazon Route 53",
+            "Amazon CloudFront",
+            "AWS Global Accelerator",
+            "Amazon S3 Transfer Acceleration"
+        ],
+        "answer": 2,
+        "tag": "network"
+    },
+    {
+        "question": "Scenario: An online gaming platform experiences periodic Distributed Denial of Service (DDoS) attacks targeting its servers. The platform wants to mitigate the impact of DDoS attacks by intelligently routing traffic through AWS infrastructure that can withstand high-volume attacks. Which AWS service should they use?",
+        "options": [
+            "Amazon Route 53",
+            "Amazon CloudFront",
+            "AWS Global Accelerator",
+            "Amazon S3 Transfer Acceleration"
+        ],
+        "answer": 3,
+        "tag": "network"
     }
 ]
