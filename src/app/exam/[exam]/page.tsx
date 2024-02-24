@@ -71,6 +71,7 @@ const ExamPage = ({ params }: Props) => {
             method: 'PATCH'
         }).then(data => {
             setCurrentQuestion((prevData) => {
+                console.log(prevData);
                 if (prevData) {
                     return {
                         options: prevData.options,

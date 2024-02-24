@@ -38,3 +38,4 @@ next-env.d.ts
 prisma/database.db
 prisma/database.db-journal
 prisma/migrations
+**/data2.json

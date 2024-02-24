@@ -1,6 +1,8 @@
 import fs from "fs";
 import { PrismaClient, Prisma } from "@prisma/client";
-import data from "../../data/aws/solutions-architect/data.json"
+import data from "../../data/aws/solutions-architect/data.json";
+import data2 from "../../data/aws/solutions-architect/data2.json";
+import directrev from "../../data/aws/solutions-architect/directrev.json";
 
 const prisma = new PrismaClient();
 
@@ -25,13 +27,13 @@ const getTopics = async () => {
             slug: 'aws-associate-solutions-architect',
             color: '#FF9900',
             image: SolutionsImage,
-            data: data.map(el => ({
+            data: [...data, ...directrev, ...data2].map(el => ({
                 question: el.question,
                 options: JSON.stringify(el.options),
                 answer: JSON.stringify(el.answer || 0),
                 tag: el.tag,
                 type: 'aws-solutions-architect',
-                revalidate: !!el.revalidate,
+                revalidate: false,
             }))
         },
         {
