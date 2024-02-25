@@ -3,6 +3,7 @@ import { useRouter } from "next/navigation";
 import { FormEvent, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
+import { getUrlWithQueryParams } from "@/helper/url.helper";
 interface Props {
     tags: {
         id: number;
@@ -34,7 +35,8 @@ const TagSelectForm = ({ tags, topic_id }: Props) => {
             method: 'POST',
             body: JSON.stringify({ tags: selected_tags})
         }).then(data => {
-            console.log(data);
+            const url = getUrlWithQueryParams(`/exam/${topic_id}`, "tags", selected_tags);
+            console.log(url);
         }).catch(console.trace);
     }
 

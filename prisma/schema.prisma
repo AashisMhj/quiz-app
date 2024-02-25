@@ -18,6 +18,7 @@ model Topic{
   color String?
   questions Question[]
   tag Tag[]
+  userSession UserSession?
 }
 
 model Tag{
@@ -41,4 +42,13 @@ model Question {
   tag Tag @relation(fields: [tag_id], references: [id])
   topic_id Int?
   topic Topic? @relation(fields: [topic_id], references: [id])
+}
+
+model UserSession {
+  id Int @id @default(autoincrement())
+  data String
+  current_index Int
+  current_answer Int
+  topic_id Int? @unique
+  exam Topic? @relation(fields: [topic_id], references: [id])
 }

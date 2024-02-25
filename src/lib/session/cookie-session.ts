@@ -1,3 +1,4 @@
+// NOTE: Moving to storing data on server because cookie have limit
 import { cookies } from "next/headers";
 
 const SESSION_KEY = 'session';

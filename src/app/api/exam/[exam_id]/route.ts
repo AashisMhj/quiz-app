@@ -1,6 +1,6 @@
 import { getQuestionsList } from "@/db/model/question";
+import { getSession, setUserSession } from "@/db/model/userSession";
 import { shuffle } from "@/helper/array.helper";
-import { getSession, setSession } from "@/lib/session";
 import { NextRequest, NextResponse } from "next/server";
 // next js config
 export const dynamic = 'force-dynamic';
@@ -16,19 +16,18 @@ export async function GET(request: NextRequest, { params }: { params: { exam_id:
             }, { status: 400 })
         }
         // check if the exam has already started
-        const session = getSession();
-        if(session && session[exam_id]){
-            return NextResponse.json({...session});
+        const session = await getSession(exam_id);
+        if(session){
+            return NextResponse.json({
+                data: {
+                    ...session,
+                    data: JSON.parse(session?.data || "[]")
+                }
+            });
         }else{
             let questions = (await getQuestionsList(exam_id, tags_array)).map(el => el.id);
             questions = shuffle(questions);
-            setSession({
-                [exam_id]: {
-                    questions,
-                    current_index: 0,
-                    correct_answer: 0
-                }
-            })
+            await setUserSession(exam_id, JSON.stringify(questions), 0, 0);
             return NextResponse.json({
                 questions
             })

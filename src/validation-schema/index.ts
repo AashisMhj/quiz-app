@@ -1,5 +1,5 @@
 import {z} from "zod";
 
-export const start_exam = z.object({
+export const StartExam = z.object({
     tags: z.array(z.number())
 })
