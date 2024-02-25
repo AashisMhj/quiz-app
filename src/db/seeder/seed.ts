@@ -1,8 +1,11 @@
 import fs from "fs";
 import { PrismaClient, Prisma } from "@prisma/client";
-import data from "../../data/aws/solutions-architect/data.json";
-import data2 from "../../data/aws/solutions-architect/data2.json";
-import directrev from "../../data/aws/solutions-architect/directrev.json";
+// aws solutions architect
+import solutions_architect_data from "../../data/aws/solutions-architect/data.json";
+import solutions_architect_data_private from "../../data/aws/solutions-architect/data2.json";
+import directrev_data from "../../data/aws/solutions-architect/directrev.json";
+// front end react
+import frontend_data from "../../data/frontend/react/data.json";
 
 const prisma = new PrismaClient();
 
@@ -27,7 +30,7 @@ const getTopics = async () => {
             slug: 'aws-associate-solutions-architect',
             color: '#FF9900',
             image: SolutionsImage,
-            data: [...data, ...directrev, ...data2].map(el => ({
+            data: [...directrev_data, ...solutions_architect_data, ...solutions_architect_data_private].map(el => ({
                 question: el.question,
                 options: JSON.stringify(el.options),
                 answer: JSON.stringify(el.answer || 0),
@@ -44,10 +47,17 @@ const getTopics = async () => {
             data: []
         },
         {
-            name: 'Frontend',
-            slug: 'frontend',
+            name: 'React',
+            slug: 'react',
             image: QuestionImage,
-            data: []
+            data: [...frontend_data].map(el =>({
+                question: el.question,
+                options: JSON.stringify(el.options),
+                answer: JSON.stringify(el.answer || 0),
+                tag: el.tag,
+                type: 'frontend-react',
+                revalidate: false,
+            }))
         }
     ]
 }

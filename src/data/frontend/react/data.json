@@ -1,0 +1,497 @@
+[
+    {
+        "question": "What is React?",
+        "options": [
+            "A JavaScript library for building user interfaces",
+            "A programming language",
+            "A database management system",
+            "A web browser"
+        ],
+        "answer": 1,
+        "tag": "basic"
+    },
+    {
+        "question": "What is JSX?",
+        "options": [
+            "A JavaScript extension",
+            "A JavaScript library",
+            "A JavaScript framework",
+            "A JavaScript compiler"
+        ],
+        "answer": 1,
+        "tag": "basic"
+    },
+    {
+        "question": "What is the purpose of ReactDOM?",
+        "options": [
+            "To render React components to the DOM",
+            "To manage state in React applications",
+            "To handle routing in React applications",
+            "To create React components"
+        ],
+        "answer": 1,
+        "tag": "basic"
+    },
+    {
+        "question": "What is the virtual DOM?",
+        "options": [
+            "A lightweight version of the DOM",
+            "A representation of the DOM in memory",
+            "A way to optimize React performance",
+            "A way to manage state in React applications"
+        ],
+        "answer": 2,
+        "tag": "basic"
+    },
+    {
+        "question": "What is a React component?",
+        "options": [
+            "A function that returns JSX",
+            "A class that extends React.Component",
+            "A function that returns HTML",
+            "A class that extends HTML"
+        ],
+        "answer": 2,
+        "tag": "basic"
+    },
+    {
+        "question": "What is the purpose of React hooks?",
+        "options": [
+            "To manage state in functional components",
+            "To create class components",
+            "To handle routing in React applications",
+            "To render React components to the DOM"
+        ],
+        "answer": 1,
+        "tag": "basic"
+    },
+    {
+        "question": "What is the difference between props and state in React?",
+        "options": [
+            "Props are immutable, while state is mutable",
+            "Props are mutable, while state is immutable",
+            "Props are used for data passed from parent to child components, while state is used for data that can change within a component",
+            "Props are used for data that can change within a component, while state is used for data passed from parent to child components"
+        ],
+        "answer": 3,
+        "tag": "basic"
+    },
+    {
+        "question": "What is the purpose of the useEffect hook in React?",
+        "options": [
+            "To manage state in functional components",
+            "To create class components",
+            "To handle side effects in functional components",
+            "To render React components to the DOM"
+        ],
+        "answer": 3,
+        "tag": "basic"
+    },
+    {
+        "question": "What is the purpose of the useState hook in React?",
+        "options": [
+            "To manage state in functional components",
+            "To create class components",
+            "To handle side effects in functional components",
+            "To render React components to the DOM"
+        ],
+        "answer": 1,
+        "tag": "basic"
+    },
+    {
+        "question": "What is the purpose of the useContext hook in React?",
+        "options": [
+            "To manage state in functional components",
+            "To create class components",
+            "To handle side effects in functional components",
+            "To provide a way to pass data through the component tree without having to pass props down manually at every level"
+        ],
+        "answer": 4,
+        "tag": "basic"
+    },
+    {
+        "question": "What is the purpose of the useRef hook in React?",
+        "options": [
+            "To manage state in functional components",
+            "To create class components",
+            "To handle side effects in functional components",
+            "To create a mutable reference that persists across renders"
+        ],
+        "answer": 4,
+        "tag": "basic"
+    },
+    {
+        "question": "What is the purpose of the useMemo hook in React?",
+        "options": [
+            "To manage state in functional components",
+            "To create class components",
+            "To handle side effects in functional components",
+            "To memoize expensive calculations so that they are only re-computed when the inputs change"
+        ],
+        "answer": 4,
+        "tag": "basic"
+    },
+    {
+        "question": "What is the purpose of the useCallback hook in React?",
+        "options": [
+            "To manage state in functional components",
+            "To create class components",
+            "To handle side effects in functional components",
+            "To memoize callbacks so that they are only re-created when the inputs change"
+        ],
+        "answer": 4,
+        "tag": "basic"
+    },
+    {
+        "question": "What is the purpose of the useReducer hook in React?",
+        "options": [
+            "To manage state in functional components",
+            "To create class components",
+            "To handle side effects in functional components",
+            "To manage complex state logic in a more predictable way"
+        ],
+        "answer": 4,
+        "tag": "basic"
+    },
+    {
+        "question": "What is the purpose of the useLayoutEffect hook in React?",
+        "options": [
+            "To manage state in functional components",
+            "To create class components",
+            "To handle side effects in functional components",
+            "To perform side effects after the browser has painted but before the next paint"
+        ],
+        "answer": 4,
+        "tag": "basic"
+    },
+    {
+        "question": "What is the purpose of the 'key' attribute in React?",
+        "options": [
+            "To uniquely identify elements in a list",
+            "To specify the type of element",
+            "To define the initial state of a component",
+            "To handle events in a component"
+        ],
+        "answer": 1,
+        "tag": "basic"
+    },
+    {
+        "question": "What is the difference between state and props in React?",
+        "options": [
+            "State is immutable, while props are mutable",
+            "State is mutable, while props are immutable",
+            "State is local to a component, while props are global",
+            "State is global to a component, while props are local"
+        ],
+        "answer": 2,
+        "tag": "basic"
+    },
+    {
+        "question": "What is the purpose of the 'componentDidMount' lifecycle method in React?",
+        "options": [
+            "To update the component's state",
+            "To render the component",
+            "To perform actions after the component is mounted",
+            "To perform actions before the component is mounted"
+        ],
+        "answer": 3,
+        "tag": "basic"
+    },
+    {
+        "question": "What is the purpose of the 'componentWillUnmount' lifecycle method in React?",
+        "options": [
+            "To update the component's state",
+            "To render the component",
+            "To perform actions after the component is unmounted",
+            "To perform actions before the component is unmounted"
+        ],
+        "answer": 3,
+        "tag": "basic"
+    },
+    {
+        "question": "What is the purpose of the 'shouldComponentUpdate' lifecycle method in React?",
+        "options": [
+            "To update the component's state",
+            "To render the component",
+            "To determine if the component should re-render",
+            "To perform actions before the component is unmounted"
+        ],
+        "answer": 3,
+        "tag": "basic"
+    },
+    {
+        "question": "What is the purpose of the 'componentDidUpdate' lifecycle method in React?",
+        "options": [
+            "To update the component's state",
+            "To render the component",
+            "To perform actions after the component is updated",
+            "To perform actions before the component is unmounted"
+        ],
+        "answer": 3,
+        "tag": "basic"
+    },
+    {
+        "question": "What is the purpose of the 'setState' method in React?",
+        "options": [
+            "To update the component's state",
+            "To render the component",
+            "To perform actions after the component is updated",
+            "To perform actions before the component is unmounted"
+        ],
+        "answer": 1,
+        "tag": "basic"
+    },
+    {
+        "question": "What is the purpose of the 'forceUpdate' method in React?",
+        "options": [
+            "To update the component's state",
+            "To render the component",
+            "To perform actions after the component is updated",
+            "To force the component to re-render"
+        ],
+        "answer": 4,
+        "tag": "basic"
+    },
+    {
+        "question": "What is the purpose of the 'createRef' method in React?",
+        "options": [
+            "To create a reference to a DOM element",
+            "To create a reference to a React component",
+            "To create a reference to a React element",
+            "To create a reference to a React class"
+        ],
+        "answer": 1,
+        "tag": "basic"
+    },
+    {
+        "question": "What is the purpose of the 'forwardRef' method in React?",
+        "options": [
+            "To create a reference to a DOM element",
+            "To create a reference to a React component",
+            "To create a reference to a React element",
+            "To create a reference to a React class"
+        ],
+        "answer": 2,
+        "tag": "basic"
+    },
+    {
+        "question": "What is the purpose of the 'React.Fragment' component in React?",
+        "options": [
+            "To create a new React component",
+            "To group multiple elements without adding extra nodes to the DOM",
+            "To create a virtual DOM",
+            "To create a reference to a DOM element"
+        ],
+        "answer": 2,
+        "tag": "advance"
+    },
+    {
+        "question": "What is the purpose of the 'React.memo' function in React?",
+        "options": [
+            "To create a new React component",
+            "To optimize performance by memoizing the component",
+            "To create a virtual DOM",
+            "To create a reference to a DOM element"
+        ],
+        "answer": 2,
+        "tag": "advance"
+    },
+    {
+        "question": "What is the purpose of the 'React.lazy' function in React?",
+        "options": [
+            "To create a new React component",
+            "To optimize performance by lazy loading the component",
+            "To create a virtual DOM",
+            "To create a reference to a DOM element"
+        ],
+        "answer": 2,
+        "tag": "advance"
+    },
+    {
+        "question": "What is the purpose of the 'React.Suspense' component in React?",
+        "options": [
+            "To create a new React component",
+            "To optimize performance by suspending rendering",
+            "To create a virtual DOM",
+            "To create a reference to a DOM element"
+        ],
+        "answer": 2,
+        "tag": "advance"
+    },
+    {
+        "question": "What is the purpose of the 'React.createContext' function in React?",
+        "options": [
+            "To create a new React component",
+            "To create a context for sharing state between components",
+            "To create a virtual DOM",
+            "To create a reference to a DOM element"
+        ],
+        "answer": 2,
+        "tag": "advance"
+    },
+    {
+        "question": "What is the purpose of the 'React.useContext' hook in React?",
+        "options": [
+            "To create a new React component",
+            "To create a context for sharing state between components",
+            "To create a virtual DOM",
+            "To create a reference to a DOM element"
+        ],
+        "answer": 2,
+        "tag": "advance"
+    },
+    {
+        "question": "What is the purpose of the 'React.useReducer' hook in React?",
+        "options": [
+            "To create a new React component",
+            "To manage complex state logic in a component",
+            "To create a virtual DOM",
+            "To create a reference to a DOM element"
+        ],
+        "answer": 2,
+        "tag": "advance"
+    },
+    {
+        "question": "What is the purpose of the 'React.useMemo' hook in React?",
+        "options": [
+            "To create a new React component",
+            "To optimize performance by memoizing a value",
+            "To create a virtual DOM",
+            "To create a reference to a DOM element"
+        ],
+        "answer": 2,
+        "tag": "advance"
+    },
+    {
+        "question": "What is the purpose of the 'React.useCallback' hook in React?",
+        "options": [
+            "To create a new React component",
+            "To optimize performance by memoizing a callback function",
+            "To create a virtual DOM",
+            "To create a reference to a DOM element"
+        ],
+        "answer": 2,
+        "tag": "advance"
+    },
+    {
+        "question": "What is the purpose of the 'React.useEffect' hook in React?",
+        "options": [
+            "To create a new React component",
+            "To perform side effects in a component",
+            "To create a virtual DOM",
+            "To create a reference to a DOM element"
+        ],
+        "answer": 2,
+        "tag": "advance"
+    },
+    {
+        "question": "What is the purpose of the 'React.useLayoutEffect' hook in React?",
+        "options": [
+            "To create a new React component",
+            "To perform side effects in a component synchronously",
+            "To create a virtual DOM",
+            "To create a reference to a DOM element"
+        ],
+        "answer": 2,
+        "tag": "advance"
+    },
+    {
+        "question": "What is the purpose of the 'React.useImperativeHandle' hook in React?",
+        "options": [
+            "To create a new React component",
+            "To manage the imperative API of a component",
+            "To create a virtual DOM",
+            "To create a reference to a DOM element"
+        ],
+        "answer": 2,
+        "tag": "advance"
+    },
+    {
+        "question": "What is the purpose of the 'React.useDebugValue' hook in React?",
+        "options": [
+            "To create a new React component",
+            "To manage the imperative API of a component",
+            "To create a virtual DOM",
+            "To provide additional debugging information for custom hooks"
+        ],
+        "answer": 4,
+        "tag": "advance"
+    },
+    {
+        "question": "What is the purpose of the 'React.useTransition' hook in React?",
+        "options": [
+            "To create a new React component",
+            "To manage the imperative API of a component",
+            "To create a virtual DOM",
+            "To perform concurrent UI transitions"
+        ],
+        "answer": 4,
+        "tag": "advance"
+    },
+    {
+        "question": "What is the purpose of the 'React.useDeferredValue' hook in React?",
+        "options": [
+            "To create a new React component",
+            "To manage the imperative API of a component",
+            "To create a virtual DOM",
+            "To defer the update of a value until the next render"
+        ],
+        "answer": 4,
+        "tag": "advance"
+    },
+    {
+        "question": "What is the purpose of the 'React.useMutableSource' hook in React?",
+        "options": [
+            "To create a new React component",
+            "To manage the imperative API of a component",
+            "To create a virtual DOM",
+            "To subscribe to changes in a mutable source"
+        ],
+        "answer": 4,
+        "tag": "advance"
+    },
+    {
+        "question": "What is the purpose of the 'React.useOpaqueIdentifier' hook in React?",
+        "options": [
+            "To create a new React component",
+            "To manage the imperative API of a component",
+            "To create a virtual DOM",
+            "To create an opaque identifier for a value"
+        ],
+        "answer": 4,
+        "tag": "advance"
+    },
+    {
+        "question": "What is the purpose of the 'React.useSyncExternalStore' hook in React?",
+        "options": [
+            "To create a new React component",
+            "To manage the imperative API of a component",
+            "To create a virtual DOM",
+            "To synchronize a React component with an external store"
+        ],
+        "answer": 4,
+        "tag": "advance"
+    },
+    {
+        "question": "What is the purpose of the 'React.useSyncExternalStore' hook in React?",
+        "options": [
+            "To create a new React component",
+            "To manage the imperative API of a component",
+            "To create a virtual DOM",
+            "To synchronize a React component with an external store"
+        ],
+        "answer": 4,
+        "tag": "advance"
+    },
+    {
+        "question": "What is the purpose of the 'React.useSyncExternalStore' hook in React?",
+        "options": [
+            "To create a new React component",
+            "To manage the imperative API of a component",
+            "To create a virtual DOM",
+            "To synchronize a React component with an external store"
+        ],
+        "answer": 4,
+        "tag": "advance"
+    }
+]
