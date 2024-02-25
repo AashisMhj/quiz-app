@@ -9,7 +9,7 @@ type SessionDataType = {
     }
 }
 export function setSession(data:SessionDataType){
-    const expires = new Date(Date.now() + 10 * 1000);
+    const expires = new Date(Date.now() + 10 * 24 * 60 * 60 * 1000);
     cookies().set(SESSION_KEY, JSON.stringify(data), {expires, httpOnly: true});
 }
 

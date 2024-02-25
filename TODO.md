@@ -7,5 +7,8 @@
 - Storing score in session
 - user can only select the no of answer
 
+## code improvement and refactor
+- use tailwind variant
+
 ## Bugs
 - Deselecting score

@@ -14,8 +14,8 @@ export async function POST(request:NextRequest, {params}:{params:{exam_id:string
                 msg: "Error"
             }, { status: 400 })
         }
-        // TODO: start user session
         let questions = (await getQuestionsList(exam_id, data.tags)).map(el => el.id);
+        questions = shuffle(questions);
         setSession({
             [exam_id]: {
                 questions,
@@ -23,7 +23,6 @@ export async function POST(request:NextRequest, {params}:{params:{exam_id:string
                 correct_answer: 0
             }
         })
-        questions = shuffle(questions);
         return NextResponse.json({
             questions
         })

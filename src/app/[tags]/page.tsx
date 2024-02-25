@@ -1,11 +1,12 @@
 import db from "@/db";
 import TagSelectForm from "./(component)/TagSelectForm";
-interface Props{
+import H1 from "@/components/typography/H1";
+interface Props {
     params: {
         tags: string
     }
 }
-export async function generateStaticParams(){
+export async function generateStaticParams() {
     const topic_ids = await db.topic.findMany({
         select: {
             id: true
@@ -13,12 +14,12 @@ export async function generateStaticParams(){
     });
 
     return topic_ids.map((topic) => ({
-        tags: topic.id+''
+        tags: topic.id + ''
     }));
 }
-const TagPage = async ({params}:Props)=>{
+const TagPage = async ({ params }: Props) => {
     const topic_id = parseInt(params.tags);
-    if(!topic_id){
+    if (!topic_id) {
         return <div>Not Found</div>
     }
     // TODO check if the session exists
@@ -29,7 +30,9 @@ const TagPage = async ({params}:Props)=>{
     });
     return (
         <div className="max-w-7xl mx-auto pt-6">
-            <h1 className="text-center text-2xl">Select the Fields</h1>
+            <div className="text-center mb-4">
+                <H1>Tag Selection</H1>
+            </div>
             <TagSelectForm tags={tags} topic_id={topic_id} />
         </div>
     )
