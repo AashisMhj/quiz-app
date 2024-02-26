@@ -5,6 +5,7 @@ import { setUserSession } from "@/db/model/userSession";
 import { shuffle } from "@/helper/array.helper";
 import {StartExam} from "@/validation-schema";
 import { validate } from "@/helper/validation.helper";
+import { getTags } from "@/db/model/tags";
 
 export const dynamic = 'force-dynamic';
 
@@ -22,12 +23,13 @@ export async function POST(request:NextRequest, {params}:{params:{exam_id:string
             }, { status: 400 })
         }
         let questions = (await getQuestionsList(exam_id, tags)).map(el => el.id);
+        const tag_names = (await getTags(tags)).map(el => el.tag_name);
+        const tag_string = tag_names.length > 1 ? JSON.stringify(tag_names) : `["all"]`
         questions = shuffle(questions);
-        console.log(questions);
-        await setUserSession(exam_id, JSON.stringify(questions), 0, 0)
+        const data = await setUserSession(exam_id, JSON.stringify(questions), 0, 0, tag_string)
         return NextResponse.json({
-            msg: "Exam Started"
-        })
+            msg: "Exam Session Started"
+        });
     } catch (error) {
         console.trace(error);
         return NextResponse.json({

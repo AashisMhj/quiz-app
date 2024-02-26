@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 //
-import { getSession } from "@/db/model/userSession";
+import { hasSession } from "@/db/model/userSession";
 export const dynamic = 'force-dynamic';
 
 export async function GET(request:NextRequest, {params}:{params:{exam_id: string}}){
@@ -11,13 +11,10 @@ export async function GET(request:NextRequest, {params}:{params:{exam_id: string
                 msg: "Error"
             }, {status: 400});
         }
-        const sessionData = await getSession(exam_id);
+        const sessionData = await hasSession(exam_id);
         if(sessionData){
             return NextResponse.json({
-                data: {
-                    ...sessionData,
-                    data: JSON.parse(sessionData?.data || "[]")
-                }
+                msg: "User has Session"
             }, {status: 200})
         }
         return NextResponse.json({

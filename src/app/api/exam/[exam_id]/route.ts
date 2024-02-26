@@ -21,15 +21,18 @@ export async function GET(request: NextRequest, { params }: { params: { exam_id:
             return NextResponse.json({
                 data: {
                     ...session,
-                    data: JSON.parse(session?.data || "[]")
+                    questions : JSON.parse(session?.data || "[]")
                 }
             });
         }else{
             let questions = (await getQuestionsList(exam_id, tags_array)).map(el => el.id);
             questions = shuffle(questions);
-            await setUserSession(exam_id, JSON.stringify(questions), 0, 0);
+            const sessionData = await setUserSession(exam_id, JSON.stringify(questions), 0, 0, tags || `[]`);
             return NextResponse.json({
-                questions
+                data: {
+                    ...sessionData,
+                    questions
+                }
             })
         }
     } catch (error) {

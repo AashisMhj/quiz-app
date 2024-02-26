@@ -2,12 +2,24 @@
 import { ChangeEvent, useEffect, useState } from "react";
 import clsx from "clsx";
 import { useRouter, useSearchParams } from "next/navigation";
-import { shuffle } from "@/helper/array.helper";
+//
+import { Badge } from "@/components/ui/badge";
+import { isArray, shuffle } from "@/helper/array.helper";
+import { Button } from "@/components/ui/button";
 
 interface Props {
     params: {
         exam: string;
     }
+}
+
+// TODO separate from component
+function getStringArray(data:string):string[]{
+    const parsed_data = JSON.parse(data);
+    if(Array.isArray(parsed_data) && parsed_data.every(el => typeof el === "string")){
+        return parsed_data;
+    }
+    return [];
 }
 
 const ExamPage = ({ params }: Props) => {
@@ -21,6 +33,7 @@ const ExamPage = ({ params }: Props) => {
     const [current_question, setCurrentQuestion] = useState<{ question: string, options: { option: string, original_index: number }[], revalidate: boolean, revise: boolean } | null>(null);
     const [user_answer, setUserAnswer] = useState<Array<number>>([]);
     const [current_question_answers, setCurrentQuestionAnswer] = useState<number[] | number | null>(null);
+    const [exam_tags, setExamTags] = useState<string[]>([]);
     const [no_answers, setNoAnswers] = useState(1);
     const [score, setScore] = useState(0);
     const [isCheckingAnswer, setIsCheckingAnswer] = useState(false);
@@ -71,7 +84,6 @@ const ExamPage = ({ params }: Props) => {
             method: 'PATCH'
         }).then(data => {
             setCurrentQuestion((prevData) => {
-                console.log(prevData);
                 if (prevData) {
                     return {
                         options: prevData.options,
@@ -109,6 +121,16 @@ const ExamPage = ({ params }: Props) => {
             .catch(console.trace);
     }
 
+    function endExamHandler() {
+        fetch(`/api/exam/${exam_id}/end`)
+            .then(data => {
+                if (data.status === 200) {
+                    router.push(`/`);
+                }
+            })
+            .catch(console.trace)
+    }
+
     useEffect(() => {
         if (question_ids.length === 0) return;
         fetch(`/api/question/${question_ids[current_question_index]}`)
@@ -137,18 +159,37 @@ const ExamPage = ({ params }: Props) => {
         fetch(url)
             .then(data => data.json())
             .then(data => {
-                if (data.questions) {
-                    setQuestionsIds(data.questions as number[]);
+                if (data.data) {
+                    const {questions, current_answer, current_index, tags} = data.data as {
+                        questions: number[],
+                        topic_id: number,
+                        current_answer: number,
+                        current_index: number,
+                        tags: string
+                    }
+                    // TODO implement a hook for that the components renders after all the states are set
+                    setQuestionsIds(questions as number[]);
+                    setCurrentQuestionAnswer(current_answer);
+                    // TODO store tags in memory as it doesn't change 
+                    const parsed_tags = getStringArray(tags);
+                    setExamTags(parsed_tags);
                 }
             })
             .catch(console.trace)
     }, [exam_id, searchParams]);
 
     return <div className="text-black max-w-7xl mx-auto pt-4">
-        <div className="text-2xl text-center mb-3">Solutions Architect </div>
-        <div className="flex items-center justify-between px-6">
-            <div className="mb-3">{current_question_index + 1}/{question_ids.length}</div>
-            <div className="mb-3 flex gap-2">
+        <div className="text-2xl text-center mb-3">{"The Title"} </div>
+        <div className="flex items-center justify-between px-6 mb-4">
+            <div className="flex-row gap-2 flex items-center">
+                <div className="">{current_question_index + 1}/{question_ids.length}</div>
+                <div className="flex">
+                    {
+                        exam_tags.map(el => <Badge key={el}>{el}</Badge>)
+                    }
+                </div>
+            </div>
+            <div className=" flex gap-2 items-center">
                 <span className={clsx({
                     "text-green-400": current_question?.revise,
                     "text-red-400": !current_question?.revise
@@ -159,6 +200,7 @@ const ExamPage = ({ params }: Props) => {
                     "text-red-400": !current_question?.revalidate
                 })}
                 >Revalidate</span>
+                <Button onClick={endExamHandler} >End Exam</Button>
             </div>
         </div>
         <div className="p-2 border-2 border-black bg-app-light-green bg-opacity-30 rounded-lg py-4 px-6">

@@ -49,6 +49,7 @@ model UserSession {
   data String
   current_index Int
   current_answer Int
+  tags String
   topic_id Int? @unique
   exam Topic? @relation(fields: [topic_id], references: [id])
 }

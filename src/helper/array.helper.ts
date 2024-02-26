@@ -1,4 +1,4 @@
-export function shuffle<T>(array: Array<T>):Array<T> {
+export function shuffle<T>(array: Array<T>): Array<T> {
     let currentIndex = array.length, randomIndex;
 
     // While there remain elements to shuffle.
@@ -14,4 +14,15 @@ export function shuffle<T>(array: Array<T>):Array<T> {
     }
 
     return array;
+}
+
+export function isArray(arr: any, type: "string" | "number" | "object"): boolean {
+    const isArray = Array.isArray(arr);
+    if (Array.isArray(arr)) {
+        const isStringArray = arr.length > 0 && arr.every((value) => {
+            return typeof value === type
+        });
+        return isStringArray
+    }
+    return false
 }

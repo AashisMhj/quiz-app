@@ -1,6 +1,7 @@
 "use client";
 import { useRouter } from "next/navigation";
-import { FormEvent, useState } from "react";
+import {  useCallback, useEffect, useState } from "react";
+//
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
 import { getUrlWithQueryParams } from "@/helper/url.helper";
@@ -14,6 +15,7 @@ interface Props {
 }
 const TagSelectForm = ({ tags, topic_id }: Props) => {
     const [selected_tags, setSelectedTags] = useState<number[]>([]);
+    const [is_loading, setIsLoading] = useState(true);
     const router = useRouter();
 
     function changeHandler(tag_id: number) {
@@ -36,9 +38,28 @@ const TagSelectForm = ({ tags, topic_id }: Props) => {
             body: JSON.stringify({ tags: selected_tags})
         }).then(data => {
             const url = getUrlWithQueryParams(`/exam/${topic_id}`, "tags", selected_tags);
-            console.log(url);
         }).catch(console.trace);
     }
+
+    const examStatus = useCallback(() => {
+        setIsLoading(true);
+        fetch(`/api/exam/${topic_id}/status`)
+            .then(data => {
+                if(data.status === 200){
+                    router.push(`/exam/${topic_id}`);
+                }
+            })
+            .catch(console.trace)
+            .finally(() => setIsLoading(false))
+    }, [topic_id, router])
+
+    useEffect(()=>{
+        examStatus();
+    }, [examStatus])
+
+    if(is_loading) return <div>
+        Loading
+    </div>
 
     return <div className="flex flex-col gap-4 w-full border-2 border-black p-2 rounded-lg">
         <div>
@@ -46,7 +67,7 @@ const TagSelectForm = ({ tags, topic_id }: Props) => {
                 {
                     tags.map(tag => <div key={tag.id}>
                         {/* TODO: Use correct change handler */}
-                        <Checkbox name={tag.tag_name} value={tag.id} checked={selected_tags.includes(tag.id)} onClick={() => changeHandler(tag.id)} /> {tag.tag_name}
+                        <Checkbox name={tag.tag_name} value={tag.id} checked={selected_tags.includes(tag.id)} onCheckedChange={() => changeHandler(tag.id)} /> {tag.tag_name}
                     </div>)
                 }
             </div>

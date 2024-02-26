@@ -1,3 +1,4 @@
+import { endSession } from "@/db/model/userSession";
 import { NextRequest, NextResponse } from "next/server";
 
 export const dynamic = 'force-dynamic';
@@ -10,7 +11,7 @@ export async function GET(request: NextRequest, { params }: { params: { exam_id:
                 msg: "Error"
             }, { status: 400 })
         }
-        // TODO destroy session for exam
+        await endSession(exam_id);
         return NextResponse.json({
             msg: 'Exam Ended'
         }, { status: 200 })
