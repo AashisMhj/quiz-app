@@ -17,12 +17,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="h-screen w-full ">
-          <div className="bg-background text-foreground" >
+        <div className="h-screen w-full bg-slate-400/40">
+          {/* <div className="bg-background text-foreground " > */}
             <div className="max-w-[110rem] mx-auto">
               {children}
             </div>
-          </div>
+          {/* </div> */}
         </div>
       </body>
     </html>

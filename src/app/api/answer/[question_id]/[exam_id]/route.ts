@@ -1,15 +1,18 @@
 import questionModel from "@/db/model/question";
+import { incrementValue } from "@/db/model/userSession";
 import { NextRequest, NextResponse } from "next/server";
 
 export const dynamic = 'force-dynamic';
 
-export async function POST(request:NextRequest, {params}:{params:{question_id:string}}){
+export async function POST(request:NextRequest, {params}:{params:{question_id:string, exam_id: string}}){
     try {
         // TODO check session
         const data =  await request.json() as {answer: number[]};
         let is_correct = false;
         let question_id = parseInt(params.question_id);
-        if(!question_id){
+        let exam_id = parseInt(params.exam_id);
+        // create middleware for this
+        if(isNaN(question_id) || isNaN(exam_id)){
             return NextResponse.json({
                 msg: 'Invalid QuestionId'
             }, {status: 400})
@@ -33,6 +36,7 @@ export async function POST(request:NextRequest, {params}:{params:{question_id:st
                 is_correct = true
             }
         }
+        await incrementValue(exam_id, is_correct);
         return NextResponse.json({
             answer: parsed_answer,
             is_correct

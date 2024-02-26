@@ -38,6 +38,7 @@ const TagSelectForm = ({ tags, topic_id }: Props) => {
             body: JSON.stringify({ tags: selected_tags})
         }).then(data => {
             const url = getUrlWithQueryParams(`/exam/${topic_id}`, "tags", selected_tags);
+            router.push(url);
         }).catch(console.trace);
     }
 

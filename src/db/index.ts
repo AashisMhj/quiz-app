@@ -3,11 +3,29 @@ declare global {
     var database: PrismaClient
 }
 let prisma: PrismaClient;
+const logOptions = [
+    {
+        emit: 'stdout',
+        level: 'query',
+    },
+    {
+        emit: 'stdout',
+        level: 'error',
+    },
+    {
+        emit: 'stdout',
+        level: 'info',
+    },
+    {
+        emit: 'stdout',
+        level: 'warn',
+    },
+];
 
-if(process.env.NODE_ENV === 'production'){
+if (process.env.NODE_ENV === 'production') {
     prisma = new PrismaClient();
-}else {
-    if(!global.database){
+} else {
+    if (!global.database) {
         global.database = new PrismaClient();
     }
     prisma = global.database;

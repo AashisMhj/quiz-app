@@ -3,5 +3,5 @@ export function getUrlWithQueryParams(url:string, param_key:string, param_values
     if (param_values.length >= 1) {
         urlParams.set(param_key, param_values.toString());
     }
-    return `url?` + urlParams.toString();
+    return `${url}?` + urlParams.toString();
 }

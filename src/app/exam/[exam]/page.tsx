@@ -4,7 +4,7 @@ import clsx from "clsx";
 import { useRouter, useSearchParams } from "next/navigation";
 //
 import { Badge } from "@/components/ui/badge";
-import { isArray, shuffle } from "@/helper/array.helper";
+import { shuffle } from "@/helper/array.helper";
 import { Button } from "@/components/ui/button";
 
 interface Props {
@@ -46,13 +46,12 @@ const ExamPage = ({ params }: Props) => {
             // TODO: make so that the user can only accept the no of specified answer
             temp.push(parseInt(event.target.value));
         } else {
-            temp = temp.splice(1, index)
+            temp.splice(index,1 )
         }
         setUserAnswer(temp);
     }
 
     function nextQuestion() {
-        setCurrentQuestionIndex(current_question_index + 1);
         setIsCheckingAnswer(false);
         setCurrentQuestionAnswer(null);
         setUserAnswer([]);
@@ -69,7 +68,7 @@ const ExamPage = ({ params }: Props) => {
 
     function checkAnswer() {
         setIsCheckingAnswer(true);
-        fetch(`/api/answer/${question_ids[current_question_index]}`, { method: 'POST', body: JSON.stringify({ answer: user_answer }) })
+        fetch(`/api/answer/${question_ids[current_question_index]}/${exam_id}`, { method: 'POST', body: JSON.stringify({ answer: user_answer }) })
             .then(data => data.json())
             .then(data => {
                 if (data.answer) {
@@ -113,14 +112,6 @@ const ExamPage = ({ params }: Props) => {
             .catch(console.trace);
     }
 
-    function endExam() {
-        fetch(`/exam/${exam_id}/end`)
-            .then(() => {
-                router.push('/');
-            })
-            .catch(console.trace);
-    }
-
     function endExamHandler() {
         fetch(`/api/exam/${exam_id}/end`)
             .then(data => {
@@ -131,9 +122,9 @@ const ExamPage = ({ params }: Props) => {
             .catch(console.trace)
     }
 
-    useEffect(() => {
+    function fetchQuestion(next_question_index:number, question_ids:number[]){
         if (question_ids.length === 0) return;
-        fetch(`/api/question/${question_ids[current_question_index]}`)
+        fetch(`/api/question/${question_ids[next_question_index]}`)
             .then(data => data.json())
             .then(data => {
                 if (data.data) {
@@ -147,7 +138,9 @@ const ExamPage = ({ params }: Props) => {
                     })
                 }
             })
-    }, [current_question_index, question_ids]);
+            .catch(console.trace);
+    }
+
 
     useEffect(() => {
         if (!exam_id) return;
@@ -170,19 +163,26 @@ const ExamPage = ({ params }: Props) => {
                     // TODO implement a hook for that the components renders after all the states are set
                     setQuestionsIds(questions as number[]);
                     setCurrentQuestionAnswer(current_answer);
+                    setCurrentQuestionIndex(current_index)
                     // TODO store tags in memory as it doesn't change 
                     const parsed_tags = getStringArray(tags);
                     setExamTags(parsed_tags);
+                    fetchQuestion(current_index+1, questions as number[]);
                 }
             })
             .catch(console.trace)
     }, [exam_id, searchParams]);
 
+    console.log(current_question_index);
+
     return <div className="text-black max-w-7xl mx-auto pt-4">
         <div className="text-2xl text-center mb-3">{"The Title"} </div>
         <div className="flex items-center justify-between px-6 mb-4">
             <div className="flex-row gap-2 flex items-center">
-                <div className="">{current_question_index + 1}/{question_ids.length}</div>
+                <div className="">
+                    (<span className="text-green-600">{score}</span> + <span className="text-red-600">{current_question_index-score}</span>) 
+                    /<span className="text-blue-600">{question_ids.length}</span>
+                </div>
                 <div className="flex">
                     {
                         exam_tags.map(el => <Badge key={el}>{el}</Badge>)

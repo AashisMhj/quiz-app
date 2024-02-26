@@ -40,3 +40,14 @@ export async function endSession(exam_id:number){
         }
     })
 }
+
+export async function incrementValue(exam_id:number, increment_score:boolean){
+    // TODO user fetched row in controller
+    // TODO find easier/ more readable way to do this
+    console.log(exam_id);
+    if(increment_score){
+        return prisma.$executeRaw`update "userSession" set current_index = current_index + 1, current_answer = current_answer + 1 where topic_id = ${exam_id}`
+    }else{
+        return prisma.$executeRaw`update "userSession" set  current_index = current_index + 1 where topic_id = ${exam_id}`
+    }
+}

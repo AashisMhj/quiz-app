@@ -1,4 +1,5 @@
 import db from "@/db";
+//
 import TagSelectForm from "./(component)/TagSelectForm";
 import H1 from "@/components/typography/H1";
 interface Props {
@@ -24,9 +25,7 @@ const TagPage = async ({ params }: Props) => {
     }
     // TODO check if the session exists
     const tags = await db.tag.findMany({
-        where: {
-            topic_id
-        }
+        where: {topic_id}
     });
     return (
         <div className="max-w-7xl mx-auto pt-6">

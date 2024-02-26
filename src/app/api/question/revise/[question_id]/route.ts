@@ -23,7 +23,6 @@ export async function PATCH(request:NextRequest, {params}:{params:{question_id:s
         return NextResponse.json({
             msg: 'Done'
         }, {status: 200})
-        return NextResponse.json
     } catch (error) {
         console.trace(error);
         return NextResponse.json({

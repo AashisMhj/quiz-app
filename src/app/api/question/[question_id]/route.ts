@@ -1,11 +1,11 @@
 import {getQuestion} from "@/db/model/question";
+import { hasSession } from "@/db/model/userSession";
 import { NextRequest, NextResponse } from "next/server";
 
 export const dynamic = 'force-dynamic';
 
 export async function GET(request:NextRequest, {params}:{params:{question_id:string}} ){
     try {
-        // TODO check session
         let question_id = parseInt(params.question_id);
         if(!question_id){
             return NextResponse.json({
@@ -26,6 +26,7 @@ export async function GET(request:NextRequest, {params}:{params:{question_id:str
             data: {
                 question: question.question,
                 revalidate: question.revalidate,
+                revise: question.revise,
                 options: JSON.parse(question.options),
                 tag: question.tag,
                 no_answer

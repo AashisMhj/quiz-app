@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 //
 import { getQuestionsList } from "@/db/model/question";
-import { setUserSession } from "@/db/model/userSession";
+import { hasSession, setUserSession } from "@/db/model/userSession";
 import { shuffle } from "@/helper/array.helper";
 import {StartExam} from "@/validation-schema";
 import { validate } from "@/helper/validation.helper";
@@ -11,8 +11,10 @@ export const dynamic = 'force-dynamic';
 
 export async function POST(request:NextRequest, {params}:{params:{exam_id:string}}){
     try {
-        const validatedData = validate(StartExam, request.json());
+        const body = await request.json();
+        const validatedData = validate(StartExam, body);
         let tags:number[] = [];
+        console.log(validatedData);
         if(validatedData !== null){
             tags = validatedData.tags;
         }
@@ -20,13 +22,20 @@ export async function POST(request:NextRequest, {params}:{params:{exam_id:string
         if (!exam_id) {
             return NextResponse.json({
                 msg: "Error"
-            }, { status: 400 })
+            }, { status: 400 });
+        }
+        // 
+        const has_session = await hasSession(exam_id);
+        if(has_session){
+            return NextResponse.json({
+                msg: "Exam Already in Progress"
+            }, {status: 400});
         }
         let questions = (await getQuestionsList(exam_id, tags)).map(el => el.id);
         const tag_names = (await getTags(tags)).map(el => el.tag_name);
-        const tag_string = tag_names.length > 1 ? JSON.stringify(tag_names) : `["all"]`
+        const tag_string = tag_names.length >= 1 ? JSON.stringify(tag_names) : `["all"]`;
         questions = shuffle(questions);
-        const data = await setUserSession(exam_id, JSON.stringify(questions), 0, 0, tag_string)
+        await setUserSession(exam_id, JSON.stringify(questions), 0, 0, tag_string)
         return NextResponse.json({
             msg: "Exam Session Started"
         });
