@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
 import { getUrlWithQueryParams } from "@/helper/url.helper";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
+import Spinner from "@/components/common/spinner/Spinner";
 interface Props {
     tags: {
         id: number;
@@ -17,6 +18,7 @@ interface Props {
 const TagSelectForm = ({ tags, topic_id }: Props) => {
     const [selected_tags, setSelectedTags] = useState<number[]>([]);
     const [is_loading, setIsLoading] = useState(true);
+    const [is_loading_exam, setIsLoadingExam] = useState(false);
     const router = useRouter();
 
     function changeHandler(tag_id: number) {
@@ -34,13 +36,15 @@ const TagSelectForm = ({ tags, topic_id }: Props) => {
 
     function clickHandler(event: React.MouseEvent<HTMLButtonElement>) {
         event.preventDefault();
+        setIsLoadingExam(true);
         fetch(`/api/exam/${topic_id}/start`, {
             method: 'POST',
             body: JSON.stringify({ tags: selected_tags })
         }).then(() => {
             const url = getUrlWithQueryParams(`/exam/${topic_id}`, "tags", selected_tags);
             router.push(url);
-        }).catch(console.trace);
+        }).catch(console.trace)
+        .finally(() => setIsLoadingExam(false));
     }
 
     const examStatus = useCallback(() => {
@@ -59,9 +63,11 @@ const TagSelectForm = ({ tags, topic_id }: Props) => {
         examStatus();
     }, [examStatus])
 
-    if (is_loading) return <div>
-        Loading
-    </div>
+    if (is_loading) return <Card className="flex justify-center items-center py-6 gap-4">
+        <Spinner />
+        <Spinner />
+        <Spinner />
+    </Card>
 
     return <Card>
         <CardContent className="mt-3">
@@ -75,7 +81,7 @@ const TagSelectForm = ({ tags, topic_id }: Props) => {
             </div>
         </CardContent>
         <CardFooter >
-            <Button onClick={clickHandler}>Start Quiz</Button>
+            <Button disabled={is_loading_exam} onClick={clickHandler}>Start Quiz</Button>
         </CardFooter>
     </Card>
 }

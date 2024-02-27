@@ -17,6 +17,7 @@ import {
 import H3 from "@/components/typography/H3";
 import { Progress } from "@/components/ui/progress";
 import { H4 } from "@/components/typography/H4";
+import Spinner from "@/components/common/spinner/Spinner";
 
 interface Props {
   params: {
@@ -58,6 +59,8 @@ const ExamPage = ({ params }: Props) => {
   const [no_answers, setNoAnswer] = useState(1);
   const [score, setScore] = useState(0);
   const [isCheckingAnswer, setIsCheckingAnswer] = useState(false);
+  const [is_api_call_loading, setIsApiCallLoading] = useState(false);
+  const [is_question_loading, setIsQuestionLoading] = useState(false);
   const router = useRouter();
 
   function checkBoxChangeHandler(event: ChangeEvent<HTMLInputElement>) {
@@ -70,10 +73,6 @@ const ExamPage = ({ params }: Props) => {
       temp.splice(index, 1);
     }
     setUserAnswer(temp);
-  }
-
-  if (question_ids.length >= 1) {
-    console.log(question_ids[current_question_index], current_question_index);
   }
 
   function nextQuestion() {
@@ -94,6 +93,7 @@ const ExamPage = ({ params }: Props) => {
 
   function checkAnswer() {
     setIsCheckingAnswer(true);
+    setIsApiCallLoading(true);
     fetch(`/api/answer/${question_ids[current_question_index]}/${exam_id}`, {
       method: "POST",
       body: JSON.stringify({ answer: user_answer }),
@@ -107,10 +107,12 @@ const ExamPage = ({ params }: Props) => {
           }
         }
       })
-      .catch(console.trace);
+      .catch(console.trace)
+      .finally(() => setIsApiCallLoading(false));
   }
 
   function enableRevise() {
+    setIsApiCallLoading(true);
     fetch(`/api/question/revise/${question_ids[current_question_index]}`, {
       method: "PATCH",
     })
@@ -126,10 +128,12 @@ const ExamPage = ({ params }: Props) => {
           } else return null;
         });
       })
-      .catch(console.trace);
+      .catch(console.trace)
+      .finally(() => setIsApiCallLoading(false));
   }
 
   function requestRevalidate() {
+    setIsApiCallLoading(true);
     fetch(`/api/request-revalidate/${question_ids[current_question_index]}`)
       .then(() => {
         setCurrentQuestion((prevData) => {
@@ -143,21 +147,25 @@ const ExamPage = ({ params }: Props) => {
           } else return null;
         });
       })
-      .catch(console.trace);
+      .catch(console.trace)
+      .finally(() => setIsApiCallLoading(false));
   }
 
   function endExamHandler() {
+    setIsApiCallLoading(true);
     fetch(`/api/exam/${exam_id}/end`)
       .then((data) => {
         if (data.status === 200) {
           router.push(`/`);
         }
       })
-      .catch(console.trace);
+      .catch(console.trace)
+      .finally(() => setIsApiCallLoading(false));
   }
 
   function fetchQuestion(next_question_index: number, question_ids: number[]) {
     if (question_ids.length === 0) return;
+    setIsQuestionLoading(true);
     fetch(`/api/question/${question_ids[next_question_index]}`)
       .then((data) => data.json())
       .then((data) => {
@@ -179,10 +187,11 @@ const ExamPage = ({ params }: Props) => {
             ),
           });
           setNoAnswer(question_data.no_answer);
-          setCurrentQuestionIndex(current_question_index+1)
+          setCurrentQuestionIndex(next_question_index);
         }
       })
-      .catch(console.trace);
+      .catch(console.trace)
+      .finally(() => setIsQuestionLoading(false));
   }
 
   useEffect(() => {
@@ -206,7 +215,7 @@ const ExamPage = ({ params }: Props) => {
             };
           // TODO implement a hook for that the components renders after all the states are set
           setQuestionsIds(questions as number[]);
-          setCurrentQuestionAnswer(current_answer);
+          setScore(current_answer);
           setCurrentQuestionIndex(current_index);
           // TODO store tags in memory as it doesn't change
           const parsed_tags = getStringArray(tags);
@@ -221,7 +230,6 @@ const ExamPage = ({ params }: Props) => {
     <div className="mx-auto max-w-7xl pt-4 text-black">
       <div className="text-center dark:text-white">
         <H3>The Title</H3>
-        {question_ids[current_question_index]}
       </div>
       <div className="mb-4 flex items-center justify-between px-6">
         <div className="flex flex-row items-center gap-2">
@@ -238,7 +246,7 @@ const ExamPage = ({ params }: Props) => {
             ))}
           </div>
         </div>
-        <div className=" flex items-center gap-2">
+        <div className=" flex items-center gap-2 text-black dark:text-white">
           <span
             className={clsx({
               "text-green-400": current_question?.revise,
@@ -262,13 +270,15 @@ const ExamPage = ({ params }: Props) => {
       <div className="mx-6 mb-3">
         <Progress
           className="w-full"
-          value={current_question_index / question_ids.length}
+          value={Math.ceil(
+            (current_question_index / question_ids.length) * 100,
+          )}
         />
       </div>
       <Card>
         {current_question ? (
           current_question_index > question_ids.length ? (
-            <CardHeader>
+            <CardHeader className="text-center">
               <CardTitle>Finished</CardTitle>
             </CardHeader>
           ) : (
@@ -305,18 +315,24 @@ const ExamPage = ({ params }: Props) => {
                     <Button
                       variant="outline"
                       onClick={enableRevise}
-                      disabled={current_question.revise}
+                      disabled={current_question.revise || is_api_call_loading}
                     >
                       Revise
                     </Button>
                     <Button
                       variant="outline"
                       onClick={requestRevalidate}
-                      disabled={current_question.revalidate}
+                      disabled={
+                        current_question.revalidate || is_api_call_loading
+                      }
                     >
                       Request Correction
                     </Button>
-                    <Button variant="outline" onClick={nextQuestion}>
+                    <Button
+                      variant="outline"
+                      onClick={nextQuestion}
+                      disabled={is_api_call_loading}
+                    >
                       Next
                     </Button>
                   </>
@@ -324,6 +340,7 @@ const ExamPage = ({ params }: Props) => {
                   <Button
                     className="border-2 border-black px-4 py-2"
                     onClick={checkAnswer}
+                    disabled={is_api_call_loading}
                   >
                     Check
                   </Button>
@@ -332,7 +349,11 @@ const ExamPage = ({ params }: Props) => {
             </div>
           )
         ) : (
-          <div>Loading </div>
+          <Card className="flex items-center justify-center gap-4 py-6">
+            <Spinner />
+            <Spinner />
+            <Spinner />
+          </Card>
         )}
       </Card>
     </div>
