@@ -1,5 +1,4 @@
 import {getQuestion} from "@/db/model/question";
-import { hasSession } from "@/db/model/userSession";
 import { NextRequest, NextResponse } from "next/server";
 
 export const dynamic = 'force-dynamic';

@@ -14,6 +14,8 @@
 - use tailwind variant
 - use middleware for validation 
 - decrease start exam time
+- correct linting errors
 
 ## Bugs
-- Deselecting score
+- set answer count
+- checking answer for multi choice

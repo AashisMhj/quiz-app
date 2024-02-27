@@ -1,8 +1,10 @@
 import { PrismaClient } from "@prisma/client";
 declare global {
-    var database: PrismaClient
+    // eslint-disable-next-line 
+    var database: PrismaClient 
 }
 let prisma: PrismaClient;
+// eslint-disable-next-line 
 const logOptions = [
     {
         emit: 'stdout',

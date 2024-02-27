@@ -1,8 +1,8 @@
 import { TypographyProps } from "./types";
-export function TypographyH4({ text }: TypographyProps) {
+export function H4({ text, children }: TypographyProps) {
   return (
     <h4 className="scroll-m-20 text-xl font-semibold tracking-tight">
-      {text}
+      {children || text || ''}
     </h4>
   )
 }

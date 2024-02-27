@@ -1,4 +1,4 @@
-import { ZodObject, ZodSchema } from "zod";
+import { ZodSchema } from "zod";
 
 export const validate = <T>(ValidationSchema:ZodSchema<T>, data:any): T | null =>{
     try {

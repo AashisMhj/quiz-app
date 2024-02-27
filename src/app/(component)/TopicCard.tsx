@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
+import { HelpCircle } from "lucide-react";
 //
 import { CardDataType } from "@/types";
 import {
@@ -16,12 +16,12 @@ interface Props {
 const TopicCard = ({ data }: Props) => {
     return (
         <Link key={data.id} href={`/${data.id}`}>
-            <Card className="text-center">
+            <Card className="text-center h-72 flex flex-col justify-around">
                 <CardHeader>
                     <CardTitle>{data.name}</CardTitle>
                 </CardHeader>
                 <CardContent className="flex justify-center">
-                    <Image className="h-24 aspect-square" height={96} width={96} alt="question" src="/images/question.png" />
+                    <HelpCircle className="h-[96px] w-[96px]" />
                 </CardContent>
             </Card>
         </Link>
