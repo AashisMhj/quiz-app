@@ -14,7 +14,6 @@ export async function POST(request:NextRequest, {params}:{params:{exam_id:string
         const body = await request.json();
         const validatedData = validate(StartExam, body);
         let tags:number[] = [];
-        console.log(validatedData);
         if(validatedData !== null){
             tags = validatedData.tags;
         }

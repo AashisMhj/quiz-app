@@ -1,7 +1,7 @@
 import db from "@/db";
 //
 import TagSelectForm from "./(component)/TagSelectForm";
-import H1 from "@/components/typography/H1";
+import H3 from "@/components/typography/H3";
 interface Props {
     params: {
         tags: string
@@ -30,7 +30,7 @@ const TagPage = async ({ params }: Props) => {
     return (
         <div className="max-w-7xl mx-auto pt-6">
             <div className="text-center mb-4">
-                <H1>Tag Selection</H1>
+                <H3>Tag Selection</H3>
             </div>
             <TagSelectForm tags={tags} topic_id={topic_id} />
         </div>

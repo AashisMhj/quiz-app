@@ -1,10 +1,11 @@
 "use client";
 import { useRouter } from "next/navigation";
-import {  useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 //
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
 import { getUrlWithQueryParams } from "@/helper/url.helper";
+import { Card, CardContent, CardFooter } from "@/components/ui/card";
 interface Props {
     tags: {
         id: number;
@@ -35,7 +36,7 @@ const TagSelectForm = ({ tags, topic_id }: Props) => {
         event.preventDefault();
         fetch(`/api/exam/${topic_id}/start`, {
             method: 'POST',
-            body: JSON.stringify({ tags: selected_tags})
+            body: JSON.stringify({ tags: selected_tags })
         }).then(data => {
             const url = getUrlWithQueryParams(`/exam/${topic_id}`, "tags", selected_tags);
             router.push(url);
@@ -46,7 +47,7 @@ const TagSelectForm = ({ tags, topic_id }: Props) => {
         setIsLoading(true);
         fetch(`/api/exam/${topic_id}/status`)
             .then(data => {
-                if(data.status === 200){
+                if (data.status === 200) {
                     router.push(`/exam/${topic_id}`);
                 }
             })
@@ -54,16 +55,16 @@ const TagSelectForm = ({ tags, topic_id }: Props) => {
             .finally(() => setIsLoading(false))
     }, [topic_id, router])
 
-    useEffect(()=>{
+    useEffect(() => {
         examStatus();
     }, [examStatus])
 
-    if(is_loading) return <div>
+    if (is_loading) return <div>
         Loading
     </div>
 
-    return <div className="flex flex-col gap-4 w-full border-2 border-black p-2 rounded-lg">
-        <div>
+    return <Card>
+        <CardContent className="mt-3">
             <div className="grid grid-cols-1 lg:grid-cols-6 sm:grid-cols-2 gap-4 p-2">
                 {
                     tags.map(tag => <div key={tag.id}>
@@ -72,11 +73,11 @@ const TagSelectForm = ({ tags, topic_id }: Props) => {
                     </div>)
                 }
             </div>
-        </div>
-        <div >
+        </CardContent>
+        <CardFooter >
             <Button onClick={clickHandler}>Start Quiz</Button>
-        </div>
-    </div>
+        </CardFooter>
+    </Card>
 }
 
 export default TagSelectForm;

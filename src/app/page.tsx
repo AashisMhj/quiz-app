@@ -1,6 +1,5 @@
 import { getTopics } from "@/db/model/topic";
-import { CardDataType } from "@/types";
-import Card from "./(component)/Card";
+import Card from "./(component)/TopicCard";
 
 const HomePage = async () => {
   const exam_data = await getTopics();

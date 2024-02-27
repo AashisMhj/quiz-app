@@ -6,6 +6,9 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { Badge } from "@/components/ui/badge";
 import { shuffle } from "@/helper/array.helper";
 import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import H3 from "@/components/typography/H3";
+import { Progress } from "@/components/ui/progress";
 
 interface Props {
     params: {
@@ -14,9 +17,9 @@ interface Props {
 }
 
 // TODO separate from component
-function getStringArray(data:string):string[]{
+function getStringArray(data: string): string[] {
     const parsed_data = JSON.parse(data);
-    if(Array.isArray(parsed_data) && parsed_data.every(el => typeof el === "string")){
+    if (Array.isArray(parsed_data) && parsed_data.every(el => typeof el === "string")) {
         return parsed_data;
     }
     return [];
@@ -46,7 +49,7 @@ const ExamPage = ({ params }: Props) => {
             // TODO: make so that the user can only accept the no of specified answer
             temp.push(parseInt(event.target.value));
         } else {
-            temp.splice(index,1 )
+            temp.splice(index, 1)
         }
         setUserAnswer(temp);
     }
@@ -122,7 +125,7 @@ const ExamPage = ({ params }: Props) => {
             .catch(console.trace)
     }
 
-    function fetchQuestion(next_question_index:number, question_ids:number[]){
+    function fetchQuestion(next_question_index: number, question_ids: number[]) {
         if (question_ids.length === 0) return;
         fetch(`/api/question/${question_ids[next_question_index]}`)
             .then(data => data.json())
@@ -153,7 +156,7 @@ const ExamPage = ({ params }: Props) => {
             .then(data => data.json())
             .then(data => {
                 if (data.data) {
-                    const {questions, current_answer, current_index, tags} = data.data as {
+                    const { questions, current_answer, current_index, tags } = data.data as {
                         questions: number[],
                         topic_id: number,
                         current_answer: number,
@@ -167,20 +170,20 @@ const ExamPage = ({ params }: Props) => {
                     // TODO store tags in memory as it doesn't change 
                     const parsed_tags = getStringArray(tags);
                     setExamTags(parsed_tags);
-                    fetchQuestion(current_index+1, questions as number[]);
+                    fetchQuestion(current_index + 1, questions as number[]);
                 }
             })
             .catch(console.trace)
     }, [exam_id, searchParams]);
 
-    console.log(current_question_index);
-
     return <div className="text-black max-w-7xl mx-auto pt-4">
-        <div className="text-2xl text-center mb-3">{"The Title"} </div>
+        <div className="text-center">
+            <H3>The Title</H3>
+        </div>
         <div className="flex items-center justify-between px-6 mb-4">
             <div className="flex-row gap-2 flex items-center">
                 <div className="">
-                    (<span className="text-green-600">{score}</span> + <span className="text-red-600">{current_question_index-score}</span>) 
+                    (<span className="text-green-600">{score}</span> + <span className="text-red-600">{current_question_index - score}</span>)
                     /<span className="text-blue-600">{question_ids.length}</span>
                 </div>
                 <div className="flex">
@@ -203,16 +206,25 @@ const ExamPage = ({ params }: Props) => {
                 <Button onClick={endExamHandler} >End Exam</Button>
             </div>
         </div>
-        <div className="p-2 border-2 border-black bg-app-light-green bg-opacity-30 rounded-lg py-4 px-6">
+        <div className="mb-3 mx-6">
+            <Progress className="w-full" value={current_question_index/question_ids.length} />
+        </div>
+        <Card>
             {
                 current_question ? (
                     current_question_index > question_ids.length ? (
-                        <div>Finished</div>
+                        <CardHeader>
+                            <CardTitle>Finished</CardTitle>
+                        </CardHeader>
                     ) : (
                         <div>
-                            <div className="text-2xl font-medium mb-2">{current_question.question}</div>
-                            <span className="mb-4">Please Select {no_answers}</span>
-                            <div className="mb-3">
+                            <CardHeader>
+                                <CardTitle>{current_question.question}</CardTitle>
+                                <CardDescription>
+                                    <span className="mb-4">Please Select {no_answers}</span>
+                                </CardDescription>
+                            </CardHeader>
+                            <CardContent>
                                 {
                                     current_question.options.map((option, index) => <div key={option.original_index} className={clsx("text-2xl mb-2 flex gap-2 items-start", { 'bg-green-500': isCheckingAnswer && isAnswer(option.original_index + 1) })}>
                                         <input type="checkbox" className="cursor-pointer mt-2" onChange={checkBoxChangeHandler} value={option.original_index + 1} checked={user_answer?.includes(option.original_index + 1)} />
@@ -220,8 +232,8 @@ const ExamPage = ({ params }: Props) => {
                                     </div>)
 
                                 }
-                            </div>
-                            <div className="w-full flex justify-end items-center gap-2">
+                            </CardContent>
+                            <CardFooter>
                                 {
                                     isCheckingAnswer ? (
                                         <>
@@ -230,15 +242,15 @@ const ExamPage = ({ params }: Props) => {
                                             <button className="py-2 px-4 border-2 border-black" onClick={nextQuestion}>Next</button>
                                         </>
                                     ) : (
-                                        <button className="py-2 px-4 border-2 border-black" onClick={checkAnswer}>Check</button>
+                                        <Button className="py-2 px-4 border-2 border-black" onClick={checkAnswer}>Check</Button>
                                     )
                                 }
-                            </div>
+                            </CardFooter>
                         </div>
                     )
                 ) : <div>Loading </div>
             }
-        </div>
+        </Card>
     </div>
 }
 
