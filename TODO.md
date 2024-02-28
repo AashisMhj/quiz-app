@@ -1,6 +1,5 @@
 # Project TODO
 ## part 1
-- user can only select the no of answer
 - add feature to select revise questions
 - add no of question in tag selection page
 ## part 2

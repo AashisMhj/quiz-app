@@ -1,9 +1,11 @@
 import fs from "fs";
 import { PrismaClient, Prisma } from "@prisma/client";
 // aws solutions architect
-import solutions_architect_data from "../../data/aws/solutions-architect/data.json";
-import solutions_architect_data_private from "../../data/aws/solutions-architect/data2.json";
-import directrev_data from "../../data/aws/solutions-architect/directrev.json";
+import solutions_architect_data from "../../data/aws/associate-solutions-architect/data.json";
+import solutions_architect_data_private from "../../data/aws/associate-solutions-architect/data2.json";
+import directrev_data from "../../data/aws/associate-solutions-architect/directrev.json";
+// aws 
+import associate_developer from "../../data/aws/associate-developer/data.json";
 // front end react
 import frontend_data from "../../data/frontend/react/data.json";
 
@@ -44,7 +46,14 @@ const getTopics = async () => {
             slug: 'aws-associate-developer',
             color: '#FF9900',
             image: QuestionImage,
-            data: []
+            data: [...associate_developer].map(el => ({
+                question: el.question,
+                options: JSON.stringify(el.options),
+                answer: JSON.stringify(el.answer),
+                tag: el.tag,
+                type: 'aws-associate-developer',
+                revalidate: false
+            }))
         },
         {
             name: 'React',

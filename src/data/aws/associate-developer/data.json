@@ -1,0 +1,37 @@
+[
+    {
+        "question": "A company is migrating a legacy application to Amazon EC2 instances. The application uses a user name and password that are stored in the source code to connect to a MySQL database. The company will migrate the database to an Amazon RDS for MySQL DB instance. As part of the migration, the company needs to implement a secure way to store and automatically rotate the database credentials. Which solution will meet these requirements?",
+        "options": [
+            "Store the database credentials in environment variables in an Amazon Machine Image (AMI). Rotate the credentials by replacing the AMI.",
+            "Store the database credentials in AWS Systems Manager Parameter Store. Configure Parameter Store to automatically rotate the credentials.",
+            "Store the database credentials in environment variables on the EC2 instances. Rotate the credentials by relaunching the EC2 instances.",
+            "Store the database credentials in AWS Secrets Manager. Configure Secrets Manager to automatically rotate the credentials."
+        ],
+        "answer": 4,
+        "tag": "aws-demo-questions"
+    },
+    {
+        "question": "A developer is creating a web application that must give users the ability to post comments and receive feedback in near real time. Which solutions will meet these requirements? (Select TWO.)",
+        "options": [
+            "Create an AWS AppSync schema and corresponding APIs. Use an Amazon DynamoDB table as the data store.",
+            "Create a WebSocket API in Amazon API Gateway. Use an AWS Lambda function as the backend. Use an Amazon DynamoDB table as the data store.",
+            "Create an AWS Elastic Beanstalk application that is backed by an Amazon RDS database. Configure the application to allow long-lived TCP/IP sockets.",
+            "Create a GraphQL endpoint in Amazon API Gateway. Use an Amazon DynamoDB table as the data store.",
+            "Establish WebSocket connections to Amazon CloudFront. Use an AWS Lambda function as the CloudFront distribution’s origin. Use an Amazon Aurora DB cluster as the data store."
+        ],
+        "answer": [1,2],
+        "tag": "aws-demo-questions"
+    },
+    {
+        "question": "A developer is adding sign-up and sign-in functionality to an application. The application must make an API call to a custom analytics solution to log user sign-in events. Which combination of actions should the developer perform to meet these requirements? (Select TWO.)",
+        "options": [
+            "Use Amazon Cognito to provide the sign-up and sign-in functionality.",
+            "Use AWS Identity and Access Management (IAM) to provide the sign-up and sign-in functionality.",
+            "Configure an AWS Config rule to make the API call when a user is authenticated.",
+            "Invoke an Amazon API Gateway method to make the API call when a user is authenticated.",
+            "Invoke an AWS Lambda function to make the API call when a user is authenticated."      
+        ],
+        "answer": [1,5],
+        "tag": "aws-demo-questions"
+    }
+]
