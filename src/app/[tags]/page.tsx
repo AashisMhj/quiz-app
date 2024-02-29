@@ -2,6 +2,7 @@ import db from "@/db";
 //
 import TagSelectForm from "./(component)/TagSelectForm";
 import H3 from "@/components/typography/H3";
+import { getTagsWithTopicCountReviseGroupBy } from "@/db/model/tags";
 interface Props {
     params: {
         tags: string
@@ -24,15 +25,18 @@ const TagPage = async ({ params }: Props) => {
         return <div>Not Found</div>
     }
     // TODO check if the session exists
-    const tags = await db.tag.findMany({
-        where: {topic_id}
-    });
+    const tags = await getTagsWithTopicCountReviseGroupBy(topic_id);
     return (
         <div className="max-w-7xl mx-auto pt-6">
             <div className="text-center mb-4">
                 <H3>Tag Selection</H3>
             </div>
-            <TagSelectForm tags={tags} topic_id={topic_id} />
+            <TagSelectForm tags={tags} topic_id={topic_id} total={tags.reduce((prev, next) => {
+                return {
+                    revise_count: prev.revise_count + next.revise_count,
+                    non_revise_count: prev.non_revise_count + next.non_revise_count
+                }
+            }, {revise_count: 0, non_revise_count: 0})} />
         </div>
     )
 }

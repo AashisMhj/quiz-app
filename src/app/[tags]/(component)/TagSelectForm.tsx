@@ -12,13 +12,20 @@ interface Props {
         id: number;
         tag_name: string;
         topic_id: number | null;
+        revise_count: number,
+        non_revise_count: number
     }[],
-    topic_id: number
+    topic_id: number,
+    total: {
+        revise_count: number, 
+        non_revise_count: number
+    }
 }
-const TagSelectForm = ({ tags, topic_id }: Props) => {
+const TagSelectForm = ({ tags, topic_id, total }: Props) => {
     const [selected_tags, setSelectedTags] = useState<number[]>([]);
     const [is_loading, setIsLoading] = useState(true);
     const [is_loading_exam, setIsLoadingExam] = useState(false);
+    const [is_revise, setIsRevise] = useState(false);
     const router = useRouter();
 
     function changeHandler(tag_id: number) {
@@ -71,11 +78,14 @@ const TagSelectForm = ({ tags, topic_id }: Props) => {
 
     return <Card>
         <CardContent className="mt-3">
+            <div className="mb-3 flex ">
+                Total Questions: {total.non_revise_count + total.revise_count}
+            </div>
             <div className="grid grid-cols-1 lg:grid-cols-6 sm:grid-cols-2 gap-4 p-2">
                 {
                     tags.map(tag => <div key={tag.id}>
                         {/* TODO: Use correct change handler */}
-                        <Checkbox name={tag.tag_name} value={tag.id} checked={selected_tags.includes(tag.id)} onCheckedChange={() => changeHandler(tag.id)} /> {tag.tag_name}
+                        <Checkbox name={tag.tag_name} value={tag.id} checked={selected_tags.includes(tag.id)} onCheckedChange={() => changeHandler(tag.id)} /> {tag.tag_name} ({tag.non_revise_count + tag.revise_count})
                     </div>)
                 }
             </div>
