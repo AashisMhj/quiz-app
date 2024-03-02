@@ -11837,5 +11837,445 @@
         ],
         "answer": 1,
         "tag": "ec2"
+    },
+    {
+        "question": "What is AWS Snowball?",
+        "options": [
+            "A. A cloud-based data warehouse service",
+            "B. A petabyte-scale data transport solution",
+            "C. A serverless computing platform",
+            "D. A cloud-based file storage service"
+        ],
+        "answer": 2,
+        "tag": "migration"
+    },
+    {
+        "question": "What are the different types of AWS Snowball devices?",
+        "options": [
+            "A. Snowball and Snowball Edge",
+            "B. Snowball and Snowball Mini",
+            "C. Snowball Edge and Snowball Mini",
+            "D. Snowball, Snowball Edge, and Snowball Mini"
+        ],
+        "answer": 1,
+        "tag": "migration"
+    },
+    {
+        "question": "What is the use case for AWS Snowball?",
+        "options": [
+            "A. Real-time data analytics",
+            "B. Data archiving",
+            "C. Large-scale data transfers",
+            "D. Serverless computing"
+        ],
+        "answer": 3,
+        "tag": "migration"
+    },
+    {
+        "question": "What is the maximum storage capacity of a Snowball Edge device?",
+        "options": [
+            "A. 50 TB",
+            "B. 80 TB",
+            "C. 100 TB",
+            "D. 120 TB"
+        ],
+        "answer": 3,
+        "tag": "migration"
+    },
+    {
+        "question": "What is the maximum storage capacity of a Snowball device?",
+        "options": [
+            "A. 50 TB",
+            "B. 80 TB",
+            "C. 100 TB",
+            "D. 120 TB"
+        ],
+        "answer": 2,
+        "tag": "migration"
+    },
+    {
+        "question": "What is the maximum data transfer speed of a Snowball Edge device?",
+        "options": [
+            "A. 10 Gbps",
+            "B. 25 Gbps",
+            "C. 50 Gbps",
+            "D. 100 Gbps"
+        ],
+        "answer": 4,
+        "tag": "migration"
+    },
+    {
+        "question": "What is the maximum data transfer speed of a Snowball device?",
+        "options": [
+            "A. 1 Gbps",
+            "B. 5 Gbps",
+            "C. 10 Gbps",
+            "D. 25 Gbps"
+        ],
+        "answer": 3,
+        "tag": "migration"
+    },
+    {
+        "question": "What is the use case for Snowball Edge?",
+        "options": [
+            "A. Edge computing and data migration",
+            "B. Real-time data analytics",
+            "C. Serverless computing",
+            "D. Data archiving"
+        ],
+        "answer": 1,
+        "tag": "migration"
+    },
+    {
+        "question": "What is the use case for Snowball?",
+        "options": [
+            "A. Edge computing and data migration",
+            "B. Real-time data analytics",
+            "C. Serverless computing",
+            "D. Data archiving"
+        ],
+        "answer": 4,
+        "tag": "migration"
+    },
+    {
+        "question": "What are the security features of AWS Snowball?",
+        "options": [
+            "A. 128-bit encryption and tamper-resistant enclosures",
+            "B. 256-bit encryption and tamper-resistant enclosures",
+            "C. 512-bit encryption and tamper-resistant enclosures",
+            "D. 1024-bit encryption and tamper-resistant enclosures"
+        ],
+        "answer": 2,
+        "tag": "migration"
+    },
+    {
+        "question": "You are a Solutions Architect working for a company that needs to transfer 50 TB of data from an on-premises data center to AWS. The data transfer speed over the internet is too slow for this task. Which AWS Snowball device would you recommend for this use case?",
+        "options": [
+            "A. Snowball",
+            "B. Snowball Edge",
+            "C. Snowball Mini",
+            "D. None of the above"
+        ],
+        "answer": 1,
+        "tag": "migration"
+    },
+    {
+        "question": "Your company operates in a remote location with limited connectivity to the internet. You need to perform edge computing tasks and transfer data to and from AWS. Which AWS Snowball device would you recommend for this use case?",
+        "options": [
+            "A. Snowball",
+            "B. Snowball Edge",
+            "C. Snowball Mini",
+            "D. None of the above"
+        ],
+        "answer": 2,
+        "tag": "migration"
+    },
+    {
+        "question": "You are a Solutions Architect working for a company that needs to transfer 100 TB of data from an on-premises data center to AWS. The data transfer speed over the internet is too slow for this task. Which AWS Snowball device would you recommend for this use case?",
+        "options": [
+            "A. Snowball",
+            "B. Snowball Edge",
+            "C. Snowball Mini",
+            "D. None of the above"
+        ],
+        "answer": 2,
+        "tag": "migration"
+    },
+    {
+        "question": "Your company operates in a remote location with limited connectivity to the internet. You need to perform edge computing tasks and transfer data to and from AWS. Which AWS Snowball device would you recommend for this use case?",
+        "options": [
+            "A. Snowball",
+            "B. Snowball Edge",
+            "C. Snowball Mini",
+            "D. None of the above"
+        ],
+        "answer": 2,
+        "tag": "migration"
+    },
+    {
+        "question": "You are a Solutions Architect working for a company that needs to transfer 50 TB of data from an on-premises data center to AWS. The data transfer speed over the internet is too slow for this task. Which AWS Snowball device would you recommend for this use case?",
+        "options": [
+            "A. Snowball",
+            "B. Snowball Edge",
+            "C. Snowball Mini",
+            "D. None of the above"
+        ],
+        "answer": 1,
+        "tag": "migration"
+    },
+    {
+        "question": "Your company operates in a remote location with limited connectivity to the internet. You need to perform edge computing tasks and transfer data to and from AWS. Which AWS Snowball device would you recommend for this use case?",
+        "options": [
+            "A. Snowball",
+            "B. Snowball Edge",
+            "C. Snowball Mini",
+            "D. None of the above"
+        ],
+        "answer": 2,
+        "tag": "migration"
+    },
+    {
+        "question": "You are a Solutions Architect working for a company that needs to transfer 100 TB of data from an on-premises data center to AWS. The data transfer speed over the internet is too slow for this task. Which AWS Snowball device would you recommend for this use case?",
+        "options": [
+            "A. Snowball",
+            "B. Snowball Edge",
+            "C. Snowball Mini",
+            "D. None of the above"
+        ],
+        "answer": 2,
+        "tag": "migration"
+    },
+    {
+        "question": "Your company operates in a remote location with limited connectivity to the internet. You need to perform edge computing tasks and transfer data to and from AWS. Which AWS Snowball device would you recommend for this use case?",
+        "options": [
+            "A. Snowball",
+            "B. Snowball Edge",
+            "C. Snowball Mini",
+            "D. None of the above"
+        ],
+        "answer": 2,
+        "tag": "migration"
+    },
+    {
+        "question": "You are a Solutions Architect working for a company that needs to transfer 50 TB of data from an on-premises data center to AWS. The data transfer speed over the internet is too slow for this task. Which AWS Snowball device would you recommend for this use case?",
+        "options": [
+            "A. Snowball",
+            "B. Snowball Edge",
+            "C. Snowball Mini",
+            "D. None of the above"
+        ],
+        "answer": 1,
+        "tag": "migration"
+    },
+    {
+        "question": "Your company operates in a remote location with limited connectivity to the internet. You need to perform edge computing tasks and transfer data to and from AWS. Which AWS Snowball device would you recommend for this use case?",
+        "options": [
+            "A. Snowball",
+            "B. Snowball Edge",
+            "C. Snowball Mini",
+            "D. None of the above"
+        ],
+        "answer": 2,
+        "tag": "migration"
+    },
+    {
+        "question": "What is AWS Database Migration Service (DMS)?",
+        "options": [
+            "A. A service that helps you migrate your databases to AWS",
+            "B. A service that helps you migrate your applications to AWS",
+            "C. A service that helps you migrate your data to AWS",
+            "D. A service that helps you migrate your virtual machines to AWS"
+        ],
+        "answer": 1,
+        "tag": "migration"
+    },
+    {
+        "question": "What is AWS Server Migration Service (SMS)?",
+        "options": [
+            "A. A service that helps you migrate your databases to AWS",
+            "B. A service that helps you migrate your applications to AWS",
+            "C. A service that helps you migrate your data to AWS",
+            "D. A service that helps you migrate your virtual machines to AWS"
+        ],
+        "answer": 4,
+        "tag": "migration"
+    },
+    {
+        "question": "What is AWS Snowball?",
+        "options": [
+            "A. A service that helps you migrate your databases to AWS",
+            "B. A service that helps you migrate your applications to AWS",
+            "C. A service that helps you migrate your data to AWS",
+            "D. A service that helps you migrate your virtual machines to AWS"
+        ],
+        "answer": 3,
+        "tag": "migration"
+    },
+    {
+        "question": "What is AWS Snowball Edge?",
+        "options": [
+            "A. A service that helps you migrate your databases to AWS",
+            "B. A service that helps you migrate your applications to AWS",
+            "C. A service that helps you migrate your data to AWS",
+            "D. A service that helps you migrate your virtual machines to AWS"
+        ],
+        "answer": 3,
+        "tag": "migration"
+    },
+    {
+        "question": "What is AWS Snowmobile?",
+        "options": [
+            "A. A service that helps you migrate your databases to AWS",
+            "B. A service that helps you migrate your applications to AWS",
+            "C. A service that helps you migrate your data to AWS",
+            "D. A service that helps you migrate your virtual machines to AWS"
+        ],
+        "answer": 3,
+        "tag": "migration"
+    },
+    {
+        "question": "What is AWS DataSync?",
+        "options": [
+            "A. A service that helps you migrate your databases to AWS",
+            "B. A service that helps you migrate your applications to AWS",
+            "C. A service that helps you migrate your data to AWS",
+            "D. A service that helps you migrate your virtual machines to AWS"
+        ],
+        "answer": 3,
+        "tag": "migration"
+    },
+    {
+        "question": "What is AWS Migration Hub?",
+        "options": [
+            "A. A service that helps you migrate your databases to AWS",
+            "B. A service that helps you migrate your applications to AWS",
+            "C. A service that helps you migrate your data to AWS",
+            "D. A service that helps you migrate your virtual machines to AWS"
+        ],
+        "answer": 2,
+        "tag": "migration"
+    },
+    {
+        "question": "What is AWS Application Discovery Service?",
+        "options": [
+            "A. A service that helps you migrate your databases to AWS",
+            "B. A service that helps you migrate your applications to AWS",
+            "C. A service that helps you migrate your data to AWS",
+            "D. A service that helps you migrate your virtual machines to AWS"
+        ],
+        "answer": 2,
+        "tag": "migration"
+    },
+    {
+        "question": "What is AWS Data Migration Service?",
+        "options": [
+            "A. A service that helps you migrate your databases to AWS",
+            "B. A service that helps you migrate your applications to AWS",
+            "C. A service that helps you migrate your data to AWS",
+            "D. A service that helps you migrate your virtual machines to AWS"
+        ],
+        "answer": 3,
+        "tag": "migration"
+    },
+    {
+        "question": "What is AWS Application Migration Service?",
+        "options": [
+            "A. A service that helps you migrate your databases to AWS",
+            "B. A service that helps you migrate your applications to AWS",
+            "C. A service that helps you migrate your data to AWS",
+            "D. A service that helps you migrate your virtual machines to AWS"
+        ],
+        "answer": 2,
+        "tag": "migration"
+    },
+    {
+        "question": "Your company needs to migrate a large amount of data from an on-premises data center to AWS. The data transfer speed over the internet is too slow for this task. Which AWS migration service would you recommend?",
+        "options": [
+            "A. AWS Database Migration Service (DMS)",
+            "B. AWS Snowball",
+            "C. AWS Snowmobile",
+            "D. AWS DataSync"
+        ],
+        "answer": 2,
+        "tag": "migration"
+    },
+    {
+        "question": "Your company needs to migrate a large number of virtual machines from an on-premises data center to AWS. Which AWS migration service would you recommend?",
+        "options": [
+            "A. AWS Server Migration Service (SMS)",
+            "B. AWS Snowball",
+            "C. AWS Snowmobile",
+            "D. AWS DataSync"
+        ],
+        "answer": 1,
+        "tag": "migration"
+    },
+    {
+        "question": "Your company needs to migrate a large amount of data from an on-premises data center to AWS. The data transfer speed over the internet is too slow for this task. Which AWS migration service would you recommend?",
+        "options": [
+            "A. AWS Database Migration Service (DMS)",
+            "B. AWS Snowball",
+            "C. AWS Snowmobile",
+            "D. AWS DataSync"
+        ],
+        "answer": 2,
+        "tag": "migration"
+    },
+    {
+        "question": "Your company needs to migrate a large number of virtual machines from an on-premises data center to AWS. Which AWS migration service would you recommend?",
+        "options": [
+            "A. AWS Server Migration Service (SMS)",
+            "B. AWS Snowball",
+            "C. AWS Snowmobile",
+            "D. AWS DataSync"
+        ],
+        "answer": 1,
+        "tag": "migration"
+    },
+    {
+        "question": "Your company needs to migrate a large amount of data from an on-premises data center to AWS. The data transfer speed over the internet is too slow for this task. Which AWS migration service would you recommend?",
+        "options": [
+            "A. AWS Database Migration Service (DMS)",
+            "B. AWS Snowball",
+            "C. AWS Snowmobile",
+            "D. AWS DataSync"
+        ],
+        "answer": 2,
+        "tag": "migration"
+    },
+    {
+        "question": "Your company needs to migrate a large number of virtual machines from an on-premises data center to AWS. Which AWS migration service would you recommend?",
+        "options": [
+            "A. AWS Server Migration Service (SMS)",
+            "B. AWS Snowball",
+            "C. AWS Snowmobile",
+            "D. AWS DataSync"
+        ],
+        "answer": 1,
+        "tag": "migration"
+    },
+    {
+        "question": "Your company needs to migrate a large amount of data from an on-premises data center to AWS. The data transfer speed over the internet is too slow for this task. Which AWS migration service would you recommend?",
+        "options": [
+            "A. AWS Database Migration Service (DMS)",
+            "B. AWS Snowball",
+            "C. AWS Snowmobile",
+            "D. AWS DataSync"
+        ],
+        "answer": 2,
+        "tag": "migration"
+    },
+    {
+        "question": "Your company needs to migrate a large number of virtual machines from an on-premises data center to AWS. Which AWS migration service would you recommend?",
+        "options": [
+            "A. AWS Server Migration Service (SMS)",
+            "B. AWS Snowball",
+            "C. AWS Snowmobile",
+            "D. AWS DataSync"
+        ],
+        "answer": 1,
+        "tag": "migration"
+    },
+    {
+        "question": "Your company needs to migrate a large amount of data from an on-premises data center to AWS. The data transfer speed over the internet is too slow for this task. Which AWS migration service would you recommend?",
+        "options": [
+            "A. AWS Database Migration Service (DMS)",
+            "B. AWS Snowball",
+            "C. AWS Snowmobile",
+            "D. AWS DataSync"
+        ],
+        "answer": 2,
+        "tag": "migration"
+    },
+    {
+        "question": "Your company needs to migrate a large number of virtual machines from an on-premises data center to AWS. Which AWS migration service would you recommend?",
+        "options": [
+            "A. AWS Server Migration Service (SMS)",
+            "B. AWS Snowball",
+            "C. AWS Snowmobile",
+            "D. AWS DataSync"
+        ],
+        "answer": 1,
+        "tag": "migration"
     }
 ]
