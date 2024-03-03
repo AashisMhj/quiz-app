@@ -1,14 +1,16 @@
 import prisma from "@/db";
 
-export async function getQuestionsList(id:number, tags:number[]){
+export async function getQuestionsList(id:number, tags:number[], is_revise:boolean){
     const data = await prisma.question.findMany({
         where: tags.length > 0 ? {
             topic_id: id,
             tag_id: {
                 in: tags
-            }
+            },
+            revise: is_revise
         } : {
-            topic_id: id
+            topic_id: id,
+            revise: is_revise
         },
         select: {id: true}
     });
