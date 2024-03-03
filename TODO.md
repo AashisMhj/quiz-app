@@ -3,6 +3,7 @@
 - show confirmation model before leaving quiz page
 
 ## UI improvements
+- showing correct answer
 
 ## code improvement and refactor
 - add api service/handler
@@ -15,3 +16,4 @@
 ## Bugs
 - fix eslint prettier issue
 - logic for when exam is finished
+- not redirecting to quiz page if session exists
